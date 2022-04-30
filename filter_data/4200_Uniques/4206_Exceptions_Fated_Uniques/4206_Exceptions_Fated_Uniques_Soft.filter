@@ -1,1 +1,15 @@
-test 
+#------------------------------------
+#   [4206] Exceptions Fated Uniques
+#------------------------------------
+
+Show # $type->uniques $tier->fated1
+Identified True
+Corrupted False
+Rarity Unique
+BaseType == "Iron Circlet"
+
+Show # %H4 $type->uniques $tier->fated2
+Identified True
+Corrupted False
+Rarity Unique
+BaseType == "Blazing Arrow Quiver" "Brass Maul" "Coral Ring" "Death Bow" "Fire Arrow Quiver" "Gavel" "Goathide Gloves" "Great Mallet" "Iron Mask" "Ironscale Boots" "Leather Hood" "Long Bow" "Ornate Sword" "Reinforced Greaves" "Royal Bow" "Royal Staff" "Rusted Sword" "Sharktooth Arrow Quiver" "Spiraled Wand" "Strapped Leather" "Tarnished Spirit Shield" "Velvet Gloves" "Woodsplitter"

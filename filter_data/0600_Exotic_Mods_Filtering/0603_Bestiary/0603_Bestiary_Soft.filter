@@ -1,1 +1,13 @@
-test 
+#------------------------------------
+#   [0603] Bestiary
+#------------------------------------
+
+Show # $type->exoticmods $tier->bestiaryvaluable
+	Identified True
+	Rarity Rare
+	HasExplicitMod "of Farrul" "of Fenumus"
+
+Show # %D4 $type->exoticmods $tier->bestiaryother
+	Identified True
+	Rarity Rare
+	HasExplicitMod "of Craiceann" "of Saqawal"

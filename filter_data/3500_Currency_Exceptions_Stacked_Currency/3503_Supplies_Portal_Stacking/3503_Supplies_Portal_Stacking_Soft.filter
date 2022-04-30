@@ -1,1 +1,18 @@
-test 
+#------------------------------------
+#   [3503] Supplies: Portal Stacking
+#------------------------------------
+
+Show # %HS4 $type->currency->stackedsuppliesportal $tier->t1
+StackSize >= 10
+Class "Currency"
+BaseType == "Portal Scroll"
+
+Show # %HS2 $type->currency->stackedsuppliesportal $tier->t2
+StackSize >= 6
+Class "Currency"
+BaseType == "Portal Scroll"
+
+Show # %H2 $type->currency->stackedsuppliesportal $tier->t3
+StackSize >= 3
+Class "Currency"
+BaseType == "Portal Scroll"

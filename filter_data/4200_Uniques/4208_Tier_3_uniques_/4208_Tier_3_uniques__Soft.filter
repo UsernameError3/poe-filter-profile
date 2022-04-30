@@ -1,1 +1,11 @@
-test 
+#------------------------------------
+#   [4208] Tier 3 uniques 
+#------------------------------------
+
+Show # $type->uniques $tier->t3boss
+Rarity Unique
+BaseType == "Ambush Mitts" "Ambusher" "Assassin's Boots" "Carnal Armour" "Carnal Boots" "Chain Belt" "Crusader Gloves" "Ezomyte Staff" "Gladius" "Great Crown" "Infernal Sword" "Iron Flask" "Legion Sword" "Magistrate Crown" "Necromancer Circlet" "Onyx Amulet" "Opal Ring" "Ruby Ring" "Sapphire Ring" "Sentinel Jacket" "Serpentine Staff" "Slink Boots" "Sulphur Flask" "Triumphant Lamellar" "Vaal Gauntlets"
+
+Show # %H4 $type->uniques $tier->t3
+Rarity Unique
+BaseType == "Agate Amulet" "Amber Amulet" "Ancient Spirit Shield" "Assassin's Mitts" "Blood Raiment" "Blunt Arrow Quiver Piece" "Bone Helmet" "Butcher Axe" "Callous Mask Piece" "Carnal Mitts" "Citadel Bow" "Cloth Belt" "Cloth Belt Piece" "Coiled Staff" "Crimson Round Shield" "Crusader Plate" "Crystal Sceptre" "Deerskin Gloves" "Ezomyte Burgonet" "Ezomyte Dagger" "Ezomyte Spiked Shield" "Festival Mask" "Gavel" "Glorious Plate" "Goathide Boots" "Gold Amulet" "Golden Plate" "Goliath Greaves" "Granite Flask" "Hallowed Hybrid Flask" "Hubris Circlet" "Imperial Staff" "Imperial Staff Piece" "Iron Circlet" "Iron Ring" "Iron Sceptre" "Judgement Staff" "Legion Gloves" "Maelström Staff" "Mirrored Spiked Shield" "Moonstone Ring" "Murder Boots" "Necromancer Silks" "Nightmare Bascinet" "Nubuck Boots" "Paua Amulet" "Paua Ring" "Pinnacle Tower Shield" "Primal Arrow Quiver" "Prophet Crown" "Quartz Flask" "Rawhide Tower Shield" "Royal Skean" "Runic Crown" "Runic Helm" "Runic Sabatons" "Runic Sollerets" "Sacrificial Garb" "Sage Wand" "Shackled Boots" "Silken Hood" "Silver Flask" "Sorcerer Boots" "Sovereign Spiked Shield" "Spiked Gloves" "Steelscale Gauntlets" "Steelwood Bow" "Stibnite Flask" "Strapped Mitts" "Stygian Vise" "Titan Gauntlets" "Titan Greaves" "Tornado Wand" "Two-Point Arrow Quiver" "Unset Ring" "Vaal Axe" "Vaal Mask" "Vaal Regalia" "Vaal Spirit Shield" "Variscite Blade" "Void Sceptre" "Widowsilk Robe" "Wyrmscale Boots" "Zealot Gloves"

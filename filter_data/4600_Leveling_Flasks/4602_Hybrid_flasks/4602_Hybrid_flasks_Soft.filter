@@ -1,1 +1,34 @@
-test 
+#------------------------------------
+#   [4602] Hybrid flasks
+#------------------------------------
+# !! Override 820 : "leveling life and mana flasks"
+
+Show # %H2 $type->leveling->flasks->hybrid $tier->t1
+AreaLevel <= 20
+Class "Hybrid Flask"
+BaseType "Small"
+
+Show # %H2 $type->leveling->flasks->hybrid $tier->t2
+AreaLevel <= 30
+Class "Hybrid Flask"
+BaseType "Medium"
+
+Show # %H2 $type->leveling->flasks->hybrid $tier->t3
+AreaLevel <= 40
+Class "Hybrid Flask"
+BaseType "Large"
+
+Show # %H2 $type->leveling->flasks->hybrid $tier->t4
+AreaLevel <= 50
+Class "Hybrid Flask"
+BaseType "Colossal"
+
+Show # %H2 $type->leveling->flasks->hybrid $tier->t5
+AreaLevel <= 60
+Class "Hybrid Flask"
+BaseType "Sacred"
+
+Show # %H2 $type->leveling->flasks->hybrid $tier->t6
+AreaLevel <= 67
+Class "Hybrid Flask"
+BaseType "Hallowed"

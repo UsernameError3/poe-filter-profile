@@ -1,1 +1,13 @@
-test 
+#------------------------------------
+#   [4704] Rares - Caster
+#------------------------------------
+# !! Override 850 : "leveling: class specific leveling weapons"
+
+Show # %D4 $type->leveling->rare->caster $tier->earlylevels
+	ItemLevel <= 16
+	Rarity Rare
+	Class == "Rune Daggers" "Sceptres" "Staves" "Wands"
+
+Show # %D4 $type->leveling->rare->caster $tier->general
+	Rarity Rare
+	Class == "Rune Daggers" "Sceptres" "Staves" "Wands"
