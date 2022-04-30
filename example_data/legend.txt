@@ -1,0 +1,207 @@
+#===============================================================================================================
+# NeverSink's Indepth Loot Filter - for Path of Exile
+#===============================================================================================================
+# VERSION:  8.5.3
+# TYPE:     0-SOFT
+# STYLE:    TABULA RASA
+# AUTHOR:   NeverSink
+# BUILDNOTES: Filter generated with NeverSink's FilterpolishZ and the domainlanguage Exo.
+#
+#------------------------------------
+# LINKS TO LATEST VERSION AND FILTER EDITOR
+#------------------------------------
+#
+# EDIT/CUSTOMIZE FILTER ON: 	https://www.FilterBlade.xyz
+# GET THE LATEST VERSION ON: 	https://www.FilterBlade.xyz or https://github.com/NeverSinkDev/NeverSink-Filter
+# POE FORUM THREAD: 			https://goo.gl/oQn4EN
+#
+#------------------------------------
+# SUPPORT THE DEVELOPMENT:
+#------------------------------------
+#
+# SUPPORT ME ON PATREON: 		https://www.patreon.com/Neversink
+# SUPPORT THE FILTERBLADE TEAM: https://www.filterblade.xyz/About
+#
+#------------------------------------
+# INSTALLATION / UPDATE :
+#------------------------------------
+#
+# 0) It's recommended to check for updates once a month or at least before new leagues, to receive economy finetuning and new features!
+# 1) Paste this file into the following folder: %userprofile%/Documents/My Games/Path of Exile
+# 2) INGAME: Escape -> Options -> UI -> Scroll down -> Select the filter from the Dropdown box
+#
+#------------------------------------
+# CONTACT - if you want to get notifications about updates or just get in touch:
+#------------------------------------
+# PLEASE READ THE FAQ ON https://goo.gl/oQn4EN BEFORE ASKING QUESTIONS
+#
+# TWITTER: @NeverSinkDev
+# TWITCH:  https://www.twitch.tv/neversink
+# DISCORD: https://discord.gg/mye6xhF
+# GITHUB:  NeverSinkDev
+
+#===============================================================================================================
+# [WELCOME] TABLE OF CONTENTS + QUICKJUMP TABLE
+#===============================================================================================================
+# [[0100]] OVERRIDE AREA 1 - Override ALL rules here
+# [[0100]] Global overriding rules
+# [[0200]] High tier influenced items
+#   [0201] Influenced Maps
+#   [0202] Common Tier - T1
+#   [0203] Specialised Tier - T1
+#   [0204] Common Tier - T2
+#   [0205] Specialised Tier - T2
+#   [0206] Remaining
+# [[0300]] ELDRITCH ITEMS
+# [[0400]] Exotic Bases
+# [[0500]] IDENTIFIED MOD FILTERING
+#   [0501] ID Mod exceptions - override id mod matching section
+#   [0502] Physical
+#   [0503] Elemental
+#   [0504] Gembased
+#   [0505] Caster
+#   [0506] Spellslinger
+#   [0507] Helmets
+#   [0508] Boots
+#   [0509] Gloves
+#   [0510] Shields
+#   [0511] Amulets
+#   [0512] Rings
+#   [0513] Quivers
+#   [0514] Body Armours
+#   [0515] Belts
+#   [0516] Jewels
+# [[0600]] Exotic Mods Filtering
+#   [0601] Veiled/Betrayal - low prio veiled items
+#   [0602] Incursion/Temple Mods
+#   [0603] Bestiary
+#   [0604] Other
+# [[0700]] Exotic Item Classes
+#   [0701] Voidstones
+#   [0702] Trinkets
+#   [0703] Secret Society Equipment
+#   [0704] Craftable Invitations
+# [[0800]] Exotic Item Variations
+#   [0801] Double Corruptions
+#   [0802] Abyss Jeweled Rares
+#   [0803] Synthesised
+#   [0804] Fractured
+#   [0805] Enchanted
+# [[0900]] Recipes and 5links
+#   [0901] Link Based
+# [[1000]] High Level Crafting Bases
+#   [1001] Expensive Atlas 86 Bases - matched by economy
+#   [1002] Perfection-Based-Filtering
+#   [1003] ILVL 86
+#   [1004] ILVL 84
+#   [1005] ILVL ANY
+#   [1006] RGB Endgame
+#   [1007] Chisel Recipes
+# [[1100]] Chancing Bases
+# [[1200]] Endgame Flasks
+#   [1201] Super Endgame Flasks
+#   [1202] High quality assorted flasks
+#   [1203] Utility OR quality flasks
+#   [1204] Early mapping life/mana/utility flasks
+# [[1300]] Misc Rules
+# [[1400]] Hide Layer 1 - Normal and Magic Endgame Gear
+# [[1500]] Rare Item Decorators
+# [[1600]] Endgame - Rare - Exotic Corrupted Items
+# [[1700]] Endgame - Rare - Accessoires
+# [[1800]] Endgame - Rare - Accessoires
+# [[1900]] Endgame - Rare - Gear - T1 - handpicked
+# [[2000]] Endgame - Rare - Gear - T2 - handpicked
+# [[2100]] Endgame - Rare - Gear - T2 - handpicked
+# [[2200]] Endgame - Rare - Gear - T3 - droplevel-based
+# [[2300]] Endgame - Rare - Gear - T4 - rest
+# [[2400]] Hide Layer 2 - Rare Gear
+# [[2500]] Jewels
+#   [2501] Special Cases
+#   [2502] Abyss Jewels
+#   [2503] Generic Jewels
+#   [2504] Cluster Jewels: Eco-Based-Large
+#   [2505] Cluster Jewels: Random
+# [[2600]] Heist Gear
+#   [2601] Heist Cloak
+#   [2602] Heist Brooch
+#   [2603] Heist Gear
+#   [2604] Heist Tool
+# [[2700]] Gem Tierlists
+#   [2701] Exceptional Gems - Awakened and AltQuality
+#   [2702] Exceptional Gems - Special gems
+#   [2703] High Quality and Leveled Gems
+# [[2800]] REPLICA UNIQUES
+# [[2900]] Special Maps
+#   [2901] Unique Maps
+#   [2902] Blighted maps
+#   [2903] Delirium/Blight/Enchanted Maps!
+#   [2904] Beyond-Nemesis Maps, for those juicy sextants.
+# [[3000]] Normal Map Progression
+#   [3001] Generic Decorators
+#   [3002] Map progression
+#   [3003] Labyrinth items, Offerings
+# [[3100]] Heist Contracts and Blueprints
+# [[3200]] Expedition Logbooks
+# [[3300]] Fragments
+#   [3301] Exceptions
+#   [3302] Scarabs
+#   [3303] Regular Fragment Tiering
+# [[3400]] Currency - Exceptions - Leveling Currencies
+# [[3500]] Currency - Exceptions - Stacked Currency
+#   [3501] Supplies: High Stacking
+#   [3502] Supplies: Low Stacking
+#   [3503] Supplies: Portal Stacking
+#   [3504] Supplies: Wisdom Stacking
+#   [3505] Stacked Currencies: 6x
+#   [3506] Stacked Currencies: 3x
+#   [3507] Heist Coins
+# [[3600]] Currency - Regular Currency Tiering
+# [[3700]] Currency - SPECIAL
+#   [3701] Incursion - Vials
+#   [3702] Delirum Orbs
+#   [3703] Delve - Resonators
+#   [3704] Delve - Fossils
+#   [3705] Blight - Oils
+#   [3706] Expedition Currencies
+#   [3707] Essences
+#   [3708] Incubators
+#   [3709] Others
+# [[3800]] Currency - Splinters
+#   [3801] Breach and Legion Splinters - stacked
+#   [3802] Breach and Legion Splinters - single
+#   [3803] Simulacrum Splinters
+# [[3900]] Divination Cards
+# [[4000]] Remaining Currency
+# [[4100]] Questlike-Items1 (override uniques)
+# [[4200]] Uniques
+#   [4201] Exceptions #1
+#   [4202] Tier 1 uniques
+#   [4203] Exceptions #2
+#   [4204] Tier 2 uniques
+#   [4205] Multi-Unique bases.
+#   [4206] Exceptions Fated Uniques
+#   [4207] Low tier exceptions
+#   [4208] Tier 3 uniques 
+#   [4209] Tier 4 uniques
+# [[4300]] Misc Map Items
+# [[4400]] Questlike-Items2
+# [[4500]] Hide outdated leveling flasks
+# [[4600]] Leveling - Flasks
+#   [4601] Utility Flasks
+#   [4602] Hybrid flasks
+#   [4603] Life flasks
+#   [4604] Mana flasks
+# [[4700]] Leveling - Rules
+#   [4701] Links and Sockets
+#   [4702] Rares - Decorators
+#   [4703] Rares - Universal
+#   [4704] Rares - Caster
+#   [4705] Rares - Archer
+#   [4706] Rares - Melee
+# [[4800]] Leveling - Useful magic and normal items
+#   [4801] Purpose Picked Items
+#   [4802] Normals
+#   [4803] Weapon Progression
+#   [4804] Remaining Magics
+#   [4805] Hide All known Section
+#   [4806] Show All unknown Section

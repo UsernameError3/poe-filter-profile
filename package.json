@@ -1,0 +1,22 @@
+{
+    "name": "poe-filter-profile",
+    "version": "1.0.0",
+    "description": "things",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UsernameError3/poe-filter-profile.git"
+    },
+    "keywords": [
+        "poe"
+    ],
+    "author": "Alex Fleming",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/UsernameError3/poe-filter-profile/issues"
+    },
+    "homepage": "https://github.com/UsernameError3/poe-filter-profile#readme"
+}
