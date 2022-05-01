@@ -15,11 +15,11 @@ Rarity Rare
 Class "Amulets" "Rings"
 BaseType "Amber Amulet" "Coral Ring" "Diamond Ring" "Jade Amulet" "Lapis Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Unset Ring"
 
-Show # %D2 $type->rr->amuring $tier->t3
-ItemLevel >= 68
-Rarity Rare
-Class "Amulets" "Rings"
-BaseType "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Moonstone Ring" "Paua Amulet" "Paua Ring"
+#Show # %D2 $type->rr->amuring $tier->t3
+#	ItemLevel >= 68
+#	Rarity Rare
+#	Class "Amulets" "Rings"
+#	BaseType "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Moonstone Ring" "Paua Amulet" "Paua Ring"
 
 Show # %D4 $type->rr->belts $tier->t1
 ItemLevel >= 68
@@ -33,8 +33,8 @@ Rarity Rare
 Class "Belts"
 BaseType "Heavy Belt" "Leather Belt" "Rustic Sash" "Vanguard Belt"
 
-Show # %D2 $type->rr->belts $tier->t3
-ItemLevel >= 68
-Rarity Rare
-Class "Belts"
-BaseType "Chain Belt" "Cloth Belt" "Studded Belt"
+#Show # %D2 $type->rr->belts $tier->t3
+#	ItemLevel >= 68
+#	Rarity Rare
+#	Class "Belts"
+#	BaseType "Chain Belt" "Cloth Belt" "Studded Belt"

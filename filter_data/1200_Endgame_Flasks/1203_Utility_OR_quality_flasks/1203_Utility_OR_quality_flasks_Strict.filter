@@ -2,28 +2,28 @@
 #   [1203] Utility OR quality flasks
 #------------------------------------
 
-Show # %D2 $type->endgameflasks $tier->asortedutility
-AreaLevel >= 68
-AreaLevel <= 75
-Rarity <= Magic
-BaseType "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
+#Show # %D2 $type->endgameflasks $tier->asortedutility
+#	AreaLevel >= 68
+#	AreaLevel <= 75
+#	Rarity <= Magic
+#	BaseType "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
 
-Show # %D2 $type->endgameflasks $tier->anyutility
-	AreaLevel >= 68
-	AreaLevel <= 72
-	Rarity <= Magic
-	Class "Utility Flasks"
+#Show # %D2 $type->endgameflasks $tier->anyutility
+#	AreaLevel >= 68
+#	AreaLevel <= 72
+#	Rarity <= Magic
+#	Class "Utility Flasks"
 
-Show # %D2 $type->endgameflasks $tier->qualityhigh
-Quality >= 15
-AreaLevel >= 68
-AreaLevel <= 77
-Rarity <= Magic
-BaseType "Flask"
+#Show # %D2 $type->endgameflasks $tier->qualityhigh
+#	Quality >= 15
+#	AreaLevel >= 68
+#	AreaLevel <= 77
+#	Rarity <= Magic
+#	BaseType "Flask"
 
-Show # %D1 $type->endgameflasks $tier->qualitylow
-Quality >= 1
-AreaLevel >= 68
-AreaLevel <= 77
-Rarity <= Magic
-BaseType "Flask"
+#Show # %D1 $type->endgameflasks $tier->qualitylow
+#	Quality >= 1
+#	AreaLevel >= 68
+#	AreaLevel <= 77
+#	Rarity <= Magic
+#	BaseType "Flask"

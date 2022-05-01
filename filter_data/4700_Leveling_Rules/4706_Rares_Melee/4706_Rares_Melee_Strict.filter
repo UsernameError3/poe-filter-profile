@@ -67,19 +67,19 @@ Show # %D3 $type->leveling->rare->remaining $tier->chromaticrares
 	Rarity Rare
 	SocketGroup "RGB"
 
-Show # %D1 $type->leveling->rare->remaining $tier->underlevel68
-	AreaLevel >= 42
-	Rarity Rare
+#Show # %D1 $type->leveling->rare->remaining $tier->underlevel68
+#	AreaLevel >= 42
+#	Rarity Rare
 
-Show # %D1 $type->leveling->rare->remaining $tier->underlevel42
-	ItemLevel <= 42
-	AreaLevel >= 24
-	Rarity Rare
+#Show # %D1 $type->leveling->rare->remaining $tier->underlevel42
+#	ItemLevel <= 42
+#	AreaLevel >= 24
+#	Rarity Rare
 
-Show # %D2 $type->leveling->rare->remaining $tier->underlevel24
-	ItemLevel <= 24
-	AreaLevel >= 16
-	Rarity Rare
+#Show # %D2 $type->leveling->rare->remaining $tier->underlevel24
+#	ItemLevel <= 24
+#	AreaLevel >= 16
+#	Rarity Rare
 
 Show # %D3 $type->leveling->rare->remaining $tier->underlevel16
 	ItemLevel <= 16

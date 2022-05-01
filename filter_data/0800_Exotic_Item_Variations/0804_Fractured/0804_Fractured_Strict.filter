@@ -12,6 +12,6 @@ Show # %D4 $type->exotic->fractured $tier->fractclasses
 	Rarity <= Rare
 	Class "Amulets" "Boots" "Bows" "Jewel" "Maps" "Rings" "Rune Daggers" "Sceptres" "Wands"
 
-Show # %D2 $type->exotic->fractured $tier->fractrandom
-	FracturedItem True
-	Rarity <= Rare
+#Show # %D2 $type->exotic->fractured $tier->fractrandom
+#	FracturedItem True
+#	Rarity <= Rare

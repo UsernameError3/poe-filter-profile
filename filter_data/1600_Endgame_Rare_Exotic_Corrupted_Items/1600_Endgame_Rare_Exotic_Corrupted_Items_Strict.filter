@@ -9,7 +9,7 @@ Rarity Rare
 Class "Rings"
 BaseType "Breach"
 
-Show # %HS1 $type->rare->exotic->breachrings $tier->any
+Hide # %HS1 $type->rare->exotic->breachrings $tier->any
 ItemLevel >= 68
 Rarity Rare
 Class "Rings"
@@ -58,7 +58,7 @@ Rarity Rare
 Class "Amulets"
 BaseType "Avian Twins Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman"
 
-Show # %H2 $type->rare->exotic->talisman $tier->any
+Hide # %H2 $type->rare->exotic->talisman $tier->any
 AnyEnchantment True
 ItemLevel >= 68
 Rarity Rare

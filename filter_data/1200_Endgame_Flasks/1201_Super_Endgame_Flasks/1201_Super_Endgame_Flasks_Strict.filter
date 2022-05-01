@@ -16,11 +16,11 @@ Rarity <= Magic
 Class "Utility Flasks"
 BaseType "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
 
-Show # %D2 $type->endgameflasks $tier->utility82
-	ItemLevel >= 82
-	AreaLevel >= 68
-	Rarity <= Magic
-	Class "Utility Flasks"
+#Show # %D2 $type->endgameflasks $tier->utility82
+#	ItemLevel >= 82
+#	AreaLevel >= 68
+#	Rarity <= Magic
+#	Class "Utility Flasks"
 
 Show # %D3 $type->endgameflasks $tier->lifemana82
 Quality >= 15

@@ -18,7 +18,7 @@ Show # %D6 $type->exotic->enchanted $tier->anointedamulets
 	Rarity <= Rare
 	Class "Amulets" "Rings"
 
-Show # %D2 $type->exotic->enchanted $tier->glovesboots
-	AnyEnchantment True
-	Rarity <= Rare
-	Class "Boots" "Gloves"
+#Show # %D2 $type->exotic->enchanted $tier->glovesboots
+#	AnyEnchantment True
+#	Rarity <= Rare
+#	Class "Boots" "Gloves"

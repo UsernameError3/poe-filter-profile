@@ -15,10 +15,10 @@ Show # %D3 $type->leveling->flasks->quality $tier->max
 	Quality >= 20
 	Class "Flask"
 
-Show # %D2 $type->leveling->flasks->quality $tier->high
-	Quality >= 15
-	Class "Flask"
+#Show # %D2 $type->leveling->flasks->quality $tier->high
+#	Quality >= 15
+#	Class "Flask"
 
-Show # %D1 $type->leveling->flasks->quality $tier->any
-	Quality >= 1
-	Class "Flask"
+#Show # %D1 $type->leveling->flasks->quality $tier->any
+#	Quality >= 1
+#	Class "Flask"

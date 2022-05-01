@@ -2,19 +2,19 @@
 #   [1005] ILVL ANY
 #------------------------------------
 
-Show # %D2 $type->normalcraft->rest $tier->t1
-Corrupted False
-ItemLevel <= 83
-ItemLevel >= 68
-Rarity <= Rare
-BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Unset Amulet" "Vermillion Ring"
+#Show # %D2 $type->normalcraft->rest $tier->t1
+#	Corrupted False
+#	ItemLevel <= 83
+#	ItemLevel >= 68
+#	Rarity <= Rare
+#	BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Unset Amulet" "Vermillion Ring"
 
-Show # %D0 $type->normalcraft->rest $tier->t2
-Corrupted False
-ItemLevel <= 83
-ItemLevel >= 68
-Rarity <= Rare
-BaseType == "Amethyst Ring" "Astral Plate" "Broadhead Arrow Quiver" "Citadel Bow" "Colossal Tower Shield" "Crusader Buckler" "Diamond Ring" "Eclipse Staff" "Eternal Burgonet" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Hubris Circlet" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Prismatic Ring" "Profane Wand" "Royal Burgonet" "Sambar Sceptre" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Stone Ring" "Vaal Regalia" "Zodiac Leather"
+#Show # %D0 $type->normalcraft->rest $tier->t2
+#	Corrupted False
+#	ItemLevel <= 83
+#	ItemLevel >= 68
+#	Rarity <= Rare
+#	BaseType == "Amethyst Ring" "Astral Plate" "Broadhead Arrow Quiver" "Citadel Bow" "Colossal Tower Shield" "Crusader Buckler" "Diamond Ring" "Eclipse Staff" "Eternal Burgonet" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Hubris Circlet" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Prismatic Ring" "Profane Wand" "Royal Burgonet" "Sambar Sceptre" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Stone Ring" "Vaal Regalia" "Zodiac Leather"
 
 #Show  # $type->normalcraft->rest $tier->t3
 #	Corrupted False
@@ -47,9 +47,9 @@ Show # $type->decorator->craftinggeneric $tier->normaldecoratorremover
 # Minimal list of bases for harvest specific crafting. This list is really not conclusive, but you can adjust it yourself on filterblade or here.
 # Having this list too long will lead to being too flooded with these drops.
 
-Show # %D1 $type->normalcraft->extra $tier->any
-Corrupted False
-ItemLevel >= 68
-ItemLevel <= 83
-Rarity < Magic
-BaseType "Imbued Wand" "Imperial Claw" "Onyx Amulet" "Thicket Bow" "Titanium Spirit Shield" "Two-Stone Ring"
+#Show # %D1 $type->normalcraft->extra $tier->any
+#	Corrupted False
+#	ItemLevel >= 68
+#	ItemLevel <= 83
+#	Rarity < Magic
+#	BaseType "Imbued Wand" "Imperial Claw" "Onyx Amulet" "Thicket Bow" "Titanium Spirit Shield" "Two-Stone Ring"

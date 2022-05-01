@@ -35,14 +35,14 @@ Show # %H3 $type->currency $tier->t8trans
 Class "Currency"
 BaseType == "Alchemy Shard" "Alteration Shard" "Binding Shard" "Blacksmith's Whetstone" "Chaos Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
 
-Show # %H2 $type->currency $tier->t9armour
-Class "Currency"
-BaseType == "Armourer's Scrap" "Engineer's Shard" "Transmutation Shard"
+Hide # %H2 $type->currency $tier->t9armour
+	Class "Currency"
+	BaseType == "Armourer's Scrap" "Engineer's Shard" "Transmutation Shard"
 
-Show # %H2 $type->currency $tier->tportal
-Class "Currency"
-BaseType == "Portal Scroll"
+Hide # %H2 $type->currency $tier->tportal
+	Class "Currency"
+	BaseType == "Portal Scroll"
 
-Show # %H2 $type->currency $tier->twisdom
-Class "Currency"
-BaseType == "Scroll of Wisdom"
+Hide # %H2 $type->currency $tier->twisdom
+	Class "Currency"
+	BaseType == "Scroll of Wisdom"

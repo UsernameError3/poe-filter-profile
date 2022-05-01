@@ -813,10 +813,10 @@ Show # %D4 $type->exoticmods $tier->incursionmagic
 	Rarity Magic
 	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
 
-Show # %D2 $type->exoticmods $tier->incursionrandom
-	Identified True
-	Rarity Rare
-	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
+#Show # %D2 $type->exoticmods $tier->incursionrandom
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
 
 #------------------------------------
 #   [0603] Bestiary
@@ -857,10 +857,10 @@ Show # %D6 $type->exoticmods $tier->essence
 	Rarity Rare
 	HasExplicitMod "of the Essence" "Essences"
 
-Show # %D1 $type->exoticmods $tier->crafting
-	Identified True
-	Rarity Rare
-	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft"
+#Show # %D1 $type->exoticmods $tier->crafting
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft"
 
 #===============================================================================================================
 # [[0700]] Exotic Item Classes
@@ -968,9 +968,9 @@ Show # %D4 $type->exotic->fractured $tier->fractclasses
 	Rarity <= Rare
 	Class "Amulets" "Boots" "Bows" "Jewel" "Maps" "Rings" "Rune Daggers" "Sceptres" "Wands"
 
-Show # %D2 $type->exotic->fractured $tier->fractrandom
-	FracturedItem True
-	Rarity <= Rare
+#Show # %D2 $type->exotic->fractured $tier->fractrandom
+#	FracturedItem True
+#	Rarity <= Rare
 
 #------------------------------------
 #   [0805] Enchanted
@@ -992,10 +992,10 @@ Show # %D6 $type->exotic->enchanted $tier->anointedamulets
 	Rarity <= Rare
 	Class "Amulets" "Rings"
 
-Show # %D2 $type->exotic->enchanted $tier->glovesboots
-	AnyEnchantment True
-	Rarity <= Rare
-	Class "Boots" "Gloves"
+#Show # %D2 $type->exotic->enchanted $tier->glovesboots
+#	AnyEnchantment True
+#	Rarity <= Rare
+#	Class "Boots" "Gloves"
 
 #===============================================================================================================
 # [[0900]] Recipes and 5links
@@ -1139,11 +1139,11 @@ ItemLevel >= 84
 Rarity <= Rare
 BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Unset Amulet" "Vermillion Ring"
 
-Show # %D2 $type->normalcraft->i84 $tier->t2
-Corrupted False
-ItemLevel >= 84
-Rarity <= Rare
-BaseType == "Amethyst Ring" "Astral Plate" "Broadhead Arrow Quiver" "Citadel Bow" "Colossal Tower Shield" "Crusader Buckler" "Diamond Ring" "Eclipse Staff" "Eternal Burgonet" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Hubris Circlet" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Prismatic Ring" "Profane Wand" "Royal Burgonet" "Sambar Sceptre" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Stone Ring" "Vaal Regalia" "Zodiac Leather"
+#Show # %D2 $type->normalcraft->i84 $tier->t2
+#	Corrupted False
+#	ItemLevel >= 84
+#	Rarity <= Rare
+#	BaseType == "Amethyst Ring" "Astral Plate" "Broadhead Arrow Quiver" "Citadel Bow" "Colossal Tower Shield" "Crusader Buckler" "Diamond Ring" "Eclipse Staff" "Eternal Burgonet" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Hubris Circlet" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Prismatic Ring" "Profane Wand" "Royal Burgonet" "Sambar Sceptre" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Stone Ring" "Vaal Regalia" "Zodiac Leather"
 
 #Show  # $type->normalcraft->i84 $tier->t3
 #	Corrupted False
@@ -1155,19 +1155,19 @@ BaseType == "Amethyst Ring" "Astral Plate" "Broadhead Arrow Quiver" "Citadel Bow
 #   [1005] ILVL ANY
 #------------------------------------
 
-Show # %D2 $type->normalcraft->rest $tier->t1
-Corrupted False
-ItemLevel <= 83
-ItemLevel >= 68
-Rarity <= Rare
-BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Unset Amulet" "Vermillion Ring"
+#Show # %D2 $type->normalcraft->rest $tier->t1
+#	Corrupted False
+#	ItemLevel <= 83
+#	ItemLevel >= 68
+#	Rarity <= Rare
+#	BaseType == "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Seaglass Amulet" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Unset Amulet" "Vermillion Ring"
 
-Show # %D0 $type->normalcraft->rest $tier->t2
-Corrupted False
-ItemLevel <= 83
-ItemLevel >= 68
-Rarity <= Rare
-BaseType == "Amethyst Ring" "Astral Plate" "Broadhead Arrow Quiver" "Citadel Bow" "Colossal Tower Shield" "Crusader Buckler" "Diamond Ring" "Eclipse Staff" "Eternal Burgonet" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Hubris Circlet" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Prismatic Ring" "Profane Wand" "Royal Burgonet" "Sambar Sceptre" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Stone Ring" "Vaal Regalia" "Zodiac Leather"
+#Show # %D0 $type->normalcraft->rest $tier->t2
+#	Corrupted False
+#	ItemLevel <= 83
+#	ItemLevel >= 68
+#	Rarity <= Rare
+#	BaseType == "Amethyst Ring" "Astral Plate" "Broadhead Arrow Quiver" "Citadel Bow" "Colossal Tower Shield" "Crusader Buckler" "Diamond Ring" "Eclipse Staff" "Eternal Burgonet" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Hubris Circlet" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Opal Wand" "Platinum Kris" "Primal Arrow Quiver" "Prismatic Ring" "Profane Wand" "Royal Burgonet" "Sambar Sceptre" "Short Bow" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Stone Ring" "Vaal Regalia" "Zodiac Leather"
 
 #Show  # $type->normalcraft->rest $tier->t3
 #	Corrupted False
@@ -1200,40 +1200,40 @@ Show # $type->decorator->craftinggeneric $tier->normaldecoratorremover
 # Minimal list of bases for harvest specific crafting. This list is really not conclusive, but you can adjust it yourself on filterblade or here.
 # Having this list too long will lead to being too flooded with these drops.
 
-Show # %D1 $type->normalcraft->extra $tier->any
-Corrupted False
-ItemLevel >= 68
-ItemLevel <= 83
-Rarity < Magic
-BaseType "Imbued Wand" "Imperial Claw" "Onyx Amulet" "Thicket Bow" "Titanium Spirit Shield" "Two-Stone Ring"
+#Show # %D1 $type->normalcraft->extra $tier->any
+#	Corrupted False
+#	ItemLevel >= 68
+#	ItemLevel <= 83
+#	Rarity < Magic
+#	BaseType "Imbued Wand" "Imperial Claw" "Onyx Amulet" "Thicket Bow" "Titanium Spirit Shield" "Two-Stone Ring"
 
 #------------------------------------
 #   [1006] RGB Endgame
 #------------------------------------
 # !! Override 140 : "Chromatic and Chisel Recipes"
 
-Show # %H2 $type->endgamergb $tier->rgbsmall1
+Hide # %H2 $type->endgamergb $tier->rgbsmall1
 	Width <= 2
 	Height <= 2
 	AreaLevel >= 67
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H2 $type->endgamergb $tier->rgbsmall2
+Hide # %H2 $type->endgamergb $tier->rgbsmall2
 	Width <= 1
 	Height <= 4
 	AreaLevel >= 67
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H0 $type->endgamergb $tier->rgblarge
+Hide # %H0 $type->endgamergb $tier->rgblarge
 	Width >= 2
 	Height >= 4
 	AreaLevel >= 67
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H1 $type->endgamergb $tier->rgbmedium
+Hide # %H1 $type->endgamergb $tier->rgbmedium
 	Width >= 2
 	Height 3
 	AreaLevel >= 67
@@ -1244,49 +1244,49 @@ Show # %H1 $type->endgamergb $tier->rgbmedium
 #   [1007] Chisel Recipes
 #------------------------------------
 
-Show # %D1 $type->chiselrecipe $tier->chisel20
-Quality >= 20
-Rarity < Unique
-BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#Show # %D1 $type->chiselrecipe $tier->chisel20
+#	Quality >= 20
+#	Rarity < Unique
+#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 
-Show # %D0 $type->chiselrecipe $tier->chiselhighqualnormal
-Corrupted False
-Quality > 14
-Rarity Normal
-BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#Show # %D0 $type->chiselrecipe $tier->chiselhighqualnormal
+#	Corrupted False
+#	Quality > 14
+#	Rarity Normal
+#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 
-Show # %D0 $type->chiselrecipe $tier->chiselhighqualmagic
-Corrupted False
-Quality > 17
-Rarity Magic
-BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#Show # %D0 $type->chiselrecipe $tier->chiselhighqualmagic
+#	Corrupted False
+#	Quality > 17
+#	Rarity Magic
+#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 
-Show # %D0 $type->chiselrecipe $tier->chiselanyqualmagic
-Corrupted False
-Rarity Magic
-BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#Show # %D0 $type->chiselrecipe $tier->chiselanyqualmagic
+#	Corrupted False
+#	Rarity Magic
+#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 
-Show # %D0 $type->chiselrecipe $tier->chiselanyqualnormal
-Corrupted False
-Rarity Normal
-BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#Show # %D0 $type->chiselrecipe $tier->chiselanyqualnormal
+#	Corrupted False
+#	Rarity Normal
+#	BaseType "Gavel" "Rock Breaker" "Stone Hammer"
 
 #===============================================================================================================
 # [[1100]] Chancing Bases
 #===============================================================================================================
 # !! Override 150 : "Chancing bases"
 
-Show # %D1 $type->chancing $tier->hh
-Corrupted False
-Mirrored False
-Rarity Normal
-BaseType == "Heavy Belt" "Leather Belt"
+#Show # %D1 $type->chancing $tier->hh
+#	Corrupted False
+#	Mirrored False
+#	Rarity Normal
+#	BaseType == "Heavy Belt" "Leather Belt"
 
-Show # %D1 $type->chancing $tier->t2
-Corrupted False
-Mirrored False
-Rarity Normal
-BaseType == "Elegant Round Shield" "Ezomyte Dagger" "Prophecy Wand"
+#Show # %D1 $type->chancing $tier->t2
+#	Corrupted False
+#	Mirrored False
+#	Rarity Normal
+#	BaseType == "Elegant Round Shield" "Ezomyte Dagger" "Prophecy Wand"
 
 #===============================================================================================================
 # [[1200]] Endgame Flasks
@@ -1311,11 +1311,11 @@ Rarity <= Magic
 Class "Utility Flasks"
 BaseType "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
 
-Show # %D2 $type->endgameflasks $tier->utility82
-	ItemLevel >= 82
-	AreaLevel >= 68
-	Rarity <= Magic
-	Class "Utility Flasks"
+#Show # %D2 $type->endgameflasks $tier->utility82
+#	ItemLevel >= 82
+#	AreaLevel >= 68
+#	Rarity <= Magic
+#	Class "Utility Flasks"
 
 Show # %D3 $type->endgameflasks $tier->lifemana82
 Quality >= 15
@@ -1335,12 +1335,12 @@ AreaLevel <= 77
 Rarity <= Magic
 BaseType "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
 
-Show # %D2 $type->endgameflasks $tier->highquallifemana
-Quality >= 15
-AreaLevel >= 68
-AreaLevel <= 72
-Rarity <= Magic
-BaseType "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask" "Hallowed Hybrid Flask"
+#Show # %D2 $type->endgameflasks $tier->highquallifemana
+#	Quality >= 15
+#	AreaLevel >= 68
+#	AreaLevel <= 72
+#	Rarity <= Magic
+#	BaseType "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask" "Hallowed Hybrid Flask"
 
 Show # %D3 $type->endgameflasks $tier->any20qualflask
 Quality >= 20
@@ -1352,62 +1352,62 @@ BaseType "Flask"
 #   [1203] Utility OR quality flasks
 #------------------------------------
 
-Show # %D2 $type->endgameflasks $tier->asortedutility
-AreaLevel >= 68
-AreaLevel <= 75
-Rarity <= Magic
-BaseType "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
+#Show # %D2 $type->endgameflasks $tier->asortedutility
+#	AreaLevel >= 68
+#	AreaLevel <= 75
+#	Rarity <= Magic
+#	BaseType "Aquamarine Flask" "Basalt Flask" "Diamond Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask"
 
-Show # %D2 $type->endgameflasks $tier->anyutility
-	AreaLevel >= 68
-	AreaLevel <= 72
-	Rarity <= Magic
-	Class "Utility Flasks"
+#Show # %D2 $type->endgameflasks $tier->anyutility
+#	AreaLevel >= 68
+#	AreaLevel <= 72
+#	Rarity <= Magic
+#	Class "Utility Flasks"
 
-Show # %D2 $type->endgameflasks $tier->qualityhigh
-Quality >= 15
-AreaLevel >= 68
-AreaLevel <= 77
-Rarity <= Magic
-BaseType "Flask"
+#Show # %D2 $type->endgameflasks $tier->qualityhigh
+#	Quality >= 15
+#	AreaLevel >= 68
+#	AreaLevel <= 77
+#	Rarity <= Magic
+#	BaseType "Flask"
 
-Show # %D1 $type->endgameflasks $tier->qualitylow
-Quality >= 1
-AreaLevel >= 68
-AreaLevel <= 77
-Rarity <= Magic
-BaseType "Flask"
+#Show # %D1 $type->endgameflasks $tier->qualitylow
+#	Quality >= 1
+#	AreaLevel >= 68
+#	AreaLevel <= 77
+#	Rarity <= Magic
+#	BaseType "Flask"
 
 #------------------------------------
 #   [1204] Early mapping life/mana/utility flasks
 #------------------------------------
 
-Show # %D2 $type->endgameflasks $tier->earlymappinglifemana
-AreaLevel >= 68
-AreaLevel <= 69
-Rarity <= Magic
-BaseType "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask" "Hallowed Hybrid Flask"
+#Show # %D2 $type->endgameflasks $tier->earlymappinglifemana
+#	AreaLevel >= 68
+#	AreaLevel <= 69
+#	Rarity <= Magic
+#	BaseType "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask" "Hallowed Hybrid Flask"
 
 #===============================================================================================================
 # [[1300]] Misc Rules
 #===============================================================================================================
 # !! Override 170 : "Overquality and endgame 4links"
 
-Show # %D1 $type->miscendgamerules $tier->overquality
-	Corrupted False
-	Quality >= 29
-	ItemLevel >= 75
-	DropLevel >= 50
-	Rarity <= Rare
-	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+#Show # %D1 $type->miscendgamerules $tier->overquality
+#	Corrupted False
+#	Quality >= 29
+#	ItemLevel >= 75
+#	DropLevel >= 50
+#	Rarity <= Rare
+#	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 
-Show # %D1 $type->miscendgamerules $tier->earlyendgame4link
-	Corrupted False
-	LinkedSockets >= 4
-	AreaLevel <= 72
-	AreaLevel >= 68
-	Rarity < Rare
-	Class "Body Armours" "Boots" "Gloves" "Helmets"
+#Show # %D1 $type->miscendgamerules $tier->earlyendgame4link
+#	Corrupted False
+#	LinkedSockets >= 4
+#	AreaLevel <= 72
+#	AreaLevel >= 68
+#	Rarity < Rare
+#	Class "Body Armours" "Boots" "Gloves" "Helmets"
 
 #Show  # $type->animatedweapons $tier->normalmelee
 #	Rarity Normal
@@ -1523,7 +1523,7 @@ Rarity Rare
 Class "Rings"
 BaseType "Breach"
 
-Show # %HS1 $type->rare->exotic->breachrings $tier->any
+Hide # %HS1 $type->rare->exotic->breachrings $tier->any
 ItemLevel >= 68
 Rarity Rare
 Class "Rings"
@@ -1572,7 +1572,7 @@ Rarity Rare
 Class "Amulets"
 BaseType "Avian Twins Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman"
 
-Show # %H2 $type->rare->exotic->talisman $tier->any
+Hide # %H2 $type->rare->exotic->talisman $tier->any
 AnyEnchantment True
 ItemLevel >= 68
 Rarity Rare
@@ -1606,11 +1606,11 @@ Rarity Rare
 Class "Amulets" "Rings"
 BaseType "Amber Amulet" "Coral Ring" "Diamond Ring" "Jade Amulet" "Lapis Amulet" "Ruby Ring" "Sapphire Ring" "Topaz Ring" "Unset Ring"
 
-Show # %D2 $type->rr->amuring $tier->t3
-ItemLevel >= 68
-Rarity Rare
-Class "Amulets" "Rings"
-BaseType "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Moonstone Ring" "Paua Amulet" "Paua Ring"
+#Show # %D2 $type->rr->amuring $tier->t3
+#	ItemLevel >= 68
+#	Rarity Rare
+#	Class "Amulets" "Rings"
+#	BaseType "Coral Amulet" "Gold Amulet" "Gold Ring" "Iron Ring" "Moonstone Ring" "Paua Amulet" "Paua Ring"
 
 Show # %D4 $type->rr->belts $tier->t1
 ItemLevel >= 68
@@ -1624,11 +1624,11 @@ Rarity Rare
 Class "Belts"
 BaseType "Heavy Belt" "Leather Belt" "Rustic Sash" "Vanguard Belt"
 
-Show # %D2 $type->rr->belts $tier->t3
-ItemLevel >= 68
-Rarity Rare
-Class "Belts"
-BaseType "Chain Belt" "Cloth Belt" "Studded Belt"
+#Show # %D2 $type->rr->belts $tier->t3
+#	ItemLevel >= 68
+#	Rarity Rare
+#	Class "Belts"
+#	BaseType "Chain Belt" "Cloth Belt" "Studded Belt"
 
 #===============================================================================================================
 # [[1900]] Endgame - Rare - Gear - T1 - handpicked
@@ -1678,143 +1678,143 @@ Show # %D3 $type->rr $tier->identifieditemhandling
 #===============================================================================================================
 # !! Override 260 : "T3 rares - droplevel-based"
 
-Show # %D2 $type->rr $tier->t3runedaggers
-	ItemLevel >= 68
-	DropLevel >= 62
-	Rarity Rare
-	Class "Rune Daggers"
+#Show # %D2 $type->rr $tier->t3runedaggers
+#	ItemLevel >= 68
+#	DropLevel >= 62
+#	Rarity Rare
+#	Class "Rune Daggers"
 
-Show # %D2 $type->rr $tier->t3daggers
-	ItemLevel >= 68
-	DropLevel >= 56
-	Rarity Rare
-	Class "Daggers"
+#Show # %D2 $type->rr $tier->t3daggers
+#	ItemLevel >= 68
+#	DropLevel >= 56
+#	Rarity Rare
+#	Class "Daggers"
 
-Show # %D2 $type->rr $tier->t3claws
-	ItemLevel >= 68
-	DropLevel >= 60
-	Rarity Rare
-	Class "Claws"
+#Show # %D2 $type->rr $tier->t3claws
+#	ItemLevel >= 68
+#	DropLevel >= 60
+#	Rarity Rare
+#	Class "Claws"
 
-Show # %D2 $type->rr $tier->t3wands
-	ItemLevel >= 68
-	DropLevel >= 45
-	Rarity Rare
-	Class "Wands"
+#Show # %D2 $type->rr $tier->t3wands
+#	ItemLevel >= 68
+#	DropLevel >= 45
+#	Rarity Rare
+#	Class "Wands"
 
-Show # %D2 $type->rr $tier->t3foils
-	Height 4
-	ItemLevel >= 68
-	DropLevel >= 60
-	Rarity Rare
-	Class "Thrusting One Hand Swords"
+#Show # %D2 $type->rr $tier->t3foils
+#	Height 4
+#	ItemLevel >= 68
+#	DropLevel >= 60
+#	Rarity Rare
+#	Class "Thrusting One Hand Swords"
 
-Show # %D2 $type->rr $tier->t3swords1h
-	Height < 4
-	ItemLevel >= 68
-	DropLevel >= 66
-	Rarity Rare
-	Class "One Hand Swords"
+#Show # %D2 $type->rr $tier->t3swords1h
+#	Height < 4
+#	ItemLevel >= 68
+#	DropLevel >= 66
+#	Rarity Rare
+#	Class "One Hand Swords"
 
-Show # %D2 $type->rr $tier->t3maces1h
-	ItemLevel >= 68
-	DropLevel >= 64
-	Rarity Rare
-	Class "One Hand Maces"
+#Show # %D2 $type->rr $tier->t3maces1h
+#	ItemLevel >= 68
+#	DropLevel >= 64
+#	Rarity Rare
+#	Class "One Hand Maces"
 
-Show # %D2 $type->rr $tier->t3axes1h
-	ItemLevel >= 68
-	DropLevel >= 67
-	Rarity Rare
-	Class "One Hand Axes"
+#Show # %D2 $type->rr $tier->t3axes1h
+#	ItemLevel >= 68
+#	DropLevel >= 67
+#	Rarity Rare
+#	Class "One Hand Axes"
 
-Show # %D2 $type->rr $tier->t3sceptres
-	ItemLevel >= 68
-	DropLevel >= 55
-	Rarity Rare
-	Class "Sceptres"
+#Show # %D2 $type->rr $tier->t3sceptres
+#	ItemLevel >= 68
+#	DropLevel >= 55
+#	Rarity Rare
+#	Class "Sceptres"
 
-Show # %D2 $type->rr $tier->t3warstaves
-	ItemLevel >= 68
-	DropLevel >= 64
-	Rarity Rare
-	Class "Warstaves"
+#Show # %D2 $type->rr $tier->t3warstaves
+#	ItemLevel >= 68
+#	DropLevel >= 64
+#	Rarity Rare
+#	Class "Warstaves"
 
-Show # %D2 $type->rr $tier->t3staves
-	ItemLevel >= 68
-	DropLevel >= 60
-	Rarity Rare
-	Class "Staves"
+#Show # %D2 $type->rr $tier->t3staves
+#	ItemLevel >= 68
+#	DropLevel >= 60
+#	Rarity Rare
+#	Class "Staves"
 
-Show # %D2 $type->rr $tier->t3swords2h
-	ItemLevel >= 68
-	DropLevel >= 65
-	Rarity Rare
-	Class "Two Hand Swords"
+#Show # %D2 $type->rr $tier->t3swords2h
+#	ItemLevel >= 68
+#	DropLevel >= 65
+#	Rarity Rare
+#	Class "Two Hand Swords"
 
-Show # %D2 $type->rr $tier->t3axes2h
-	ItemLevel >= 68
-	DropLevel >= 64
-	Rarity Rare
-	Class "Two Hand Axes"
+#Show # %D2 $type->rr $tier->t3axes2h
+#	ItemLevel >= 68
+#	DropLevel >= 64
+#	Rarity Rare
+#	Class "Two Hand Axes"
 
-Show # %D2 $type->rr $tier->t3maces2h
-	ItemLevel >= 68
-	DropLevel >= 65
-	Rarity Rare
-	Class "Two Hand Maces"
+#Show # %D2 $type->rr $tier->t3maces2h
+#	ItemLevel >= 68
+#	DropLevel >= 65
+#	Rarity Rare
+#	Class "Two Hand Maces"
 
-Show # %D2 $type->rr $tier->t3bows
-	ItemLevel >= 68
-	DropLevel >= 62
-	Rarity Rare
-	Class "Bows"
+#Show # %D2 $type->rr $tier->t3bows
+#	ItemLevel >= 68
+#	DropLevel >= 62
+#	Rarity Rare
+#	Class "Bows"
 
-Show # %D2 $type->rr $tier->t3boots
-	ItemLevel >= 68
-	DropLevel >= 49
-	Rarity Rare
-	Class "Boots"
+#Show # %D2 $type->rr $tier->t3boots
+#	ItemLevel >= 68
+#	DropLevel >= 49
+#	Rarity Rare
+#	Class "Boots"
 
-Show # %D2 $type->rr $tier->t3gloves
-	ItemLevel >= 68
-	DropLevel >= 36
-	Rarity Rare
-	Class "Gloves"
+#Show # %D2 $type->rr $tier->t3gloves
+#	ItemLevel >= 68
+#	DropLevel >= 36
+#	Rarity Rare
+#	Class "Gloves"
 
-Show # %D2 $type->rr $tier->t3helmets
-	ItemLevel >= 68
-	DropLevel >= 54
-	Rarity Rare
-	Class "Helmets"
+#Show # %D2 $type->rr $tier->t3helmets
+#	ItemLevel >= 68
+#	DropLevel >= 54
+#	Rarity Rare
+#	Class "Helmets"
 
-Show # %D2 $type->rr $tier->t3body
-	ItemLevel >= 68
-	DropLevel >= 59
-	Rarity Rare
-	Class "Body Armours"
+#Show # %D2 $type->rr $tier->t3body
+#	ItemLevel >= 68
+#	DropLevel >= 59
+#	Rarity Rare
+#	Class "Body Armours"
 
-Show # %D2 $type->rr $tier->t3shields
-	ItemLevel >= 68
-	DropLevel >= 58
-	Rarity Rare
-	Class "Shields"
+#Show # %D2 $type->rr $tier->t3shields
+#	ItemLevel >= 68
+#	DropLevel >= 58
+#	Rarity Rare
+#	Class "Shields"
 
-Show # %D2 $type->rr $tier->t3quivers
-	ItemLevel >= 68
-	DropLevel >= 28
-	Rarity Rare
-	Class "Quivers"
+#Show # %D2 $type->rr $tier->t3quivers
+#	ItemLevel >= 68
+#	DropLevel >= 28
+#	Rarity Rare
+#	Class "Quivers"
 
 #===============================================================================================================
 # [[2300]] Endgame - Rare - Gear - T4 - rest
 #===============================================================================================================
 # !! Override 270 : "T4 rares remaining"
 
-Show # %D1 $type->rr $tier->t4endgamerares
-	ItemLevel >= 68
-	Rarity Rare
-	Class "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
+#Show # %D1 $type->rr $tier->t4endgamerares
+#	ItemLevel >= 68
+#	Rarity Rare
+#	Class "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
 
 #===============================================================================================================
 # [[2400]] Hide Layer 2 - Rare Gear
@@ -1883,7 +1883,7 @@ Show # %HS2 $type->jewels->abyss $tier->anyrare
 	Rarity Rare
 	Class "Abyss Jewel"
 
-Show # %H2 $type->jewels->abyss $tier->anymagic
+Hide # %H2 $type->jewels->abyss $tier->anymagic
 	Rarity <= Magic
 	Class "Abyss Jewel"
 
@@ -2563,22 +2563,22 @@ Show # %D3 $type->gems-generic $tier->qt3
 	Quality >= 14
 	Class "Gems"
 
-Show # %D2 $type->gems-generic $tier->lt3
-	GemLevel >= 18
-	Class "Gems"
+#Show # %D2 $type->gems-generic $tier->lt3
+#	GemLevel >= 18
+#	Class "Gems"
 
 Show # %D4 $type->gems-generic $tier->qt4lvl
 	Quality >= 1
 	AreaLevel <= 67
 	Class "Gems"
 
-Show # %D2 $type->gems-generic $tier->qt4
-	Quality >= 1
-	Class "Gems"
+#Show # %D2 $type->gems-generic $tier->qt4
+#	Quality >= 1
+#	Class "Gems"
 
-Show # %D0 $type->gems-generic $tier->lt4
-	GemLevel >= 2
-	Class "Gems"
+#Show # %D0 $type->gems-generic $tier->lt4
+#	GemLevel >= 2
+#	Class "Gems"
 
 Show # $type->gems-generic $tier->firstzone
 	AreaLevel 1
@@ -2589,7 +2589,7 @@ AreaLevel <= 67
 Class "Gems"
 BaseType "Vaal"
 
-Show # %H2 $type->gems-generic $tier->leveling
+Hide # %H2 $type->gems-generic $tier->leveling
 	AreaLevel <= 67
 	Class "Gems"
 
@@ -2597,7 +2597,7 @@ Show # %D3 $type->gems-generic $tier->corruptedvaalany
 Class "Gems"
 BaseType "Vaal"
 
-Show # %H0 $type->gems-generic $tier->any
+Hide # %H0 $type->gems-generic $tier->any
 	Class "Gems"
 
 #===============================================================================================================
@@ -3120,7 +3120,7 @@ StackSize >= 6
 Class "Currency"
 BaseType == "Portal Scroll"
 
-Show # %H2 $type->currency->stackedsuppliesportal $tier->t3
+Hide # %H2 $type->currency->stackedsuppliesportal $tier->t3
 StackSize >= 3
 Class "Currency"
 BaseType == "Portal Scroll"
@@ -3139,7 +3139,7 @@ StackSize >= 6
 Class "Currency"
 BaseType == "Scroll of Wisdom"
 
-Show # %H2 $type->currency->stackedsupplieswisdom $tier->t3
+Hide # %H2 $type->currency->stackedsupplieswisdom $tier->t3
 StackSize >= 3
 Class "Currency"
 BaseType == "Scroll of Wisdom"
@@ -3270,17 +3270,17 @@ Show # %H3 $type->currency $tier->t8trans
 Class "Currency"
 BaseType == "Alchemy Shard" "Alteration Shard" "Binding Shard" "Blacksmith's Whetstone" "Chaos Shard" "Horizon Shard" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
 
-Show # %H2 $type->currency $tier->t9armour
-Class "Currency"
-BaseType == "Armourer's Scrap" "Engineer's Shard" "Transmutation Shard"
+Hide # %H2 $type->currency $tier->t9armour
+	Class "Currency"
+	BaseType == "Armourer's Scrap" "Engineer's Shard" "Transmutation Shard"
 
-Show # %H2 $type->currency $tier->tportal
-Class "Currency"
-BaseType == "Portal Scroll"
+Hide # %H2 $type->currency $tier->tportal
+	Class "Currency"
+	BaseType == "Portal Scroll"
 
-Show # %H2 $type->currency $tier->twisdom
-Class "Currency"
-BaseType == "Scroll of Wisdom"
+Hide # %H2 $type->currency $tier->twisdom
+	Class "Currency"
+	BaseType == "Scroll of Wisdom"
 
 #===============================================================================================================
 # [[3700]] Currency - SPECIAL
@@ -3424,11 +3424,11 @@ Show # %HS3 $type->currency->essence $tier->t4
 Class "Currency"
 BaseType "Wailing Essence of"
 
-Show # %H2 $type->currency->essence $tier->t5
+Hide # %H2 $type->currency->essence $tier->t5
 Class "Currency"
 BaseType "Weeping Essence of"
 
-Show # %H1 $type->currency->essence $tier->t6
+Hide # %H1 $type->currency->essence $tier->t6
 Class "Currency"
 BaseType "Muttering Essence of" "Whispering Essence of"
 
@@ -3600,7 +3600,7 @@ Show # %HS3 $type->divination $tier->t4
 Class "Divination"
 BaseType == "A Dab of Ink" "A Stone Perfected" "Akil's Prophecy" "Alone in the Darkness" "Assassin's Favour" "Atziri's Arsenal" "Baited Expectations" "Blind Venture" "Boundless Realms" "Cameria's Cut" "Desperate Crusade" "Earth Drinker" "Etched in Blood" "Forbidden Power" "Friendship" "Gemcutter's Promise" "Glimmer of Hope" "Haunting Shadows" "Heterochromia" "Hope" "Hubris" "Hunter's Resolve" "Jack in the Box" "Left to Fate" "Lost Worlds" "Merciless Armament" "Misery in Darkness" "Mitts" "Parasitic Passengers" "Perfection" "Prejudice" "Prometheus' Armoury" "Rebirth" "Reckless Ambition" "Scholar of the Seas" "Silence and Frost" "Terrible Secret of Space" "The Admirer" "The Aesthete" "The Archmage's Right Hand" "The Battle Born" "The Betrayal" "The Body" "The Bones" "The Breach" "The Brittle Emperor" "The Cache" "The Cataclysm" "The Craving" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Deep Ones" "The Doppelganger" "The Easy Stroll" "The Encroaching Darkness" "The Endurance" "The Enthusiasts" "The Eye of the Dragon" "The Fletcher" "The Fox in the Brambles" "The Garish Power" "The Gentleman" "The Gladiator" "The Harvester" "The Hunger" "The Insatiable" "The Jester" "The Jeweller's Boon" "The King's Heart" "The Landing" "The Last One Standing" "The Lion" "The Magma Crab" "The Master" "The Mercenary" "The Messenger" "The Mind's Eyes" "The Offspring" "The One With All" "The Pact" "The Penitent" "The Porcupine" "The Price of Protection" "The Primordial" "The Prince of Darkness" "The Queen" "The Realm" "The Rite of Elements" "The Road to Power" "The Scavenger" "The Soul" "The Stormcaller" "The Surveyor" "The Thaumaturgist" "The Throne" "The Tower" "The Traitor" "The Transformation" "The Twins" "The Tyrant" "The Undisputed" "The Unexpected Prize" "The Valley of Steel Boxes" "The Warlord" "The Web" "The Whiteout" "The Wilted Rose" "The Wind" "The Wolf" "The Wolf's Legacy" "The Wolverine" "Time-Lost Relic" "Triskaidekaphobia" "Unchained" "Volatile Power"
 
-Show # %H1 $type->divination $tier->t5
+Hide # %H1 $type->divination $tier->t5
 Class "Divination"
 BaseType == "A Mother's Parting Gift" "Anarchy's Price" "Audacity" "Birth of the Three" "Call to the First Ones" "Cartographer's Delight" "Cursed Words" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Doedre's Madness" "Echoes of Love" "Gift of the Gemling Queen" "Grave Knowledge" "Lantador's Lost Love" "Light and Truth" "Lingering Remnants" "Lysah's Respite" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Shard of Fate" "Struck by Lightning" "The Adventuring Spirit" "The Arena Champion" "The Army of Blood" "The Avenger" "The Bear Woman" "The Beast" "The Blazing Fire" "The Blessing of Moosh" "The Calling" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Deceiver" "The Demoness" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Explorer" "The Fathomless Depths" "The Feast" "The Formless Sea" "The Forsaken" "The Fox" "The Golden Era" "The Hermit" "The Incantation" "The Inoculated" "The Journalist" "The King's Blade" "The Last Supper" "The Lich" "The Long Watch" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Mad King" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Opulent" "The Pack Leader" "The Poet" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Skeleton" "The Spoiled Prince" "The Standoff" "The Summoner" "The Sun" "The Surgeon" "The Sword King's Salute" "The Trial" "The Tumbleweed" "The Twilight Moon" "The Visionary" "The Warden" "The Watcher" "The Witch" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Tranquillity" "Treasure Hunter" "Turn the Other Cheek" "Vile Power"
 
@@ -3743,9 +3743,9 @@ BaseType == "Blazing Arrow Quiver" "Brass Maul" "Coral Ring" "Death Bow" "Fire A
 #------------------------------------
 # !! Override 770 : "Only low tier uniques"
 
-Show # %D2 $type->uniques $tier->recipeuniquerings
-	Rarity Unique
-	Class "Rings"
+#Show # %D2 $type->uniques $tier->recipeuniquerings
+#	Rarity Unique
+#	Class "Rings"
 
 #Show  # %H4 $type->uniques $tier->earlyleague
 #	Rarity Unique
@@ -3867,48 +3867,48 @@ Show # %D3 $type->leveling->flasks->quality $tier->max
 	Quality >= 20
 	Class "Flask"
 
-Show # %D2 $type->leveling->flasks->quality $tier->high
-	Quality >= 15
-	Class "Flask"
+#Show # %D2 $type->leveling->flasks->quality $tier->high
+#	Quality >= 15
+#	Class "Flask"
 
-Show # %D1 $type->leveling->flasks->quality $tier->any
-	Quality >= 1
-	Class "Flask"
+#Show # %D1 $type->leveling->flasks->quality $tier->any
+#	Quality >= 1
+#	Class "Flask"
 
 #------------------------------------
 #   [4602] Hybrid flasks
 #------------------------------------
 # !! Override 820 : "leveling life and mana flasks"
 
-Show # %H2 $type->leveling->flasks->hybrid $tier->t1
-AreaLevel <= 20
-Class "Hybrid Flask"
-BaseType "Small"
+Hide # %H2 $type->leveling->flasks->hybrid $tier->t1
+	AreaLevel <= 20
+	Class "Hybrid Flask"
+	BaseType "Small"
 
-Show # %H2 $type->leveling->flasks->hybrid $tier->t2
-AreaLevel <= 30
-Class "Hybrid Flask"
-BaseType "Medium"
+Hide # %H2 $type->leveling->flasks->hybrid $tier->t2
+	AreaLevel <= 30
+	Class "Hybrid Flask"
+	BaseType "Medium"
 
-Show # %H2 $type->leveling->flasks->hybrid $tier->t3
-AreaLevel <= 40
-Class "Hybrid Flask"
-BaseType "Large"
+Hide # %H2 $type->leveling->flasks->hybrid $tier->t3
+	AreaLevel <= 40
+	Class "Hybrid Flask"
+	BaseType "Large"
 
-Show # %H2 $type->leveling->flasks->hybrid $tier->t4
-AreaLevel <= 50
-Class "Hybrid Flask"
-BaseType "Colossal"
+Hide # %H2 $type->leveling->flasks->hybrid $tier->t4
+	AreaLevel <= 50
+	Class "Hybrid Flask"
+	BaseType "Colossal"
 
-Show # %H2 $type->leveling->flasks->hybrid $tier->t5
-AreaLevel <= 60
-Class "Hybrid Flask"
-BaseType "Sacred"
+Hide # %H2 $type->leveling->flasks->hybrid $tier->t5
+	AreaLevel <= 60
+	Class "Hybrid Flask"
+	BaseType "Sacred"
 
-Show # %H2 $type->leveling->flasks->hybrid $tier->t6
-AreaLevel <= 67
-Class "Hybrid Flask"
-BaseType "Hallowed"
+Hide # %H2 $type->leveling->flasks->hybrid $tier->t6
+	AreaLevel <= 67
+	Class "Hybrid Flask"
+	BaseType "Hallowed"
 
 #------------------------------------
 #   [4603] Life flasks
@@ -4265,19 +4265,19 @@ Show # %D3 $type->leveling->rare->remaining $tier->chromaticrares
 	Rarity Rare
 	SocketGroup "RGB"
 
-Show # %D1 $type->leveling->rare->remaining $tier->underlevel68
-	AreaLevel >= 42
-	Rarity Rare
+#Show # %D1 $type->leveling->rare->remaining $tier->underlevel68
+#	AreaLevel >= 42
+#	Rarity Rare
 
-Show # %D1 $type->leveling->rare->remaining $tier->underlevel42
-	ItemLevel <= 42
-	AreaLevel >= 24
-	Rarity Rare
+#Show # %D1 $type->leveling->rare->remaining $tier->underlevel42
+#	ItemLevel <= 42
+#	AreaLevel >= 24
+#	Rarity Rare
 
-Show # %D2 $type->leveling->rare->remaining $tier->underlevel24
-	ItemLevel <= 24
-	AreaLevel >= 16
-	Rarity Rare
+#Show # %D2 $type->leveling->rare->remaining $tier->underlevel24
+#	ItemLevel <= 24
+#	AreaLevel >= 16
+#	Rarity Rare
 
 Show # %D3 $type->leveling->rare->remaining $tier->underlevel16
 	ItemLevel <= 16
@@ -4310,27 +4310,27 @@ Show # %D3 $type->leveling->normalmagic->rgb $tier->rgbsmall2
 	Rarity <= Magic
 	SocketGroup "RGB"
 
-Show # %D2 $type->leveling->normalmagic->rgb $tier->rgblarge
-	Width >= 2
-	Height >= 4
-	Rarity <= Magic
-	SocketGroup "RGB"
+#Show # %D2 $type->leveling->normalmagic->rgb $tier->rgblarge
+#	Width >= 2
+#	Height >= 4
+#	Rarity <= Magic
+#	SocketGroup "RGB"
 
-Show # %D2 $type->leveling->normalmagic->rgb $tier->rgbmedium
-	Width >= 2
-	Height 3
-	Rarity <= Magic
-	SocketGroup "RGB"
+#Show # %D2 $type->leveling->normalmagic->rgb $tier->rgbmedium
+#	Width >= 2
+#	Height 3
+#	Rarity <= Magic
+#	SocketGroup "RGB"
 
 Show # %D3 $type->leveling->normalmagic->3l $tier->earlythreelinks
 	LinkedSockets >= 3
 	AreaLevel <= 15
 	Rarity <= Magic
 
-Show # %D2 $type->leveling->normalmagic->3l $tier->general
-	LinkedSockets >= 3
-	AreaLevel <= 28
-	Rarity <= Magic
+#Show # %D2 $type->leveling->normalmagic->3l $tier->general
+#	LinkedSockets >= 3
+#	AreaLevel <= 28
+#	Rarity <= Magic
 
 # !! Override 920 : "Act 1-3 specific gear"
 
@@ -4382,20 +4382,20 @@ AreaLevel <= 24
 Rarity <= Magic
 BaseType "Rustic Sash"
 
-Show # %D2 $type->leveling->normalmagic->otheracts $tier->highphysquivers
-Rarity <= Magic
-BaseType "Broadhead Arrow Quiver" "Heavy Arrow Quiver"
+#Show # %D2 $type->leveling->normalmagic->otheracts $tier->highphysquivers
+#	Rarity <= Magic
+#	BaseType "Broadhead Arrow Quiver" "Heavy Arrow Quiver"
 
-Show # %D2 $type->leveling->normalmagic->otheracts $tier->fireresistgear
-AreaLevel >= 24
-AreaLevel <= 51
-Rarity <= Magic
-BaseType "Ruby Ring"
+#Show # %D2 $type->leveling->normalmagic->otheracts $tier->fireresistgear
+#	AreaLevel >= 24
+#	AreaLevel <= 51
+#	Rarity <= Magic
+#	BaseType "Ruby Ring"
 
-Show # %D2 $type->leveling->normalmagic->otheracts $tier->generalcrafting
-AreaLevel >= 34
-Rarity <= Magic
-BaseType "Leather Belt" "Onyx Amulet" "Prismatic Ring" "Two-Stone Ring"
+#Show # %D2 $type->leveling->normalmagic->otheracts $tier->generalcrafting
+#	AreaLevel >= 34
+#	Rarity <= Magic
+#	BaseType "Leather Belt" "Onyx Amulet" "Prismatic Ring" "Two-Stone Ring"
 
 #Show  # $type->leveling->normalmagic->otheracts $tier->summonshield
 #	AreaLevel <= 46
@@ -4407,7 +4407,7 @@ BaseType "Leather Belt" "Onyx Amulet" "Prismatic Ring" "Two-Stone Ring"
 #------------------------------------
 # !! Override 930 : "first levels gear"
 
-Show # %H1 $type->leveling->firstlevels $tier->earlybodyarmours
+Hide # %H1 $type->leveling->firstlevels $tier->earlybodyarmours
 	AreaLevel >= 2
 	AreaLevel <= 8
 	Rarity Normal
@@ -4428,175 +4428,175 @@ Show # %H3 $type->leveling->firstlevels $tier->firstareas
 #------------------------------------
 # !! Override 940 : "weapon progression"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r01
+Hide # %H2 $type->leveling->weaponprogression $tier->r01
 	ItemLevel <= 9
 	DropLevel >= 5
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r02
+Hide # %H2 $type->leveling->weaponprogression $tier->r02
 	ItemLevel <= 11
 	DropLevel >= 8
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r03
+Hide # %H2 $type->leveling->weaponprogression $tier->r03
 	ItemLevel <= 14
 	DropLevel >= 11
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r04
+Hide # %H2 $type->leveling->weaponprogression $tier->r04
 	ItemLevel <= 16
 	DropLevel >= 13
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r05
+Hide # %H2 $type->leveling->weaponprogression $tier->r05
 	ItemLevel <= 18
 	DropLevel >= 16
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r06
+Hide # %H2 $type->leveling->weaponprogression $tier->r06
 	ItemLevel <= 20
 	DropLevel >= 18
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r07
+Hide # %H2 $type->leveling->weaponprogression $tier->r07
 	ItemLevel <= 22
 	DropLevel >= 20
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r08
+Hide # %H2 $type->leveling->weaponprogression $tier->r08
 	ItemLevel <= 24
 	DropLevel >= 22
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r09
+Hide # %H2 $type->leveling->weaponprogression $tier->r09
 	ItemLevel <= 26
 	DropLevel >= 24
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r10
+Hide # %H2 $type->leveling->weaponprogression $tier->r10
 	ItemLevel <= 28
 	DropLevel >= 26
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r11
+Hide # %H2 $type->leveling->weaponprogression $tier->r11
 	ItemLevel <= 30
 	DropLevel >= 28
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r12
+Hide # %H2 $type->leveling->weaponprogression $tier->r12
 	ItemLevel <= 32
 	DropLevel >= 30
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r13
+Hide # %H2 $type->leveling->weaponprogression $tier->r13
 	ItemLevel <= 34
 	DropLevel >= 32
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r14
+Hide # %H2 $type->leveling->weaponprogression $tier->r14
 	ItemLevel <= 36
 	DropLevel >= 34
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r15
+Hide # %H2 $type->leveling->weaponprogression $tier->r15
 	ItemLevel <= 40
 	DropLevel >= 38
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r16
+Hide # %H2 $type->leveling->weaponprogression $tier->r16
 	ItemLevel <= 42
 	DropLevel >= 40
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r17
+Hide # %H2 $type->leveling->weaponprogression $tier->r17
 	ItemLevel <= 44
 	DropLevel >= 42
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r18
+Hide # %H2 $type->leveling->weaponprogression $tier->r18
 	ItemLevel <= 46
 	DropLevel >= 44
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r19
+Hide # %H2 $type->leveling->weaponprogression $tier->r19
 	ItemLevel <= 48
 	DropLevel >= 46
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r20
+Hide # %H2 $type->leveling->weaponprogression $tier->r20
 	ItemLevel <= 50
 	DropLevel >= 48
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r21
+Hide # %H2 $type->leveling->weaponprogression $tier->r21
 	ItemLevel <= 52
 	DropLevel >= 50
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r22
+Hide # %H2 $type->leveling->weaponprogression $tier->r22
 	ItemLevel <= 54
 	DropLevel >= 52
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r23
+Hide # %H2 $type->leveling->weaponprogression $tier->r23
 	ItemLevel <= 56
 	DropLevel >= 54
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r24
+Hide # %H2 $type->leveling->weaponprogression $tier->r24
 	ItemLevel <= 58
 	DropLevel >= 56
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r25
+Hide # %H2 $type->leveling->weaponprogression $tier->r25
 	ItemLevel <= 60
 	DropLevel >= 58
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r26
+Hide # %H2 $type->leveling->weaponprogression $tier->r26
 	ItemLevel <= 62
 	DropLevel >= 60
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r27
+Hide # %H2 $type->leveling->weaponprogression $tier->r27
 	ItemLevel <= 64
 	DropLevel >= 62
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r28
+Hide # %H2 $type->leveling->weaponprogression $tier->r28
 	ItemLevel <= 66
 	DropLevel >= 64
 	Rarity <= Normal
 	Class == "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
 
-Show # %H2 $type->leveling->weaponprogression $tier->r29
+Hide # %H2 $type->leveling->weaponprogression $tier->r29
 	ItemLevel <= 68
 	DropLevel >= 66
 	Rarity <= Normal
@@ -4639,12 +4639,12 @@ Hide # $type->leveling->magic->remaining $tier->mediummagicblocker
 	AreaLevel >= 24
 	Rarity Magic
 
-Show # %H1 $type->leveling->magic->remaining $tier->rest
+Hide # %H1 $type->leveling->magic->remaining $tier->rest
 	AreaLevel >= 34
 	AreaLevel <= 68
 	Rarity Magic
 
-Show # %H2 $type->leveling->magic->remaining $tier->act2
+Hide # %H2 $type->leveling->magic->remaining $tier->act2
 	AreaLevel >= 15
 	AreaLevel <= 24
 	Rarity Magic

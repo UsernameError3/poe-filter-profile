@@ -12,7 +12,7 @@ StackSize >= 6
 Class "Currency"
 BaseType == "Scroll of Wisdom"
 
-Show # %H2 $type->currency->stackedsupplieswisdom $tier->t3
+Hide # %H2 $type->currency->stackedsupplieswisdom $tier->t3
 StackSize >= 3
 Class "Currency"
 BaseType == "Scroll of Wisdom"
