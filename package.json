@@ -18,5 +18,8 @@
     "bugs": {
         "url": "https://github.com/UsernameError3/poe-filter-profile/issues"
     },
-    "homepage": "https://github.com/UsernameError3/poe-filter-profile#readme"
+    "homepage": "https://github.com/UsernameError3/poe-filter-profile#readme",
+    "dependencies": {
+        "dayjs": "^1.11.1"
+    }
 }

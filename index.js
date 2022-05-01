@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const dayjs = require('dayjs');
 const inputPath = `${__dirname}/filter_data`;
 const outputPath = `${__dirname}/exports`;
 
@@ -13,13 +14,17 @@ const listStrictness = [
     'Uber-Plus-Strict'
 ];
 
-const exportFilter = (data, fileExtension) => {
+const exportFilter = (exportPath, data, extension) => {
     const content = data.join('\n');
-    const filterComponentOutputFile = path.join(outputPath, 'Custom_Filter' + fileExtension);
+    const filterComponentOutputFile = path.join(exportPath, 'Custom_Filter' + extension);
     fs.writeFileSync(filterComponentOutputFile, content, 'utf-8');
 };
 
 const importFilter = (strictness) => {
+    const now = dayjs();
+    const folderFormat = now.format('YYYY_MM_DD_HH_mm_ss');
+    const exportPath = path.join(outputPath, `Custom_Filters_${folderFormat}`);
+    fs.mkdirSync(exportPath);
 
     strictness.forEach(filterSetting => {
         const filterComponentFileExtension = `_${filterSetting}.filter`;
@@ -195,7 +200,7 @@ const importFilter = (strictness) => {
             filterComponentData.push(fs.readFileSync(filterComponentInputFile, 'utf-8'));
         });
 
-        exportFilter(filterComponentData, filterComponentFileExtension);
+        exportFilter(exportPath, filterComponentData, filterComponentFileExtension);
     });
 };
 

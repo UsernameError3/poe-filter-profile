@@ -41,9 +41,9 @@ Show # %D2 $type->gems-generic $tier->qt4
 	Quality >= 1
 	Class "Gems"
 
-Show # %D0 $type->gems-generic $tier->lt4
-	GemLevel >= 2
-	Class "Gems"
+#Show # %D0 $type->gems-generic $tier->lt4
+#	GemLevel >= 2
+#	Class "Gems"
 
 Show # $type->gems-generic $tier->firstzone
 	AreaLevel 1
@@ -62,5 +62,5 @@ Show # %D3 $type->gems-generic $tier->corruptedvaalany
 Class "Gems"
 BaseType "Vaal"
 
-Show # %H0 $type->gems-generic $tier->any
+Hide # %H0 $type->gems-generic $tier->any
 	Class "Gems"
