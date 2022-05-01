@@ -3,7 +3,7 @@
 #------------------------------------
 # !! Override 930 : "first levels gear"
 
-Show # %H1 $type->leveling->firstlevels $tier->earlybodyarmours
+Hide # %H1 $type->leveling->firstlevels $tier->earlybodyarmours
 	AreaLevel >= 2
 	AreaLevel <= 8
 	Rarity Normal

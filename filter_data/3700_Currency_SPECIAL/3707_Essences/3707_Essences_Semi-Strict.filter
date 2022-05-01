@@ -23,6 +23,6 @@ Show # %H2 $type->currency->essence $tier->t5
 Class "Currency"
 BaseType "Weeping Essence of"
 
-Show # %H1 $type->currency->essence $tier->t6
+Hide # %H1 $type->currency->essence $tier->t6
 Class "Currency"
 BaseType "Muttering Essence of" "Whispering Essence of"

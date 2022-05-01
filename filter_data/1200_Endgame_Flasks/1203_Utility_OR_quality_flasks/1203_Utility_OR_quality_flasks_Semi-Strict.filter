@@ -21,9 +21,9 @@ AreaLevel <= 77
 Rarity <= Magic
 BaseType "Flask"
 
-Show # %D1 $type->endgameflasks $tier->qualitylow
-Quality >= 1
-AreaLevel >= 68
-AreaLevel <= 77
-Rarity <= Magic
-BaseType "Flask"
+#Show # %D1 $type->endgameflasks $tier->qualitylow
+#	Quality >= 1
+#	AreaLevel >= 68
+#	AreaLevel <= 77
+#	Rarity <= Magic
+#	BaseType "Flask"

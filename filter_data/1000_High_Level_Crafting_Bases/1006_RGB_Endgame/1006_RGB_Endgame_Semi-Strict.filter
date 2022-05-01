@@ -17,14 +17,14 @@ Show # %H2 $type->endgamergb $tier->rgbsmall2
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H0 $type->endgamergb $tier->rgblarge
+Hide # %H0 $type->endgamergb $tier->rgblarge
 	Width >= 2
 	Height >= 4
 	AreaLevel >= 67
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H1 $type->endgamergb $tier->rgbmedium
+Hide # %H1 $type->endgamergb $tier->rgbmedium
 	Width >= 2
 	Height 3
 	AreaLevel >= 67
