@@ -89,8 +89,8 @@
 2900_Special_Maps_#var#.filter
 2901_Unique_Maps_#var#.filter
 2902_Blighted_maps_#var#.filter
-2903_Delirium_Blight_Enchanted_Maps!_#var#.filter
-2904_BeyondNemesis_Maps_for_those_juicy_sextants._#var#.filter
+2903_Delirium_Blight_Enchanted_Maps_#var#.filter
+2904_BeyondNemesis_Maps_for_those_juicy_sextants_#var#.filter
 3000_Normal_Map_Progression_#var#.filter
 3001_Generic_Decorators_#var#.filter
 3002_Map_progression_#var#.filter
@@ -133,10 +133,10 @@
 4202_Tier_1_uniques_#var#.filter
 4203_Exceptions_2_#var#.filter
 4204_Tier_2_uniques_#var#.filter
-4205_MultiUnique_bases._#var#.filter
+4205_MultiUnique_bases_#var#.filter
 4206_Exceptions_Fated_Uniques_#var#.filter
 4207_Low_tier_exceptions_#var#.filter
-4208_Tier_3_uniques__#var#.filter
+4208_Tier_3_uniques_#var#.filter
 4209_Tier_4_uniques_#var#.filter
 4300_Misc_Map_Items_#var#.filter
 4400_QuestlikeItems2_#var#.filter
