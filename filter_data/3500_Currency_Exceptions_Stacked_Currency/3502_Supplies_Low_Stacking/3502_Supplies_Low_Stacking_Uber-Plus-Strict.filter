@@ -1,1 +1,20 @@
-test 
+#------------------------------------
+#   [3502] Supplies: Low Stacking
+#------------------------------------
+
+# armourers
+
+Show # %HS4 $type->currency->stackedsupplieslow $tier->t1
+StackSize >= 10
+Class "Currency"
+BaseType == "Armourer's Scrap"
+
+Show # %HS3 $type->currency->stackedsupplieslow $tier->t2
+StackSize >= 6
+Class "Currency"
+BaseType == "Armourer's Scrap"
+
+Show # %H3 $type->currency->stackedsupplieslow $tier->t3
+StackSize >= 3
+Class "Currency"
+BaseType == "Armourer's Scrap"

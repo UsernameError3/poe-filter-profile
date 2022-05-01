@@ -1,1 +1,10 @@
-test 
+#------------------------------------
+#   [0515] Belts
+#------------------------------------
+
+Show # $type->rareid $tier->belt_general
+	Identified True
+	Rarity Rare
+	Class "Belts"
+	HasExplicitMod "of the Underground" "Subterranean" "Guatelitzi's" "Fecund" "Athlete's" "Dazzling" "Devastating" "Magnifying" "of Reveling" "Blue" "of the Godslayer"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Guatelitzi's" "Fecund" "Athlete's" "Virile" "Dazzling" "Resplendent" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of Tzteosh" "of the Magma" "of the Volcano" "of Haast" "of the Ice" "of the Polar Bear" "of Ephij" "of the Lightning" "of the Maelstrom" "of Bameth" "of Exile" "of Expulsion" "of Recuperation" "Enveloped" "Encased" "Carapaced" "Magnifying" "Condensing" "of Reveling" "of Relishing" "Devastating" "Overpowering" "Unleashed" "Blue" "Mazarine" "Veiled" "of the Veil"

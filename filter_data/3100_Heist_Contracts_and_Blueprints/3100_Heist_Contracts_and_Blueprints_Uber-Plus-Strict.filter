@@ -1,1 +1,22 @@
-test 
+#===============================================================================================================
+# [[3100]] Heist Contracts and Blueprints
+#===============================================================================================================
+# !! Override 580 : "heist contracts and blueprints"
+
+Show # $type->uniques->heist $tier->any
+	Rarity Unique
+	Class "Blueprint" "Contract"
+
+Show # %H5 $type->heist->contract $tier->handpicked
+Class "Contract"
+BaseType "Contract: Bunker" "Contract: Laboratory" "Contract: Mansion" "Contract: Prohibited Library" "Contract: Records Office" "Contract: Repository" "Contract: Smuggler's Den" "Contract: Tunnels" "Contract: Underbelly"
+
+Show # %H5 $type->heist->contract $tier->any
+	Class "Contract"
+
+Show # $type->heist->blueprint $tier->handpicked
+Class "Blueprint"
+BaseType "Blueprint: Bunker" "Blueprint: Laboratory" "Blueprint: Mansion" "Blueprint: Prohibited Library" "Blueprint: Records Office" "Blueprint: Repository" "Blueprint: Smuggler's Den" "Blueprint: Tunnels" "Blueprint: Underbelly"
+
+Show # $type->heist->blueprint $tier->any
+	Class "Blueprint"

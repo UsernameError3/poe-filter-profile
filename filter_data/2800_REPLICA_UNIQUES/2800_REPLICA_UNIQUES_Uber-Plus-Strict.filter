@@ -1,1 +1,29 @@
-test 
+#===============================================================================================================
+# [[2800]] REPLICA UNIQUES
+#===============================================================================================================
+# !! Chapter "Maps, fragments, maplike items, replicas"
+# !! Override 510 : "replicas uniques and unique maps"
+
+Show # $type->uniques->replicas $tier->t1
+Replica True
+Rarity Unique
+BaseType == "Chain Belt" "Cloth Belt" "Great Crown" "Leather Belt" "Ornate Quiver" "Relic Chambers Map" "Soldier Boots" "Synthesised Map" "Triumphant Lamellar"
+
+Show # $type->uniques->replicas $tier->t2
+Replica True
+Rarity Unique
+BaseType == "Assassin's Boots" "Blood Raiment" "Eternal Sword" "Ezomyte Burgonet" "Maelström Staff" "Ornate Mace" "Paua Amulet" "Ruby Ring" "Siege Axe" "Temple Map" "Terror Maul" "Vaal Gauntlets" "Vaal Rapier"
+
+Show # $type->uniques->replicas $tier->multi
+Replica True
+Rarity Unique
+BaseType == "Carnal Armour" "Cobalt Jewel" "Crimson Jewel" "Jade Amulet" "Viridian Jewel"
+
+Show # $type->uniques->replicas $tier->t3
+Replica True
+Rarity Unique
+BaseType == "Arcanist Gloves" "Arcanist Slippers" "Boot Knife" "Bronzescale Boots" "Crusader Chainmail" "Death Bow" "Decimation Bow" "Dunes Map" "Ebony Tower Shield" "Elder Sword" "Elegant Ringmail" "Engraved Wand" "Ezomyte Axe" "Ezomyte Dagger" "Festival Mask" "Glorious Plate" "Gnarled Branch" "Gold Amulet" "Granite Flask" "Great Helmet" "Great Mallet" "Grinning Fetish" "Gut Ripper" "Heavy Belt" "Imperial Bow" "Infernal Sword" "Jasper Chopper" "Lacquered Buckler" "Laminated Kite Shield" "Murder Boots" "Nailed Fist" "Paua Ring" "Royal Skean" "Rustic Sash" "Sage Wand" "Samite Gloves" "Sanctified Mana Flask" "Sapphire Ring" "Shadow Sceptre" "Shagreen Boots" "Short Bow" "Silk Slippers" "Sinner Tricorne" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Stiletto" "Sulphur Flask" "Titan Greaves" "Tornado Wand" "Unset Ring" "Vaal Claw" "Void Sceptre" "War Sword" "Zealot Gloves" "Zodiac Leather"
+
+Show # $type->uniques->replicas $tier->restex
+	Replica True
+	Rarity Unique

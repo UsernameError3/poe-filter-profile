@@ -1,1 +1,16 @@
-test 
+#===============================================================================================================
+# [[4300]] Misc Map Items
+#===============================================================================================================
+# !! Override 780 : "Quest Items and Relic Keys"
+
+Show # $type->miscmapitemsextra $tier->relickeys
+BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
+
+Show # $type->miscmapitemsextra $tier->inscribedultimatum
+BaseType "Inscribed Ultimatum"
+
+Show # $type->miscmapitemsextra $tier->alvatemple
+BaseType "Chronicle of Atzoatl"
+
+Show # $type->miscmapitems $tier->restex
+	Class "Misc Map Items"

@@ -1,1 +1,17 @@
-test 
+#------------------------------------
+#   [0512] Rings
+#------------------------------------ 	
+
+Show # $type->rareid $tier->ring_caster
+	Identified True
+	Rarity Rare
+	Class "Rings"
+	HasExplicitMod "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Dazzling" "Resplendent" "of the Ranger" "Ultramarine"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nirvana" "of Euphoria" "of the Comet" "of Legerdemain" "of Expertise" "of Flames" "of Rime" "of Voltage" "Ultramarine" "Zaffre" "Blue"
+
+Show # $type->rareid $tier->ring_attack
+	Identified True
+	Rarity Rare
+	Class "Rings"
+	HasExplicitMod "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Dazzling" "Resplendent" "of the Ranger" "Ultramarine"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nirvana" "of Euphoria" "of the Comet" "Devastating" "Overpowering" "Unleashed" "of the Ranger" "of the Marksman" "of the Sniper" "Flaring" "Tempered" "Cremating" "Blasting" "Entombing" "Polar" "Electrocuting" "Discharging" "of Skill" "of Flames" "of Rime" "of Voltage"

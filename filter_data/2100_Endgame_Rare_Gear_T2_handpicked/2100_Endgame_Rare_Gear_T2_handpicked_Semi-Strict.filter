@@ -1,1 +1,12 @@
-test 
+#===============================================================================================================
+# [[2100]] Endgame - Rare - Gear - T2 - handpicked
+#===============================================================================================================
+# !! Override 255 : "Identified Item Handling"
+
+Show # %D3 $type->rr $tier->identifieditemhandling
+	Identified True
+	Corrupted False
+	Mirrored False
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"

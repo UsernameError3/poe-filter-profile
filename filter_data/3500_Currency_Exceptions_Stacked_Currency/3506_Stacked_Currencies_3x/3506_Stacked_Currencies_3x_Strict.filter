@@ -1,1 +1,37 @@
-test 
+#------------------------------------
+#   [3506] Stacked Currencies: 3x
+#------------------------------------
+
+Show # $type->currency->stackedthree $tier->t1
+StackSize >= 3
+Class "Currency"
+BaseType == "Divine Orb" "Exceptional Eldritch Ichor" "Tainted Divine Teardrop" "Tainted Exalted Orb"
+
+Show # $type->currency->stackedthree $tier->t2
+StackSize >= 3
+Class "Currency"
+BaseType == "Ancient Orb" "Exalted Shard" "Grand Eldritch Ember" "Grand Eldritch Ichor" "Tainted Blessing" "Tainted Chaos Orb" "Tainted Chromatic Orb" "Tainted Mythic Orb" "Tainted Orb of Fusing" "Veiled Chaos Orb"
+
+Show # $type->currency->stackedthree $tier->t3
+StackSize >= 3
+Class "Currency"
+BaseType == "Awakened Sextant" "Chaos Orb" "Exceptional Eldritch Ember" "Fertile Catalyst" "Greater Eldritch Ember" "Greater Eldritch Ichor" "Harbinger's Orb" "Orb of Annulment" "Orb of Unmaking" "Prismatic Catalyst" "Stacked Deck" "Unstable Catalyst"
+
+Show # $type->currency->stackedthree $tier->t4
+StackSize >= 3
+Class "Currency"
+BaseType == "Abrasive Catalyst" "Accelerating Catalyst" "Ancient Shard" "Blessed Orb" "Enkindling Orb" "Gemcutter's Prism" "Instilling Orb" "Intrinsic Catalyst" "Lesser Eldritch Ember" "Lesser Eldritch Ichor" "Noxious Catalyst" "Orb of Fusing" "Orb of Horizons" "Orb of Regret" "Orb of Scouring" "Regal Orb" "Tainted Armourer's Scrap" "Tainted Jeweller's Orb" "Tempering Catalyst" "Vaal Orb"
+
+Show # %HS4 $type->currency->stackedthree $tier->t5
+StackSize >= 3
+Class "Currency"
+BaseType == "Annulment Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic Orb" "Engineer's Orb" "Glassblower's Bauble" "Harbinger's Shard" "Imbued Catalyst" "Jeweller's Orb" "Orb of Alchemy" "Orb of Alteration" "Orb of Binding" "Orb of Chance" "Tainted Blacksmith's Whetstone" "Turbulent Catalyst"
+
+#Show  # %HS3 $type->currency->stackedthree $tier->t6
+#	StackSize >= 3
+#	Class "Currency"
+
+Show # %H3 $type->currency->stackedthree $tier->t7
+StackSize >= 3
+Class "Currency"
+BaseType == "Horizon Shard" "Regal Shard"

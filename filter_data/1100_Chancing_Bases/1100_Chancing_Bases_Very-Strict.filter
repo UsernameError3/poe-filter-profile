@@ -1,1 +1,16 @@
-test 
+#===============================================================================================================
+# [[1100]] Chancing Bases
+#===============================================================================================================
+# !! Override 150 : "Chancing bases"
+
+Show # %D1 $type->chancing $tier->hh
+Corrupted False
+Mirrored False
+Rarity Normal
+BaseType == "Heavy Belt" "Leather Belt"
+
+Show # %D1 $type->chancing $tier->t2
+Corrupted False
+Mirrored False
+Rarity Normal
+BaseType == "Elegant Round Shield" "Ezomyte Dagger" "Prophecy Wand"

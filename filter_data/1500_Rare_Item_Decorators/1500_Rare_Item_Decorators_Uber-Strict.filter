@@ -1,1 +1,77 @@
-test 
+#===============================================================================================================
+# [[1500]] Rare Item Decorators
+#===============================================================================================================
+# !! Chapter "Rare Endgame Items"
+# !! Override 210 : "Rare continue/style sections sections"
+
+Show # $type->decorators->rareeg $tier->largerares
+	Width >= 2
+	Height >= 3
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->mediumrares1
+	Width 1
+	Height >= 3
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->mediumrares2
+	Width 2
+	Height 2
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->tinyrares
+	Width <= 2
+	Height 1
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->ilvl68
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->ilvl75
+	ItemLevel >= 75
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->ilvl84
+	ItemLevel >= 84
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->ilvl86
+	ItemLevel >= 86
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->corruptedrares
+	Corrupted True
+	CorruptedMods 0
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue
+
+Show # $type->decorators->rareeg $tier->corruptedraresimplicit
+	Corrupted True
+	CorruptedMods >= 1
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
+	Continue

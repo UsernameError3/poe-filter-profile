@@ -1,1 +1,12 @@
-test 
+#===============================================================================================================
+# [[4400]] Questlike-Items2
+#===============================================================================================================
+
+Show # $type->questlike $tier->invitations
+BaseType "Maven's"
+
+Show # $type->questlike $tier->labyrinthconsumable
+	Class "Labyrinth"
+
+Show # $type->questlike $tier->incursionconsumable
+	Class "Incursion Item"

@@ -1,1 +1,29 @@
-test 
+#------------------------------------
+#   [2702] Exceptional Gems - Special gems
+#------------------------------------
+# !! Override 420 : "empower and enlighten type gems"
+
+Show # $type->gems-special $tier->ex6lvlgems
+GemLevel >= 6
+Class "Gems"
+BaseType "Blood and Sand" "Brand Recall"
+
+Show # $type->gems-special $tier->exspeciale4
+GemLevel >= 4
+Class "Gems"
+BaseType "Empower" "Enhance" "Enlighten"
+
+Show # $type->gems-special $tier->exspeciale2
+GemLevel >= 2
+Class "Gems"
+BaseType "Empower" "Enhance" "Enlighten"
+
+Show # $type->gems-special $tier->exspecialeq
+Corrupted False
+Quality >= 15
+Class "Gems"
+BaseType "Empower" "Enhance" "Enlighten"
+
+Show # $type->gems-special $tier->exspecial
+Class "Gems"
+BaseType "Empower" "Enhance" "Enlighten" "Item Quantity" "Portal" "Vaal Breach"

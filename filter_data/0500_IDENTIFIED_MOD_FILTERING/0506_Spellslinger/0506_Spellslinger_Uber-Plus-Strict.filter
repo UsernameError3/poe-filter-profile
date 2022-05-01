@@ -1,1 +1,10 @@
-test 
+#------------------------------------
+#   [0506] Spellslinger
+#------------------------------------
+
+Show # $type->rareid $tier->caster_slingert2
+	Identified True
+	Rarity Rare
+	Class == "Wands"
+	HasExplicitMod "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "of Tacati" "Tacati's" "Runic" "Glyphic"
+	HasExplicitMod >=3 "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "of Tacati" "Tacati's" "Runic" "Glyphic" "Veiled" "of Celebration" "of Infamy" "of Destruction" "of Ferocity" "of Unmaking" "of Ruin" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's"

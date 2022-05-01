@@ -1,1 +1,20 @@
-test 
+#------------------------------------
+#   [3701] Incursion - Vials
+#------------------------------------
+# !! Override 640 : "Vials, Delirium Orbs"
+
+Show # $type->vials $tier->t1
+Class "Currency"
+BaseType == "Vial of Sacrifice" "Vial of the Ghost" "Vial of Transcendence"
+
+Show # $type->vials $tier->t2
+Class "Currency"
+BaseType == "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Summoning"
+
+Show # %HS4 $type->vials $tier->t3
+Class "Currency"
+BaseType == "Vial of the Ritual"
+
+Show # $type->vials $tier->restex
+Class "Currency"
+BaseType "Vial of"

@@ -1,1 +1,26 @@
-test 
+#------------------------------------
+#   [4201] Exceptions #1
+#------------------------------------
+
+Show # $type->uniques $tier->exsquire
+Sockets >= 3WWW
+Rarity Unique
+BaseType == "Elegant Round Shield"
+
+Show # $type->uniques $tier->extabula
+Rarity Unique
+SocketGroup "WWWWWW"
+BaseType == "Simple Robe"
+
+Show # $type->uniques $tier->exsynth
+	SynthesisedItem True
+	Rarity Unique
+	Class "Rings"
+
+Show # $type->uniques $tier->ex6link
+	LinkedSockets 6
+	Rarity Unique
+
+Show # $type->uniques $tier->exharby
+	Rarity Unique
+	Class "Piece"

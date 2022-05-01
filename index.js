@@ -205,7 +205,7 @@ const importFilter = (strictness, fileExtension) => {
         filterComponentData.push(fs.readFileSync(filterComponentInputFile, 'utf-8'));
     });
 
-    exportFilter(filterComponentData, filterComponentFileExtension)
+    exportFilter(filterComponentData, filterComponentFileExtension);
 };
 
 importFilter(strictness[0], '.filter');

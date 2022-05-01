@@ -1,1 +1,29 @@
-test 
+#===============================================================================================================
+# [[4500]] Hide outdated leveling flasks
+#===============================================================================================================
+# !! Chapter "Leveling - flasks, rares, 4links"
+# !! Override 810 : "All leveling rules incl. utility flasks"
+
+Hide # $type->hidelayer $tier->outdatedlevelflaska
+Quality 0
+AreaLevel >= 15
+Class "Life Flask" "Mana Flask"
+BaseType "Large" "Medium" "Small"
+
+Hide # $type->hidelayer $tier->outdatedlevelflaskb
+Quality 0
+AreaLevel >= 30
+Class "Life Flask" "Mana Flask"
+BaseType "Grand" "Greater"
+
+Hide # $type->hidelayer $tier->outdatedlevelflaskc
+Quality 0
+AreaLevel >= 48
+Class "Life Flask" "Mana Flask"
+BaseType "Colossal" "Giant" "Sacred"
+
+Hide # $type->hidelayer $tier->outdatedlevelflaskd
+Quality 0
+AreaLevel >= 60
+Class "Life Flask" "Mana Flask"
+BaseType "Hallowed" "Sanctified"

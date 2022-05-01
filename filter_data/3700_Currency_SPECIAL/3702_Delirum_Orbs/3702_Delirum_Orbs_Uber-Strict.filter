@@ -1,1 +1,18 @@
-test 
+#------------------------------------
+#   [3702] Delirum Orbs
+#------------------------------------
+
+Show # $type->currency->deliriumorbs $tier->t1
+Class "Currency"
+BaseType == "Kalguuran Delirium Orb"
+
+Show # $type->currency->deliriumorbs $tier->t2
+Class "Currency"
+BaseType == "Abyssal Delirium Orb" "Amorphous Delirium Orb" "Armoursmith's Delirium Orb" "Blacksmith's Delirium Orb" "Blighted Delirium Orb" "Cartographer's Delirium Orb" "Diviner's Delirium Orb" "Fine Delirium Orb" "Foreboding Delirium Orb" "Fossilised Delirium Orb" "Fragmented Delirium Orb" "Imperial Delirium Orb" "Jeweller's Delirium Orb" "Obscured Delirium Orb" "Primal Delirium Orb" "Singular Delirium Orb" "Skittering Delirium Orb" "Thaumaturge's Delirium Orb" "Timeless Delirium Orb" "Whispering Delirium Orb"
+
+#Show  # $type->currency->deliriumorbs $tier->t3
+#	Class "Currency"
+
+Show # $type->currency->deliriumorbs $tier->restex
+Class "Currency"
+BaseType "Delirium Orb"

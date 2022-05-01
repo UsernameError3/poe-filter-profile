@@ -1,1 +1,111 @@
-test 
+#------------------------------------
+#   [4801] Purpose Picked Items
+#------------------------------------
+
+Show # %D4 $type->leveling->normalmagic->4l $tier->general
+	LinkedSockets >= 4
+	Rarity <= Magic
+
+Show # %D3 $type->leveling->normalmagic->rgb $tier->rgbsmall1
+	Width <= 2
+	Height <= 2
+	Rarity <= Magic
+	SocketGroup "RGB"
+
+Show # %D3 $type->leveling->normalmagic->rgb $tier->rgbsmall2
+	Width <= 1
+	Height <= 4
+	Rarity <= Magic
+	SocketGroup "RGB"
+
+Show # %D2 $type->leveling->normalmagic->rgb $tier->rgblarge
+	Width >= 2
+	Height >= 4
+	Rarity <= Magic
+	SocketGroup "RGB"
+
+Show # %D2 $type->leveling->normalmagic->rgb $tier->rgbmedium
+	Width >= 2
+	Height 3
+	Rarity <= Magic
+	SocketGroup "RGB"
+
+Show # %D3 $type->leveling->normalmagic->3l $tier->earlythreelinks
+	LinkedSockets >= 3
+	AreaLevel <= 15
+	Rarity <= Magic
+
+Show # %D2 $type->leveling->normalmagic->3l $tier->general
+	LinkedSockets >= 3
+	AreaLevel <= 28
+	Rarity <= Magic
+
+# !! Override 920 : "Act 1-3 specific gear"
+
+Show # %D4 $type->leveling->normalmagic->act1 $tier->casterweapons
+	Sockets >= 3
+	AreaLevel <= 15
+	Rarity Magic
+	Class "Sceptres" "Wands"
+
+Show # %D4 $type->leveling->normalmagic->act1 $tier->castercraftrings
+AreaLevel <= 15
+Rarity <= Magic
+BaseType "Iron Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring"
+
+Show # %D4 $type->leveling->normalmagic->act1 $tier->general
+AreaLevel <= 15
+Rarity <= Magic
+BaseType "Amber Amulet" "Chain Belt" "Coral Ring" "Jade Amulet" "Lapis Amulet" "Leather Belt"
+
+Show # %D4 $type->leveling->normalmagic->act1 $tier->boots
+	AreaLevel <= 15
+	Rarity Magic
+	Class "Boots"
+
+Show # %D4 $type->leveling->normalmagic->act1 $tier->quivers
+	AreaLevel <= 15
+	Rarity <= Magic
+	Class "Quivers"
+
+Show # %D4 $type->leveling->normalmagic->act1 $tier->physical
+AreaLevel <= 15
+Rarity <= Magic
+BaseType "Iron Ring" "Rustic Sash"
+
+Show # %D4 $type->leveling->normalmagic->act1 $tier->jewellery
+	AreaLevel <= 15
+	Rarity <= Magic
+	Class "Amulets" "Belts" "Rings"
+
+Show # %D3 $type->leveling->normalmagic->act2 $tier->castercraftrings
+AreaLevel >= 15
+AreaLevel <= 24
+Rarity <= Magic
+BaseType "Iron Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring"
+
+Show # %D3 $type->leveling->normalmagic->act2 $tier->physical
+AreaLevel >= 15
+AreaLevel <= 24
+Rarity <= Magic
+BaseType "Rustic Sash"
+
+Show # %D2 $type->leveling->normalmagic->otheracts $tier->highphysquivers
+Rarity <= Magic
+BaseType "Broadhead Arrow Quiver" "Heavy Arrow Quiver"
+
+Show # %D2 $type->leveling->normalmagic->otheracts $tier->fireresistgear
+AreaLevel >= 24
+AreaLevel <= 51
+Rarity <= Magic
+BaseType "Ruby Ring"
+
+Show # %D2 $type->leveling->normalmagic->otheracts $tier->generalcrafting
+AreaLevel >= 34
+Rarity <= Magic
+BaseType "Leather Belt" "Onyx Amulet" "Prismatic Ring" "Two-Stone Ring"
+
+#Show  # $type->leveling->normalmagic->otheracts $tier->summonshield
+#	AreaLevel <= 46
+#	Rarity <= Magic
+#	BaseType "Bone Spirit Shield"

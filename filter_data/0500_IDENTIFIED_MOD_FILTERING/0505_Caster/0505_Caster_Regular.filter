@@ -1,1 +1,38 @@
-test 
+#------------------------------------
+#   [0505] Caster
+#------------------------------------
+
+Show # $type->rareid $tier->caster_fireweapont2
+	Identified True
+	Rarity Rare
+	Class == "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Flame Shaper's" "Electrocuting" "Discharging" "Shocking" "Entombing" "Cremating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Flame Shaper's" "Electrocuting" "Discharging" "Shocking" "Entombing" "Cremating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Polar" "Blasting" "Corrosive" "Dissolving" "of Ashes" "of Conflagrating" "of Combusting" "of the Fanatical" "of the Zealous" "of Dissolution" "of Melting" "Veiled" "of the Veil"
+
+Show # $type->rareid $tier->caster_coldweapont2
+	Identified True
+	Rarity Rare
+	Class == "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Tul's" "Cryomancer's" "Crystalline" "Frost Singer's" "Electrocuting" "Entombing" "Polar" "Glaciated" "Cremating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Tul's" "Cryomancer's" "Crystalline" "Frost Singer's" "Electrocuting" "Entombing" "Polar" "Glaciated" "Cremating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Discharging" "Blasting" "Mortifying" "Festering" "of Glaciation" "of Heartstopping" "of the Gelid" "of Dissolution" "of Melting" "Veiled" "of the Veil"
+
+Show # $type->rareid $tier->caster_lightweapont2
+	Identified True
+	Rarity Rare
+	Class == "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Esh's" "Ionising" "Smiting" "Thunderhand's" "Electrocuting" "Entombing" "Cremating" "Blasting" "Incinerating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Esh's" "Ionising" "Smiting" "Thunderhand's" "Electrocuting" "Entombing" "Cremating" "Blasting" "Incinerating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Discharging" "Polar" "Excruciating" "Harrowing" "of Arcing" "Veiled" "of the Veil"
+
+Show # $type->rareid $tier->caster_physweapont2
+	Identified True
+	Rarity Rare
+	Class == "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Electrocuting" "Discharging" "Entombing" "Polar" "Cremating" "Blasting"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Electrocuting" "Discharging" "Entombing" "Polar" "Cremating" "Blasting" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "of Exsanguinating" "of Hemorrhaging" "of Phlebotomising" "of Dissolution" "of Melting" "Veiled" "of the Veil"
+
+Show # $type->rareid $tier->caster_chaosweapont2
+	Identified True
+	Rarity Rare
+	Class == "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Mad Lord's" "Electrocuting" "Entombing" "Cremating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Mad Lord's" "Electrocuting" "Entombing" "Cremating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Discharging" "Polar" "Blasting" "of Disintegrating" "of Atrophying" "of Deteriorating" "of Dissolution" "of Melting" "Veiled" "of the Veil"

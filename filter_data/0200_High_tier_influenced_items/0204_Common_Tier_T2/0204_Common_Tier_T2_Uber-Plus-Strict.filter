@@ -1,1 +1,14 @@
-test 
+#------------------------------------
+#   [0204] Common Tier - T2
+#------------------------------------
+
+Show # %D5 $type->influenced->common $tier->t2_exo
+HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+Rarity <= Rare
+BaseType "Apothecary's Gloves" "Blue Pearl Amulet" "Bone Helmet" "Cerulean Ring" "Convoking Wand" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Ornate Quiver" "Sacrificial Garb" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vanguard Belt" "Vermillion Ring"
+
+Show # %D5 $type->influenced->common $tier->t2_86
+HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+ItemLevel >= 86
+Rarity <= Rare
+BaseType "Agate Amulet" "Astral Plate" "Citadel Bow" "Citrine Amulet" "Colossal Tower Shield" "Eclipse Staff" "Eternal Burgonet" "Exquisite Blade" "Fossilised Spirit Shield" "Gemini Claw" "Gold Ring" "Hubris Circlet" "Imbued Wand" "Lion Pelt" "Onyx Amulet" "Opal Sceptre" "Sambar Sceptre" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Thicket Bow" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Tornado Wand" "Turquoise Amulet" "Vaal Axe" "Vaal Regalia"

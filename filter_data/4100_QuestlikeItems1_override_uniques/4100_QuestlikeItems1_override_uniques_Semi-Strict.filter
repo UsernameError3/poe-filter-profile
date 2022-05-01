@@ -1,1 +1,10 @@
-test 
+#===============================================================================================================
+# [[4100]] Questlike-Items1 (override uniques)
+#===============================================================================================================
+# !! Override 750 : "Metamorph Samples"
+
+Show # $type->metamorph $tier->any
+	Class "Metamorph"
+
+Show # $type->heisttarget $tier->any
+	Class "Heist Target"

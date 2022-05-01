@@ -1,1 +1,9 @@
-test 
+#===============================================================================================================
+# [[2300]] Endgame - Rare - Gear - T4 - rest
+#===============================================================================================================
+# !! Override 270 : "T4 rares remaining"
+
+Show # %D1 $type->rr $tier->t4endgamerares
+	ItemLevel >= 68
+	Rarity Rare
+	Class "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"

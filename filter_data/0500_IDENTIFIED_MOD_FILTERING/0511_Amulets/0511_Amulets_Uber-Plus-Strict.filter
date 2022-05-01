@@ -1,1 +1,53 @@
-test 
+#------------------------------------
+#   [0511] Amulets
+#------------------------------------
+
+Show # $type->rareid $tier->amu_exalter
+	Identified True
+	Corrupted False
+	Mirrored False
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod "Exalter's"
+
+Show # $type->rareid $tier->amu_1corecaster
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod "Athlete's" "Virile" "Rotund" "Dazzling" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Dissolution" "of the Multiverse" "Unassailable"
+	HasExplicitMod >=4 "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Legerdemain" "of Expertise" "Wizard's" "Thaumaturgist's" "Zaffre" "of Immolation" "of Flames" "of Floe" "of Rime" "of Discharge" "of Voltage" "of Dissolution" "of Melting" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating"
+
+Show # $type->rareid $tier->amu_2corecaster
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod >=2 "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Legerdemain" "of Expertise" "Wizard's" "Thaumaturgist's" "Zaffre" "of Immolation" "of Flames" "of Floe" "of Rime" "of Discharge" "of Voltage" "of Dissolution" "of Melting" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating"
+
+Show # $type->rareid $tier->amu_1coredot
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod "Athlete's" "Virile" "Rotund" "Dazzling" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Dissolution" "of the Multiverse" "Unassailable"
+	HasExplicitMod >=4 "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Legerdemain" "Wizard's" "Thaumaturgist's" "Devastating" "Overpowering" "of the Ranger" "of the Marksman" "of Immolation" "of Floe" "of Dissolution" "of Melting" "of Liquefaction"
+
+Show # $type->rareid $tier->amu_2coredot
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod >=2 "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Legerdemain" "Wizard's" "Thaumaturgist's" "Devastating" "Overpowering" "of the Ranger" "of the Marksman" "of Immolation" "of Floe" "of Dissolution" "of Melting" "of Liquefaction"
+
+Show # $type->rareid $tier->amu_1coreattack
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod "Athlete's" "Virile" "Rotund" "Dazzling" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Dissolution" "of the Multiverse" "Unassailable"
+	HasExplicitMod >=4 "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Ferocity" "of Fury" "of Rage" "of Incision" "of Penetrating" "Cremating" "Entombing" "Electrocuting" "of the Ranger" "of the Marksman" "Devastating" "Overpowering" "Unleashed" "Flaring" "Tempered"
+
+Show # $type->rareid $tier->amu_2coreattack
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod >=2 "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Ferocity" "of Fury" "of Rage" "of Incision" "of Penetrating" "Cremating" "Entombing" "Electrocuting" "of the Ranger" "of the Marksman" "Devastating" "Overpowering" "Unleashed" "Flaring" "Tempered"

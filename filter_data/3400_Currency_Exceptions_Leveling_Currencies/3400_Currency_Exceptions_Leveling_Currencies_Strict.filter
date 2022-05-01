@@ -1,1 +1,29 @@
-test 
+#===============================================================================================================
+# [[3400]] Currency - Exceptions - Leveling Currencies
+#===============================================================================================================
+# !! Override 610 : "Leveling Currency"
+
+Show # %D4 $type->currency->leveling $tier->essences
+AreaLevel <= 67
+Class "Currency"
+BaseType "Muttering Essence of" "Wailing Essence of" "Weeping Essence of" "Whispering Essence of"
+
+Show # %D4 $type->currency->leveling $tier->trans
+AreaLevel <= 67
+Class "Currency"
+BaseType == "Blacksmith's Whetstone" "Orb of Transmutation"
+
+Show # %D4 $type->currency->leveling $tier->aug
+AreaLevel <= 67
+Class "Currency"
+BaseType == "Armourer's Scrap" "Orb of Augmentation"
+
+Show # %D4 $type->currency->leveling $tier->portal
+AreaLevel <= 67
+Class "Currency"
+BaseType == "Portal Scroll"
+
+Show # %D4 $type->currency->leveling $tier->wisdom
+AreaLevel <= 67
+Class "Currency"
+BaseType == "Scroll of Wisdom"

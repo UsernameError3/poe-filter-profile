@@ -1,1 +1,7 @@
-test 
+#------------------------------------
+#   [4202] Tier 1 uniques
+#------------------------------------
+
+Show # $type->uniques $tier->t1
+Rarity Unique
+BaseType == "Champion Kite Shield" "Crusader Boots" "Crusader Helmet" "Fluted Bascinet" "Gemstone Sword" "Golden Buckler" "Greatwolf Talisman" "Ornate Quiver" "Prismatic Jewel" "Savant's Robe" "Silk Gloves" "Unset Amulet" "Vaal Rapier"

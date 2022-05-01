@@ -1,1 +1,8 @@
-test 
+#------------------------------------
+#   [3301] Exceptions
+#------------------------------------
+
+Show # %HS4 $type->fragments->stacked $tier->t3
+StackSize >= 3
+Class "Map Fragments"
+BaseType "Divine Vessel" "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Noon"

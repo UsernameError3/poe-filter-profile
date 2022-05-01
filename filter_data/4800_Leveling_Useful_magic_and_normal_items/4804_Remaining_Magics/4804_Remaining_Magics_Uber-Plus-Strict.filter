@@ -1,1 +1,58 @@
-test 
+#------------------------------------
+#   [4804] Remaining Magics
+#------------------------------------
+# !! Override 950 : "magic vendor items"
+
+Show # $type->decorators->leveling->magic $tier->medium1
+	Width 1
+	Height >= 3
+	ItemLevel <= 68
+	Rarity Magic
+	Continue
+
+Show # $type->decorators->leveling->magic $tier->medium2
+	Width 2
+	Height 2
+	ItemLevel <= 68
+	Rarity Magic
+	Continue
+
+Show # $type->decorators->leveling->magic $tier->tiny
+	Width <= 2
+	Height 1
+	ItemLevel <= 68
+	Rarity Magic
+	Continue
+
+Hide # $type->leveling->magic->remaining $tier->largemagicblocker
+	Width >= 2
+	Height >= 3
+	AreaLevel >= 15
+	Rarity Magic
+
+Hide # $type->leveling->magic->remaining $tier->mediummagicblocker
+	Height > 1
+	AreaLevel >= 24
+	Rarity Magic
+
+Show # %H1 $type->leveling->magic->remaining $tier->rest
+	AreaLevel >= 34
+	AreaLevel <= 68
+	Rarity Magic
+
+Show # %H2 $type->leveling->magic->remaining $tier->act2
+	AreaLevel >= 15
+	AreaLevel <= 24
+	Rarity Magic
+
+Show # %H3 $type->leveling->magic->remaining $tier->act1
+	AreaLevel >= 8
+	AreaLevel <= 15
+	Rarity Magic
+
+Show # %H3 $type->leveling->magic->remaining $tier->firstlevels
+	AreaLevel >= 1
+	AreaLevel <= 8
+	Rarity Magic
+
+# !! Override 960 : "don't override anything"

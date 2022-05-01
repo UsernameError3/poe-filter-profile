@@ -1,1 +1,63 @@
-test 
+#------------------------------------
+#   [4603] Life flasks
+#------------------------------------
+
+Show # $type->leveling->flasks->life $tier->t1
+AreaLevel <= 5
+Class "Life Flask"
+BaseType "Small"
+
+Show # $type->leveling->flasks->life $tier->t2
+AreaLevel <= 8
+Class "Life Flask"
+BaseType "Medium"
+
+Show # $type->leveling->flasks->life $tier->t3
+AreaLevel <= 13
+Class "Life Flask"
+BaseType "Large"
+
+Show # $type->leveling->flasks->life $tier->t4
+AreaLevel <= 19
+Class "Life Flask"
+BaseType "Greater"
+
+Show # $type->leveling->flasks->life $tier->t5
+AreaLevel <= 25
+Class "Life Flask"
+BaseType "Grand"
+
+Show # $type->leveling->flasks->life $tier->t6
+AreaLevel <= 31
+Class "Life Flask"
+BaseType "Giant"
+
+Show # $type->leveling->flasks->life $tier->t7
+AreaLevel <= 37
+Class "Life Flask"
+BaseType "Colossal"
+
+Show # $type->leveling->flasks->life $tier->t8
+AreaLevel <= 43
+Class "Life Flask"
+BaseType "Sacred"
+
+Show # $type->leveling->flasks->life $tier->t9
+AreaLevel <= 51
+Class "Life Flask"
+BaseType "Hallowed"
+
+Show # $type->leveling->flasks->life $tier->t10
+AreaLevel <= 60
+Class "Life Flask"
+BaseType "Sanctified"
+
+Show # $type->leveling->flasks->life $tier->t11
+AreaLevel <= 68
+Class "Life Flask"
+BaseType "Divine"
+
+Show # $type->leveling->flasks->life $tier->t12
+AreaLevel <= 68
+Class "Life Flask"
+BaseType "Eternal"

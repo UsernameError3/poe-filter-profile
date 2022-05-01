@@ -1,1 +1,9 @@
-test 
+#------------------------------------
+#   [1001] Expensive Atlas 86 Bases - matched by economy
+#------------------------------------
+
+Show # %D6 $type->crafting->expensive $tier->any
+Corrupted False
+ItemLevel >= 86
+Rarity <= Rare
+BaseType == "Bone Helmet"

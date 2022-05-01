@@ -1,1 +1,29 @@
-test 
+#------------------------------------
+#   [0601] Veiled/Betrayal - low prio veiled items
+#------------------------------------
+# !! Override 050 : "veil, incursion, delve etc. mod items"
+
+Show # %D4 $type->exoticmods $tier->duoveil
+	Identified True
+	Rarity Rare
+	HasExplicitMod "Veiled"
+	HasExplicitMod "of the Veil"
+
+Show # %D4 $type->exoticmods $tier->smallveil1
+	Identified True
+	Width <= 2
+	Height <= 2
+	Rarity Rare
+	HasExplicitMod "Veil"
+
+Show # %D4 $type->exoticmods $tier->smallveil2
+	Identified True
+	Width <= 1
+	Height <= 4
+	Rarity Rare
+	HasExplicitMod "Veil"
+
+Show # %D3 $type->exoticmods $tier->veilrest
+	Identified True
+	Rarity Rare
+	HasExplicitMod "Veil"

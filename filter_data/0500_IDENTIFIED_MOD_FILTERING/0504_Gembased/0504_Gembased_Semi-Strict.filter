@@ -1,1 +1,21 @@
-test 
+#------------------------------------
+#   [0504] Gembased
+#------------------------------------
+
+Show # $type->rareid $tier->gem_bow
+	Identified True
+	Rarity Rare
+	Class "Bows"
+	HasExplicitMod >=2 "Paragon's" "Sharpshooter's" "of Dissolution"
+
+Show # $type->rareid $tier->gem_caster
+	Identified True
+	Rarity Rare
+	Class "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod >=2 "of the Underground" "Subterranean" "of Many" "Martinet's" "Matatl's" "Tacati" "Topotante's" "Magister's"
+
+Show # $type->rareid $tier->gem_staves
+	Identified True
+	Rarity Rare
+	Class "Staves"
+	HasExplicitMod >=2 "of the Underground" "Subterranean" "of Many" "Martinet's" "Matatl's" "Tacati" "Topotante's" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's"

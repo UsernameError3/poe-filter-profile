@@ -1,1 +1,30 @@
-test 
+#------------------------------------
+#   [1007] Chisel Recipes
+#------------------------------------
+
+Show # %D1 $type->chiselrecipe $tier->chisel20
+Quality >= 20
+Rarity < Unique
+BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+
+Show # %D0 $type->chiselrecipe $tier->chiselhighqualnormal
+Corrupted False
+Quality > 14
+Rarity Normal
+BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+
+Show # %D0 $type->chiselrecipe $tier->chiselhighqualmagic
+Corrupted False
+Quality > 17
+Rarity Magic
+BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+
+Show # %D0 $type->chiselrecipe $tier->chiselanyqualmagic
+Corrupted False
+Rarity Magic
+BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+
+Show # %D0 $type->chiselrecipe $tier->chiselanyqualnormal
+Corrupted False
+Rarity Normal
+BaseType "Gavel" "Rock Breaker" "Stone Hammer"

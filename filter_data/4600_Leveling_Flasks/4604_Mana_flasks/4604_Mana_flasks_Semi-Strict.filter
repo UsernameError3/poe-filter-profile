@@ -1,1 +1,63 @@
-test 
+#------------------------------------
+#   [4604] Mana flasks
+#------------------------------------
+
+Show # $type->leveling->flasks->mana $tier->t1
+AreaLevel <= 5
+Class "Mana Flask"
+BaseType "Small"
+
+Show # $type->leveling->flasks->mana $tier->t2
+AreaLevel <= 8
+Class "Mana Flask"
+BaseType "Medium"
+
+Show # $type->leveling->flasks->mana $tier->t3
+AreaLevel <= 13
+Class "Mana Flask"
+BaseType "Large"
+
+Show # $type->leveling->flasks->mana $tier->t4
+AreaLevel <= 19
+Class "Mana Flask"
+BaseType "Greater"
+
+Show # $type->leveling->flasks->mana $tier->t5
+AreaLevel <= 25
+Class "Mana Flask"
+BaseType "Grand"
+
+Show # $type->leveling->flasks->mana $tier->t6
+AreaLevel <= 31
+Class "Mana Flask"
+BaseType "Giant"
+
+Show # $type->leveling->flasks->mana $tier->t7
+AreaLevel <= 37
+Class "Mana Flask"
+BaseType "Colossal"
+
+Show # $type->leveling->flasks->mana $tier->t8
+AreaLevel <= 43
+Class "Mana Flask"
+BaseType "Sacred"
+
+Show # $type->leveling->flasks->mana $tier->t9
+AreaLevel <= 51
+Class "Mana Flask"
+BaseType "Hallowed"
+
+Show # $type->leveling->flasks->mana $tier->t10
+AreaLevel <= 60
+Class "Mana Flask"
+BaseType "Sanctified"
+
+Show # $type->leveling->flasks->mana $tier->t11
+AreaLevel <= 68
+Class "Mana Flask"
+BaseType "Divine"
+
+Show # $type->leveling->flasks->mana $tier->t12
+AreaLevel <= 68
+Class "Mana Flask"
+BaseType "Eternal"

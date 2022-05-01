@@ -1,1 +1,31 @@
-test 
+#------------------------------------
+#   [0516] Jewels
+#------------------------------------
+
+Show # $type->rareid $tier->potentiallyvaluablejewel
+	Identified True
+	Rarity Rare
+	Class "Jewel"
+	HasExplicitMod >=3 "Vivid" "Shimmering" "of Potency" "of Entropy" "of Blasting" "of Berserking" "of Zeal" "of Resistance" "of Combat" "of Archery" "of Wounding" "of Enchanting" "Piercing" "Rupturing" "Puncturing" "Infernal" "Arctic" "Surging" "of the Elements" "of Unmaking" "Master's" "of Resilience" "Leadership"
+
+Show # %D4 $type->magicid $tier->phys
+	Identified True
+	Corrupted False
+	DropLevel >= 56
+	Rarity Magic
+	Class "Bows" "Claws" "Daggers" "One Hand" "Two Hand" "Wands" "Warstaves"
+	HasExplicitMod >=1 "Merciless" "of Many"
+
+Show # %D4 $type->magicid $tier->damagemods
+	Identified True
+	Corrupted False
+	Rarity Magic
+	Class "Rune Daggers" "Sceptres" "Shields" "Wands"
+	HasExplicitMod >=1 "Runic" "Xoph's" "Tul's" "Esh's" "Magister's" "Empress's" "Martinet's"
+
+Show # %D4 $type->magicid $tier->speed
+	Identified True
+	Corrupted False
+	Rarity Magic
+	Class "Boots"
+	HasExplicitMod >=1 "Hellion's"
