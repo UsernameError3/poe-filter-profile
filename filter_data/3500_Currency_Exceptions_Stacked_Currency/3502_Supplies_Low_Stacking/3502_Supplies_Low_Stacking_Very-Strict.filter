@@ -14,7 +14,7 @@ StackSize >= 6
 Class "Currency"
 BaseType == "Armourer's Scrap"
 
-Show # %H3 $type->currency->stackedsupplieslow $tier->t3
-StackSize >= 3
-Class "Currency"
-BaseType == "Armourer's Scrap"
+Hide # %H3 $type->currency->stackedsupplieslow $tier->t3
+	StackSize >= 3
+	Class "Currency"
+	BaseType == "Armourer's Scrap"

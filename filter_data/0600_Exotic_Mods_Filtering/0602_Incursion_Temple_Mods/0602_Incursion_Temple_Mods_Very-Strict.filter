@@ -55,7 +55,7 @@ Show # %D4 $type->exoticmods $tier->incursionmagic
 	Rarity Magic
 	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
 
-Show # %D2 $type->exoticmods $tier->incursionrandom
-	Identified True
-	Rarity Rare
-	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
+#Show # %D2 $type->exoticmods $tier->incursionrandom
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"

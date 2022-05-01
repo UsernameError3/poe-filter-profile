@@ -12,6 +12,6 @@ Show # %D4 $type->rare->any $tier->anytoplevel
 	ItemLevel >= 86
 	Rarity <= Rare
 
-Show # %D3 $type->rare->any $tier->any
-	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
-	Rarity <= Rare
+#Show # %D3 $type->rare->any $tier->any
+#	HasInfluence Crusader Elder Hunter Redeemer Shaper Warlord
+#	Rarity <= Rare

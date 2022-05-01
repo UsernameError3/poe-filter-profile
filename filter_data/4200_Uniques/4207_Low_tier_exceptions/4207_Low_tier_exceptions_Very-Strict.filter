@@ -3,9 +3,9 @@
 #------------------------------------
 # !! Override 770 : "Only low tier uniques"
 
-Show # %D2 $type->uniques $tier->recipeuniquerings
-	Rarity Unique
-	Class "Rings"
+#Show # %D2 $type->uniques $tier->recipeuniquerings
+#	Rarity Unique
+#	Class "Rings"
 
 #Show  # %H4 $type->uniques $tier->earlyleague
 #	Rarity Unique

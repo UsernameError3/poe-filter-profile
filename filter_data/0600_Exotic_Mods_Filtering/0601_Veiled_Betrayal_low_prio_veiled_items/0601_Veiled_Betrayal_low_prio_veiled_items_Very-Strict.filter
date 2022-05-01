@@ -23,7 +23,7 @@ Show # %D4 $type->exoticmods $tier->smallveil2
 	Rarity Rare
 	HasExplicitMod "Veil"
 
-Show # %D3 $type->exoticmods $tier->veilrest
-	Identified True
-	Rarity Rare
-	HasExplicitMod "Veil"
+#Show # %D3 $type->exoticmods $tier->veilrest
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "Veil"

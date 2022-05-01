@@ -23,7 +23,7 @@ Show # %D6 $type->exoticmods $tier->essence
 	Rarity Rare
 	HasExplicitMod "of the Essence" "Essences"
 
-Show # %D1 $type->exoticmods $tier->crafting
-	Identified True
-	Rarity Rare
-	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft"
+#Show # %D1 $type->exoticmods $tier->crafting
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft"

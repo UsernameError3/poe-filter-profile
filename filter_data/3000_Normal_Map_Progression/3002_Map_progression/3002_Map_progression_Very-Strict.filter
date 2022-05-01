@@ -65,51 +65,51 @@ Show # %H5 $type->maps $tier->maps_b_t11
 
 # !! Override 550 : "T16-T10 maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t10
-	MapTier >= 10
-	AreaLevel < 77
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t10
+#	MapTier >= 10
+#	AreaLevel < 77
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_c_t10
 	MapTier 10
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t9
-	MapTier >= 9
-	AreaLevel < 76
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t9
+#	MapTier >= 9
+#	AreaLevel < 76
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_c_t9
 	MapTier 9
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t8
-	MapTier >= 8
-	AreaLevel < 75
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t8
+#	MapTier >= 8
+#	AreaLevel < 75
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_c_t8
 	MapTier 8
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t7
-	MapTier >= 7
-	AreaLevel < 74
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t7
+#	MapTier >= 7
+#	AreaLevel < 74
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_c_t7
 	MapTier 7
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t6
-	MapTier >= 6
-	AreaLevel < 73
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t6
+#	MapTier >= 6
+#	AreaLevel < 73
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_c_t6
 	MapTier 6
@@ -117,51 +117,51 @@ Show # %H4 $type->maps $tier->maps_c_t6
 
 # !! Override 560 : "T1-T5 maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t5
-	MapTier >= 5
-	AreaLevel < 72
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t5
+#	MapTier >= 5
+#	AreaLevel < 72
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_d_t5
 	MapTier 5
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t4
-	MapTier >= 4
-	AreaLevel < 71
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t4
+#	MapTier >= 4
+#	AreaLevel < 71
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_d_t4
 	MapTier 4
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t3
-	MapTier >= 3
-	AreaLevel < 70
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t3
+#	MapTier >= 3
+#	AreaLevel < 70
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_d_t3
 	MapTier 3
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t2
-	MapTier >= 2
-	AreaLevel < 69
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t2
+#	MapTier >= 2
+#	AreaLevel < 69
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_d_t2
 	MapTier 2
 	Class "Maps"
 
-Show # %D3 $type->maps $tier->deco_mapup_t1
-	MapTier >= 1
-	AreaLevel < 68
-	Class "Maps"
-	Continue
+#Show # %D3 $type->maps $tier->deco_mapup_t1
+#	MapTier >= 1
+#	AreaLevel < 68
+#	Class "Maps"
+#	Continue
 
 Show # %H4 $type->maps $tier->maps_d_t1
 	MapTier 1

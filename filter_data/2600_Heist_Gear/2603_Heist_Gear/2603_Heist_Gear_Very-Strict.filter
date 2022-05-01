@@ -19,6 +19,6 @@ Rarity <= Rare
 Class "Heist Gear"
 BaseType "Aggregator Charm" "Fine Sharpening Stone" "Hollowpoint Arrowhead"
 
-Show # %H3 $type->heist->gear $tier->t3any
+Hide # %H3 $type->heist->gear $tier->t3any
 	Rarity <= Rare
 	Class "Heist Gear"

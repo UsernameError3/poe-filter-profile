@@ -22,15 +22,15 @@ Show # %HS3 $type->jewels->abyss $tier->highrare
 	Rarity Rare
 	Class "Abyss Jewel"
 
-Show # %HS2 $type->jewels->abyss $tier->highmagic
+Hide # %HS2 $type->jewels->abyss $tier->highmagic
 	ItemLevel >= 82
 	Rarity <= Magic
 	Class "Abyss Jewel"
 
-Show # %HS2 $type->jewels->abyss $tier->anyrare
+Hide # %HS2 $type->jewels->abyss $tier->anyrare
 	Rarity Rare
 	Class "Abyss Jewel"
 
-Show # %H2 $type->jewels->abyss $tier->anymagic
+Hide # %H2 $type->jewels->abyss $tier->anymagic
 	Rarity <= Magic
 	Class "Abyss Jewel"

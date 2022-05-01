@@ -3,13 +3,13 @@
 #===============================================================================================================
 # !! Override 220 : "Talismans"
 
-Show # %HS2 $type->rare->exotic->breachrings $tier->high
+Hide # %HS2 $type->rare->exotic->breachrings $tier->high
 ItemLevel >= 82
 Rarity Rare
 Class "Rings"
 BaseType "Breach"
 
-Show # %HS1 $type->rare->exotic->breachrings $tier->any
+Hide # %HS1 $type->rare->exotic->breachrings $tier->any
 ItemLevel >= 68
 Rarity Rare
 Class "Rings"
@@ -51,14 +51,14 @@ BaseType "Avian Twins Talisman" "Three Rat Talisman"
 HasExplicitMod "of the Multiverse" "of the Infinite" "of the Universe"
 HasExplicitMod "of the Godslayer" "of the Gods" "of the Titan" "of the Blur" "of the Wind" "of the Phantom" "of the Polymath" "of the Genius" "of the Virtuoso"
 
-Show # %H3 $type->rare->exotic->talisman $tier->t3decenttypetalisman
+Hide # %H3 $type->rare->exotic->talisman $tier->t3decenttypetalisman
 AnyEnchantment True
 ItemLevel >= 68
 Rarity Rare
 Class "Amulets"
 BaseType "Avian Twins Talisman" "Fangjaw Talisman" "Hexclaw Talisman" "Longtooth Talisman" "Mandible Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Wereclaw Talisman"
 
-Show # %H2 $type->rare->exotic->talisman $tier->any
+Hide # %H2 $type->rare->exotic->talisman $tier->any
 AnyEnchantment True
 ItemLevel >= 68
 Rarity Rare
