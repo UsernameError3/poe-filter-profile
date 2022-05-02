@@ -7,11 +7,11 @@ FracturedItem True
 Rarity <= Rare
 BaseType "Ambusher" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Behemoth Mace" "Bone Helmet" "Carnal Armour" "Citadel Bow" "Colossal Tower Shield" "Convoking Wand" "Copper Kris" "Corsair Sword" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Round Shield" "Eternal Burgonet" "Eternal Sword" "Exquisite Blade" "Fiend Dagger" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Gripped Gloves" "Harbinger Bow" "Harmonic Spirit Shield" "Hubris Circlet" "Imbued Wand" "Imperial Bow" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Karui Maul" "Lion Pelt" "Lion Sword" "Maraketh Bow" "Mosaic Kite Shield" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Opal Sceptre" "Opal Wand" "Pinnacle Tower Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Runic Hatchet" "Sai" "Saintly Chainmail" "Saint's Hauberk" "Sambar Sceptre" "Siege Axe" "Skean" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spiraled Foil" "Supreme Spiked Shield" "Thicket Bow" "Tiger Hook" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Tornado Wand" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia" "Vaal Spirit Shield" "Void Sceptre" "Zodiac Leather"
 
-Show # %D4 $type->exotic->fractured $tier->fractclasses
-	FracturedItem True
-	Rarity <= Rare
-	Class "Amulets" "Boots" "Bows" "Jewel" "Maps" "Rings" "Rune Daggers" "Sceptres" "Wands"
+#Show # %D4 $type->exotic->fractured $tier->fractclasses
+#	FracturedItem True
+#	Rarity <= Rare
+#	Class "Amulets" "Boots" "Bows" "Jewel" "Maps" "Rings" "Rune Daggers" "Sceptres" "Wands"
 
-Show # %D2 $type->exotic->fractured $tier->fractrandom
-	FracturedItem True
-	Rarity <= Rare
+#Show # %D2 $type->exotic->fractured $tier->fractrandom
+#	FracturedItem True
+#	Rarity <= Rare

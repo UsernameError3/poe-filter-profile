@@ -38,24 +38,24 @@ Show # %D5 $type->exoticmods $tier->incursionattack
 	Class "Bows" "Claws" "Daggers" "One Hand" "Two Hand" "Warstaves"
 	HasExplicitMod "of Tacati" "Tacati's"
 
-Show # %D4 $type->exoticmods $tier->incursionlifechest
-	Identified True
-	Rarity Rare
-	Class "Body Armours"
-	HasExplicitMod "Guatelitzi's"
+#Show # %D4 $type->exoticmods $tier->incursionlifechest
+#	Identified True
+#	Rarity Rare
+#	Class "Body Armours"
+#	HasExplicitMod "Guatelitzi's"
 
-Show # %D4 $type->exoticmods $tier->incursionsumonner
-	Identified True
-	Rarity Rare
-	Class "Claws" "Daggers" "One Hand" "Sceptres" "Staves" "Wands"
-	HasExplicitMod "Citaqualotl's"
+#Show # %D4 $type->exoticmods $tier->incursionsumonner
+#	Identified True
+#	Rarity Rare
+#	Class "Claws" "Daggers" "One Hand" "Sceptres" "Staves" "Wands"
+#	HasExplicitMod "Citaqualotl's"
 
-Show # %D4 $type->exoticmods $tier->incursionmagic
-	Identified True
-	Rarity Magic
-	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
+#Show # %D4 $type->exoticmods $tier->incursionmagic
+#	Identified True
+#	Rarity Magic
+#	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
 
-Show # %D2 $type->exoticmods $tier->incursionrandom
-	Identified True
-	Rarity Rare
-	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
+#Show # %D2 $type->exoticmods $tier->incursionrandom
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"

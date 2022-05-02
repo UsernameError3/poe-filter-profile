@@ -13,17 +13,17 @@ Show # %D6 $type->exoticmods $tier->delve
 	Rarity Rare
 	HasExplicitMod "of the Underground" "Subterranean"
 
-Show # %D4 $type->exoticmods $tier->warband
-	Identified True
-	Rarity Rare
-	HasExplicitMod "Betrayer's" "Brinerot" "Deceiver's" "Mutewind" "Redblade" "Turncoat's"
+#Show # %D4 $type->exoticmods $tier->warband
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "Betrayer's" "Brinerot" "Deceiver's" "Mutewind" "Redblade" "Turncoat's"
 
 Show # %D6 $type->exoticmods $tier->essence
 	Identified True
 	Rarity Rare
 	HasExplicitMod "of the Essence" "Essences"
 
-Show # %D1 $type->exoticmods $tier->crafting
-	Identified True
-	Rarity Rare
-	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft"
+#Show # %D1 $type->exoticmods $tier->crafting
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft"

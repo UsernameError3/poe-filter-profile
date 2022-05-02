@@ -3,28 +3,28 @@
 #------------------------------------
 # !! Override 140 : "Chromatic and Chisel Recipes"
 
-Show # %H2 $type->endgamergb $tier->rgbsmall1
+Hide # %H2 $type->endgamergb $tier->rgbsmall1
 	Width <= 2
 	Height <= 2
 	AreaLevel >= 67
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H2 $type->endgamergb $tier->rgbsmall2
+Hide # %H2 $type->endgamergb $tier->rgbsmall2
 	Width <= 1
 	Height <= 4
 	AreaLevel >= 67
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H0 $type->endgamergb $tier->rgblarge
+Hide # %H0 $type->endgamergb $tier->rgblarge
 	Width >= 2
 	Height >= 4
 	AreaLevel >= 67
 	Rarity < Rare
 	SocketGroup "RGB"
 
-Show # %H1 $type->endgamergb $tier->rgbmedium
+Hide # %H1 $type->endgamergb $tier->rgbmedium
 	Width >= 2
 	Height 3
 	AreaLevel >= 67

@@ -28,7 +28,7 @@ StackSize >= 5
 Class "Currency"
 BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph" "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"
 
-Show # %HS3 $type->currency->stackedsplinterslow $tier->t3
-StackSize >= 2
-Class "Currency"
-BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph" "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"
+Hide # %HS3 $type->currency->stackedsplinterslow $tier->t3
+	StackSize >= 2
+	Class "Currency"
+	BaseType "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph" "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"

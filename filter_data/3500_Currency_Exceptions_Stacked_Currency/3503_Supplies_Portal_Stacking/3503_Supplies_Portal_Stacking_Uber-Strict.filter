@@ -7,12 +7,12 @@ StackSize >= 10
 Class "Currency"
 BaseType == "Portal Scroll"
 
-Show # %HS2 $type->currency->stackedsuppliesportal $tier->t2
-StackSize >= 6
-Class "Currency"
-BaseType == "Portal Scroll"
+Hide # %HS2 $type->currency->stackedsuppliesportal $tier->t2
+	StackSize >= 6
+	Class "Currency"
+	BaseType == "Portal Scroll"
 
-Show # %H2 $type->currency->stackedsuppliesportal $tier->t3
+Hide # %H2 $type->currency->stackedsuppliesportal $tier->t3
 StackSize >= 3
 Class "Currency"
 BaseType == "Portal Scroll"

@@ -2,15 +2,15 @@
 #   [2501] Special Cases
 #------------------------------------
 
-Show # %H4 $type->jewels->special $tier->1modcorrupted
-Identified True
-Corrupted True
-CorruptedMods >= 1
-Rarity Rare
-BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
-HasExplicitMod "of Combat" "of Archery" "of Mysticism" "of Blasting" "of Wounding" "Surging" "Arctic" "Infernal" "Puncturing" "Rupturing" "Piercing" "Vivid" "Shimmering" "of Potency" "of Demolishing" "of Unmaking" "of the Elements" "of Exsanguinating" "of Atrophy" "of Order" "Leadership"
+Hide # %H4 $type->jewels->special $tier->1modcorrupted
+	Identified True
+	Corrupted True
+	CorruptedMods >= 1
+	Rarity Rare
+	BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+	HasExplicitMod "of Combat" "of Archery" "of Mysticism" "of Blasting" "of Wounding" "Surging" "Arctic" "Infernal" "Puncturing" "Rupturing" "Piercing" "Vivid" "Shimmering" "of Potency" "of Demolishing" "of Unmaking" "of the Elements" "of Exsanguinating" "of Atrophy" "of Order" "Leadership"
 
-Show # %H4 $type->jewels->special $tier->1moduncorrupted
+Hide # %H4 $type->jewels->special $tier->1moduncorrupted
 	Identified True
 	Corrupted False
 	Rarity <= Rare

@@ -35,22 +35,22 @@ Hide # $type->leveling->magic->remaining $tier->mediummagicblocker
 	AreaLevel >= 24
 	Rarity Magic
 
-Show # %H1 $type->leveling->magic->remaining $tier->rest
+Hide # %H1 $type->leveling->magic->remaining $tier->rest
 	AreaLevel >= 34
 	AreaLevel <= 68
 	Rarity Magic
 
-Show # %H2 $type->leveling->magic->remaining $tier->act2
+Hide # %H2 $type->leveling->magic->remaining $tier->act2
 	AreaLevel >= 15
 	AreaLevel <= 24
 	Rarity Magic
 
-Show # %H3 $type->leveling->magic->remaining $tier->act1
+Hide # %H3 $type->leveling->magic->remaining $tier->act1
 	AreaLevel >= 8
 	AreaLevel <= 15
 	Rarity Magic
 
-Show # %H3 $type->leveling->magic->remaining $tier->firstlevels
+Hide # %H3 $type->leveling->magic->remaining $tier->firstlevels
 	AreaLevel >= 1
 	AreaLevel <= 8
 	Rarity Magic

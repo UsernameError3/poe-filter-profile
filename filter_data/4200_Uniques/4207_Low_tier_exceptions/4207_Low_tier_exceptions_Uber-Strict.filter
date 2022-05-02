@@ -3,17 +3,17 @@
 #------------------------------------
 # !! Override 770 : "Only low tier uniques"
 
-Show # %D2 $type->uniques $tier->recipeuniquerings
-	Rarity Unique
-	Class "Rings"
+#Show # %D2 $type->uniques $tier->recipeuniquerings
+#	Rarity Unique
+#	Class "Rings"
 
-#Show  # %H4 $type->uniques $tier->earlyleague
+#Hide  # # %H4 $type->uniques $tier->earlyleague
 #	Rarity Unique
 
-Show # %D4 $type->uniques $tier->highvinktar
-ItemLevel >= 82
-Rarity Unique
-BaseType == "Imperial Staff"
+#Show # %D4 $type->uniques $tier->highvinktar
+#	ItemLevel >= 82
+#	Rarity Unique
+#	BaseType == "Imperial Staff"
 
 Show # $type->uniques $tier->exjewels
 Rarity Unique

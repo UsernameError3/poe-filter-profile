@@ -11,7 +11,7 @@ Show # %H5 $type->currency->resonator $tier->t2
 Class "Delve Stackable Socketable Currency"
 BaseType == "Potent Chaotic Resonator" "Powerful Chaotic Resonator" "Primitive Chaotic Resonator"
 
-#Show  # %H4 $type->currency->resonator $tier->t3
+#Hide  # # %H4 $type->currency->resonator $tier->t3
 #	Class "Delve Stackable Socketable Currency"
 
 Show # $type->currency->resonator $tier->restex

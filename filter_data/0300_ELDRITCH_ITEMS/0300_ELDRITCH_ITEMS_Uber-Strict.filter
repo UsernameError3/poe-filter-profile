@@ -7,24 +7,24 @@ Show # %D5 $type->rare->exarch $tier->t2high
 	HasSearingExarchImplicit >= 5
 	Rarity <= Rare
 
-Show # %D4 $type->rare->exarch $tier->anyhigh
-HasSearingExarchImplicit >= 3
-Rarity <= Rare
-BaseType == "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves"
+#Show # %D4 $type->rare->exarch $tier->anyhigh
+#	HasSearingExarchImplicit >= 3
+#	Rarity <= Rare
+#	BaseType == "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves"
 
-Show # %D3 $type->rare->exarch $tier->any
-	HasSearingExarchImplicit >= 1
-	Rarity <= Rare
+#Show # %D3 $type->rare->exarch $tier->any
+#	HasSearingExarchImplicit >= 1
+#	Rarity <= Rare
 
 Show # %D5 $type->rare->eater $tier->t2high
 	HasEaterOfWorldsImplicit >= 5
 	Rarity <= Rare
 
-Show # %D4 $type->rare->eater $tier->anyhigh
-HasEaterOfWorldsImplicit >= 3
-Rarity <= Rare
-BaseType == "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves"
+#Show # %D4 $type->rare->eater $tier->anyhigh
+#	HasEaterOfWorldsImplicit >= 3
+#	Rarity <= Rare
+#	BaseType == "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titan Gauntlets" "Titan Greaves"
 
-Show # %D3 $type->rare->eater $tier->any
-	HasEaterOfWorldsImplicit >= 1
-	Rarity <= Rare
+#Show # %D3 $type->rare->eater $tier->any
+#	HasEaterOfWorldsImplicit >= 1
+#	Rarity <= Rare

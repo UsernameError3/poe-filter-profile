@@ -19,6 +19,6 @@ Rarity <= Rare
 Class "Heist Tool"
 BaseType "Azurite Flashpowder" "Espionage Disguise Kit" "Fine Lockpick" "Polished Sensing Charm" "Runed Bracers" "Shining Ward" "Skeleton Keyring" "Sulphur Blowtorch" "Winged Sole"
 
-Show # %H3 $type->heist->tool $tier->t3any
+Hide # %H3 $type->heist->tool $tier->t3any
 	Rarity <= Rare
 	Class "Heist Tool"

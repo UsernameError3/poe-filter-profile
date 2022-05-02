@@ -12,6 +12,6 @@ Show # $type->uniques $tier->2xabyss
 	Rarity Unique
 	Class "Boots" "Gloves" "Helmets"
 
-Show # %D4 $type->uniques $tier->5link
-	LinkedSockets 5
-	Rarity Unique
+#Show # %D4 $type->uniques $tier->5link
+#	LinkedSockets 5
+#	Rarity Unique

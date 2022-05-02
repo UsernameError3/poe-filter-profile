@@ -23,10 +23,10 @@ Rarity Unique
 Class "Maps"
 BaseType == "Moon Temple Map" "Museum Map" "Necropolis Map" "Primordial Blocks Map" "Promenade Map" "Shore Map" "Temple Map" "Underground River Map"
 
-Show # %H4 $type->uniques->maps $tier->t4
-Rarity Unique
-Class "Maps"
-BaseType == "Atoll Map" "Bone Crypt Map" "Cemetery Map" "Dunes Map" "Overgrown Shrine Map" "Strand Map" "Underground Sea Map" "Vaal Pyramid Map"
+Hide # %H4 $type->uniques->maps $tier->t4
+	Rarity Unique
+	Class "Maps"
+	BaseType == "Atoll Map" "Bone Crypt Map" "Cemetery Map" "Dunes Map" "Overgrown Shrine Map" "Strand Map" "Underground Sea Map" "Vaal Pyramid Map"
 
 Show # $type->uniques->maps $tier->restex
 	Rarity Unique

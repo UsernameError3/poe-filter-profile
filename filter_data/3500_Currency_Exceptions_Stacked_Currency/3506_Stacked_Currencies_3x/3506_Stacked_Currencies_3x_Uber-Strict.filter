@@ -31,7 +31,7 @@ BaseType == "Annulment Shard" "Cartographer's Chisel" "Chaos Shard" "Chromatic O
 #	StackSize >= 3
 #	Class "Currency"
 
-Show # %H3 $type->currency->stackedthree $tier->t7
-StackSize >= 3
-Class "Currency"
-BaseType == "Horizon Shard" "Regal Shard"
+Hide # %H3 $type->currency->stackedthree $tier->t7
+	StackSize >= 3
+	Class "Currency"
+	BaseType == "Horizon Shard" "Regal Shard"

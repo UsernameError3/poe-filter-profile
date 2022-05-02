@@ -18,10 +18,10 @@ Rarity <= Rare
 Class "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 BaseType == "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Colossal Tower Shield" "Eternal Burgonet" "Fossilised Spirit Shield" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Titanium Spirit Shield" "Triumphant Lamellar" "Vaal Regalia" "Zodiac Leather"
 
-Show # %D4 $type->crafting->perfectarmours $tier->t3
-Corrupted False
-ItemLevel >= 86
-BaseDefencePercentile >= 99
-Rarity <= Rare
-Class "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
-BaseType == "Carnal Armour" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Elegant Round Shield" "Glorious Plate" "Imperial Buckler" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Occultist's Vestment" "Praetor Crown" "Sadist Garb" "Saintly Chainmail" "Saint's Hauberk" "Supreme Spiked Shield" "Titan Gauntlets" "Titan Greaves"
+#Show # %D4 $type->crafting->perfectarmours $tier->t3
+#	Corrupted False
+#	ItemLevel >= 86
+#	BaseDefencePercentile >= 99
+#	Rarity <= Rare
+#	Class "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
+#	BaseType == "Carnal Armour" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Elegant Round Shield" "Glorious Plate" "Imperial Buckler" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Occultist's Vestment" "Praetor Crown" "Sadist Garb" "Saintly Chainmail" "Saint's Hauberk" "Supreme Spiked Shield" "Titan Gauntlets" "Titan Greaves"

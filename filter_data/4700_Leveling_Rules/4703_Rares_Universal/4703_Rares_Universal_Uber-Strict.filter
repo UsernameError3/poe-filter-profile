@@ -12,22 +12,22 @@ Show # %D5 $type->leveling->rare->universal $tier->jewellery
 
 # !! Override 840 : "leveling: rare armours"
 
-Show # %D4 $type->leveling->rare->armours $tier->bootsfocus
-	Rarity Rare
-	Class == "Boots"
+#Show # %D4 $type->leveling->rare->armours $tier->bootsfocus
+#	Rarity Rare
+#	Class == "Boots"
 
-Show # %D4 $type->leveling->rare->armours $tier->general
-	Rarity Rare
-	Class == "Boots" "Gloves" "Helmets"
+#Show # %D4 $type->leveling->rare->armours $tier->general
+#	Rarity Rare
+#	Class == "Boots" "Gloves" "Helmets"
 
-Show # %D4 $type->leveling->rare->armours $tier->bodyarmours
-	Rarity Rare
-	Class == "Body Armours"
+#Show # %D4 $type->leveling->rare->armours $tier->bodyarmours
+#	Rarity Rare
+#	Class == "Body Armours"
 
-Show # %D4 $type->leveling->rare->armours $tier->shields
-	Rarity Rare
-	Class == "Shields"
+#Show # %D4 $type->leveling->rare->armours $tier->shields
+#	Rarity Rare
+#	Class == "Shields"
 
-Show # %D4 $type->leveling->rare->armours $tier->quivers
-	Rarity Rare
-	Class == "Quivers"
+#Show # %D4 $type->leveling->rare->armours $tier->quivers
+#	Rarity Rare
+#	Class == "Quivers"
