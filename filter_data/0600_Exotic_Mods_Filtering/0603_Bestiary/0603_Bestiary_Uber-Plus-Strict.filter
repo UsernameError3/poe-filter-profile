@@ -7,7 +7,7 @@ Show # $type->exoticmods $tier->bestiaryvaluable
 	Rarity Rare
 	HasExplicitMod "of Farrul" "of Fenumus"
 
-Show # %D4 $type->exoticmods $tier->bestiaryother
-	Identified True
-	Rarity Rare
-	HasExplicitMod "of Craiceann" "of Saqawal"
+#Show # %D4 $type->exoticmods $tier->bestiaryother
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "of Craiceann" "of Saqawal"

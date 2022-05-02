@@ -3,10 +3,10 @@
 #------------------------------------
 # !! Override 680 : "Incubators"
 
-Show # %H5 $type->currency->incubators $tier->leveledex
-ItemLevel >= 81
-Class "Incubator"
-BaseType == "Blighted Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" "Enchanted Incubator" "Fragmented Incubator" "Otherworldly Incubator"
+Hide # %H5 $type->currency->incubators $tier->leveledex
+	ItemLevel >= 81
+	Class "Incubator"
+	BaseType == "Blighted Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" "Enchanted Incubator" "Fragmented Incubator" "Otherworldly Incubator"
 
 #Show  # $type->currency->incubators $tier->t1
 #	Class "Incubator"
@@ -15,13 +15,13 @@ Show # $type->currency->incubators $tier->t2
 Class "Incubator"
 BaseType == "Geomancer's Incubator" "Time-Lost Incubator"
 
-Show # %H5 $type->currency->incubators $tier->t3
-Class "Incubator"
-BaseType == "Abyssal Incubator" "Blighted Incubator" "Cartographer's Incubator" "Diviner's Incubator" "Enchanted Incubator" "Foreboding Incubator" "Fossilised Incubator" "Gemcutter's Incubator" "Infused Incubator" "Kalguuran Incubator" "Maddening Incubator" "Morphing Incubator" "Obscured Incubator" "Ornate Incubator" "Otherworldly Incubator" "Singular Incubator" "Skittering Incubator" "Thaumaturge's Incubator"
+Hide # %H5 $type->currency->incubators $tier->t3
+	Class "Incubator"
+	BaseType == "Abyssal Incubator" "Blighted Incubator" "Cartographer's Incubator" "Diviner's Incubator" "Enchanted Incubator" "Foreboding Incubator" "Fossilised Incubator" "Gemcutter's Incubator" "Infused Incubator" "Kalguuran Incubator" "Maddening Incubator" "Morphing Incubator" "Obscured Incubator" "Ornate Incubator" "Otherworldly Incubator" "Singular Incubator" "Skittering Incubator" "Thaumaturge's Incubator"
 
-Show # %H3 $type->currency->incubators $tier->t4
-Class "Incubator"
-BaseType == "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" "Fine Incubator" "Fragmented Incubator" "Mysterious Incubator" "Primal Incubator" "Whispering Incubator"
+Hide # %H3 $type->currency->incubators $tier->t4
+	Class "Incubator"
+	BaseType == "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" "Fine Incubator" "Fragmented Incubator" "Mysterious Incubator" "Primal Incubator" "Whispering Incubator"
 
 Show # $type->currency->incubators $tier->restex
 	Class "Incubator"

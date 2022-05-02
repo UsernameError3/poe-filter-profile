@@ -15,9 +15,9 @@ Show # %HS5 $type->currency->oil $tier->t3
 Class "Currency"
 BaseType == "Black Oil" "Crimson Oil" "Teal Oil" "Violet Oil"
 
-Show # %HS3 $type->currency->oil $tier->t4
-Class "Currency"
-BaseType == "Amber Oil" "Azure Oil" "Clear Oil" "Indigo Oil" "Sepia Oil" "Verdant Oil"
+Hide # %HS3 $type->currency->oil $tier->t4
+	Class "Currency"
+	BaseType == "Amber Oil" "Azure Oil" "Clear Oil" "Indigo Oil" "Sepia Oil" "Verdant Oil"
 
 Show # $type->currency->oil $tier->restex
 Class "Currency"

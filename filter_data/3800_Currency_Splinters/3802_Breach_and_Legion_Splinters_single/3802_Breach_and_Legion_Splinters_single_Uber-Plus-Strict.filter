@@ -3,10 +3,10 @@
 #------------------------------------
 # !! Override 720 : "Breach and Simulacrum Splinters"
 
-Show # %HS4 $type->currency->splinter $tier->t1
-Class "Currency"
-BaseType == "Splinter of Chayula" "Splinter of Uul-Netol" "Timeless Maraketh Splinter" "Timeless Templar Splinter"
+Hide # %HS4 $type->currency->splinter $tier->t1
+	Class "Currency"
+	BaseType == "Splinter of Chayula" "Splinter of Uul-Netol" "Timeless Maraketh Splinter" "Timeless Templar Splinter"
 
-Show # %HS3 $type->currency->splinter $tier->t3
-Class "Currency"
-BaseType == "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph" "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"
+Hide # %HS3 $type->currency->splinter $tier->t3
+	Class "Currency"
+	BaseType == "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph" "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"

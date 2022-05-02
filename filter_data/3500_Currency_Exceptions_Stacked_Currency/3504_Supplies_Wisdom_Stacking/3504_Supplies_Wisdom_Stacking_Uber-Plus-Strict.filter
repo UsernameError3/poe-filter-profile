@@ -2,17 +2,17 @@
 #   [3504] Supplies: Wisdom Stacking
 #------------------------------------
 
-Show # %HS4 $type->currency->stackedsupplieswisdom $tier->t1
-StackSize >= 10
-Class "Currency"
-BaseType == "Scroll of Wisdom"
+Hide # %HS4 $type->currency->stackedsupplieswisdom $tier->t1
+	StackSize >= 10
+	Class "Currency"
+	BaseType == "Scroll of Wisdom"
 
-Show # %HS2 $type->currency->stackedsupplieswisdom $tier->t2
-StackSize >= 6
-Class "Currency"
-BaseType == "Scroll of Wisdom"
+Hide # %HS2 $type->currency->stackedsupplieswisdom $tier->t2
+	StackSize >= 6
+	Class "Currency"
+	BaseType == "Scroll of Wisdom"
 
-Show # %H2 $type->currency->stackedsupplieswisdom $tier->t3
-StackSize >= 3
-Class "Currency"
-BaseType == "Scroll of Wisdom"
+Hide # %H2 $type->currency->stackedsupplieswisdom $tier->t3
+	StackSize >= 3
+	Class "Currency"
+	BaseType == "Scroll of Wisdom"

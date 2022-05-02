@@ -3,12 +3,12 @@
 #===============================================================================================================
 # !! Override 250 : "T2 rares - handpicked"
 
-Show # %D3 $type->rr $tier->t2weapons
-ItemLevel >= 68
-Rarity Rare
-BaseType "Citadel Bow" "Corsair Sword" "Demon's Horn" "Eclipse Staff" "Exquisite Blade" "Eye Gouger" "Ezomyte Dagger" "Fiend Dagger" "Heavy Arrow Quiver" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Maraketh Bow" "Prophecy Wand" "Sambar Sceptre" "Spine Bow" "Spiraled Foil" "Tornado Wand" "Vaal Sceptre" "Void Sceptre"
+#Show # %D3 $type->rr $tier->t2weapons
+#	ItemLevel >= 68
+#	Rarity Rare
+#	BaseType "Citadel Bow" "Corsair Sword" "Demon's Horn" "Eclipse Staff" "Exquisite Blade" "Eye Gouger" "Ezomyte Dagger" "Fiend Dagger" "Heavy Arrow Quiver" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Maraketh Bow" "Prophecy Wand" "Sambar Sceptre" "Spine Bow" "Spiraled Foil" "Tornado Wand" "Vaal Sceptre" "Void Sceptre"
 
-Show # %D3 $type->rr $tier->t2armours
-ItemLevel >= 68
-Rarity Rare
-BaseType "Ancient Greaves" "Antique Greaves" "Arcanist Gloves" "Arcanist Slippers" "Archon Kite Shield" "Assassin's Boots" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Cardinal Round Shield" "Crusader Buckler" "Crusader Gloves" "Eelskin Boots" "Elegant Round Shield" "Ezomyte Burgonet" "Fluted Bascinet" "Fossilised Spirit Shield" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Hydrascale Gauntlets" "Lacquered Buckler" "Legion Boots" "Mind Cage" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Praetor Crown" "Serpentscale Boots" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silken Hood" "Sinner Tricorne" "Stealth Gloves" "Supreme Spiked Shield" "Triumphant Lamellar" "Vaal Gauntlets" "Vaal Mask" "Vaal Regalia" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zodiac Leather"
+#Show # %D3 $type->rr $tier->t2armours
+#	ItemLevel >= 68
+#	Rarity Rare
+#	BaseType "Ancient Greaves" "Antique Greaves" "Arcanist Gloves" "Arcanist Slippers" "Archon Kite Shield" "Assassin's Boots" "Assassin's Garb" "Assassin's Mitts" "Astral Plate" "Cardinal Round Shield" "Crusader Buckler" "Crusader Gloves" "Eelskin Boots" "Elegant Round Shield" "Ezomyte Burgonet" "Fluted Bascinet" "Fossilised Spirit Shield" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Hydrascale Gauntlets" "Lacquered Buckler" "Legion Boots" "Mind Cage" "Pig-Faced Bascinet" "Pinnacle Tower Shield" "Praetor Crown" "Serpentscale Boots" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Silken Hood" "Sinner Tricorne" "Stealth Gloves" "Supreme Spiked Shield" "Triumphant Lamellar" "Vaal Gauntlets" "Vaal Mask" "Vaal Regalia" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zodiac Leather"

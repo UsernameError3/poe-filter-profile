@@ -22,6 +22,6 @@ StackSize >= 3
 Class "Currency"
 BaseType "Simulacrum Splinter"
 
-Show # %H5 $type->currency->splinter->simulacrum $tier->t5
-Class "Currency"
-BaseType "Simulacrum Splinter"
+Hide # %H5 $type->currency->splinter->simulacrum $tier->t5
+	Class "Currency"
+	BaseType "Simulacrum Splinter"

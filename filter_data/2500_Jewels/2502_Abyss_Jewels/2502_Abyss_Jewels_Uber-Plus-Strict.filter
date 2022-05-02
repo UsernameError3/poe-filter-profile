@@ -2,35 +2,35 @@
 #   [2502] Abyss Jewels
 #------------------------------------
 
-Show # %H5 $type->jewels->abyss $tier->veryhighrare
+Hide # %H5 $type->jewels->abyss $tier->veryhighrare
 	ItemLevel >= 86
 	Rarity Rare
 	Class "Abyss Jewel"
 
-Show # %H5 $type->jewels->abyss $tier->veryhighmagic
+Hide # %H5 $type->jewels->abyss $tier->veryhighmagic
 	ItemLevel >= 86
 	Rarity <= Magic
 	Class "Abyss Jewel"
 
-Show # %H5 $type->jewels->abyss $tier->corruptedabyssjewel
+Hide # %H5 $type->jewels->abyss $tier->corruptedabyssjewel
 	Corrupted True
 	Rarity Rare
 	Class "Abyss Jewel"
 
-Show # %HS3 $type->jewels->abyss $tier->highrare
+Hide # %HS3 $type->jewels->abyss $tier->highrare
 	ItemLevel >= 82
 	Rarity Rare
 	Class "Abyss Jewel"
 
-Show # %HS2 $type->jewels->abyss $tier->highmagic
+Hide # %HS2 $type->jewels->abyss $tier->highmagic
 	ItemLevel >= 82
 	Rarity <= Magic
 	Class "Abyss Jewel"
 
-Show # %HS2 $type->jewels->abyss $tier->anyrare
+Hide # %HS2 $type->jewels->abyss $tier->anyrare
 	Rarity Rare
 	Class "Abyss Jewel"
 
-Show # %H2 $type->jewels->abyss $tier->anymagic
+Hide # %H2 $type->jewels->abyss $tier->anymagic
 	Rarity <= Magic
 	Class "Abyss Jewel"

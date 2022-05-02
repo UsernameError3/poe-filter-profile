@@ -12,6 +12,6 @@ Show # $type->maps->blighted $tier->t1
 	MapTier >= 13
 	Class "Maps"
 
-Show # %H5 $type->maps->blighted $tier->any
+Hide # %H5 $type->maps->blighted $tier->any
 	BlightedMap True
 	Class "Maps"

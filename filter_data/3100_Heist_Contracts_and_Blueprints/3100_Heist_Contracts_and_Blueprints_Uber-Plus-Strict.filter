@@ -7,11 +7,11 @@ Show # $type->uniques->heist $tier->any
 	Rarity Unique
 	Class "Blueprint" "Contract"
 
-Show # %H5 $type->heist->contract $tier->handpicked
-Class "Contract"
-BaseType "Contract: Bunker" "Contract: Laboratory" "Contract: Mansion" "Contract: Prohibited Library" "Contract: Records Office" "Contract: Repository" "Contract: Smuggler's Den" "Contract: Tunnels" "Contract: Underbelly"
+Hide # %H5 $type->heist->contract $tier->handpicked
+	Class "Contract"
+	BaseType "Contract: Bunker" "Contract: Laboratory" "Contract: Mansion" "Contract: Prohibited Library" "Contract: Records Office" "Contract: Repository" "Contract: Smuggler's Den" "Contract: Tunnels" "Contract: Underbelly"
 
-Show # %H5 $type->heist->contract $tier->any
+Hide # %H5 $type->heist->contract $tier->any
 	Class "Contract"
 
 Show # $type->heist->blueprint $tier->handpicked

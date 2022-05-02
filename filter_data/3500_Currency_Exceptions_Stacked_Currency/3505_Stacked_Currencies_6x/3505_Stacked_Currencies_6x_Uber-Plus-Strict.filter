@@ -22,16 +22,16 @@ StackSize >= 6
 Class "Currency"
 BaseType == "Abrasive Catalyst" "Accelerating Catalyst" "Chromatic Orb" "Enkindling Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Imbued Catalyst" "Instilling Orb" "Lesser Eldritch Ichor" "Noxious Catalyst" "Orb of Alchemy" "Orb of Alteration" "Orb of Fusing" "Orb of Horizons" "Orb of Scouring" "Regal Orb" "Tainted Armourer's Scrap" "Tainted Blacksmith's Whetstone" "Tainted Jeweller's Orb" "Turbulent Catalyst"
 
-Show # %HS4 $type->currency->stackedsix $tier->t5
-StackSize >= 6
-Class "Currency"
-BaseType == "Annulment Shard" "Cartographer's Chisel" "Chaos Shard" "Engineer's Orb" "Harbinger's Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance"
+Hide # %HS4 $type->currency->stackedsix $tier->t5
+	StackSize >= 6
+	Class "Currency"
+	BaseType == "Annulment Shard" "Cartographer's Chisel" "Chaos Shard" "Engineer's Orb" "Harbinger's Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance"
 
 #Show  # %HS3 $type->currency->stackedsix $tier->t6
 #	StackSize >= 6
 #	Class "Currency"
 
-Show # %H3 $type->currency->stackedsix $tier->t7
-StackSize >= 6
-Class "Currency"
-BaseType == "Alteration Shard" "Horizon Shard" "Regal Shard"
+Hide # %H3 $type->currency->stackedsix $tier->t7
+	StackSize >= 6
+	Class "Currency"
+	BaseType == "Alteration Shard" "Horizon Shard" "Regal Shard"

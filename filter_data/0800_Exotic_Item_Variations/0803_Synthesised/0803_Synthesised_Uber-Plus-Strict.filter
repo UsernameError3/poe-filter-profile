@@ -12,6 +12,6 @@ Show # %D6 $type->exotic->synthesised $tier->synthclasses
 	Rarity <= Rare
 	Class "Amulets" "Belt" "Bows" "Jewel" "Maps" "Rings" "Rune Daggers" "Sceptres" "Wands"
 
-Show # %D5 $type->exotic->synthesised $tier->synthrandom
-	SynthesisedItem True
-	Rarity <= Rare
+#Show # %D5 $type->exotic->synthesised $tier->synthrandom
+#	SynthesisedItem True
+#	Rarity <= Rare

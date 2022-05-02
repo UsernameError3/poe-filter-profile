@@ -2,74 +2,74 @@
 #   [0205] Specialised Tier - T2
 #------------------------------------
 
-Show # %D5 $type->rare->crusader $tier->t21
-HasInfluence Crusader
-ItemLevel >= 80
-Rarity <= Rare
-BaseType "Abyssal Sceptre" "Assassin's Mitts" "Blood Sceptre" "Carnal Mitts" "Conjurer Gloves" "Crusader Buckler" "Crusader Plate" "Demon Dagger" "Ezomyte Burgonet" "Ezomyte Spiked Shield" "Gemstone Sword" "Gladiator Plate" "Heavy Arrow Quiver" "Imperial Claw" "Karui Sceptre" "Lacquered Helmet" "Legion Boots" "Legion Gloves" "Mirrored Spiked Shield" "Nightmare Bascinet" "Occultist's Vestment" "Platinum Sceptre" "Profane Wand" "Prophet Crown" "Reaver Axe" "Seaglass Amulet" "Shagreen Tower Shield" "Slink Boots" "Slink Gloves" "Solaris Circlet" "Spine Bow" "Spiny Round Shield" "Stealth Boots" "Teak Round Shield" "Titanium Spirit Shield" "Tyrant's Sekhem" "Unset Ring" "Vaal Blade" "Vaal Gauntlets" "Vaal Regalia" "Wraith Sword"
+#Show # %D5 $type->rare->crusader $tier->t21
+#	HasInfluence Crusader
+#	ItemLevel >= 80
+#	Rarity <= Rare
+#	BaseType "Abyssal Sceptre" "Assassin's Mitts" "Blood Sceptre" "Carnal Mitts" "Conjurer Gloves" "Crusader Buckler" "Crusader Plate" "Demon Dagger" "Ezomyte Burgonet" "Ezomyte Spiked Shield" "Gemstone Sword" "Gladiator Plate" "Heavy Arrow Quiver" "Imperial Claw" "Karui Sceptre" "Lacquered Helmet" "Legion Boots" "Legion Gloves" "Mirrored Spiked Shield" "Nightmare Bascinet" "Occultist's Vestment" "Platinum Sceptre" "Profane Wand" "Prophet Crown" "Reaver Axe" "Seaglass Amulet" "Shagreen Tower Shield" "Slink Boots" "Slink Gloves" "Solaris Circlet" "Spine Bow" "Spiny Round Shield" "Stealth Boots" "Teak Round Shield" "Titanium Spirit Shield" "Tyrant's Sekhem" "Unset Ring" "Vaal Blade" "Vaal Gauntlets" "Vaal Regalia" "Wraith Sword"
 
-Show # %D5 $type->rare->crusader $tier->t22
-HasInfluence Crusader
-ItemLevel >= 85
-Rarity <= Rare
-BaseType "Artillery Quiver" "Assassin's Garb" "Engraved Hatchet" "Grappler" "Heathen Wand" "Hubris Circlet" "Moonstone Ring" "Ritual Sceptre" "Shadow Sceptre" "Sorcerer Boots" "Supreme Spiked Shield" "Talon Axe"
+#Show # %D5 $type->rare->crusader $tier->t22
+#	HasInfluence Crusader
+#	ItemLevel >= 85
+#	Rarity <= Rare
+#	BaseType "Artillery Quiver" "Assassin's Garb" "Engraved Hatchet" "Grappler" "Heathen Wand" "Hubris Circlet" "Moonstone Ring" "Ritual Sceptre" "Shadow Sceptre" "Sorcerer Boots" "Supreme Spiked Shield" "Talon Axe"
 
-Show # %D5 $type->rare->warlord $tier->t21
-HasInfluence Warlord
-ItemLevel >= 80
-Rarity <= Rare
-BaseType "Ambush Mitts" "Amethyst Ring" "Angelic Kite Shield" "Arcanist Gloves" "Archon Kite Shield" "Assassin's Garb" "Battle Lamellar" "Carnal Mitts" "Colosseum Plate" "Coronal Maul" "Crested Tower Shield" "Crusader Buckler" "Crystal Sceptre" "Ezomyte Burgonet" "Ezomyte Dagger" "Feathered Arrow Quiver" "Fire Arrow Quiver" "Girded Tower Shield" "Goliath Gauntlets" "Harlequin Mask" "Headman's Sword" "Hubris Circlet" "Imperial Claw" "Imperial Skean" "Karui Maul" "Lacquered Helmet" "Legion Gloves" "Opal Sceptre" "Piledriver" "Pinnacle Tower Shield" "Saintly Chainmail" "Seaglass Amulet" "Shagreen Gloves" "Sharkskin Gloves" "Soldier Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiny Round Shield" "Stealth Boots" "Stealth Gloves" "Tenderizer" "Titan Gauntlets" "Two-Stone Ring" "Vaal Mask" "Vaal Spirit Shield" "Vile Arrow Quiver" "Wyrmscale Gauntlets"
+#Show # %D5 $type->rare->warlord $tier->t21
+#	HasInfluence Warlord
+#	ItemLevel >= 80
+#	Rarity <= Rare
+#	BaseType "Ambush Mitts" "Amethyst Ring" "Angelic Kite Shield" "Arcanist Gloves" "Archon Kite Shield" "Assassin's Garb" "Battle Lamellar" "Carnal Mitts" "Colosseum Plate" "Coronal Maul" "Crested Tower Shield" "Crusader Buckler" "Crystal Sceptre" "Ezomyte Burgonet" "Ezomyte Dagger" "Feathered Arrow Quiver" "Fire Arrow Quiver" "Girded Tower Shield" "Goliath Gauntlets" "Harlequin Mask" "Headman's Sword" "Hubris Circlet" "Imperial Claw" "Imperial Skean" "Karui Maul" "Lacquered Helmet" "Legion Gloves" "Opal Sceptre" "Piledriver" "Pinnacle Tower Shield" "Saintly Chainmail" "Seaglass Amulet" "Shagreen Gloves" "Sharkskin Gloves" "Soldier Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiny Round Shield" "Stealth Boots" "Stealth Gloves" "Tenderizer" "Titan Gauntlets" "Two-Stone Ring" "Vaal Mask" "Vaal Spirit Shield" "Vile Arrow Quiver" "Wyrmscale Gauntlets"
 
-Show # %D5 $type->rare->warlord $tier->t22
-HasInfluence Warlord
-ItemLevel >= 85
-Rarity <= Rare
-BaseType "Astral Plate" "Colossal Tower Shield" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Tower Shield" "Heathen Wand" "Lion Pelt" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Slink Gloves" "Solar Maul" "Stag Sceptre" "Titanium Spirit Shield"
+#Show # %D5 $type->rare->warlord $tier->t22
+#	HasInfluence Warlord
+#	ItemLevel >= 85
+#	Rarity <= Rare
+#	BaseType "Astral Plate" "Colossal Tower Shield" "Dragonscale Gauntlets" "Eternal Burgonet" "Ezomyte Tower Shield" "Heathen Wand" "Lion Pelt" "Pig-Faced Bascinet" "Praetor Crown" "Royal Burgonet" "Slink Gloves" "Solar Maul" "Stag Sceptre" "Titanium Spirit Shield"
 
-Show # %D5 $type->rare->redeemer $tier->t21
-HasInfluence Redeemer
-ItemLevel >= 80
-Rarity <= Rare
-BaseType "Ambush Boots" "Ancient Gauntlets" "Arcanist Gloves" "Assassin's Garb" "Auric Mace" "Battle Buckler" "Battle Lamellar" "Blood Sceptre" "Branded Kite Shield" "Bronze Tower Shield" "Butcher Axe" "Carnal Armour" "Carnal Mitts" "Chain Hauberk" "Citadel Bow" "Conjurer Boots" "Crystal Wand" "Dragonscale Boots" "Ebony Tower Shield" "Eclipse Staff" "Elegant Round Shield" "Engraved Wand" "Eternal Burgonet" "Ezomyte Staff" "Ezomyte Tower Shield" "Faun's Horn" "Gemini Claw" "General's Brigandine" "Gladiator Plate" "Harbinger Bow" "Hellion's Paw" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Karui Sceptre" "Lacewood Spirit Shield" "Lacquered Helmet" "Legion Hammer" "Lion Pelt" "Maelström Staff" "Mosaic Kite Shield" "Necromancer Silks" "Nightmare Bascinet" "Occultist's Vestment" "Pecoraro" "Piledriver" "Praetor Crown" "Prophecy Wand" "Royal Sceptre" "Runic Hatchet" "Saintly Chainmail" "Saint's Hauberk" "Shadow Sceptre" "Sharkskin Tunic" "Siege Helmet" "Slink Boots" "Slink Gloves" "Solaris Circlet" "Soldier Gloves" "Sorcerer Boots" "Spidersilk Robe" "Supreme Spiked Shield" "Teak Round Shield" "Tenderizer" "Throat Stabber" "Titanium Spirit Shield" "Unset Ring" "Vaal Greaves" "Vaal Sceptre" "Vaal Spirit Shield" "Void Sceptre"
+#Show # %D5 $type->rare->redeemer $tier->t21
+#	HasInfluence Redeemer
+#	ItemLevel >= 80
+#	Rarity <= Rare
+#	BaseType "Ambush Boots" "Ancient Gauntlets" "Arcanist Gloves" "Assassin's Garb" "Auric Mace" "Battle Buckler" "Battle Lamellar" "Blood Sceptre" "Branded Kite Shield" "Bronze Tower Shield" "Butcher Axe" "Carnal Armour" "Carnal Mitts" "Chain Hauberk" "Citadel Bow" "Conjurer Boots" "Crystal Wand" "Dragonscale Boots" "Ebony Tower Shield" "Eclipse Staff" "Elegant Round Shield" "Engraved Wand" "Eternal Burgonet" "Ezomyte Staff" "Ezomyte Tower Shield" "Faun's Horn" "Gemini Claw" "General's Brigandine" "Gladiator Plate" "Harbinger Bow" "Hellion's Paw" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Karui Sceptre" "Lacewood Spirit Shield" "Lacquered Helmet" "Legion Hammer" "Lion Pelt" "Maelström Staff" "Mosaic Kite Shield" "Necromancer Silks" "Nightmare Bascinet" "Occultist's Vestment" "Pecoraro" "Piledriver" "Praetor Crown" "Prophecy Wand" "Royal Sceptre" "Runic Hatchet" "Saintly Chainmail" "Saint's Hauberk" "Shadow Sceptre" "Sharkskin Tunic" "Siege Helmet" "Slink Boots" "Slink Gloves" "Solaris Circlet" "Soldier Gloves" "Sorcerer Boots" "Spidersilk Robe" "Supreme Spiked Shield" "Teak Round Shield" "Tenderizer" "Throat Stabber" "Titanium Spirit Shield" "Unset Ring" "Vaal Greaves" "Vaal Sceptre" "Vaal Spirit Shield" "Void Sceptre"
 
-Show # %D5 $type->rare->redeemer $tier->t22
-HasInfluence Redeemer
-ItemLevel >= 85
-Rarity <= Rare
-BaseType "Amethyst Ring" "Artillery Quiver" "Astral Plate" "Grasping Mail" "Hunter Hood" "Sage Wand" "Shagreen Boots" "Spiraled Wand" "Twin Claw" "Vaal Regalia"
+#Show # %D5 $type->rare->redeemer $tier->t22
+#	HasInfluence Redeemer
+#	ItemLevel >= 85
+#	Rarity <= Rare
+#	BaseType "Amethyst Ring" "Artillery Quiver" "Astral Plate" "Grasping Mail" "Hunter Hood" "Sage Wand" "Shagreen Boots" "Spiraled Wand" "Twin Claw" "Vaal Regalia"
 
-Show # %D5 $type->rare->hunter $tier->t21
-HasInfluence Hunter
-ItemLevel >= 80
-Rarity <= Rare
-BaseType "Abyssal Sceptre" "Alder Spiked Shield" "Amethyst Ring" "Ancient Greaves" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Boots" "Assassin's Mitts" "Blazing Arrow Quiver" "Branded Kite Shield" "Broadhead Arrow Quiver" "Bronze Tower Shield" "Cardinal Round Shield" "Carnal Boots" "Carnal Mitts" "Colossal Tower Shield" "Conjurer Boots" "Conjurer's Vestment" "Crusader Boots" "Crusader Buckler" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Elegant Ringmail" "Elegant Round Shield" "Engraved Wand" "Ezomyte Tower Shield" "Full Dragonscale" "Girded Tower Shield" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Legion Boots" "Legion Gloves" "Meatgrinder" "Midnight Blade" "Murder Boots" "Pecoraro" "Pinnacle Tower Shield" "Platinum Kris" "Praetor Crown" "Primal Arrow Quiver" "Regicide Mask" "Samite Gloves" "Seaglass Amulet" "Serpentscale Boots" "Serpentscale Gauntlets" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Sharkskin Gloves" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Soldier Boots" "Sorcerer Boots" "Sorcerer Gloves" "Stealth Boots" "Stealth Gloves" "Steel Circlet" "Titan Greaves" "Tornado Wand" "Triumphant Lamellar" "Two-Stone Ring" "Vaal Gauntlets" "Vaal Greaves" "Vaal Spirit Shield" "Varnished Coat" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zealot Gloves"
+#Show # %D5 $type->rare->hunter $tier->t21
+#	HasInfluence Hunter
+#	ItemLevel >= 80
+#	Rarity <= Rare
+#	BaseType "Abyssal Sceptre" "Alder Spiked Shield" "Amethyst Ring" "Ancient Greaves" "Arcanist Gloves" "Arcanist Slippers" "Assassin's Boots" "Assassin's Mitts" "Blazing Arrow Quiver" "Branded Kite Shield" "Broadhead Arrow Quiver" "Bronze Tower Shield" "Cardinal Round Shield" "Carnal Boots" "Carnal Mitts" "Colossal Tower Shield" "Conjurer Boots" "Conjurer's Vestment" "Crusader Boots" "Crusader Buckler" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Elegant Ringmail" "Elegant Round Shield" "Engraved Wand" "Ezomyte Tower Shield" "Full Dragonscale" "Girded Tower Shield" "Goliath Gauntlets" "Goliath Greaves" "Harmonic Spirit Shield" "Hubris Circlet" "Hydrascale Boots" "Hydrascale Gauntlets" "Legion Boots" "Legion Gloves" "Meatgrinder" "Midnight Blade" "Murder Boots" "Pecoraro" "Pinnacle Tower Shield" "Platinum Kris" "Praetor Crown" "Primal Arrow Quiver" "Regicide Mask" "Samite Gloves" "Seaglass Amulet" "Serpentscale Boots" "Serpentscale Gauntlets" "Shagreen Boots" "Shagreen Gloves" "Sharkskin Boots" "Sharkskin Gloves" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Soldier Boots" "Sorcerer Boots" "Sorcerer Gloves" "Stealth Boots" "Stealth Gloves" "Steel Circlet" "Titan Greaves" "Tornado Wand" "Triumphant Lamellar" "Two-Stone Ring" "Vaal Gauntlets" "Vaal Greaves" "Vaal Spirit Shield" "Varnished Coat" "Wyrmscale Boots" "Wyrmscale Gauntlets" "Zealot Gloves"
 
-Show # %D5 $type->rare->hunter $tier->t22
-HasInfluence Hunter
-ItemLevel >= 85
-Rarity <= Rare
-BaseType "Agate Amulet" "Ambush Boots" "Ambush Mitts" "Ancient Gauntlets" "Artillery Quiver" "Assassin's Garb" "Astral Plate" "Grasping Mail" "Heathen Wand" "Lion Pelt" "Maraketh Bow" "Moon Staff" "Murder Mitts" "Ritual Sceptre" "Royal Burgonet" "Sage Wand" "Samite Slippers" "Satin Gloves" "Spiraled Wand" "Supreme Spiked Shield" "Titan Gauntlets" "Titanium Spirit Shield" "Trapper Boots" "Unset Ring" "Vaal Regalia" "Zodiac Leather"
+#Show # %D5 $type->rare->hunter $tier->t22
+#	HasInfluence Hunter
+#	ItemLevel >= 85
+#	Rarity <= Rare
+#	BaseType "Agate Amulet" "Ambush Boots" "Ambush Mitts" "Ancient Gauntlets" "Artillery Quiver" "Assassin's Garb" "Astral Plate" "Grasping Mail" "Heathen Wand" "Lion Pelt" "Maraketh Bow" "Moon Staff" "Murder Mitts" "Ritual Sceptre" "Royal Burgonet" "Sage Wand" "Samite Slippers" "Satin Gloves" "Spiraled Wand" "Supreme Spiked Shield" "Titan Gauntlets" "Titanium Spirit Shield" "Trapper Boots" "Unset Ring" "Vaal Regalia" "Zodiac Leather"
 
-Show # %D5 $type->rare->shaper $tier->t21
-HasInfluence Shaper
-ItemLevel >= 80
-Rarity <= Rare
-BaseType "Amethyst Ring" "Ancestral Club" "Ancient Spirit Shield" "Arcanist Slippers" "Behemoth Mace" "Bronze Tower Shield" "Colossal Tower Shield" "Crusader Buckler" "Dread Maul" "Ezomyte Tower Shield" "Flanged Mace" "Grinning Fetish" "Imperial Claw" "Ivory Spirit Shield" "Lead Sceptre" "Lithe Blade" "Murder Boots" "Pinnacle Tower Shield" "Sage Wand" "Sai" "Samite Slippers" "Seaglass Amulet" "Slink Gloves" "Spine Bow" "Stag Sceptre" "Titanium Spirit Shield" "Vaal Blade" "Vaal Hatchet" "Vaal Mask" "Zealot Gloves"
+#Show # %D5 $type->rare->shaper $tier->t21
+#	HasInfluence Shaper
+#	ItemLevel >= 80
+#	Rarity <= Rare
+#	BaseType "Amethyst Ring" "Ancestral Club" "Ancient Spirit Shield" "Arcanist Slippers" "Behemoth Mace" "Bronze Tower Shield" "Colossal Tower Shield" "Crusader Buckler" "Dread Maul" "Ezomyte Tower Shield" "Flanged Mace" "Grinning Fetish" "Imperial Claw" "Ivory Spirit Shield" "Lead Sceptre" "Lithe Blade" "Murder Boots" "Pinnacle Tower Shield" "Sage Wand" "Sai" "Samite Slippers" "Seaglass Amulet" "Slink Gloves" "Spine Bow" "Stag Sceptre" "Titanium Spirit Shield" "Vaal Blade" "Vaal Hatchet" "Vaal Mask" "Zealot Gloves"
 
-Show # %D5 $type->rare->shaper $tier->t22
-HasInfluence Shaper
-ItemLevel >= 85
-Rarity <= Rare
-BaseType "Archon Kite Shield" "Hubris Circlet" "Pagan Wand" "Prismatic Ring" "Ritual Sceptre" "Sorcerer Boots" "Supreme Spiked Shield"
+#Show # %D5 $type->rare->shaper $tier->t22
+#	HasInfluence Shaper
+#	ItemLevel >= 85
+#	Rarity <= Rare
+#	BaseType "Archon Kite Shield" "Hubris Circlet" "Pagan Wand" "Prismatic Ring" "Ritual Sceptre" "Sorcerer Boots" "Supreme Spiked Shield"
 
-Show # %D5 $type->rare->elder $tier->t21
-HasInfluence Elder
-ItemLevel >= 80
-Rarity <= Rare
-BaseType "Ancient Greaves" "Ceremonial Axe" "Colossal Tower Shield" "Crested Tower Shield" "Faun's Horn" "Gemini Claw" "Girded Tower Shield" "Graceful Sword" "Infernal Axe" "Mind Cage" "Murder Mitts" "Prophet Crown" "Raven Mask" "Ritual Sceptre" "Royal Burgonet" "Runic Hatchet" "Sadist Garb" "Seaglass Amulet" "Sorcerer Gloves" "Stag Sceptre" "Steelwood Bow" "Vaal Greatsword"
+#Show # %D5 $type->rare->elder $tier->t21
+#	HasInfluence Elder
+#	ItemLevel >= 80
+#	Rarity <= Rare
+#	BaseType "Ancient Greaves" "Ceremonial Axe" "Colossal Tower Shield" "Crested Tower Shield" "Faun's Horn" "Gemini Claw" "Girded Tower Shield" "Graceful Sword" "Infernal Axe" "Mind Cage" "Murder Mitts" "Prophet Crown" "Raven Mask" "Ritual Sceptre" "Royal Burgonet" "Runic Hatchet" "Sadist Garb" "Seaglass Amulet" "Sorcerer Gloves" "Stag Sceptre" "Steelwood Bow" "Vaal Greatsword"
 
-Show # %D5 $type->rare->elder $tier->t22
-HasInfluence Elder
-ItemLevel >= 85
-Rarity <= Rare
-BaseType "Artillery Quiver" "Eternal Burgonet" "Ezomyte Burgonet" "Horned Sceptre" "Hubris Circlet" "Lion Pelt" "Pagan Wand" "Praetor Crown" "Quartz Wand" "Spiraled Wand"
+#Show # %D5 $type->rare->elder $tier->t22
+#	HasInfluence Elder
+#	ItemLevel >= 85
+#	Rarity <= Rare
+#	BaseType "Artillery Quiver" "Eternal Burgonet" "Ezomyte Burgonet" "Horned Sceptre" "Hubris Circlet" "Lion Pelt" "Pagan Wand" "Praetor Crown" "Quartz Wand" "Spiraled Wand"

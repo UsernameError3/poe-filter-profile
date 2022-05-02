@@ -2,7 +2,7 @@
 #   [4701] Links and Sockets
 #------------------------------------
 
-Show # %D4 $type->leveling->rare->socketslinks $tier->4linkrares
-	LinkedSockets >= 4
-	ItemLevel <= 68
-	Rarity Rare
+#Show # %D4 $type->leveling->rare->socketslinks $tier->4linkrares
+#	LinkedSockets >= 4
+#	ItemLevel <= 68
+#	Rarity Rare

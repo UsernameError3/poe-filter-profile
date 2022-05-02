@@ -11,12 +11,12 @@ BaseType == "Amethyst Ring" "Archon Kite Shield" "Astral Plate" "Carved Wand" "F
 
 # We treat 2x scourged uniques as multispecial items as well, since we don't know their mods or behaviour	
 
-Show # %D5 $type->uniques $tier->scourged
-	Scourged True
-	Rarity Unique
+#Show # %D5 $type->uniques $tier->scourged
+#	Scourged True
+#	Rarity Unique
 
 # For those 6 sockets	
 
-Show # %D5 $type->uniques $tier->6s
-	Sockets >= 6
-	Rarity Unique
+#Show # %D5 $type->uniques $tier->6s
+#	Sockets >= 6
+#	Rarity Unique

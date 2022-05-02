@@ -11,18 +11,18 @@ Show # $type->currency->essence $tier->t2
 Class "Currency"
 BaseType "Remnant of Corruption" "Shrieking Essence of"
 
-Show # %H5 $type->currency->essence $tier->t3
-Class "Currency"
-BaseType "Screaming Essence of"
+Hide # %H5 $type->currency->essence $tier->t3
+	Class "Currency"
+	BaseType "Screaming Essence of"
 
-Show # %HS3 $type->currency->essence $tier->t4
-Class "Currency"
-BaseType "Wailing Essence of"
+Hide # %HS3 $type->currency->essence $tier->t4
+	Class "Currency"
+	BaseType "Wailing Essence of"
 
-Show # %H2 $type->currency->essence $tier->t5
-Class "Currency"
-BaseType "Weeping Essence of"
+Hide # %H2 $type->currency->essence $tier->t5
+	Class "Currency"
+	BaseType "Weeping Essence of"
 
-Show # %H1 $type->currency->essence $tier->t6
-Class "Currency"
-BaseType "Muttering Essence of" "Whispering Essence of"
+Hide # %H1 $type->currency->essence $tier->t6
+	Class "Currency"
+	BaseType "Muttering Essence of" "Whispering Essence of"

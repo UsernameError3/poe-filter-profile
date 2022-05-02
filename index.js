@@ -204,20 +204,8 @@ const importFilter = (strictness) => {
     });
 };
 
-const replicateComponents = (strictness) => {
-    const filterComponentFileExtension = `_${strictness[5]}.filter`;
-    
-    filterComponentFilePath.forEach(file => {
-        const filterComponentInputFile = path.join(inputPath, file + filterComponentFileExtension);
-        const filterComponentContent = fs.readFileSync(filterComponentInputFile, 'utf-8');
-        const filterComponentOutputFile = path.join(inputPath, file + `_${strictness[6]}.filter`);
-        fs.writeFileSync(filterComponentOutputFile, filterComponentContent, 'utf-8');
-    });
-};
-
 const main = () => {
     importFilter(listStrictness);
-    // replicateComponents(listStrictness);
 };
 
 main();

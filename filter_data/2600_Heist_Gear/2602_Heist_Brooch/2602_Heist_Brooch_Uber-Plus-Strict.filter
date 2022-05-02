@@ -9,16 +9,16 @@ Rarity <= Rare
 Class "Heist Brooch"
 BaseType "Foliate Brooch"
 
-Show # %H5 $type->heist->brooch $tier->t1
-Rarity <= Rare
-Class "Heist Brooch"
-BaseType "Foliate Brooch"
+Hide # %H5 $type->heist->brooch $tier->t1
+	Rarity <= Rare
+	Class "Heist Brooch"
+	BaseType "Foliate Brooch"
 
-Show # %HS4 $type->heist->brooch $tier->t2
-Rarity <= Rare
-Class "Heist Brooch"
-BaseType "Enamel Brooch"
+Hide # %HS4 $type->heist->brooch $tier->t2
+	Rarity <= Rare
+	Class "Heist Brooch"
+	BaseType "Enamel Brooch"
 
-Show # %H3 $type->heist->brooch $tier->t3any
+Hide # %H3 $type->heist->brooch $tier->t3any
 	Rarity <= Rare
 	Class "Heist Brooch"

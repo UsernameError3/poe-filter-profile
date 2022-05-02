@@ -2,61 +2,61 @@
 #   [4705] Rares - Archer
 #------------------------------------
 
-Show # %D4 $type->leveling->rare->archer $tier->l1
-	ItemLevel <= 16
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l1
+#	ItemLevel <= 16
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l2
-	ItemLevel <= 20
-	DropLevel >= 8
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l2
+#	ItemLevel <= 20
+#	DropLevel >= 8
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l3
-	ItemLevel <= 26
-	DropLevel >= 14
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l3
+#	ItemLevel <= 26
+#	DropLevel >= 14
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l4
-	ItemLevel <= 32
-	DropLevel >= 20
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l4
+#	ItemLevel <= 32
+#	DropLevel >= 20
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l5
-	ItemLevel <= 38
-	DropLevel >= 26
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l5
+#	ItemLevel <= 38
+#	DropLevel >= 26
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l6
-	ItemLevel <= 44
-	DropLevel >= 32
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l6
+#	ItemLevel <= 44
+#	DropLevel >= 32
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l7
-	ItemLevel <= 50
-	DropLevel >= 38
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l7
+#	ItemLevel <= 50
+#	DropLevel >= 38
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l8
-	ItemLevel <= 56
-	DropLevel >= 44
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l8
+#	ItemLevel <= 56
+#	DropLevel >= 44
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l9
-	ItemLevel <= 58
-	DropLevel >= 50
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l9
+#	ItemLevel <= 58
+#	DropLevel >= 50
+#	Rarity Rare
+#	Class == "Bows"
 
-Show # %D4 $type->leveling->rare->archer $tier->l10
-	ItemLevel <= 68
-	DropLevel >= 56
-	Rarity Rare
-	Class == "Bows"
+#Show # %D4 $type->leveling->rare->archer $tier->l10
+#	ItemLevel <= 68
+#	DropLevel >= 56
+#	Rarity Rare
+#	Class == "Bows"
