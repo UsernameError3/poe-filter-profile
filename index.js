@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const dayjs = require('dayjs');
+const { stringify } = require('querystring');
 const inputPath = `${__dirname}/filter_data`;
 const outputPath = `${__dirname}/exports`;
+const examplePath = `${__dirname}/example_data`;
 
 const listStrictness = [
     'Soft',
@@ -204,8 +206,220 @@ const importFilter = (strictness) => {
     });
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const checkString = (data, value) => {
+    if (data.includes(value)) {
+        return true;
+    }
+    return false;
+};
+
+const checkCommentHeader = (data) => {
+    const regex = /#[ ]+\[/g;
+    const matchResults = data.match(regex);
+    if (matchResults) {
+        return true;
+    }
+    return false;
+};
+
+const matchCommentHeaderName = (data) => {
+    const regex = /[a-zA-Z]+.*/g;
+    const matchResults = data.match(regex);
+    const headerName = matchResults[0];
+    return headerName;
+};
+
+const matchCommentHeaderNumber = (data) => {
+    const regex = /[0-9]/g;
+    const matchResults = data.match(regex);
+    const headerNumber = matchResults[0];
+    
+    // Verify Data Type
+    if (typeof headerNumber !== 'number') {
+        return parseInt(headerNumber);
+    } else {
+        return headerNumber;
+    }
+};
+
+const importAsJSON = () => {
+    const now = dayjs();
+    const folderFormat = now.format('YYYY_MM_DD_HH_mm_ss');
+    const exportPath = path.join(outputPath, `JSON_Custom_Filters_${folderFormat}`);
+    fs.mkdirSync(exportPath);
+
+    const filterComponentInputFile = path.join(examplePath, 'custom.filter');
+    const filterData = fs.readFileSync(filterComponentInputFile, 'utf-8');
+
+    // Remove Carriage Returns and tabs
+    const newlinefilterData = filterData.replace(/\r\n/g, "\n");
+    const cleanfilterData = newlinefilterData.replace(/\t/g, "");
+
+    // Split file into Array of Rules
+    const rules = cleanfilterData.split(/\n\n/);
+
+    // Create Filter JSON
+    const filterJSON = {
+        chapters: []
+    };
+    
+    // Tracker Vars
+    let lastChapterTrigger = false;
+    let lastChapterNumber = 0;
+    let lastChapterIndex = 0;
+    let lastSectionTrigger = false;
+    let lastSectionNumber = 0;
+    let lastSectionIndex = 0;
+
+    // Process Filter Data
+    rules.forEach(rule => {
+        if (checkString(rule, '#==')) {
+            // Parse Rule Chapter Header
+            const chapterHeader = rule.split('\n');
+            const chapterHeaderJSON = {
+                chapterHeaderMisc: [],
+                chapterSections: [],
+                rules: []
+            };
+            
+            // Increment on 2nd Run
+            if (lastChapterTrigger) {
+                lastChapterIndex++;
+            };
+
+            // Build Chapter Header JSON
+            chapterHeader.forEach(comment => {
+                const chapterHeaderCommentDecorator = checkString(comment, '#==');
+                const chapterHeaderCommentLabel = checkCommentHeader(comment);
+
+                switch (comment) {
+                    case chapterHeaderCommentDecorator:
+                        chapterHeaderJSON.chapterHeaderCommentLine = comment;
+                        break;
+                    case chapterHeaderCommentLabel:
+                        const commentNumber = matchCommentHeaderNumber(comment);
+                        lastChapterNumber = commentNumber;
+                        chapterHeaderJSON.chapterHeaderNumber = commentNumber;
+                        chapterHeaderJSON.chapterHeaderName = matchCommentHeaderName(comment);
+                        break;
+                    default:
+                        chapterHeaderJSON.chapterHeaderMisc.push(comment);
+                };
+            });
+            
+            // Push to Filter JSON
+            lastChapterTrigger = true;
+            filterJSON.chapters.push(chapterHeaderJSON);
+
+        } else if (checkString(rule, '#--')) {
+            // Parse Rule Section Header
+            const sectionHeader = rule.split('\n');
+            const sectionHeaderJSON = {
+                sectionHeaderMisc: [],
+                rules: []
+            };
+
+            // Increment on 2nd Run
+            if (lastSectionTrigger) {
+                lastSectionIndex++;
+            };
+
+            // Build Section Header JSON
+            sectionHeader.forEach(comment => {
+                const sectionHeaderCommentDecorator = checkString(comment, '#--');
+                const sectionHeaderCommentLabel = checkCommentHeader(comment);
+
+                switch (comment) {
+                    case sectionHeaderCommentDecorator:
+                        sectionHeaderJSON.sectionHeaderCommentLine = comment;
+                        break;
+                    case sectionHeaderCommentLabel:
+                        const commentNumber = matchCommentHeaderNumber(comment);
+                        lastSectionNumber = commentNumber;
+                        sectionHeaderJSON.sectionHeaderNumber = commentNumber;
+                        sectionHeaderJSON.sectionHeaderName = matchCommentHeaderName(comment);
+                        break;
+                    default:
+                        sectionHeaderJSON.sectionHeaderMisc.push(comment);
+                };
+            });
+
+            // Push to Filter JSON
+            lastSectionTrigger = true;
+            filterJSON.chapters[lastChapterIndex].chapterSections.push(sectionHeaderJSON);
+
+        } else {
+            // Split Rule into Array of Properties
+            const ruleProperties = rule.split('\n');
+            const ruleJSON = {
+                propertyMisc: []
+            };
+
+            // Build Section Header JSON
+            ruleProperties.forEach(property => {
+                const ruleDisabledShow = checkString(property, '#show');
+                const ruleDisabledHide = checkString(property, '#hide');
+                const ruleEnabledShow = checkString(property, 'show');
+                const ruleEnabledHide = checkString(property, 'hide');
+
+                switch (property) {
+                    case ruleDisabledShow:
+                        ruleJSON.disabled = true;
+                        ruleJSON.visible = 'show';
+                        break;
+                    case ruleDisabledHide:
+                        ruleJSON.disabled = true;
+                        ruleJSON.visible = 'hide';
+                        break;
+                    case ruleEnabledShow:
+                        ruleJSON.disabled = false;
+                        ruleJSON.visible = 'show';
+                        break;
+                    case ruleEnabledHide:
+                        ruleJSON.disabled = false;
+                        ruleJSON.visible = 'hide';
+                        break;
+                    default:
+                        ruleJSON.propertyMisc.push(property);
+                };
+            });
+
+            // Push to Filter JSON
+            if (lastSectionNumber === lastChapterNumber + lastSectionIndex + 1) {
+                filterJSON.chapters[lastChapterIndex].chapterSections[lastSectionIndex].rules.push(ruleJSON);
+            } else {
+                filterJSON.chapters[lastChapterIndex].rules.push(ruleJSON);
+            }
+        };
+    });
+
+    const filterComponentOutputFile = path.join(exportPath, 'JSON_Custom_Filter.txt');
+    fs.writeFileSync(filterComponentOutputFile, JSON.stringify(filterJSON, null, 4), 'utf-8');
+};
+
 const main = () => {
-    importFilter(listStrictness);
+    //importFilter(listStrictness);
+    importAsJSON();
 };
 
 main();
