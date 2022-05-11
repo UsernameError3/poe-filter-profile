@@ -1,9 +1,0 @@
-#------------------------------------
-#   [1204] Early mapping life/mana/utility flasks
-#------------------------------------
-
-#Show # %D2 $type->endgameflasks $tier->earlymappinglifemana
-#	AreaLevel >= 68
-#	AreaLevel <= 69
-#	Rarity <= Magic
-#	BaseType "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask" "Hallowed Hybrid Flask"

@@ -1,6 +1,0 @@
-#------------------------------------
-#   [4805] Hide All known Section
-#------------------------------------
-
-Hide # $type->hidelayer $tier->final
-	Class "Amulets" "Belts" "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Flask" "Gloves" "Heist Brooch" "Heist Cloak" "Heist Gear" "Heist Tool" "Helmets" "Jewel" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wand" "Warstaves"

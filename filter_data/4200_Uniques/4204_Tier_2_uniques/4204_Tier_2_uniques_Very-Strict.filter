@@ -1,7 +1,0 @@
-#------------------------------------
-#   [4204] Tier 2 uniques
-#------------------------------------
-
-Show # $type->uniques $tier->t2
-Rarity Unique
-BaseType == "Archon Kite Shield Piece" "Ezomyte Tower Shield" "Fingerless Silk Gloves" "Gladiator Plate" "Jewelled Foil" "Jingling Spirit Shield" "Large Cluster Jewel" "Occultist's Vestment" "Painted Tower Shield" "Prophecy Wand" "Rawhide Boots" "Ruby Flask" "Sapphire Flask" "Siege Axe" "Steel Ring" "Timeless Jewel" "Wyrmscale Doublet" "Zodiac Leather"

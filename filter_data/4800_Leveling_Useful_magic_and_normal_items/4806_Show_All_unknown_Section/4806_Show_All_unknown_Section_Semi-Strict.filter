@@ -1,9 +1,0 @@
-#------------------------------------
-#   [4806] Show All unknown Section
-#------------------------------------
-# THIS ENTRY IS CAUGHT IN 3 CASES:
-# 1) YOUR FILTER IS OUT OF DATE!
-# 2) YOU DID SOMETHING SILLY WHEN EDITING THE FILTER
-# 3) YOU ENCOUNTERED A PREVIOUSLY UNKNOWN UNIQUE
-
-Show # $type->anyremaining $tier->restex

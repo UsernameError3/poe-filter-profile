@@ -1,6 +1,0 @@
-#------------------------------------
-#   [0701] Voidstones
-#------------------------------------
-
-Show # $type->artefact->trinkets $tier->any
-BaseType "Ceremonial Voidstone" "Decayed Voidstone" "Grasping Voidstone" "Omniscient Voidstone"

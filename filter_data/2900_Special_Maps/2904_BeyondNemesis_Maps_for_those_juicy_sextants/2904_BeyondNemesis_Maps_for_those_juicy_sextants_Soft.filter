@@ -1,9 +1,0 @@
-#------------------------------------
-#   [2904] Beyond-Nemesis Maps, for those juicy sextants.
-#------------------------------------
-
-Show # %D5 $type->maps->identified $tier->nemesisbeyond
-	Identified True
-	Class "Maps"
-	HasExplicitMod "Otherworldly"
-	HasExplicitMod "Antagonist's"

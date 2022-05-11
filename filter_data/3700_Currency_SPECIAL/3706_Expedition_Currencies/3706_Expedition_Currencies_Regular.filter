@@ -1,8 +1,0 @@
-#------------------------------------
-#   [3706] Expedition Currencies
-#------------------------------------
-# !! Override 661 : "Expedition"
-
-Show # $type->currency->expedition->reroll $tier->any
-Class "Currency"
-BaseType == "Astragali" "Burial Medallion" "Exotic Coinage" "Scrap Metal"

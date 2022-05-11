@@ -1,8 +1,0 @@
-#------------------------------------
-#   [0802] Abyss Jeweled Rares
-#------------------------------------
-
-Show # $type->exotic->sockets $tier->anynonbelt
-	Rarity <= Rare
-	SocketGroup "A"
-	Class "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptres" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"

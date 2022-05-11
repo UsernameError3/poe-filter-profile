@@ -1,6 +1,0 @@
-#------------------------------------
-#   [0702] Trinkets
-#------------------------------------
-
-Show # $type->artefact->trinkets $tier->anytrinket
-	Class "Trinkets"
