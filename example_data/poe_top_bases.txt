@@ -1,0 +1,300 @@
+
+
+Helmets:
+
+    Armour:
+        Eternal Burgonet
+        Royal Burgonet
+
+    Armour / Evasion:
+        Nightmare Bascinet
+        Pig-Faced Bascinet
+        Fluted Bascinet
+        
+    Evasion:
+        Lion Pelt
+        Sinner Tricorne
+
+    Evasion / Energy Shield:
+        Blizzard Crown
+        Deicide Mask
+
+    Energy Shield:
+        Hubris Circlet
+
+    Energy Shield / Armour:
+        Archdemon Crown
+        Bone Helmet
+        Praetor Crown
+
+Gloves:
+
+    Armour:
+        Spiked Gloves
+        Debilitation Gauntlets
+        Titan Gauntlets
+
+    Armour / Evasion:
+        Dragonscale Gauntlets
+
+    Evasion:
+        Slink Gloves
+        Sinistral Gloves
+        Gripped Gloves
+
+    Evasion / Energy Shield:
+        Murder Mitts
+
+    Energy Shield:
+        Nexus Gloves
+        Fingerless Silk Gloves
+        Sorcerer Gloves
+
+    Energy Shield / Armour:
+        Apothecary's Gloves
+        Crusader Gloves
+
+Boots:
+
+    Armour:
+        Brimstone Treads
+        Titan Greaves
+
+    Armour / Evasion:
+        Two-Toned Boots
+        Dragonscale Boots
+
+    Evasion:
+        Stormrider Boots
+        Slink Boots
+
+    Evasion / Energy Shield:
+        Two-Toned Boots
+        Fugitive Boots
+        Murder Boots
+
+    Energy Shield:
+        Dreamquest Slippers
+        Sorcerer Boots
+
+    Energy Shield / Armour:
+        Two-Toned Boots
+        Crusader Boots
+
+Body:
+
+    Armour:
+        Glorious Plate
+        Gladiator Plate
+        Astral Plate
+
+    Armour / Evasion:
+        Triumphant Lamellar
+
+    Evasion:
+        Assassin's Garb
+        Zodiac Leather
+
+    Evasion / Energy Shield:
+        Carnal Armour
+        Sadist Garb
+
+    Energy Shield:
+        Vaal Regalia
+
+    Energy Shield / Armour:
+        Saintly Chainmail
+        Saint's Hauberk    
+
+    Energy Shield / Armour / Evasion:
+        Grasping Mail
+        Sacrificial Garb
+
+Shields:
+    Armour:
+        Pinnacle Tower Shield
+        Heat-attuned Tower Shield
+        Colossal Tower Shield
+
+    Armour / Evasion:
+        Elegant Round Shield
+        Cardinal Round Shield
+
+    Evasion:
+        Cold-attuned Buckler
+        Imperial Buckler
+        Crusader Buckler
+
+    Evasion / Energy Shield:
+        Supreme Spiked Shield
+        Mirrored Spiked Shield
+
+    Energy Shield:
+        Transfer-attuned Spirit Shield
+        Titanium Spirit Shield
+
+    Energy Shield / Armour:
+        Archon Kite Shield
+
+Quiver:
+    Artillery Quiver
+    Primal Arrow Quiver
+    Heavy Arrow Quiver
+    Vile Arrow Quiver
+    Broadhead Arrow Quiver
+    Ornate Quiver
+    Blazing Arrow Quiver
+    Spike-Point Arrow Quiver
+    Penetrating Arrow Quiver
+    Feathered Arrow Quiver
+
+
+Belts:
+    Stygian Vise
+    Crystal Belt
+    Vanguard Belt
+    Mechalarm Belt
+    Micro-Distillery Belt
+    Leather Belt
+    Heavy Belt
+
+Amulets:
+    Astrolabe Amulet
+    Simplex Amulet
+    Onyx Amulet
+    Turquoise Amulet
+    Citrine Amulet
+    Agate Amulet
+    Unset Amulet
+    Lapis Amulet
+    Jade Amulet
+    Amber Amulet
+
+Rings:
+    Vermillion Ring
+    Cerulean Ring
+    Steel Ring
+    Opal Ring
+    Iolite Ring
+    Prismatic Ring
+    Amethyst Ring
+    Geodesic Ring
+    Cogwork Ring
+    Two-Stone Ring
+    Moonstone Ring
+    Diamond Ring
+    Ruby Ring
+    Topaz Ring
+    Sapphire Ring
+    Unset Ring
+
+Weapons:
+    Sceptres:
+        1h:
+            Sambar Sceptre
+            Alternating Sceptre
+            Void Sceptre
+            Opal Sceptre
+
+    Maces:
+        1h:
+            Boom Mace
+            Behemoth Mace
+            Auric Mace
+
+        2h:
+            Impact Force Propagator
+            Coronal Maul
+            Terror Maul
+            Imperial Maul
+            Meatgrinder
+
+    Axes:
+        1h:
+            Runic Hatchet
+            Psychotic Axe
+            Royal Axe
+
+        2h:
+            Fleshripper
+            Apex Cleaver
+            Void Axe
+            Despot Axe
+            Vaal Axe
+            Sundering Axe
+
+    Swords:
+        1h:
+            Tiger Hook
+            Anarchic Spiritblade
+            Midnight Blade
+            Eternal Sword
+
+        Thrusting:
+            Dragoon Sword
+            Harpy Rapier
+            Jewelled Foil
+            Vaal Rapier
+
+        2h:
+            Exquisite Blade
+            Banishing Blade
+            Infernal Sword
+            Lion Sword
+            Vaal Greatsword
+
+    Daggers:
+        1h:
+            Sai
+            Pneumatic Dagger
+            Ambusher
+
+        Rune Daggers:
+            Infernal Blade
+            Demon Dagger
+            Imperial Skean
+
+    Claws:
+        1h:
+            Gemini Claw
+            Void Fangs
+            Terror Claw
+            Imperial Claw
+            Vaal Claw
+            Eye Gouger
+
+    Wands:
+        1h:
+            Convoking Wand
+            Profane Wand
+            Accumulator Wand
+            Prophecy Wand
+            Demons Horn
+            Opal Wand
+            Imbued Wand
+
+    Staves:
+        2h:
+            Eclipse Staff
+            Battery Staff
+            Imperial Staff
+
+        Warstaves:
+            Eventuality Rod
+            Potentiality Rod
+            Capacity Rod
+            Judgement Staff
+            Maelström Staff
+            Ezomyte Staff
+
+
+    Bows:
+        2h:
+            Maraketh Bow
+            Solarine Bow
+            Harbinger Bow
+            Imperial Bow
+            Assassin Bow
+            Thicket Bow
+            Spine Bow
+            Citadel Bow

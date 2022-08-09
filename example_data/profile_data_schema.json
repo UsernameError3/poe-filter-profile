@@ -1,0 +1,2627 @@
+{
+    "rule": {
+        "visibility": [
+            "Show",
+            "Hide",
+            "Commented Out"
+        ],
+        "visibilitySeperator": "#",
+        "ruleName": [
+            "tiering"
+        ]
+    },
+    "ruleStyle": [{
+        "SetTextColor": "255 0 198 255",
+        "SetBorderColor": "255 0 198 255",
+        "SetBackgroundColor": "0 0 0 255",
+        "SetFontSize": "45",
+        "PlayAlertSound": "10 300",
+        "PlayEffect": "Pink",
+        "DisableDropSound": "False",
+        "MinimapIcon": {
+            "size": "0",
+            "color": "Pink",
+            "shape": "Circle"
+        }
+    }],
+    "ruleProperties": [
+        "ItemLevel",
+        "GemLevel",
+        "AreaLevel",
+        "DropLevel",
+        "Identified",
+        "Corrupted",
+        "CorruptedMods",
+        "Mirrored",
+        "LinkedSockets",
+        "SocketGroup",
+        "Sockets",
+        "Rarity",
+        "Class",
+        "BaseDefencePercentile",
+        "BaseType",
+        "HasExplicitMod",
+        "HasInfluence",
+        "HasSearingExarchImplicit",
+        "HasEaterOfWorldsImplicit",
+        "SynthesisedItem",
+        "FracturedItem",
+        "AnyEnchantment",
+        "EnchantmentPassiveNum",
+        "EnchantmentPassiveNode",
+        "GemQualityType",
+        "AlternateQuality",
+        "Quality",
+        "Replica",
+        "MapTier",
+        "BlightedMap",
+        "UberBlightedMap",
+        "Scourged",
+        "StackSize",
+        "Width",
+        "Height"
+    ],
+    "items": {
+        "equipment": {
+            "weapons": [
+                {
+                    "classType": "One Hand",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                    
+                },
+                {
+                    "classType": "One Hand Axes",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "One Hand Maces",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "One Hand Swords",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Claws",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Daggers",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Rune Dagger",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Rune Daggers",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Sceptre",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Sceptres",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Wand",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Wands",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Bows",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Two Hand",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Two Hand Axes",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Two Hand Maces",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Two Hand Swords",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Staves",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Warstaves",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                }
+            ],
+            "armour": [
+                {
+                    "classType": "Helmets",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Body Armour",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Body Armours",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Gloves",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Boots",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Shields",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Quivers",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                }
+            ],
+            "jewellery": [
+                {
+                    "classType": "Rings",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Amulets",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Belts",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                }
+            ],
+            "flask": [
+                {
+                    "classType": "Flask",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Utility Flask",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Life Flask",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Mana Flask",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                },
+                {
+                    "classType": "Hybrid Flask",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "unique"
+                    ],
+                    "baseType": [],
+                    "mods": []
+                }
+            ],
+            "jewels": {
+                "classType": "Jewel",
+                "rarity": [
+                    "normal",
+                    "magic",
+                    "rare",
+                    "unique"
+                ],
+                "baseType": [],
+                "mods": []
+            },
+            "gems": {
+                "classType": "Gems",
+                "baseType": [],
+                "mods": []
+            }
+        },
+        "drops": {
+            "currency": [
+                {
+                    "classType": "Currency",
+                    "baseType": [
+                        "Abrasive Catalyst",
+                        "Accelerating Catalyst",
+                        "Fertile Catalyst",
+                        "Imbued Catalyst",
+                        "Intrinsic Catalyst",
+                        "Noxious Catalyst",
+                        "Prismatic Catalyst",
+                        "Tempering Catalyst",
+                        "Turbulent Catalyst"
+                    ]
+                },
+                {
+                    "classType": "Divination",
+                    "baseType": [
+                        
+                    ]
+                }
+            ],
+            "mapping": [
+                {
+                    "classType": "Maps",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [
+                        
+                    ]
+                },
+                {
+                    "classType": "Map Fragments",
+                    "baseType": [
+                        
+                    ]
+                }
+            ],
+            "league": [
+                {
+                    "leagueName": "Breach",
+                    "classType": null,
+                    "baseType": [
+                        "Xoph's Breachstone",
+                        "Xoph's Charged Breachstone",
+                        "Xoph's Enriched Breachstone",
+                        "Xoph's Flawless Breachstone",
+                        "Xoph's Pure Breachstone",
+                        "Tul's Breachstone",
+                        "Tul's Charged Breachstone",
+                        "Tul's Enriched Breachstone",
+                        "Tul's Flawless Breachstone",
+                        "Tul's Pure Breachstone",
+                        "Uul-Netol's Breachstone",
+                        "Uul-Netol's Charged Breachstone",
+                        "Uul-Netol's Enriched Breachstone",
+                        "Uul-Netol's Flawless Breachstone",
+                        "Uul-Netol's Pure Breachstone",
+                        "Esh's Breachstone",
+                        "Esh's Charged Breachstone",
+                        "Esh's Enriched Breachstone",
+                        "Esh's Flawless Breachstone",
+                        "Esh's Pure Breachstone",
+                        "Chayula's Breachstone",
+                        "Chayula's Charged Breachstone",
+                        "Chayula's Enriched Breachstone",
+                        "Chayula's Flawless Breachstone",
+                        "Chayula's Pure Breachstone"
+                    ]
+                },
+                {
+                    "leagueName": "Blight",
+                    "classType": null,
+                    "baseType": [
+                        "Amber Oil",
+                        "Azure Oil",
+                        "Black Oil",
+                        "Clear Oil",
+                        "Crimson Oil",
+                        "Golden Oil",
+                        "Indigo Oil",
+                        "Opalescent Oil",
+                        "Sepia Oil",
+                        "Silver Oil",
+                        "Tainted Oil",
+                        "Teal Oil",
+                        "Verdant Oil",
+                        "Violet Oil",
+                        "Oil Extractor",
+                        "Oil"
+                    ]
+                },
+                {
+                    "leagueName": "Heist",
+                    "classType": [
+                        "Blueprint",
+                        "Contract",
+                        "Heist Brooch",
+                        "Heist Cloak",
+                        "Heist Gear",
+                        "Heist Target",
+                        "Heist Tool"
+                    ],
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": []
+                },
+                {
+                    "leagueName": "Delve",
+                    "classType": "Delve Stackable Socketable Currency",
+                    "baseType": []
+                },
+                {
+                    "leagueName": "Expedition",
+                    "classType": "Expedition Logbook",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": []
+                },
+                {
+                    "leagueName": "Legion",
+                    "classType": "Incubator",
+                    "baseType": []
+                },
+                {
+                    "leagueName": "Metamorph",
+                    "classType": "Metamorph",
+                    "baseType": []
+                },
+                {
+                    "leagueName": "Incursion",
+                    "classType": "Incursion Item",
+                    "baseType": []
+                },
+                {
+                    "leagueName": "Harbinger",
+                    "classType": "Piece",
+                    "rarity": [
+                        "unique"
+                    ],
+                    "baseType": []
+                }
+            ],
+            "labyrinth": [
+                {
+                    "classType": "Labyrinth",
+                    "baseType": []
+                }
+            ],
+            "misc": [
+                {
+                    "classType": "Misc Map Items",
+                    "baseType": []
+                }
+            ]
+        }
+    }
+}
+
+
+A Dab of Ink
+A Familiar Call
+A Fate Worse Than Death
+A Modest Request
+A Mother's Parting Gift
+A Note in the Wind
+A Sea of Blue
+A Stone Perfected
+Abandoned Wealth
+Aberrant Fossil
+Absolution
+Abyssal Axe
+Abyssal Delirium Orb
+Abyssal Incubator
+Acclimatisation
+Accumulator Wand
+Added Chaos Damage
+Added Cold Damage
+Added Cold Damage Support
+Added Fire Damage
+Added Fire Damage Support
+Added Lightning Damage
+Advanced Traps Support
+Aetheric Fossil
+Aetherwind Gloves
+Agate Amulet
+Aggregator Charm
+Akil's Prophecy
+Albino Rhoa Feather
+Alchemy Shard
+Al-Hezmin's Crest
+Alluring Bounty
+Alone in the Darkness
+Alteration Shard
+Altered Perception
+Alternating Sceptre
+Amber Amulet
+
+Ambitious Obsession
+Ambush Boots
+Ambush Mitts
+Ambusher
+Amethyst Flask
+Amethyst Ring
+Amorphous Delirium Orb
+Amplifying Power Core
+Anarchic Spiritblade
+Anarchy's Price
+Ancestral Protector
+Ancestral Warchief
+Ancient Apex Sentinel
+Ancient Gauntlets
+Ancient Greaves
+Ancient Orb
+Ancient Pandemonium Sentinel
+Ancient Reliquary Key
+Ancient Shard
+Ancient Spirit Shield
+Ancient Stalker Sentinel
+Anger
+Animate Guardian
+Animate Weapon
+Annulment Shard
+Antique Greaves
+Antique Rapier
+Apex Cleaver
+Apothecary's Gloves
+Aquamarine Flask
+Arc
+Arcane Cloak
+Arcane Surge Support
+Arcanist Gloves
+Arcanist Slippers
+Archdemon Crown
+Archmage
+Archon Kite Shield
+Archon Kite Shield Piece
+Arctic Armour
+Armageddon Brand
+Armour Recombinator
+Armourer's Scrap
+Armoursmith's Delirium Orb
+Arrogance of the Vaal
+Arrogance Support
+Artillery Ballista
+Artillery Quiver
+Ashscale Talisman
+Assassin Bow
+Assassin's Boots
+Assassin's Favour
+Assassin's Garb
+Assassin's Mark
+Assassin's Mitts
+Assembler Wand
+Astragali
+Astral Plate
+Astrolabe Amulet
+Atoll Map
+Atonement Mask
+Atziri's Arsenal
+Audacity
+Augmenting Power Core
+Auric Mace
+Aventail Helmet
+Avian Twins Talisman
+Awakened
+Awakened Burning Damage Support
+Awakened Cast On Critical Strike Support
+Awakened Chain Support
+Awakened Elemental Damage with Attacks Support
+Awakened Elemental Focus Support
+Awakened Empower Support
+Awakened Enhance Support
+Awakened Enlighten Support
+Awakened Fork Support
+Awakened Greater Multiple Projectiles Support
+Awakened Increased Area of Effect Support
+Awakened Multistrike Support
+Awakened Sextant
+Awakened Spell Echo Support
+Awakened Swift Affliction Support
+Awakened Unleash Support
+Awakener's Orb
+Awl
+
+Azurite Flashpowder
+Azyran's Reward
+Baited Expectations
+Ball Lightning
+Ballista Totem Support
+Bane
+Banishing Blade
+Baran's Crest
+Baroque Round Shield
+Barrage Support
+Basalt Flask
+Basemetal Treads
+Basilica Map
+Basket Rapier
+Bastard Sword
+Battery Staff
+Bear Trap
+Beauty Through Death
+Behemoth Mace
+Berserk
+Bestiary Orb
+Bijoux
+Binding Shard
+Birth of the Three
+Bismuth Flask
+Black Maw Talisman
+
+Blacksmith's Delirium Orb
+Blacksmith's Whetstone
+Blade Blast
+Blade Flurry
+Blade Vortex
+Bladefall
+Blast Rain
+Blasting Blade
+Blazing Arrow Quiver
+Blazing Salvo
+Blessed Orb
+Blessing of Chayula
+Blessing of Esh
+Blessing of God
+Blessing of Tul
+Blessing of Uul-Netol
+Blessing of Xoph
+Blight
+Blighted Delirium Orb
+Blighted Incubator
+Blighted Scouting Report
+Blind Venture
+Blinder
+Blink Arrow
+Blizzard Crown
+Block Chance Reduction Support
+Blood and Sand
+Blood Rage
+Blood Raiment
+Blood Sceptre
+Blood-filled Vessel
+Bloodlust Support
+Bloodstained Fossil
+Bloodthirst Support
+Blue Pearl Amulet
+Blueprint: Bunker
+Blueprint: Laboratory
+Blueprint: Mansion
+Blueprint: Prohibited Library
+Blueprint: Records Office
+Blueprint: Repository
+Blueprint: Smuggler's Den
+Blueprint: Tunnels
+Blueprint: Underbelly
+Blunt Arrow Quiver
+Blunt Arrow Quiver Piece
+Blunt Force Condenser
+Bodyswap
+Bone Armour
+Bone Bow
+Bone Circlet
+Bone Crypt Map
+Bone Helmet
+Bone Offering
+Bone Spirit Shield
+Bonechill
+Bonechill Support
+Boneshatter
+Bonespire Talisman
+Boom Mace
+Boon of Justice
+Boon of the First Ones
+Boot Blade
+Boot Knife
+Bound Fossil
+Boundless Realms
+Bowyer's Dream
+Brand Recall
+Branded Kite Shield
+Brass Maul
+Brass Spirit Shield
+Breach
+Breakrib Talisman
+Brimstone Apex Sentinel
+Brimstone Pandemonium Sentinel
+Brimstone Stalker Sentinel
+Brimstone Treads
+Broadhead Arrow Quiver
+Broken Promises
+Bronze Apex Sentinel
+Bronze Gauntlets
+Bronze Pandemonium Sentinel
+Bronze Sceptre
+Bronze Stalker Sentinel
+Bronze Tower Shield
+Bronzescale Boots
+Bronzescale Gauntlets
+Brotherhood in Exile
+Brother's Stash
+Brush, Paint and Palette
+Brutality Support
+Buckskin Tunic
+Burial Medallion
+Buried Treasure
+Burning Arrow
+Burning Blood
+Burning Damage
+Burning Damage Support
+Burnished Spiked Shield
+Burst Band
+Butcher Axe
+Call to the First Ones
+Callous Mask
+Callous Mask Piece
+Cameria's Cut
+Capacity Rod
+Capricious Spiritblade
+Cardinal Round Shield
+Carnal Armour
+Carnal Boots
+Carnal Mitts
+Carnal Sceptre
+Cartographer's Chisel
+Cartographer's Delight
+Cartographer's Delirium Orb
+Cartographer's Incubator
+Carved Wand
+Cast On Critical Strike Support
+Cast on Death Support
+Cast when Damage Taken Support
+Caustic Arrow
+Cedar Tower Shield
+Celestial Armoursmith's Incubator
+Celestial Blacksmith's Incubator
+Celestial Jeweller's Incubator
+Cemetery Map
+Ceremonial Voidstone
+Cerulean Ring
+Chain Belt
+Chain Gloves
+Chain Support
+Champion Kite Shield
+Chance to Bleed Support
+Chance to Poison
+Chaos Orb
+Chaos Shard
+Chaotic Disposition
+Charged Compass
+Charged Dash
+Charged Mines Support
+Chasing Risk
+
+Chiming Spirit Shield
+Chromatic Orb
+Chronicle of Atzoatl
+Chrysalis Talisman
+Citadel Bow
+Citrine Amulet
+Clarity
+Clasped Boots
+Clasped Mitts
+
+Cleave
+Cleaver
+Close Combat Support
+Close Helmet
+Cloth Belt
+Cloth Belt Piece
+Cloudwhisper Boots
+Cluster Traps Support
+Clutching Talisman
+Cobalt Apex Sentinel
+Cobalt Jewel
+Cobalt Pandemonium Sentinel
+Cobalt Stalker Sentinel
+Cobra Lash
+Cogwork Ring
+Coiled Staff
+Cold Penetration
+Cold Snap
+Cold to Fire
+Cold to Fire Support
+Cold-attuned Buckler
+Colossal
+Colossal Tower Shield
+Combustion
+Combustion Support
+Compound Spiked Shield
+Comprehensive Scouting Report
+Concentrated Effect Support
+Conductivity
+Congregator Wand
+Conjurer Boots
+Conjurer Gloves
+Conquest Chainmail
+Consecrated Path
+Contagion
+Contract: Bunker
+Contract: Laboratory
+Contract: Mansion
+Contract: Prohibited Library
+Contract: Records Office
+Contract: Repository
+Contract: Smuggler's Den
+Contract: Tunnels
+Contract: Underbelly
+Controlled Destruction Support
+Convocation
+Convoking Wand
+Copper Kris
+Copper Plate
+Coral Amulet
+Coral Ring
+Coronal Leather
+Coronal Maul
+Corroded Fossil
+Corrugated Buckler
+Corrupting Fever
+Corsair Sword
+Cosmic Apex Sentinel
+Costly Curio
+Council of Cats
+Courtesan Sword
+Courthouse Map
+Courtyard Map
+Coveted Possession
+Crack Mace
+Crackling Lance
+Craicic Lure
+Creeping Frost
+Cremation
+Crescent Splinter
+Crimson Jewel
+
+Crimson Round Shield
+Crude Bow
+Cruelty Support
+Crusader Boots
+Crusader Buckler
+Crusader Chainmail
+Crusader Gloves
+Crusader Helmet
+Crusader Plate
+Crusader's Exalted Orb
+Crushing Force Magnifier
+Cryptic Apex Sentinel
+Cryptic Pandemonium Sentinel
+Cryptic Stalker Sentinel
+Crystal Belt
+Crystal Sceptre
+Crystal Wand
+Culling Strike Support
+Cursed Crypt Map
+Cursed Words
+Cutlass
+Cutthroat's Garb
+Cyclone
+Damage on Full Life Support
+Dark Dreams
+Dark Pact
+Dark Temptation
+Darker Half
+Darksteel Treads
+Dash
+Deadhand Talisman
+Deadly Ailments Support
+Deadly Joy
+Deafening Essence of
+Death
+Death Bow
+Deathly Designs
+Debilitation Gauntlets
+Decay
+Decay Support
+Decayed Voidstone
+Decimation Bow
+Decorative Axe
+Decoy Totem
+Dedication to the Goddess
+Deep One Talisman
+Deerskin Boots
+Deerskin Gloves
+Defiance Banner
+Deft Fossil
+Deicide Mask
+Delirious Scouting Report
+Delirium Orb
+Dementophobia
+Demigod's Wager
+Demon Crown
+Demon Dagger
+Demon's Horn
+Dense Fossil
+Deregulation Scroll
+Desecrate
+Desecrated Virtue
+Desert Brigandine
+Despair
+Desperate Crusade
+Despot Axe
+Destined to Crumble
+Destiny Leather
+Destroyer Regalia
+Determination
+Detonate Dead
+Devouring Totem
+Dialla's Subjugation
+Diamond Flask
+Diamond Ring
+Disapprobation Axe
+Discharge
+Discipline
+Disdain
+Divine
+Divine Blessing Support
+Divine Ire
+Divine Justice
+Divine Life Flask
+Divine Mana Flask
+Divine Orb
+Divine Vessel
+Diviner's Delirium Orb
+Diviner's Incubator
+Doedre's Madness
+Dominating Blow
+Double Strike
+Dragon Mace
+Dragonscale Boots
+Dragonscale Gauntlets
+Dragoon Sword
+Draped in Dreams
+Dread Banner
+Dread Maul
+Dream Mace
+Dreamquest Slippers
+Driftwood Wand
+Drox's Crest
+Duality
+Dunes Map
+Dusk Blade
+Duskwalk Slippers
+Dying Anguish
+Dying Light
+Earth Drinker
+Earthbreaker Support
+Earthshatter
+Ebony Tower Shield
+Echoes of Love
+Eclipse Staff
+Eelskin Boots
+Eelskin Gloves
+Efficacy Support
+Elder Sword
+Eldritch Chaos Orb
+Eldritch Exalted Orb
+Eldritch Orb of Annulment
+Electroshock Scroll
+Elegant Foil
+Elegant Ringmail
+Elegant Round Shield
+Elegant Sword
+Elemental Damage with Attacks Support
+Elemental Hit
+Elemental Penetration Support
+Elemental Proliferation
+Elemental Proliferation Support
+Elemental Weakness
+Elevated Sextant
+Emberstone Apex Sentinel
+Emberstone Pandemonium Sentinel
+Emberstone Stalker Sentinel
+Embroidered Gloves
+Emperor of Purity
+Emperor's Luck
+Empower
+Empower Support
+Enamel Brooch
+Enameled Buckler
+Enchanted Incubator
+Endothermic Buckler
+Enduring Cry
+Energy Blade
+Enfeeble
+Engineer's Orb
+Engineer's Shard
+Engraved Hatchet
+Engraved Wand
+Enhance
+Enhance Support
+Enkindling Orb
+Enlighten
+Enlighten Support
+Ensnaring Arrow
+
+Espionage Disguise Kit
+Essence Drain
+Essence of Delirium
+Essence of Horror
+Essence of Hysteria
+Essence of Insanity
+Estoc
+Etched Greatsword
+Etched in Blood
+Eternal
+Eternal Blessing Support
+Eternal Bonds
+Eternal Burgonet
+Eternal Life Flask
+Eternal Mana Flask
+Eternal Orb
+Eternal Sword
+Ethereal Knives
+Eventuality Rod
+Exalted Orb
+Exalted Shard
+Exceptional Eldritch Ember
+Exceptional Eldritch Ichor
+Exhausting Spirit Shield
+Exothermic Tower Shield
+Exotic Coinage
+Expedition Logbook
+Explorer's Scouting Report
+Explosive Arrow
+Explosive Concoction
+Explosive Trap
+Exquisite Blade
+Exquisite Leather
+Exsanguinate
+Eye Gouger
+Eye of Winter
+Ezomyte Axe
+Ezomyte Blade
+Ezomyte Burgonet
+Ezomyte Dagger
+Ezomyte Spiked Shield
+Ezomyte Staff
+Ezomyte Tower Shield
+Faceted Fossil
+Facetor's Lens
+Fancy Foil
+Fangjaw Talisman
+Farric Lure
+Fateful Meeting
+Faun's Horn
+Feathered Arrow Quiver
+Feeding Frenzy Support
+Fencer Helm
+Fenumal Lure
+
+Festival Mask
+Fickle Spiritblade
+Fiend Dagger
+Fine Delirium Orb
+Fine Incubator
+Fine Lockpick
+Fine Sharpening Stone
+Fingerless Silk Gloves
+Fire Arrow Quiver
+Fire Penetration
+Fire Trap
+Fireball
+Firestorm
+Flame Dash
+Flame Link
+Flame Surge
+Flame Wall
+Flameblast
+Flamethrower Trap
+Flammability
+Flare Mace
+Flashfire Blade
+Flask
+Flaying Knife
+Flesh and Stone
+Flesh Offering
+Fleshripper
+Flicker Strike
+Flickerflame Blade
+Fluted Bascinet
+Focused Ballista Support
+Foliate Brooch
+Forbidden Power
+Forbidden Rite
+Foreboding Delirium Orb
+Foreboding Incubator
+Fortify Support
+Fossil
+Fossilised Delirium Orb
+Fossilised Incubator
+Fossilised Spirit Shield
+Foundry Bow
+Fractured Fossil
+Fragment of Constriction
+Fragment of Emptiness
+Fragment of Enslavement
+Fragment of Eradication
+Fragment of Knowledge
+Fragment of Purification
+Fragment of Shape
+Fragment of Terror
+Fragment of the Chimera
+Fragment of the Hydra
+Fragment of the Minotaur
+Fragment of the Phoenix
+Fragmentation Scroll
+Fragmented Delirium Orb
+Fragmented Incubator
+Freezing Pulse
+Friendship
+Fright Claw
+Frigid Fossil
+From Bone to Ashes
+Frost Blades
+Frost Bomb
+Frost Shield
+Frost Wall
+Frostbite
+Frostblink
+Frostbolt
+Fugitive Boots
+Full Dragonscale
+Full Scale Armour
+Full Wyrmscale
+Fundamental Fossil
+Further Invention
+Gale Crown
+Galvanic Arrow
+Gauche Gloves
+Gavel
+Gemcutter's Incubator
+Gemcutter's Prism
+Gemcutter's Promise
+Gemini Claw
+Gemstone Sword
+General's Brigandine
+Generosity Support
+Geodesic Ring
+Geomancer's Incubator
+Ghastly Eye Jewel
+Giant
+Gift of Asenath
+Gift of the Gemling Queen
+Gift to the Goddess
+Gilded Abyss Scarab
+Gilded Ambush Scarab
+Gilded Bestiary Scarab
+Gilded Blight Scarab
+Gilded Breach Scarab
+Gilded Cartography Scarab
+Gilded Divination Scarab
+Gilded Elder Scarab
+Gilded Expedition Scarab
+Gilded Fossil
+Gilded Harbinger Scarab
+Gilded Legion Scarab
+Gilded Metamorph Scarab
+Gilded Reliquary Scarab
+Gilded Sallet
+Gilded Shaper Scarab
+Gilded Sulphite Scarab
+Gilded Torment Scarab
+Glacial Cascade
+Glacial Hammer
+Gladiator Plate
+Gladius
+Glassblower's Bauble
+Glimmer of Hope
+Glorious Plate
+Glyphic Fossil
+Gnarled Branch
+Goathide Boots
+Goathide Gloves
+Goat's Horn
+Gold Amulet
+Gold Ring
+Golden Buckler
+Golden Kris
+Golden Mask
+
+Golden Plate
+Goliath Gauntlets
+Goliath Greaves
+Grace
+Grand
+Grand Eldritch Ember
+Grand Eldritch Ichor
+Grand Mana Flask
+Grandmaster Keyring
+Granite Flask
+Grappler
+Grasping Mail
+Grasping Voidstone
+Grave Knowledge
+Great Crown
+Great Helmet
+Great Mallet
+Greater
+Greater Eldritch Ember
+Greater Eldritch Ichor
+Greater Mana Flask
+Greater Multiple Projectiles Support
+Greater Volley Support
+Greatwolf Talisman
+Grinning Fetish
+Gripped Gloves
+Grove Bow
+Gruelling Gauntlets
+Guardian's Challenge
+Gut Ripper
+Haemocombustion Scroll
+Hallowed
+Hallowed Hybrid Flask
+Harbinger Bow
+Harbinger Map
+Harbinger's Orb
+Harbinger's Shard
+Harlequin Mask
+Harmonic Spirit Shield
+Harmony of Souls
+Harpy Rapier
+Haste
+Hatred
+Haunted Mansion Map
+Haunting Shadows
+Headsman Axe
+Heat-attuned Tower Shield
+Heathen Wand
+Heavy Arrow Quiver
+Heavy Belt
+Hedron Bow
+Hellion's Paw
+Her Mask
+Herald of Agony
+Herald of Ash
+Herald of Ice
+Herald of Purity
+Herald of Thunder
+Heterochromia
+Hexblast
+Hexclaw Talisman
+Highborn Staff
+Highland Blade
+Hollow Fossil
+Hollowpoint Arrowhead
+Hollowpoint Dagger
+Holy Chainmail
+Holy Flame Totem
+Home
+Honed Cleaver
+Hooded Cloak
+Hope
+Horizon Shard
+Horned Sceptre
+House of Mirrors
+Hubris
+Hubris Circlet
+Humility
+Hunter's Exalted Orb
+Hunter's Resolve
+Hunter's Reward
+Hydrascale Boots
+Hydrascale Gauntlets
+Hydrosphere
+Hypnotic Eye Jewel
+Hypothermia
+Hypothermia Support
+Ice Bite
+Ice Bite Support
+Ice Crash
+Ice Nova
+Ice Shot
+Ice Spear
+Ice Trap
+Icicle Mine
+Ignite Proliferation
+
+
+Imbued Wand
+Immolate
+Immolate Support
+Immortal Call
+Immortal Resolve
+Imp Crown
+Impact Force Propagator
+Impale Support
+Impending Doom
+Imperfect Memories
+Imperial Bow
+Imperial Buckler
+Imperial Claw
+Imperial Delirium Orb
+Imperial Legacy
+Imperial Maul
+Imperial Skean
+Imperial Staff
+Imperial Staff Piece
+Imprint
+Incandescent Invitation
+Incinerate
+Increased Area of Effect Support
+Increased Critical Damage Support
+Increased Critical Strikes Support
+Increased Duration Support
+
+Infernal Axe
+Infernal Blade
+Infernal Blow
+Infernal Cry
+Infernal Legion
+Infernal Sword
+Influenced Scouting Report
+Infused Channelling Support
+Infused Engineer's Orb
+Infused Incubator
+Innervate
+Innervate Support
+Inscribed Ultimatum
+Inspiration Support
+Instilling Orb
+Intimidating Cry
+
+Iolite Ring
+Iron Circlet
+Iron Flask
+Iron Gauntlets
+Iron Grip Support
+Iron Hat
+Iron Mask
+Iron Ring
+Iron Sceptre
+Iron Staff
+Ironscale Boots
+Ironscale Gauntlets
+Item Quantity
+Item Rarity Support
+Ivory Spirit Shield
+Jack in the Box
+Jade Amulet
+Jade Flask
+Jade Hatchet
+Jagged Foil
+Jagged Fossil
+Jagged Maul
+Jasper Chopper
+Jewelled Foil
+Jeweller's Delirium Orb
+Jeweller's Orb
+Jewellery Recombinator
+Jingling Spirit Shield
+Judgement Staff
+Judging Voices
+Justified Ambition
+Kalguuran Delirium Orb
+Kalguuran Incubator
+Karui Chopper
+Karui Maul
+Karui Sceptre
+Keeper's Corruption
+Kinetic Blast
+Labrys
+Lacerate
+Lachrymal Necrosis
+Lacquered Buckler
+Lacquered Garb
+Lacquered Helmet
+Laminated Kite Shield
+Lancing Steel
+Lantador's Lost Love
+Lapis Amulet
+Large
+Large Cluster Jewel
+Large Hybrid Flask
+Last Hope
+Lathi
+Latticed Ringmail
+Leap Slam
+Leather Belt
+Leather Cap
+Leather Hood
+Left to Fate
+Legion Boots
+Legion Gloves
+Legion Sword
+Legion Sword Piece
+Less Duration Support
+Lesser Eldritch Ember
+Lesser Eldritch Ichor
+Lesser Multiple Projectiles Support
+Leyline Gloves
+Life Gain on Hit Support
+Lifetap Support
+Light and Truth
+Lightning Arrow
+Lightning Penetration
+Lightning Spire Trap
+Lightning Strike
+Lightning Tendrils
+Lightning Trap
+Lightning Warp
+Lingering Remnants
+Lion Pelt
+Lion Sword
+Lone Antler Talisman
+Long Bow
+Long Staff
+Longtooth Talisman
+Loricated Ringmail
+Lost Worlds
+Love Through Ice
+Loyalty
+Lucent Fossil
+Lucky Connections
+Lucky Deck
+Luminous Trove
+Lunaris Circlet
+Lysah's Respite
+Maddening Incubator
+Maelström Staff
+Magistrate Crown
+Magmatic Tower Shield
+Magnum Opus
+Maim Support
+Malevolence
+Malign Fangs
+Maltreatment Axe
+Manabond
+Mandible Talisman
+Maraketh Bow
+Marble Amulet
+Mark On Hit Support
+Master Lockpick
+Maven's
+Maven's Invitation: The Atlas
+Maven's Invitation: The Elderslayers
+Maven's Invitation: The Feared
+Maven's Invitation: The Forgotten
+Maven's Invitation: The Formed
+Maven's Invitation: The Hidden
+Maven's Invitation: The Twisted
+Mawr Blaidd
+Maze Map
+Meat Shield Support
+Meatgrinder
+Mechalarm Belt
+Medium
+Medium Cluster Jewel
+Melee Physical Damage Support
+Melee Splash Support
+Merciless Armament
+Mesh Boots
+Mesh Gloves
+Metallic Fossil
+Micro-Distillery Belt
+Midnight Blade
+Might is Right
+Military Staff
+Mind Cage
+Minefield Support
+Minion Damage Support
+Minion Life Support
+Minion Speed Support
+Mirage Archer Support
+Mirror of Kalandra
+Mirror Shard
+Mirrored Spiked Shield
+Misery in Darkness
+Mitts
+Molten Shell
+Molten Strike
+Monochrome
+Moon Temple Map
+Moonstone Ring
+More is Never Enough
+Morphing Incubator
+Mortal Grief
+Mortal Hope
+Mortal Ignorance
+Mortal Rage
+Mosaic Kite Shield
+Multiple Totems Support
+Multistrike Support
+Murder Boots
+Murder Mitts
+Murderous Eye Jewel
+Museum Map
+Muttering Essence of
+Mysterious Incubator
+Nailed Fist
+Necromancer Circlet
+Necromancer Silks
+Necropolis Map
+Nexus Gloves
+Nightblade Support
+Nightmare Bascinet
+Nightmare Mace
+Nightwind Slippers
+No Traces
+Noble Tricorne
+Nook's Crown
+
+Nubuck Boots
+Nubuck Gloves
+Obscured Delirium Orb
+Obscured Incubator
+Obsidian Apex Sentinel
+Obsidian Pandemonium Sentinel
+Obsidian Sharpening Stone
+Obsidian Stalker Sentinel
+Occultist's Vestment
+Ochre Sceptre
+Offering to the Goddess
+
+Omniscient Voidstone
+Onslaught Support
+Onyx Amulet
+Opal Ring
+Opal Sceptre
+Opal Wand
+
+Operative's Scouting Report
+Orb of Alchemy
+Orb of Alteration
+Orb of Annulment
+Orb of Augmentation
+Orb of Binding
+Orb of Chance
+Orb of Conflict
+Orb of Dominance
+Orb of Fusing
+Orb of Horizons
+Orb of Regret
+Orb of Scouring
+Orb of Storms
+Orb of Transmutation
+Orb of Unmaking
+Ornate Incubator
+Ornate Mace
+Ornate Quiver
+Ornate Ringmail
+Ornate Sword
+Oscillating Sceptre
+Otherworldly Incubator
+Otherworldly Scouting Report
+Overgrown Shrine Map
+Pagan Wand
+Painted Buckler
+Painted Tower Shield
+Parasitic Passengers
+Park Map
+Paua Amulet
+Paua Ring
+Peaceful Moments
+Penance Brand
+Penetrating Arrow Quiver
+Penitent Mask
+Perfect Fossil
+Perfection
+Perforate
+Pestilent Strike
+Petrified Blood
+Phase Run
+Physical to Lightning
+Physical to Lightning Support
+Pierce Support
+Pig-Faced Bascinet
+Piledriver
+Pine Buckler
+Pinnacle Tower Shield
+Plague Bearer
+Plague Mask
+Plank Kite Shield
+Plate Vest
+Plated Greaves
+Platinum Kris
+Platinum Sceptre
+Pneumatic Dagger
+Poacher's Mark
+Poisonous Concoction
+Polar Buckler
+Polaric Invitation
+Poleaxe
+Polished Abyss Scarab
+Polished Ambush Scarab
+Polished Bestiary Scarab
+Polished Blight Scarab
+Polished Breach Scarab
+Polished Cartography Scarab
+Polished Divination Scarab
+Polished Elder Scarab
+Polished Expedition Scarab
+Polished Harbinger Scarab
+Polished Legion Scarab
+Polished Metamorph Scarab
+Polished Reliquary Scarab
+Polished Sensing Charm
+Polished Shaper Scarab
+Polished Spiked Shield
+Polished Sulphite Scarab
+Polished Torment Scarab
+Portal
+Portal Scroll
+Potent Chaotic Resonator
+Potentiality Rod
+Power Charge On Critical Support
+Power Core
+Power Siphon
+Powerful Chaotic Resonator
+Praetor Crown
+Precise Arrowhead
+Precision
+Predator Support
+Prejudice
+Pressurised Dagger
+Pride
+Pride Before the Fall
+Pride of the First Ones
+Primal Arrow Quiver
+Primal Delirium Orb
+Primal Incubator
+Prime Chaotic Resonator
+Prime Cleaver
+Prime Regrading Lens
+Primeval Apex Sentinel
+Primeval Pandemonium Sentinel
+Primeval Stalker Sentinel
+Primitive Chaotic Resonator
+Primordial Blocks Map
+Primordial Staff
+
+Prismatic Fossil
+Prismatic Jewel
+Prismatic Ring
+Pristine Fossil
+Profane Wand
+Promenade Map
+Prometheus' Armoury
+Prophecy Wand
+Prophet Crown
+Prosperity
+Psychotic Axe
+Pulverise Support
+Puncture
+Punishment
+Purifying Flame
+Purity of Elements
+Purity of Fire
+Purity of Ice
+Purity of Lightning
+Pyroclast Mine
+Quarterstaff
+Quartz Flask
+Quartz Wand
+Quicksilver Flask
+Rage Support
+Rain of Arrows
+Rain of Chaos
+Rain Tempter
+Raise Spectre
+Raise Zombie
+Rallying Cry
+Ranger Bow
+Rats
+Raven Mask
+Rawhide Boots
+Rawhide Tower Shield
+Reap
+Reaver Helmet
+Reaver Sword
+Rebirth
+Rebirth and Renewal
+Rebuking Blade
+Reciprocation Staff
+Reckless Ambition
+Reckoning
+Recurve Bow
+Redeemer's Exalted Orb
+Regal Orb
+Regal Shard
+Regicide Disguise Kit
+Regicide Mask
+Reinforced Greaves
+Reinforced Tower Shield
+Relic Chambers Map
+Remembrance
+Remnant of Corruption
+Righteous Fire
+Riposte
+Ritual Sceptre
+Ritual Splinter
+Ritual Vessel
+Riveted Boots
+Riveted Gloves
+Rock Breaker
+Rogue's Marker
+Rolling Magma
+Rot Head Talisman
+Rotfeather Talisman
+Rotted Round Shield
+Royal Axe
+Royal Bow
+Royal Burgonet
+Royal Sceptre
+Royal Skean
+Royal Staff
+Ruby Flask
+Ruby Ring
+Runed Bracers
+Runic Crest
+Runic Crown
+Runic Gages
+Runic Gauntlets
+Runic Gloves
+Runic Greaves
+Runic Hatchet
+Runic Helm
+Runic Sabatons
+Runic Sollerets
+Rusted Abyss Scarab
+Rusted Ambush Scarab
+Rusted Bestiary Scarab
+Rusted Blight Scarab
+Rusted Breach Scarab
+Rusted Cartography Scarab
+Rusted Divination Scarab
+Rusted Elder Scarab
+Rusted Expedition Scarab
+Rusted Harbinger Scarab
+Rusted Legion Scarab
+Rusted Metamorph Scarab
+Rusted Reliquary Scarab
+Rusted Shaper Scarab
+Rusted Stalker Sentinel
+Rusted Sulphite Scarab
+Rusted Sword
+Rusted Torment Scarab
+Rustic Sash
+Ruthless Support
+Sabre
+Sacred
+Sacred Blossom
+Sacred Orb
+Sacrifice at Dawn
+Sacrifice at Dusk
+Sacrifice at Midnight
+Sacrifice at Noon
+Sacrificial Garb
+Sadist Garb
+Sage Wand
+Sage's Robe
+Sai
+Saintly Chainmail
+Saint's Hauberk
+Sambar Sceptre
+Sambodhi's Vow
+Sambodhi's Wisdom
+Samite Gloves
+Samite Slippers
+Samnite Helmet
+Sanctified
+Sanctified Fossil
+Sanctified Life Flask
+Sanctified Mana Flask
+Sapphire Flask
+Sapphire Ring
+Saqawine Lure
+Satin Gloves
+Savant's Robe
+Scarab
+Scholar Boots
+Scholar of the Seas
+Scholar's Robe
+Scorched Fossil
+Scorching Ray
+Scourge Arrow
+Scrap Metal
+Screaming Essence of
+Screaming Invitation
+Scroll Fragment
+Scroll of Wisdom
+Seaglass Amulet
+Searching Eye Jewel
+Searing Bond
+Second Wind Support
+Secondary Regrading Lens
+Secutor Helm
+Seismic Cry
+Seismic Trap
+Sekhem
+Sentinel Jacket
+
+Serpentine Staff
+Serpentscale Boots
+Serpentscale Gauntlets
+Serrated Arrow Quiver
+Serrated Fossil
+Seven Years Bad Luck
+Shackled Boots
+Shadow Axe
+Shadow Fangs
+Shadow Sceptre
+Shagreen Boots
+Shagreen Gloves
+Shard of Fate
+Sharkskin Boots
+Sharkskin Gloves
+Sharkskin Tunic
+Sharktooth Arrow Quiver
+Shattering Steel
+Shield Charge
+Shield Crush
+Shining Ward
+Shock Nova
+Shockwave Support
+Shockwave Totem
+Shore Map
+Short Bow
+Shrapnel Ballista
+Shrieking Essence of
+Shuddering Fossil
+Siege Axe
+Siege Ballista
+Siege Helmet
+Siege Map
+Sigil of Power
+Silence and Frost
+Silk Gloves
+Silk Slippers
+Silken Hood
+Silkweave Sole
+Silver Flask
+
+Simple Robe
+Simplex Amulet
+Simulacrum
+Simulacrum Splinter
+Singular Delirium Orb
+Singular Incubator
+Singular Scouting Report
+Sinistral Gloves
+Sinner Tricorne
+Siphoning Trap
+Skean
+Skeleton Keyring
+Skinning Knife
+Skittering Delirium Orb
+Skittering Incubator
+Slaughter Knife
+Sledgehammer
+Slink Boots
+Slink Gloves
+Small
+Small Cluster Jewel
+Smite
+Sniper's Mark
+Society's Remorse
+Solarine Bow
+Solaris Circlet
+Soldier Boots
+Soldier Gloves
+Soldier Helmet
+Sorcerer Boots
+Sorcerer Gloves
+Sorrow Mask
+Soulrend
+Southswing Gloves
+Sovereign Spiked Shield
+Spark
+Spectral Helix
+Spectral Shield Throw
+Spectral Throw
+Specularity Scroll
+Spell Cascade Support
+Spell Echo Support
+Spellslinger
+Spidersilk Robe
+Spiked Club
+Spiked Gloves
+Spike-Point Arrow Quiver
+Spine Bow
+Spinefuse Talisman
+Spiraled Foil
+Spiraled Wand
+Spirit Offering
+Splinter of Chayula
+Splinter of Esh
+Splinter of Tul
+Splinter of Uul-Netol
+Splinter of Xoph
+Split Arrow
+Splitting Steel
+Squandered Prosperity
+Stabilising Sceptre
+Stacked Deck
+Stag Sceptre
+Static Strike
+Stealth Boots
+Stealth Gloves
+Steel Bracers
+Steel Circlet
+Steel Gauntlets
+Steel Kite Shield
+Steel Ring
+Steelhead
+Steelscale Gauntlets
+Steelskin
+Steelwood Bow
+Stibnite Flask
+Stiletto
+Stone Hammer
+Storm Brand
+Storm Burst
+Storm Call
+Storm Rain
+Stormbind
+Stormblast Mine
+Stormrider Boots
+Strand Map
+Strapped Boots
+Strapped Leather
+Strapped Mitts
+Struck by Lightning
+Studded Belt
+Studded Round Shield
+Stygian Vise
+Subsuming Spirit Shield
+Succor of the Sinless
+Sulphur Blowtorch
+Sulphur Flask
+Summon Carrion Golem
+Summon Chaos Golem
+Summon Flame Golem
+Summon Holy Relic
+Summon Ice Golem
+Summon Lightning Golem
+Summon Raging Spirit
+Summon Reaper
+Summon Skeletons
+Summon Skitterbots
+Summon Stone Golem
+Sundering Axe
+Supreme Spiked Shield
+Surveyor's Compass
+Sweep
+Swift Affliction Support
+Swift Assembly Support
+Synthesised Map
+Tailoring Orb
+Tainted Armourer's Scrap
+Tainted Blacksmith's Whetstone
+Tainted Blessing
+Tainted Chaos Orb
+Tainted Chromatic Orb
+Tainted Divine Teardrop
+Tainted Exalted Orb
+Tainted Jeweller's Orb
+Tainted Mythic Orb
+
+Tainted Orb of Fusing
+Talisman
+Talon Axe
+Tangled Fossil
+Tarnished Spirit Shield
+Taxing Gauntlets
+Teak Round Shield
+
+Tectonic Slam
+
+Tempering Orb
+Tempest Shield
+Temple Map
+Terrible Secret of Space
+Terror Claw
+Terror Maul
+Thaumaturge's Delirium Orb
+Thaumaturge's Incubator
+Thaumaturgical Sensing Charm
+Thaumaturgical Ward
+Thaumetic Blowtorch
+Thaumetic Flashpowder
+The Academic
+The Admirer
+The Adventuring Spirit
+The Aesthete
+The Apothecary
+The Archmage's Right Hand
+The Arena Champion
+The Army of Blood
+The Artist
+The Aspirant
+The Astromancer
+The Avenger
+The Awakened
+The Bargain
+The Battle Born
+The Bear Woman
+The Beast
+The Betrayal
+The Bitter Blossom
+The Blazing Fire
+The Blessing of Moosh
+The Body
+The Bones
+The Brawny Battle Mage
+The Breach
+The Brittle Emperor
+The Cache
+The Cacophony
+The Calling
+The Card Sharp
+The Carrion Crow
+The Cartographer
+The Cataclysm
+The Catalyst
+The Catch
+The Celestial Justicar
+The Celestial Stone
+The Chains that Bind
+The Cheater
+The Chosen
+The Coming Storm
+The Conduit
+The Craving
+The Cursed King
+The Damned
+The Dapper Prodigy
+The Dark Mage
+The Darkest Dream
+The Deal
+The Deceiver
+The Deep Ones
+The Demon
+The Demoness
+The Destination
+The Doctor
+The Doppelganger
+The Dragon
+The Dragon's Heart
+The Dreamer
+The Dreamland
+The Drunken Aristocrat
+The Dungeon Master
+The Easy Stroll
+The Eldritch Decay
+The Emptiness
+The Encroaching Darkness
+The Endless Darkness
+The Endurance
+The Enlightened
+The Enthusiasts
+The Escape
+The Eternal War
+The Ethereal
+The Explorer
+The Eye of Terror
+The Eye of the Dragon
+The Fathomless Depths
+The Feast
+The Fiend
+The Fishmonger
+The Fletcher
+The Flora's Gift
+The Fool
+The Forgotten Treasure
+The Formless Sea
+The Forsaken
+The Forward Gaze
+The Fox
+The Fox in the Brambles
+The Gambler
+The Garish Power
+The Gemcutter
+The Gentleman
+The Gladiator
+The Golden Era
+The Greatest Intentions
+The Gulf
+The Hale Heart
+The Harvester
+The Hermit
+The Heroic Shot
+The Hive of Knowledge
+The Hoarder
+The Hook
+The Hunger
+The Immortal
+The Incantation
+The Innocent
+The Inoculated
+The Insatiable
+The Inventor
+The Iron Bard
+The Jester
+The Jeweller's Boon
+The Journalist
+The Journey
+The King's Blade
+The King's Heart
+The Landing
+The Last One Standing
+The Last Supper
+The Lich
+The Life Thief
+The Lion
+The Long Con
+The Long Watch
+The Lord in Black
+The Lord of Celebration
+The Lover
+The Lunaris Priestess
+The Mad King
+The Magma Crab
+The Master
+The Master Artisan
+The Maven's Writ
+The Mayor
+The Mercenary
+The Messenger
+The Metalsmith's Gift
+The Mind's Eyes
+The Mountain
+The Nurse
+The Oath
+The Obscured
+The Offering
+The Offspring
+The Old Man
+The One That Got Away
+The One With All
+The Opulent
+The Pack Leader
+The Pact
+The Patient
+The Penitent
+The Poet
+The Polymath
+The Porcupine
+The Price of Loyalty
+The Price of Prescience
+The Price of Protection
+The Primordial
+The Prince of Darkness
+The Professor
+The Progeny of Lunaris
+The Puzzle
+The Queen
+The Rabbit's Foot
+The Rabid Rhoa
+The Realm
+The Risk
+The Rite of Elements
+The Road to Power
+The Ruthless Ceinture
+The Sacrifice
+The Saint's Treasure
+The Samurai's Eye
+The Scarred Meadow
+The Scavenger
+The Scholar
+The Scout
+The Seeker
+The Sephirot
+The Shortcut
+The Side Quest
+The Sigil
+The Siren
+The Skeleton
+The Soul
+The Spark and the Flame
+The Spoiled Prince
+The Standoff
+The Stormcaller
+The Strategist
+The Summoner
+The Sun
+The Surgeon
+The Surveyor
+The Survivalist
+The Sustenance
+The Sword King's Salute
+The Thaumaturgist
+The Throne
+The Tinkerer's Table
+The Tireless Extractor
+The Tower
+The Traitor
+The Transformation
+The Trial
+The Tumbleweed
+The Twilight Moon
+The Twins
+The Tyrant
+The Undaunted
+The Undisputed
+The Unexpected Prize
+The Union
+The Valkyrie
+The Valley of Steel Boxes
+The Vast
+The Visionary
+The Void
+The Warden
+The Warlord
+The Watcher
+The Web
+The White Knight
+The Whiteout
+The Wilted Rose
+The Wind
+The Witch
+The Wolf
+The Wolf's Legacy
+The Wolf's Shadow
+The Wolven King's Bite
+The Wolverine
+The World Eater
+The Wrath
+The Wretched
+Thicket Bow
+Thirst for Knowledge
+Thorium Spirit Shield
+Three Faces in the Dark
+Three Rat Talisman
+Three Voices
+Thresher Claw
+Throat Stabber
+Thunderous Skies
+Tiger Hook
+Tiger Sword
+Timeless Delirium Orb
+Timeless Eternal Emblem
+Timeless Eternal Empire Splinter
+Timeless Jewel
+Timeless Karui Emblem
+Timeless Karui Splinter
+Timeless Maraketh Emblem
+Timeless Maraketh Splinter
+Timeless Templar Emblem
+Timeless Templar Splinter
+Timeless Vaal Emblem
+Timeless Vaal Splinter
+Time-light Scroll
+Time-Lost Incubator
+Time-Lost Relic
+Timeworn Claw
+Timeworn Reliquary Key
+Titan Gauntlets
+Titan Greaves
+Titanium Spirit Shield
+Tomahawk
+Topaz Flask
+Topaz Ring
+Tornado
+Tornado Shot
+Tornado Wand
+Toxic Rain
+Tranquillity
+Transfer-attuned Spirit Shield
+Transformer Staff
+Transforming Power Core
+Transmutation Shard
+Trap and Mine Damage Support
+Trap Support
+Trapper Boots
+Treasure Hunter
+Tribal Circlet
+Tribute to the Goddess
+Tricorne
+Trinity Support
+Triskaidekaphobia
+Triumphant Lamellar
+
+
+Turn the Other Cheek
+Turquoise Amulet
+Twilight Blade
+Two-Point Arrow Quiver
+Two-Stone Ring
+Two-Toned Boots
+Tyrant's Sekhem
+Unchained
+Underground Forest
+Underground River Map
+Underground Sea Map
+Unearth
+Unleash Support
+Unrelenting Timeless Eternal Emblem
+Unrelenting Timeless Karui Emblem
+Unrelenting Timeless Maraketh Emblem
+Unrelenting Timeless Templar Emblem
+Unrelenting Timeless Vaal Emblem
+Unrequited Love
+Unset Amulet
+Unset Ring
+Unshaping Orb
+Unstable Catalyst
+Urgent Orders Support
+Ursine Pelt
+
+Vaal
+Vaal Ancestral Warchief
+Vaal Arc
+Vaal Axe
+Vaal Blade
+Vaal Blade Vortex
+Vaal Blight
+Vaal Breach
+Vaal Buckler
+Vaal Burning Arrow
+Vaal Clarity
+Vaal Claw
+Vaal Cold Snap
+Vaal Discipline
+Vaal Double Strike
+Vaal Fireball
+Vaal Flameblast
+Vaal Gauntlets
+Vaal Glacial Hammer
+Vaal Grace
+Vaal Greatsword
+Vaal Greaves
+Vaal Ground Slam
+Vaal Haste
+Vaal Hatchet
+Vaal Lightning Strike
+Vaal Mask
+Vaal Molten Shell
+Vaal Orb
+Vaal Power Siphon
+Vaal Pyramid Map
+Vaal Rain of Arrows
+Vaal Rapier
+Vaal Regalia
+Vaal Reliquary Key
+Vaal Righteous Fire
+Vaal Sceptre
+Vaal Scouting Report
+Vaal Spark
+Vaal Spirit Shield
+Vaal Storm Call
+Vaal Summon Skeletons
+Vanguard Belt
+Vanity
+Variscite Blade
+Varnished Coat
+Veiled Chaos Orb
+Velvet Gloves
+Velvet Slippers
+Vengeance
+Venom Gyre
+
+Veritania's Crest
+Vermillion Ring
+Vial of
+Vial of Awakening
+Vial of Consequence
+Vial of Dominance
+Vial of Fate
+Vial of Sacrifice
+Vial of Summoning
+Vial of the Ghost
+Vial of the Ritual
+Vial of Transcendence
+Vicious Projectiles
+Vicious Projectiles Support
+Vile Arrow Quiver
+Vile Power
+Vile Staff
+Vine Circlet
+Vinia's Token
+
+Viper Strike
+Viridian Jewel
+Visored Sallet
+Vitality
+Void Axe
+Void Fangs
+Void Manipulation
+Void Manipulation Support
+Void of the Elements
+Void Sceptre
+Void Sphere
+Volatile Dead
+Volatile Power
+Volley Support
+Voltaxic Burst
+Vortex
+Vulnerability
+Wailing Essence of
+War Banner
+War Buckler
+War Hammer
+War Sword
+Warlord's Exalted Orb
+Wave of Conviction
+Wealth and Power
+Weapon Recombinator
+Weeping Essence of
+Wereclaw Talisman
+Whalebone Rapier
+Whispering Delirium Orb
+Whispering Essence of
+Whispering Incubator
+Whisper-woven Cloak
+Widowsilk Robe
+Wild Leather
+Wild Strike
+Windbreak Boots
+Winged Abyss Scarab
+Winged Ambush Scarab
+Winged Bestiary Scarab
+Winged Blight Scarab
+Winged Breach Scarab
+Winged Cartography Scarab
+Winged Divination Scarab
+Winged Elder Scarab
+Winged Expedition Scarab
+Winged Harbinger Scarab
+Winged Legion Scarab
+Winged Metamorph Scarab
+Winged Reliquary Scarab
+Winged Shaper Scarab
+Winged Sole
+Winged Sulphite Scarab
+Winged Torment Scarab
+Winter Crown
+Winter Orb
+Winter's Embrace
+Wintertide Brand
+Wither
+Withering Step
+Withering Touch
+Withering Touch Support
+Woodsplitter
+Wool Gloves
+Wool Shoes
+Wrapped Mitts
+Wrath
+Writhing Invitation
+Writhing Talisman
+Wyrmscale Boots
+Wyrmscale Doublet
+Wyrmscale Gauntlets
+
+
+Zealotry
+
+
+
+
+Zealot Gloves
+Zealot Helmet
+Zodiac Leather
