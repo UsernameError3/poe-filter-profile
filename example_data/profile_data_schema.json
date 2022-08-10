@@ -284,19 +284,126 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
-                },
-                {
-                    "classType": "Body Armour",
-                    "rarity": [
-                        "normal",
-                        "magic",
-                        "rare",
-                        "unique"
-                    ],
-                    "baseType": [],
-                    "mods": []
+                    "defences": [
+                        {
+                            "defenceType": "Armour",
+                            "baseType": [
+                                "Iron Hat",
+                                "Cone Helmet",
+                                "Barbute Helmet",
+                                "Close Helmet",
+                                "Gladiator Helmet",
+                                "Reaver Helmet",
+                                "Siege Helmet",
+                                "Samnite Helmet",
+                                "Ezomyte Burgonet",
+                                "Royal Burgonet",
+                                "Eternal Burgonet"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion",
+                            "baseType": [
+                                "Leather Cap",
+                                "Tricorne",
+                                "Leather Hood",
+                                "Wolf Pelt",
+                                "Hunter Hood",
+                                "Noble Tricorne",
+                                "Ursine Pelt",
+                                "Silken Hood",
+                                "Sinner Tricorne",
+                                "Lion Pelt"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Energy Shield",
+                            "baseType": [
+                                "Vine Circlet",
+                                "Iron Circlet",
+                                "Torture Cage",
+                                "Tribal Circlet",
+                                "Bone Circlet",
+                                "Lunaris Circlet",
+                                "Steel Circlet",
+                                "Necromancer Circlet",
+                                "Solaris Circlet",
+                                "Mind Cage",
+                                "Hubris Circlet"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Evasion",
+                            "baseType": [
+                                "Battered Helm",
+                                "Sallet",
+                                "Sorrow Mask",
+                                "Visored Sallet",
+                                "Gilded Sallet",
+                                "Secutor Helm",
+                                "Fencer Helm",
+                                "Atonement Mask",
+                                "Lacquered Helmet",
+                                "Fluted Bascinet",
+                                "Pig-Faced Bascinet",
+                                "Nightmare Bascinet",
+                                "Penitent Mask"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Energy Shield",
+                            "baseType": [
+                                "Rusted Coif",
+                                "Soldier Helmet",
+                                "Imp Crown",
+                                "Great Helmet",
+                                "Crusader Helmet",
+                                "Aventail Helmet",
+                                "Zealot Helmet",
+                                "Demon Crown",
+                                "Great Crown",
+                                "Magistrate Crown",
+                                "Prophet Crown",
+                                "Praetor Crown",
+                                "Bone Helmet",
+                                "Archdemon Crown"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion & Energy Shield",
+                            "baseType": [
+                                "Scare Mask",
+                                "Plague Mask",
+                                "Gale Crown",
+                                "Iron Mask",
+                                "Festival Mask",
+                                "Golden Mask",
+                                "Raven Mask",
+                                "Callous Mask",
+                                "Winter Crown",
+                                "Regicide Mask",
+                                "Harlequin Mask",
+                                "Vaal Mask",
+                                "Deicide Mask",
+                                "Blizzard Crown"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Ward",
+                            "baseType": [
+                                "Runic Helm",
+                                "Runic Crest",
+                                "Runic Crown"
+                            ],
+                            "mods": []
+                        }
+                    ]
                 },
                 {
                     "classType": "Body Armours",
@@ -306,8 +413,154 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
+                    "defences": [
+                        {
+                            "defenceType": "Armour",
+                            "baseType": [
+                                "Plate Vest",
+                                "Chestplate",
+                                "Copper Plate",
+                                "War Plate",
+                                "Full Plate",
+                                "Arena Plate",
+                                "Lordly Plate",
+                                "Bronze Plate",
+                                "Battle Plate",
+                                "Sun Plate",
+                                "Colosseum Plate",
+                                "Majestic Plate",
+                                "Golden Plate",
+                                "Crusader Plate",
+                                "Astral Plate",
+                                "Gladiator Plate",
+                                "Glorious Plate"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion",
+                            "baseType": [
+                                "Shabby Jerkin",
+                                "Strapped Leather",
+                                "Buckskin Tunic",
+                                "Wild Leather",
+                                "Full Leather",
+                                "Sun Leather",
+                                "Thief's Garb",
+                                "Eelskin Tunic",
+                                "Frontier Leather",
+                                "Glorious Leather",
+                                "Coronal Leather",
+                                "Cutthroat's Garb",
+                                "Sharkskin Tunic",
+                                "Destiny Leather",
+                                "Exquisite Leather",
+                                "Zodiac Leather",
+                                "Assassin's Garb"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Energy Shield",
+                            "baseType": [
+                                "Simple Robe",
+                                "Silken Vest",
+                                "Scholar's Robe",
+                                "Silken Garb",
+                                "Mage's Vestment",
+                                "Silk Robe",
+                                "Cabalist Regalia",
+                                "Sage's Robe",
+                                "Silken Wrap",
+                                "Conjurer's Vestment",
+                                "Spidersilk Robe",
+                                "Destroyer Regalia",
+                                "Savant's Robe",
+                                "Necromancer Silks",
+                                "Occultist's Vestment",
+                                "Widowsilk Robe",
+                                "Vaal Regalia"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Evasion",
+                            "baseType": [
+                                "Scale Vest",
+                                "Light Brigandine",
+                                "Scale Doublet",
+                                "Infantry Brigandine",
+                                "Full Scale Armour",
+                                "Soldier's Brigandine",
+                                "Field Lamellar",
+                                "Wyrmscale Doublet",
+                                "Hussar Brigandine",
+                                "Full Wyrmscale",
+                                "Commander's Brigandine",
+                                "Battle Lamellar",
+                                "Dragonscale Doublet",
+                                "Desert Brigandine",
+                                "Full Dragonscale",
+                                "General's Brigandine",
+                                "Triumphant Lamellar"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Energy Shield",
+                            "baseType": [
+                                "Chainmail Vest",
+                                "Chainmail Tunic",
+                                "Ringmail Coat",
+                                "Chainmail Doublet",
+                                "Full Ringmail",
+                                "Full Chainmail",
+                                "Holy Chainmail",
+                                "Latticed Ringmail",
+                                "Crusader Chainmail",
+                                "Ornate Ringmail",
+                                "Chain Hauberk",
+                                "Devout Chainmail",
+                                "Loricated Ringmail",
+                                "Conquest Chainmail",
+                                "Elegant Ringmail",
+                                "Saint's Hauberk",
+                                "Saintly Chainmail"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion & Energy Shield",
+                            "baseType": [
+                                "Padded Vest",
+                                "Oiled Vest",
+                                "Padded Jacket",
+                                "Oiled Coat",
+                                "Scarlet Raiment",
+                                "Waxed Garb",
+                                "Bone Armour",
+                                "Quilted Jacket",
+                                "Sleek Coat",
+                                "Crimson Raiment",
+                                "Lacquered Garb",
+                                "Crypt Armour",
+                                "Sentinel Jacket",
+                                "Varnished Coat",
+                                "Blood Raiment",
+                                "Sadist Garb",
+                                "Carnal Armour"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion & Energy Shield & Armour",
+                            "baseType": [
+                                "Grasping Mail",
+                                "Sacrificial Garb"
+                            ],
+                            "mods": []
+                        }
+                    ]
                 },
                 {
                     "classType": "Gloves",
@@ -317,8 +570,121 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
+                    "defences": [
+                        {
+                            "defenceType": "Armour",
+                            "baseType": [
+                                "Iron Gauntlets",
+                                "Taxing Gauntlets",
+                                "Plated Gauntlets",
+                                "Bronze Gauntlets",
+                                "Steel Gauntlets",
+                                "Antique Gauntlets",
+                                "Gruelling Gauntlets",
+                                "Ancient Gauntlets",
+                                "Goliath Gauntlets",
+                                "Vaal Gauntlets",
+                                "Titan Gauntlets",
+                                "Debilitation Gauntlets",
+                                "Spiked Gloves"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion",
+                            "baseType": [
+                                "Rawhide Gloves",
+                                "Goathide Gloves",
+                                "Gauche Gloves",
+                                "Deerskin Gloves",
+                                "Nubuck Gloves",
+                                "Eelskin Gloves",
+                                "Southswing Gloves",
+                                "Sharkskin Gloves",
+                                "Shagreen Gloves",
+                                "Stealth Gloves",
+                                "Gripped Gloves",
+                                "Sinistral Gloves",
+                                "Slink Gloves"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Energy Shield",
+                            "baseType": [
+                                "Wool Gloves",
+                                "Leyline Gloves",
+                                "Velvet Gloves",
+                                "Silk Gloves",
+                                "Embroidered Gloves",
+                                "Aetherwind Gloves",
+                                "Satin Gloves",
+                                "Samite Gloves",
+                                "Conjurer Gloves",
+                                "Arcanist Gloves",
+                                "Sorcerer Gloves",
+                                "Fingerless Silk Gloves",
+                                "Nexus Gloves"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Evasion",
+                            "baseType": [
+                                "Fishscale Gauntlets",
+                                "Ironscale Gauntlets",
+                                "Bronzescale Gauntlets",
+                                "Steelscale Gauntlets",
+                                "Serpentscale Gauntlets",
+                                "Wyrmscale Gauntlets",
+                                "Hydrascale Gauntlets",
+                                "Dragonscale Gauntlets"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Energy Shield",
+                            "baseType": [
+                                "Chain Gloves",
+                                "Ringmail Gloves",
+                                "Mesh Gloves",
+                                "Riveted Gloves",
+                                "Zealot Gloves",
+                                "Soldier Gloves",
+                                "Legion Gloves",
+                                "Crusader Gloves",
+                                "Apothecary's Gloves"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion & Energy Shield",
+                            "baseType": [
+                                "Wrapped Mitts",
+                                "Strapped Mitts",
+                                "Clasped Mitts",
+                                "Trapper Mitts",
+                                "Ambush Mitts",
+                                "Carnal Mitts",
+                                "Assassin's Mitts",
+                                "Murder Mitts"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Ward",
+                            "baseType": [
+                                "Runic Gloves",
+                                "Runic Gages",
+                                "Runic Gauntlets"
+                            ],
+                            "mods": []
+                        }
+                    ]
                 },
                 {
                     "classType": "Boots",
@@ -328,8 +694,118 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
+                    "defences": [
+                        {
+                            "defenceType": "Armour",
+                            "baseType": [
+                                "Iron Greaves",
+                                "Steel Greaves",
+                                "Basemetal Treads",
+                                "Plated Greaves",
+                                "Reinforced Greaves",
+                                "Antique Greaves",
+                                "Ancient Greaves",
+                                "Darksteel Treads",
+                                "Goliath Greaves",
+                                "Vaal Greaves",
+                                "Titan Greaves",
+                                "Brimstone Treads"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion",
+                            "baseType": [
+                                "Rawhide Boots",
+                                "Goathide Boots",
+                                "Cloudwhisper Boots",
+                                "Deerskin Boots",
+                                "Nubuck Boots",
+                                "Eelskin Boots",
+                                "Sharkskin Boots",
+                                "Windbreak Boots",
+                                "Shagreen Boots",
+                                "Stealth Boots",
+                                "Slink Boots",
+                                "Stormrider Boots"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Energy Shield",
+                            "baseType": [
+                                "Wool Shoes",
+                                "Velvet Slippers",
+                                "Duskwalk Slippers",
+                                "Silk Slippers",
+                                "Scholar Boots",
+                                "Satin Slippers",
+                                "Samite Slippers",
+                                "Nightwind Slippers",
+                                "Conjurer Boots",
+                                "Arcanist Slippers",
+                                "Sorcerer Boots",
+                                "Dreamquest Slippers"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Evasion",
+                            "baseType": [
+                                "Leatherscale Boots",
+                                "Ironscale Boots",
+                                "Bronzescale Boots",
+                                "Steelscale Boots",
+                                "Serpentscale Boots",
+                                "Wyrmscale Boots",
+                                "Hydrascale Boots",
+                                "Dragonscale Boots",
+                                "Two-Toned Boots"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Energy Shield",
+                            "baseType": [
+                                "Chain Boots",
+                                "Ringmail Boots",
+                                "Mesh Boots",
+                                "Riveted Boots",
+                                "Zealot Boots",
+                                "Soldier Boots",
+                                "Legion Boots",
+                                "Crusader Boots",
+                                "Two-Toned Boots"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion & Energy Shield",
+                            "baseType": [
+                                "Wrapped Boots",
+                                "Strapped Boots",
+                                "Clasped Boots",
+                                "Shackled Boots",
+                                "Trapper Boots",
+                                "Ambush Boots",
+                                "Carnal Boots",
+                                "Assassin's Boots",
+                                "Murder Boots",
+                                "Fugitive Boots",
+                                "Two-Toned Boots"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Ward",
+                            "baseType": [
+                                "Runic Greaves",
+                                "Runic Sollerets",
+                                "Runic Sabatons"
+                            ],
+                            "mods": []
+                        }
+                    ]
                 },
                 {
                     "classType": "Shields",
@@ -339,8 +815,146 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
+                    "defences": [
+                        {
+                            "defenceType": "Armour",
+                            "baseType": [
+                                "Splintered Tower Shield",
+                                "Corroded Tower Shield",
+                                "Rawhide Tower Shield",
+                                "Cedar Tower Shield",
+                                "Copper Tower Shield",
+                                "Exothermic Tower Shield",
+                                "Reinforced Tower Shield",
+                                "Painted Tower Shield",
+                                "Buckskin Tower Shield",
+                                "Mahogany Tower Shield",
+                                "Bronze Tower Shield",
+                                "Magmatic Tower Shield",
+                                "Girded Tower Shield",
+                                "Crested Tower Shield",
+                                "Shagreen Tower Shield",
+                                "Ebony Tower Shield",
+                                "Ezomyte Tower Shield",
+                                "Colossal Tower Shield",
+                                "Heat-attuned Tower Shield",
+                                "Pinnacle Tower Shield"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion",
+                            "baseType": [
+                                "Goathide Buckler",
+                                "Pine Buckler",
+                                "Painted Buckler",
+                                "Hammered Buckler",
+                                "War Buckler",
+                                "Endothermic Buckler",
+                                "Gilded Buckler",
+                                "Oak Buckler",
+                                "Enameled Buckler",
+                                "Corrugated Buckler",
+                                "Battle Buckler",
+                                "Polar Buckler",
+                                "Golden Buckler",
+                                "Ironwood Buckler",
+                                "Lacquered Buckler",
+                                "Vaal Buckler",
+                                "Crusader Buckler",
+                                "Imperial Buckler",
+                                "Cold-attuned Buckler"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Energy Shield",
+                            "baseType": [
+                                "Twig Spirit Shield",
+                                "Yew Spirit Shield",
+                                "Bone Spirit Shield",
+                                "Tarnished Spirit Shield",
+                                "Jingling Spirit Shield",
+                                "Exhausting Spirit Shield",
+                                "Brass Spirit Shield",
+                                "Walnut Spirit Shield",
+                                "Ivory Spirit Shield",
+                                "Ancient Spirit Shield",
+                                "Chiming Spirit Shield",
+                                "Subsuming Spirit Shield",
+                                "Thorium Spirit Shield",
+                                "Lacewood Spirit Shield",
+                                "Fossilised Spirit Shield",
+                                "Vaal Spirit Shield",
+                                "Harmonic Spirit Shield",
+                                "Titanium Spirit Shield",
+                                "Transfer-attuned Spirit Shield"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Evasion",
+                            "baseType": [
+                                "Rotted Round Shield",
+                                "Fir Round Shield",
+                                "Studded Round Shield",
+                                "Scarlet Round Shield",
+                                "Splendid Round Shield",
+                                "Maple Round Shield",
+                                "Spiked Round Shield",
+                                "Crimson Round Shield",
+                                "Baroque Round Shield",
+                                "Teak Round Shield",
+                                "Spiny Round Shield",
+                                "Cardinal Round Shield",
+                                "Elegant Round Shield"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Armour & Energy Shield",
+                            "baseType": [
+                                "Plank Kite Shield",
+                                "Linden Kite Shield",
+                                "Reinforced Kite Shield",
+                                "Layered Kite Shield",
+                                "Ceremonial Kite Shield",
+                                "Etched Kite Shield",
+                                "Steel Kite Shield",
+                                "Laminated Kite Shield",
+                                "Angelic Kite Shield",
+                                "Branded Kite Shield",
+                                "Champion Kite Shield",
+                                "Mosaic Kite Shield",
+                                "Archon Kite Shield"
+                            
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "defenceType": "Evasion & Energy Shield",
+                            "baseType": [
+                                "Spiked Bundle",
+                                "Driftwood Spiked Shield",
+                                "Alloyed Spiked Shield",
+                                "Burnished Spiked Shield",
+                                "Ornate Spiked Shield",
+                                "Redwood Spiked Shield",
+                                "Compound Spiked Shield",
+                                "Polished Spiked Shield",
+                                "Sovereign Spiked Shield",
+                                "Alder Spiked Shield",
+                                "Ezomyte Spiked Shield",
+                                "Mirrored Spiked Shield",
+                                "Supreme Spiked Shield"
+                            ],
+                            "mods": []
+                        }
+                    ]
                 },
                 {
                     "classType": "Quivers",
@@ -350,7 +964,9 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+
+                    ],
                     "mods": []
                 }
             ],
@@ -454,33 +1070,510 @@
             },
             "gems": {
                 "classType": "Gems",
-                "baseType": [],
-                "mods": []
+                "gemBaseTypes": [
+                    {
+                        "gemType": "Active",
+                        "baseType": [
+                            "Ambush",
+                            "Animate Weapon",
+                            "Arctic Armour",
+                            "Artillery Ballista",
+                            "Barrage",
+                            "Bear Trap",
+                            "Blade Blast",
+                            "Blade Flurry",
+                            "Blade Trap",
+                            "Blade Vortex",
+                            "Bladefall",
+                            "Blast Rain",
+                            "Blink Arrow",
+                            "Blood Rage",
+                            "Burning Arrow",
+                            "Caustic Arrow",
+                            "Charged Dash",
+                            "Cobra Lash",
+                            "Cremation",
+                            "Cyclone",
+                            "Dash",
+                            "Desecrate",
+                            "Detonate Dead",
+                            "Double Strike",
+                            "Dual Strike",
+                            "Elemental Hit",
+                            "Ensnaring Arrow",
+                            "Ethereal Knives",
+                            "Explosive Arrow",
+                            "Explosive Concoction",
+                            "Explosive Trap",
+                            "Fire Trap",
+                            "Flamethrower Trap",
+                            "Flicker Strike",
+                            "Frenzy",
+                            "Frost Blades",
+                            "Galvanic Arrow",
+                            "Grace",
+                            "Haste",
+                            "Hatred",
+                            "Herald of Agony",
+                            "Herald of Ice",
+                            "Ice Shot",
+                            "Ice Trap",
+                            "Intuitive Link",
+                            "Lacerate",
+                            "Lancing Steel",
+                            "Lightning Arrow",
+                            "Lightning Strike",
+                            "Mirror Arrow",
+                            "Pestilent Strike",
+                            "Phase Run",
+                            "Plague Bearer",
+                            "Poacher's Mark",
+                            "Poisonous Concoction",
+                            "Precision",
+                            "Puncture",
+                            "Purity of Ice",
+                            "Rain of Arrows",
+                            "Reave",
+                            "Riposte",
+                            "Scourge Arrow",
+                            "Seismic Trap",
+                            "Shattering Steel",
+                            "Shrapnel Ballista",
+                            "Siege Ballista",
+                            "Smoke Mine",
+                            "Sniper's Mark",
+                            "Spectral Helix",
+                            "Spectral Shield Throw",
+                            "Spectral Throw",
+                            "Split Arrow",
+                            "Splitting Steel",
+                            "Storm Rain",
+                            "Summon Ice Golem",
+                            "Temporal Chains",
+                            "Temporal Rift",
+                            "Tornado",
+                            "Tornado Shot",
+                            "Toxic Rain",
+                            "Unearth",
+                            "Vaal Blade Vortex",
+                            "Vaal Burning Arrow",
+                            "Vaal Cyclone",
+                            "Vaal Detonate Dead",
+                            "Vaal Double Strike",
+                            "Vaal Grace",
+                            "Vaal Haste",
+                            "Vaal Impurity of Ice",
+                            "Vaal Lightning Strike",
+                            "Vaal Rain of Arrows",
+                            "Vaal Reave",
+                            "Vaal Spectral Throw",
+                            "Vampiric Link",
+                            "Venom Gyre",
+                            "Viper Strike",
+                            "Volatile Dead",
+                            "Whirling Blades",
+                            "Wild Strike",
+                            "Withering Step",
+                            "Absolution",
+                            "Ancestral Cry",
+                            "Ancestral Protector",
+                            "Ancestral Warchief",
+                            "Anger",
+                            "Animate Guardian",
+                            "Battlemage's Cry",
+                            "Berserk",
+                            "Bladestorm",
+                            "Blood and Sand",
+                            "Boneshatter",
+                            "Chain Hook",
+                            "Cleave",
+                            "Consecrated Path",
+                            "Corrupting Fever",
+                            "Decoy Totem",
+                            "Defiance Banner",
+                            "Determination",
+                            "Devouring Totem",
+                            "Dominating Blow",
+                            "Dread Banner",
+                            "Earthquake",
+                            "Earthshatter",
+                            "Enduring Cry",
+                            "Exsanguinate",
+                            "Flame Link",
+                            "Flesh and Stone",
+                            "General's Cry",
+                            "Glacial Hammer",
+                            "Ground Slam",
+                            "Heavy Strike",
+                            "Herald of Ash",
+                            "Herald of Purity",
+                            "Holy Flame Totem",
+                            "Ice Crash",
+                            "Immortal Call",
+                            "Infernal Blow",
+                            "Infernal Cry",
+                            "Intimidating Cry",
+                            "Leap Slam",
+                            "Molten Shell",
+                            "Molten Strike",
+                            "Perforate",
+                            "Petrified Blood",
+                            "Pride",
+                            "Protective Link",
+                            "Punishment",
+                            "Purity of Fire",
+                            "Rage Vortex",
+                            "Rallying Cry",
+                            "Reap",
+                            "Reckoning",
+                            "Rejuvenation Totem",
+                            "Searing Bond",
+                            "Seismic Cry",
+                            "Shield Charge",
+                            "Shield Crush",
+                            "Shockwave Totem",
+                            "Smite",
+                            "Static Strike",
+                            "Steelskin",
+                            "Summon Flame Golem",
+                            "Summon Stone Golem",
+                            "Sunder",
+                            "Sweep",
+                            "Tectonic Slam",
+                            "Vaal Ancestral Warchief",
+                            "Vaal Earthquake",
+                            "Vaal Glacial Hammer",
+                            "Vaal Ground Slam",
+                            "Vaal Impurity of Fire",
+                            "Vaal Molten Shell",
+                            "Vengeance",
+                            "Vigilant Strike",
+                            "Vitality",
+                            "Vulnerability",
+                            "War Banner",
+                            "Warlord's Mark",
+                            "Arc",
+                            "Arcane Cloak",
+                            "Arcanist Brand",
+                            "Armageddon Brand",
+                            "Assassin's Mark",
+                            "Ball Lightning",
+                            "Bane",
+                            "Blazing Salvo",
+                            "Blight",
+                            "Bodyswap",
+                            "Bone Offering",
+                            "Brand Recall",
+                            "Clarity",
+                            "Cold Snap",
+                            "Conductivity",
+                            "Contagion",
+                            "Conversion Trap",
+                            "Convocation",
+                            "Crackling Lance",
+                            "Creeping Frost",
+                            "Dark Pact",
+                            "Despair",
+                            "Destructive Link",
+                            "Discharge",
+                            "Discipline",
+                            "Divine Ire",
+                            "Elemental Weakness",
+                            "Energy Blade",
+                            "Enfeeble",
+                            "Essence Drain",
+                            "Eye of Winter",
+                            "Fireball",
+                            "Firestorm",
+                            "Flame Dash",
+                            "Flame Surge",
+                            "Flame Wall",
+                            "Flameblast",
+                            "Flammability",
+                            "Flesh Offering",
+                            "Forbidden Rite",
+                            "Freezing Pulse",
+                            "Frost Bomb",
+                            "Frost Shield",
+                            "Frost Wall",
+                            "Frostbite",
+                            "Frostblink",
+                            "Frostbolt",
+                            "Glacial Cascade",
+                            "Herald of Thunder",
+                            "Hexblast",
+                            "Hydrosphere",
+                            "Ice Nova",
+                            "Ice Spear",
+                            "Icicle Mine",
+                            "Incinerate",
+                            "Kinetic Blast",
+                            "Kinetic Bolt",
+                            "Lightning Spire Trap",
+                            "Lightning Tendrils",
+                            "Lightning Trap",
+                            "Lightning Warp",
+                            "Malevolence",
+                            "Manabond",
+                            "Orb of Storms",
+                            "Penance Brand",
+                            "Power Siphon",
+                            "Purifying Flame",
+                            "Purity of Elements",
+                            "Purity of Lightning",
+                            "Pyroclast Mine",
+                            "Raise Spectre",
+                            "Raise Zombie",
+                            "Righteous Fire",
+                            "Rolling Magma",
+                            "Scorching Ray",
+                            "Shock Nova",
+                            "Sigil of Power",
+                            "Siphoning Trap",
+                            "Soul Link",
+                            "Soulrend",
+                            "Spark",
+                            "Spellslinger",
+                            "Spirit Offering",
+                            "Storm Brand",
+                            "Storm Burst",
+                            "Storm Call",
+                            "Stormbind",
+                            "Stormblast Mine",
+                            "Summon Carrion Golem",
+                            "Summon Chaos Golem",
+                            "Summon Holy Relic",
+                            "Summon Lightning Golem",
+                            "Summon Raging Spirit",
+                            "Summon Reaper",
+                            "Summon Skeletons",
+                            "Summon Skitterbots",
+                            "Tempest Shield",
+                            "Vaal Arc",
+                            "Vaal Blight",
+                            "Vaal Clarity",
+                            "Vaal Cold Snap",
+                            "Vaal Discipline",
+                            "Vaal Fireball",
+                            "Vaal Flameblast",
+                            "Vaal Ice Nova",
+                            "Vaal Impurity of Lightning",
+                            "Vaal Lightning Trap",
+                            "Vaal Power Siphon",
+                            "Vaal Righteous Fire",
+                            "Vaal Spark",
+                            "Vaal Storm Call",
+                            "Vaal Summon Skeletons",
+                            "Void Sphere",
+                            "Voltaxic Burst",
+                            "Vortex",
+                            "Wave of Conviction",
+                            "Winter Orb",
+                            "Wintertide Brand",
+                            "Wither",
+                            "Wrath",
+                            "Zealotry",
+                            "Detonate Mines",
+                            "Portal",
+                            "Vaal Breach"
+                        ]
+                    },
+                    {
+                        "gemType": "Support",
+                        "baseType": [
+                            "Added Cold Damage Support",
+                            "Additional Accuracy Support",
+                            "Advanced Traps Support",
+                            "Arrow Nova Support",
+                            "Awakened Added Cold Damage Support",
+                            "Awakened Arrow Nova Support",
+                            "Awakened Cast On Critical Strike Support",
+                            "Awakened Chain Support",
+                            "Awakened Cold Penetration Support",
+                            "Awakened Deadly Ailments Support",
+                            "Awakened Enhance Support",
+                            "Awakened Fork Support",
+                            "Awakened Greater Multiple Projectiles Support",
+                            "Awakened Swift Affliction Support",
+                            "Awakened Vicious Projectiles Support",
+                            "Awakened Void Manipulation Support",
+                            "Barrage Support",
+                            "Blind Support",
+                            "Block Chance Reduction Support",
+                            "Cast On Critical Strike Support",
+                            "Cast on Death Support",
+                            "Chain Support",
+                            "Chance to Flee Support",
+                            "Chance to Poison Support",
+                            "Charged Traps Support",
+                            "Close Combat Support",
+                            "Cluster Traps Support",
+                            "Cold Penetration Support",
+                            "Critical Strike Affliction Support",
+                            "Culling Strike Support",
+                            "Deadly Ailments Support",
+                            "Enhance Support",
+                            "Faster Attacks Support",
+                            "Faster Projectiles Support",
+                            "Focused Ballista Support",
+                            "Fork Support",
+                            "Greater Multiple Projectiles Support",
+                            "Greater Volley Support",
+                            "Hypothermia Support",
+                            "Ice Bite Support",
+                            "Impale Support",
+                            "Lesser Multiple Projectiles Support",
+                            "Mana Leech Support",
+                            "Mark On Hit Support",
+                            "Mirage Archer Support",
+                            "Multiple Traps Support",
+                            "Nightblade Support",
+                            "Onslaught Support",
+                            "Pierce Support",
+                            "Point Blank Support",
+                            "Second Wind Support",
+                            "Slower Projectiles Support",
+                            "Swift Affliction Support",
+                            "Swift Assembly Support",
+                            "Trap and Mine Damage Support",
+                            "Trap Support",
+                            "Vicious Projectiles Support",
+                            "Vile Toxins Support",
+                            "Void Manipulation Support",
+                            "Volley Support",
+                            "Withering Touch Support",
+                            "Added Fire Damage Support",
+                            "Ancestral Call Support",
+                            "Arrogance Support",
+                            "Awakened Added Fire Damage Support",
+                            "Awakened Ancestral Call Support",
+                            "Awakened Brutality Support",
+                            "Awakened Burning Damage Support",
+                            "Awakened Elemental Damage with Attacks Support",
+                            "Awakened Empower Support",
+                            "Awakened Fire Penetration Support",
+                            "Awakened Generosity Support",
+                            "Awakened Melee Physical Damage Support",
+                            "Awakened Melee Splash Support",
+                            "Awakened Multistrike Support",
+                            "Ballista Totem Support",
+                            "Behead Support",
+                            "Bloodlust Support",
+                            "Bloodthirst Support",
+                            "Brutality Support",
+                            "Burning Damage Support",
+                            "Cast on Melee Kill Support",
+                            "Cast when Damage Taken Support",
+                            "Chance to Bleed Support",
+                            "Cold to Fire Support",
+                            "Cruelty Support",
+                            "Damage on Full Life Support",
+                            "Divine Blessing Support",
+                            "Earthbreaker Support",
+                            "Elemental Damage with Attacks Support",
+                            "Empower Support",
+                            "Endurance Charge on Melee Stun Support",
+                            "Eternal Blessing Support",
+                            "Fire Penetration Support",
+                            "Fist of War Support",
+                            "Fortify Support",
+                            "Generosity Support",
+                            "Increased Duration Support",
+                            "Inspiration Support",
+                            "Iron Grip Support",
+                            "Iron Will Support",
+                            "Knockback Support",
+                            "Less Duration Support",
+                            "Life Gain on Hit Support",
+                            "Life Leech Support",
+                            "Lifetap Support",
+                            "Maim Support",
+                            "Melee Physical Damage Support",
+                            "Melee Splash Support",
+                            "Multiple Totems Support",
+                            "Multistrike Support",
+                            "Pulverise Support",
+                            "Rage Support",
+                            "Ruthless Support",
+                            "Shockwave Support",
+                            "Spell Totem Support",
+                            "Stun Support",
+                            "Urgent Orders Support",
+                            "Added Chaos Damage Support",
+                            "Added Lightning Damage Support",
+                            "Arcane Surge Support",
+                            "Archmage Support",
+                            "Awakened Added Chaos Damage Support",
+                            "Awakened Added Lightning Damage Support",
+                            "Awakened Blasphemy Support",
+                            "Awakened Cast While Channelling Support",
+                            "Awakened Controlled Destruction Support",
+                            "Awakened Elemental Focus Support",
+                            "Awakened Enlighten Support",
+                            "Awakened Hextouch Support",
+                            "Awakened Increased Area Of Effect Support",
+                            "Awakened Lightning Penetration Support",
+                            "Awakened Minion Damage Support",
+                            "Awakened Spell Cascade Support",
+                            "Awakened Spell Echo Support",
+                            "Awakened Unbound Ailments Support",
+                            "Awakened Unleash Support",
+                            "Blasphemy Support",
+                            "Blastchain Mine Support",
+                            "Bonechill Support",
+                            "Cast when Stunned Support",
+                            "Cast while Channelling Support",
+                            "Charged Mines Support",
+                            "Combustion Support",
+                            "Concentrated Effect Support",
+                            "Controlled Destruction Support",
+                            "Decay Support",
+                            "Efficacy Support",
+                            "Elemental Army Support",
+                            "Elemental Focus Support",
+                            "Elemental Penetration Support",
+                            "Elemental Proliferation Support",
+                            "Energy Leech Support",
+                            "Enlighten Support",
+                            "Faster Casting Support",
+                            "Feeding Frenzy Support",
+                            "Hextouch Support",
+                            "High-Impact Mine Support",
+                            "Ignite Proliferation Support",
+                            "Immolate Support",
+                            "Impending Doom Support",
+                            "Increased Area of Effect Support",
+                            "Increased Critical Damage Support",
+                            "Increased Critical Strikes Support",
+                            "Infernal Legion Support",
+                            "Infused Channelling Support",
+                            "Innervate Support",
+                            "Intensify Support",
+                            "Item Rarity Support",
+                            "Lightning Penetration Support",
+                            "Meat Shield Support",
+                            "Minefield Support",
+                            "Minion Damage Support",
+                            "Minion Life Support",
+                            "Minion Speed Support",
+                            "Physical to Lightning Support",
+                            "Pinpoint Support",
+                            "Power Charge On Critical Support",
+                            "Predator Support",
+                            "Spell Cascade Support",
+                            "Spell Echo Support",
+                            "Summon Phantasm Support",
+                            "Swiftbrand Support",
+                            "Trinity Support",
+                            "Unbound Ailments Support",
+                            "Unleash Support",
+                            "Item Quantity Support"
+                        ]
+                    }
+                ]
             }
         },
         "drops": {
-            "currency": [
-                {
-                    "classType": "Currency",
-                    "baseType": [
-                        "Abrasive Catalyst",
-                        "Accelerating Catalyst",
-                        "Fertile Catalyst",
-                        "Imbued Catalyst",
-                        "Intrinsic Catalyst",
-                        "Noxious Catalyst",
-                        "Prismatic Catalyst",
-                        "Tempering Catalyst",
-                        "Turbulent Catalyst"
-                    ]
-                },
-                {
-                    "classType": "Divination",
-                    "baseType": [
-                        
-                    ]
-                }
-            ],
             "mapping": [
                 {
                     "classType": "Maps",
@@ -497,7 +1590,76 @@
                 {
                     "classType": "Map Fragments",
                     "baseType": [
-                        
+                        "Gilded Abyss Scarab",
+                        "Gilded Ambush Scarab",
+                        "Gilded Bestiary Scarab",
+                        "Gilded Blight Scarab",
+                        "Gilded Breach Scarab",
+                        "Gilded Cartography Scarab",
+                        "Gilded Divination Scarab",
+                        "Gilded Elder Scarab",
+                        "Gilded Expedition Scarab",
+                        "Gilded Fossil",
+                        "Gilded Harbinger Scarab",
+                        "Gilded Legion Scarab",
+                        "Gilded Metamorph Scarab",
+                        "Gilded Reliquary Scarab",
+                        "Gilded Sallet",
+                        "Gilded Shaper Scarab",
+                        "Gilded Sulphite Scarab",
+                        "Gilded Torment Scarab",
+                        "Polished Abyss Scarab",
+                        "Polished Ambush Scarab",
+                        "Polished Bestiary Scarab",
+                        "Polished Blight Scarab",
+                        "Polished Breach Scarab",
+                        "Polished Cartography Scarab",
+                        "Polished Divination Scarab",
+                        "Polished Elder Scarab",
+                        "Polished Expedition Scarab",
+                        "Polished Harbinger Scarab",
+                        "Polished Legion Scarab",
+                        "Polished Metamorph Scarab",
+                        "Polished Reliquary Scarab",
+                        "Polished Sensing Charm",
+                        "Polished Shaper Scarab",
+                        "Polished Spiked Shield",
+                        "Polished Sulphite Scarab",
+                        "Polished Torment Scarab",
+                        "Rusted Abyss Scarab",
+                        "Rusted Ambush Scarab",
+                        "Rusted Bestiary Scarab",
+                        "Rusted Blight Scarab",
+                        "Rusted Breach Scarab",
+                        "Rusted Cartography Scarab",
+                        "Rusted Divination Scarab",
+                        "Rusted Elder Scarab",
+                        "Rusted Expedition Scarab",
+                        "Rusted Harbinger Scarab",
+                        "Rusted Legion Scarab",
+                        "Rusted Metamorph Scarab",
+                        "Rusted Reliquary Scarab",
+                        "Rusted Shaper Scarab",
+                        "Rusted Sulphite Scarab",
+                        "Rusted Torment Scarab",
+                        "Winged Abyss Scarab",
+                        "Winged Ambush Scarab",
+                        "Winged Bestiary Scarab",
+                        "Winged Blight Scarab",
+                        "Winged Breach Scarab",
+                        "Winged Cartography Scarab",
+                        "Winged Divination Scarab",
+                        "Winged Elder Scarab",
+                        "Winged Expedition Scarab",
+                        "Winged Harbinger Scarab",
+                        "Winged Legion Scarab",
+                        "Winged Metamorph Scarab",
+                        "Winged Reliquary Scarab",
+                        "Winged Shaper Scarab",
+                        "Winged Sole",
+                        "Winged Sulphite Scarab",
+                        "Winged Torment Scarab",
+                        "Scarab"
                     ]
                 }
             ],
@@ -530,7 +1692,12 @@
                         "Chayula's Charged Breachstone",
                         "Chayula's Enriched Breachstone",
                         "Chayula's Flawless Breachstone",
-                        "Chayula's Pure Breachstone"
+                        "Chayula's Pure Breachstone",
+                        "Blessing of Chayula",
+                        "Blessing of Esh",
+                        "Blessing of Tul",
+                        "Blessing of Uul-Netol",
+                        "Blessing of Xoph"
                     ]
                 },
                 {
@@ -556,6 +1723,34 @@
                     ]
                 },
                 {
+                    "leagueName": "Delirium",
+                    "classType": null,
+                    "baseType": [
+                        "Jeweller's Delirium Orb",
+                        "Imperial Delirium Orb",
+                        "Fragmented Delirium Orb",
+                        "Kalguuran Delirium Orb",
+                        "Obscured Delirium Orb",
+                        "Primal Delirium Orb",
+                        "Singular Delirium Orb",
+                        "Skittering Delirium Orb",
+                        "Thaumaturge's Delirium Orb",
+                        "Timeless Delirium Orb",
+                        "Whispering Delirium Orb",
+                        "Abyssal Delirium Orb",
+                        "Amorphous Delirium Orb",
+                        "Armoursmith's Delirium Orb",
+                        "Blacksmith's Delirium Orb",
+                        "Blighted Delirium Orb",
+                        "Cartographer's Delirium Orb",
+                        "Diviner's Delirium Orb",
+                        "Fine Delirium Orb",
+                        "Foreboding Delirium Orb",
+                        "Fossilised Delirium Orb",
+                        "Delirium Orb"
+                    ]
+                },
+                {
                     "leagueName": "Heist",
                     "classType": [
                         "Blueprint",
@@ -572,12 +1767,57 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": []
+                    "baseType": [
+                        "Blueprint: Bunker",
+                        "Blueprint: Laboratory",
+                        "Blueprint: Mansion",
+                        "Blueprint: Prohibited Library",
+                        "Blueprint: Records Office",
+                        "Blueprint: Repository",
+                        "Blueprint: Smuggler's Den",
+                        "Blueprint: Tunnels",
+                        "Blueprint: Underbelly",
+                        "Contract: Bunker",
+                        "Contract: Laboratory",
+                        "Contract: Mansion",
+                        "Contract: Prohibited Library",
+                        "Contract: Records Office",
+                        "Contract: Repository",
+                        "Contract: Smuggler's Den",
+                        "Contract: Tunnels",
+                        "Contract: Underbelly"
+                    ]
                 },
                 {
                     "leagueName": "Delve",
                     "classType": "Delve Stackable Socketable Currency",
-                    "baseType": []
+                    "baseType": [
+                        "Aberrant Fossil",
+                        "Aetheric Fossil",
+                        "Bloodstained Fossil",
+                        "Bound Fossil",
+                        "Corroded Fossil",
+                        "Deft Fossil",
+                        "Dense Fossil",
+                        "Faceted Fossil",
+                        "Fractured Fossil",
+                        "Frigid Fossil",
+                        "Fundamental Fossil",
+                        "Glyphic Fossil",
+                        "Hollow Fossil",
+                        "Jagged Fossil",
+                        "Lucent Fossil",
+                        "Metallic Fossil",
+                        "Perfect Fossil",
+                        "Prismatic Fossil",
+                        "Pristine Fossil",
+                        "Sanctified Fossil",
+                        "Scorched Fossil",
+                        "Serrated Fossil",
+                        "Shuddering Fossil",
+                        "Tangled Fossil",
+                        "Fossil"
+                    ]
                 },
                 {
                     "leagueName": "Expedition",
@@ -592,18 +1832,83 @@
                 },
                 {
                     "leagueName": "Legion",
-                    "classType": "Incubator",
-                    "baseType": []
+                    "classType": ["Incubator"],
+                    "baseType": [
+                        "Unrelenting Timeless Eternal Emblem",
+                        "Unrelenting Timeless Karui Emblem",
+                        "Unrelenting Timeless Maraketh Emblem",
+                        "Unrelenting Timeless Templar Emblem",
+                        "Unrelenting Timeless Vaal Emblem",
+                        "Timeless Eternal Emblem",
+                        "Timeless Karui Emblem",
+                        "Timeless Maraketh Emblem",
+                        "Timeless Templar Emblem",
+                        "Timeless Vaal Emblem",
+                        "Timeless Eternal Empire Splinter",
+                        "Timeless Karui Splinter",
+                        "Timeless Maraketh Splinter",
+                        "Timeless Templar Splinter",
+                        "Timeless Vaal Splinter",
+                        "Cartographer's Incubator",
+                        "Blighted Incubator",
+                        "Abyssal Incubator",
+                        "Celestial Armoursmith's Incubator",
+                        "Celestial Blacksmith's Incubator",
+                        "Celestial Jeweller's Incubator",
+                        "Diviner's Incubator",
+                        "Enchanted Incubator",
+                        "Fine Incubator",
+                        "Foreboding Incubator",
+                        "Fossilised Incubator",
+                        "Fragmented Incubator",
+                        "Gemcutter's Incubator",
+                        "Geomancer's Incubator",
+                        "Infused Incubator",
+                        "Kalguuran Incubator",
+                        "Maddening Incubator",
+                        "Morphing Incubator",
+                        "Mysterious Incubator",
+                        "Obscured Incubator",
+                        "Ornate Incubator",
+                        "Otherworldly Incubator",
+                        "Primal Incubator",
+                        "Singular Incubator",
+                        "Skittering Incubator",
+                        "Thaumaturge's Incubator",
+                        "Time-Lost Incubator",
+                        "Whispering Incubator"
+                    ]
                 },
                 {
                     "leagueName": "Metamorph",
-                    "classType": "Metamorph",
-                    "baseType": []
+                    "classType": ["Currency", "Metamorph"],
+                    "baseType": [
+                        "Abrasive Catalyst",
+                        "Accelerating Catalyst",
+                        "Fertile Catalyst",
+                        "Imbued Catalyst",
+                        "Intrinsic Catalyst",
+                        "Noxious Catalyst",
+                        "Prismatic Catalyst",
+                        "Tempering Catalyst",
+                        "Turbulent Catalyst"
+                    ]
                 },
                 {
                     "leagueName": "Incursion",
                     "classType": "Incursion Item",
-                    "baseType": []
+                    "baseType": [
+                        "Vial of",
+                        "Vial of Awakening",
+                        "Vial of Consequence",
+                        "Vial of Dominance",
+                        "Vial of Fate",
+                        "Vial of Sacrifice",
+                        "Vial of Summoning",
+                        "Vial of the Ghost",
+                        "Vial of the Ritual",
+                        "Vial of Transcendence"
+                    ]
                 },
                 {
                     "leagueName": "Harbinger",
@@ -620,6 +1925,453 @@
                     "baseType": []
                 }
             ],
+            "currency": [
+                {
+                    "classType": "Currency",
+                    "baseType": [
+
+                    ]
+                },
+                {
+                    "classType": "Divination",
+                    "baseType": [
+                        "A Dab of Ink",
+                        "A Familiar Call",
+                        "A Fate Worse Than Death",
+                        "A Modest Request",
+                        "A Mother's Parting Gift",
+                        "A Note in the Wind",
+                        "A Sea of Blue",
+                        "A Stone Perfected",
+                        "Abandoned Wealth",
+                        "Acclimatisation",
+                        "Agate Amulet",
+                        "Akil's Prophecy",
+                        "Albino Rhoa Feather",
+                        "Alluring Bounty",
+                        "Alone in the Darkness",
+                        "Altered Perception",
+                        "Ambitious Obsession",
+                        "Anarchy's Price",
+                        "Arrogance of the Vaal",
+                        "Assassin's Favour",
+                        "Atziri's Arsenal",
+                        "Audacity",
+                        "Awakened Sextant",
+                        "Azyran's Reward",
+                        "Baited Expectations",
+                        "Beauty Through Death",
+                        "Bijoux",
+                        "Blind Venture",
+                        "Bone Helmet",
+                        "Boon of Justice",
+                        "Boon of the First Ones",
+                        "Boundless Realms",
+                        "Bowyer's Dream",
+                        "Broken Promises",
+                        "Brotherhood in Exile",
+                        "Brother's Stash",
+                        "Buried Treasure",
+                        "Burning Blood",
+                        "Call to the First Ones",
+                        "Cameria's Cut",
+                        "Cartographer's Chisel",
+                        "Cartographer's Delight",
+                        "Chaos Orb",
+                        "Chaotic Disposition",
+                        "Chasing Risk",
+                        "Chromatic Orb",
+                        "Costly Curio",
+                        "Council of Cats",
+                        "Coveted Possession",
+                        "Crystal Sceptre",
+                        "Cursed Words",
+                        "Dark Dreams",
+                        "Dark Temptation",
+                        "Darker Half",
+                        "Deadly Joy",
+                        "Death",
+                        "Deathly Designs",
+                        "Dementophobia",
+                        "Demigod's Wager",
+                        "Desecrated Virtue",
+                        "Desperate Crusade",
+                        "Destined to Crumble",
+                        "Dialla's Subjugation",
+                        "Diamond Ring",
+                        "Disdain",
+                        "Divine Justice",
+                        "Divine Orb",
+                        "Doedre's Madness",
+                        "Draped in Dreams",
+                        "Duality",
+                        "Dying Anguish",
+                        "Dying Light",
+                        "Earth Drinker",
+                        "Echoes of Love",
+                        "Eldritch Chaos Orb",
+                        "Elevated Sextant",
+                        "Emperor of Purity",
+                        "Emperor's Luck",
+                        "Etched in Blood",
+                        "Eternal Bonds",
+                        "Exalted Orb",
+                        "Fateful Meeting",
+                        "Forbidden Power",
+                        "From Bone to Ashes",
+                        "Further Invention",
+                        "Gemcutter's Prism",
+                        "Gemcutter's Promise",
+                        "Gift of Asenath",
+                        "Gift of the Gemling Queen",
+                        "Glimmer of Hope",
+                        "Gold Ring",
+                        "Granite Flask",
+                        "Grave Knowledge",
+                        "Guardian's Challenge",
+                        "Harbinger's Orb",
+                        "Harmony of Souls",
+                        "Haunting Shadows",
+                        "Her Mask",
+                        "Heterochromia",
+                        "Home",
+                        "Hope",
+                        "House of Mirrors",
+                        "Hubris",
+                        "Humility",
+                        "Hunter's Resolve",
+                        "Hunter's Reward",
+                        "Immortal Resolve",
+                        "Imperfect Memories",
+                        "Imperial Legacy",
+                        "Jack in the Box",
+                        "Judging Voices",
+                        "Justified Ambition",
+                        "Keeper's Corruption",
+                        "Lachrymal Necrosis",
+                        "Lantador's Lost Love",
+                        "Last Hope",
+                        "Left to Fate",
+                        "Light and Truth",
+                        "Lingering Remnants",
+                        "Lost Worlds",
+                        "Love Through Ice",
+                        "Loyalty",
+                        "Lucky Connections",
+                        "Lucky Deck",
+                        "Luminous Trove",
+                        "Lysah's Respite",
+                        "Magnum Opus",
+                        "Maven's Invitation: The Feared",
+                        "Mawr Blaidd",
+                        "Merciless Armament",
+                        "Might is Right",
+                        "Mirror of Kalandra",
+                        "Mirror Shard",
+                        "Misery in Darkness",
+                        "Mitts",
+                        "Monochrome",
+                        "More is Never Enough",
+                        "Nightmare Bascinet",
+                        "No Traces",
+                        "Nook's Crown",
+                        "Orb of Alchemy",
+                        "Orb of Alteration",
+                        "Orb of Annulment",
+                        "Orb of Chance",
+                        "Orb of Fusing",
+                        "Orb of Regret",
+                        "Orb of Scouring",
+                        "Parasitic Passengers",
+                        "Peaceful Moments",
+                        "Perfection",
+                        "Prejudice",
+                        "Pride Before the Fall",
+                        "Pride of the First Ones",
+                        "Prismatic Jewel",
+                        "Prometheus' Armoury",
+                        "Prosperity",
+                        "Rain of Chaos",
+                        "Rain Tempter",
+                        "Rats",
+                        "Rebirth",
+                        "Rebirth and Renewal",
+                        "Reckless Ambition",
+                        "Regal Orb",
+                        "Remembrance",
+                        "Rustic Sash",
+                        "Sambodhi's Vow",
+                        "Sambodhi's Wisdom",
+                        "Scholar of the Seas",
+                        "Scroll of Wisdom",
+                        "Seven Years Bad Luck",
+                        "Shard of Fate",
+                        "Silence and Frost",
+                        "Society's Remorse",
+                        "Stacked Deck",
+                        "Struck by Lightning",
+                        "Succor of the Sinless",
+                        "Terrible Secret of Space",
+                        "The Academic",
+                        "The Admirer",
+                        "The Adventuring Spirit",
+                        "The Aesthete",
+                        "The Archmage's Right Hand",
+                        "The Arena Champion",
+                        "The Army of Blood",
+                        "The Artist",
+                        "The Aspirant",
+                        "The Astromancer",
+                        "The Avenger",
+                        "The Awakened",
+                        "The Bargain",
+                        "The Battle Born",
+                        "The Bear Woman",
+                        "The Beast",
+                        "The Betrayal",
+                        "The Bitter Blossom",
+                        "The Blazing Fire",
+                        "The Blessing of Moosh",
+                        "The Body",
+                        "The Bones",
+                        "The Brawny Battle Mage",
+                        "The Breach",
+                        "The Brittle Emperor",
+                        "The Cache",
+                        "The Cacophony",
+                        "The Calling",
+                        "The Card Sharp",
+                        "The Carrion Crow",
+                        "The Cartographer",
+                        "The Cataclysm",
+                        "The Catalyst",
+                        "The Catch",
+                        "The Celestial Justicar",
+                        "The Celestial Stone",
+                        "The Chains that Bind",
+                        "The Cheater",
+                        "The Chosen",
+                        "The Coming Storm",
+                        "The Conduit",
+                        "The Craving",
+                        "The Cursed King",
+                        "The Damned",
+                        "The Dapper Prodigy",
+                        "The Dark Mage",
+                        "The Darkest Dream",
+                        "The Deal",
+                        "The Deceiver",
+                        "The Deep Ones",
+                        "The Demon",
+                        "The Demoness",
+                        "The Destination",
+                        "The Doctor",
+                        "The Doppelganger",
+                        "The Dragon",
+                        "The Dragon's Heart",
+                        "The Dreamer",
+                        "The Dreamland",
+                        "The Drunken Aristocrat",
+                        "The Dungeon Master",
+                        "The Easy Stroll",
+                        "The Eldritch Decay",
+                        "The Emptiness",
+                        "The Encroaching Darkness",
+                        "The Endless Darkness",
+                        "The Endurance",
+                        "The Enlightened",
+                        "The Enthusiasts",
+                        "The Escape",
+                        "The Eternal War",
+                        "The Ethereal",
+                        "The Explorer",
+                        "The Eye of Terror",
+                        "The Eye of the Dragon",
+                        "The Fathomless Depths",
+                        "The Feast",
+                        "The Fiend",
+                        "The Fishmonger",
+                        "The Fletcher",
+                        "The Flora's Gift",
+                        "The Fool",
+                        "The Forgotten Treasure",
+                        "The Formless Sea",
+                        "The Forsaken",
+                        "The Forward Gaze",
+                        "The Fox",
+                        "The Fox in the Brambles",
+                        "The Gambler",
+                        "The Garish Power",
+                        "The Gemcutter",
+                        "The Gentleman",
+                        "The Gladiator",
+                        "The Golden Era",
+                        "The Greatest Intentions",
+                        "The Gulf",
+                        "The Hale Heart",
+                        "The Harvester",
+                        "The Hermit",
+                        "The Heroic Shot",
+                        "The Hive of Knowledge",
+                        "The Hoarder",
+                        "The Hook",
+                        "The Hunger",
+                        "The Immortal",
+                        "The Incantation",
+                        "The Innocent",
+                        "The Inoculated",
+                        "The Insatiable",
+                        "The Inventor",
+                        "The Jester",
+                        "The Jeweller's Boon",
+                        "The Journalist",
+                        "The Journey",
+                        "The King's Blade",
+                        "The King's Heart",
+                        "The Landing",
+                        "The Last One Standing",
+                        "The Last Supper",
+                        "The Lich",
+                        "The Life Thief",
+                        "The Lion",
+                        "The Long Con",
+                        "The Long Watch",
+                        "The Lord in Black",
+                        "The Lord of Celebration",
+                        "The Lover",
+                        "The Lunaris Priestess",
+                        "The Mad King",
+                        "The Magma Crab",
+                        "The Master",
+                        "The Master Artisan",
+                        "The Mercenary",
+                        "The Messenger",
+                        "The Metalsmith's Gift",
+                        "The Mind's Eyes",
+                        "The Mountain",
+                        "The Nurse",
+                        "The Oath",
+                        "The Obscured",
+                        "The Offering",
+                        "The Offspring",
+                        "The Old Man",
+                        "The One That Got Away",
+                        "The One With All",
+                        "The Opulent",
+                        "The Pack Leader",
+                        "The Pact",
+                        "The Patient",
+                        "The Penitent",
+                        "The Poet",
+                        "The Polymath",
+                        "The Porcupine",
+                        "The Price of Loyalty",
+                        "The Price of Prescience",
+                        "The Price of Protection",
+                        "The Primordial",
+                        "The Prince of Darkness",
+                        "The Professor",
+                        "The Progeny of Lunaris",
+                        "The Puzzle",
+                        "The Queen",
+                        "The Rabbit's Foot",
+                        "The Rabid Rhoa",
+                        "The Realm",
+                        "The Risk",
+                        "The Rite of Elements",
+                        "The Road to Power",
+                        "The Ruthless Ceinture",
+                        "The Sacrifice",
+                        "The Saint's Treasure",
+                        "The Samurai's Eye",
+                        "The Scarred Meadow",
+                        "The Scavenger",
+                        "The Scholar",
+                        "The Scout",
+                        "The Seeker",
+                        "The Sephirot",
+                        "The Shortcut",
+                        "The Side Quest",
+                        "The Sigil",
+                        "The Siren",
+                        "The Skeleton",
+                        "The Soul",
+                        "The Spark and the Flame",
+                        "The Spoiled Prince",
+                        "The Standoff",
+                        "The Stormcaller",
+                        "The Strategist",
+                        "The Summoner",
+                        "The Sun",
+                        "The Surgeon",
+                        "The Surveyor",
+                        "The Survivalist",
+                        "The Sustenance",
+                        "The Sword King's Salute",
+                        "The Thaumaturgist",
+                        "The Throne",
+                        "The Tinkerer's Table",
+                        "The Tireless Extractor",
+                        "The Tower",
+                        "The Traitor",
+                        "The Transformation",
+                        "The Trial",
+                        "The Tumbleweed",
+                        "The Twilight Moon",
+                        "The Twins",
+                        "The Tyrant",
+                        "The Undaunted",
+                        "The Undisputed",
+                        "The Unexpected Prize",
+                        "The Union",
+                        "The Valkyrie",
+                        "The Vast",
+                        "The Visionary",
+                        "The Void",
+                        "The Warden",
+                        "The Warlord",
+                        "The Watcher",
+                        "The Web",
+                        "The White Knight",
+                        "The Whiteout",
+                        "The Wilted Rose",
+                        "The Wind",
+                        "The Witch",
+                        "The Wolf",
+                        "The Wolf's Legacy",
+                        "The Wolf's Shadow",
+                        "The Wolven King's Bite",
+                        "The Wolverine",
+                        "The World Eater",
+                        "The Wrath",
+                        "The Wretched",
+                        "Thirst for Knowledge",
+                        "Three Faces in the Dark",
+                        "Three Voices",
+                        "Thunderous Skies",
+                        "Timeless Jewel",
+                        "Time-Lost Relic",
+                        "Tornado Wand",
+                        "Tranquillity",
+                        "Treasure Hunter",
+                        "Triskaidekaphobia",
+                        "Turn the Other Cheek",
+                        "Unchained",
+                        "Underground Forest",
+                        "Unrequited Love",
+                        "Unset Ring",
+                        "Vaal Breach",
+                        "Vaal Orb",
+                        "Vanity",
+                        "Vile Power",
+                        "Vinia's Token",
+                        "Void of the Elements",
+                        "Volatile Power",
+                        "Wealth and Power",
+                        "Winter's Embrace"
+                    ]
+                }
+            ],
             "misc": [
                 {
                     "classType": "Misc Map Items",
@@ -630,57 +2382,22 @@
     }
 }
 
-
-A Dab of Ink
-A Familiar Call
-A Fate Worse Than Death
-A Modest Request
-A Mother's Parting Gift
-A Note in the Wind
-A Sea of Blue
-A Stone Perfected
-Abandoned Wealth
-Aberrant Fossil
-Absolution
 Abyssal Axe
-Abyssal Delirium Orb
-Abyssal Incubator
-Acclimatisation
 Accumulator Wand
-Added Chaos Damage
-Added Cold Damage
-Added Cold Damage Support
-Added Fire Damage
-Added Fire Damage Support
-Added Lightning Damage
-Advanced Traps Support
-Aetheric Fossil
 Aetherwind Gloves
-Agate Amulet
 Aggregator Charm
-Akil's Prophecy
-Albino Rhoa Feather
 Alchemy Shard
 Al-Hezmin's Crest
-Alluring Bounty
-Alone in the Darkness
 Alteration Shard
-Altered Perception
 Alternating Sceptre
 Amber Amulet
-
-Ambitious Obsession
 Ambush Boots
 Ambush Mitts
 Ambusher
 Amethyst Flask
 Amethyst Ring
-Amorphous Delirium Orb
 Amplifying Power Core
 Anarchic Spiritblade
-Anarchy's Price
-Ancestral Protector
-Ancestral Warchief
 Ancient Apex Sentinel
 Ancient Gauntlets
 Ancient Greaves
@@ -690,39 +2407,24 @@ Ancient Reliquary Key
 Ancient Shard
 Ancient Spirit Shield
 Ancient Stalker Sentinel
-Anger
-Animate Guardian
-Animate Weapon
 Annulment Shard
 Antique Greaves
 Antique Rapier
 Apex Cleaver
 Apothecary's Gloves
 Aquamarine Flask
-Arc
-Arcane Cloak
-Arcane Surge Support
 Arcanist Gloves
 Arcanist Slippers
 Archdemon Crown
-Archmage
 Archon Kite Shield
 Archon Kite Shield Piece
-Arctic Armour
-Armageddon Brand
 Armour Recombinator
 Armourer's Scrap
-Armoursmith's Delirium Orb
-Arrogance of the Vaal
-Arrogance Support
-Artillery Ballista
 Artillery Quiver
 Ashscale Talisman
 Assassin Bow
 Assassin's Boots
-Assassin's Favour
 Assassin's Garb
-Assassin's Mark
 Assassin's Mitts
 Assembler Wand
 Astragali
@@ -730,127 +2432,53 @@ Astral Plate
 Astrolabe Amulet
 Atoll Map
 Atonement Mask
-Atziri's Arsenal
-Audacity
 Augmenting Power Core
 Auric Mace
 Aventail Helmet
 Avian Twins Talisman
 Awakened
-Awakened Burning Damage Support
-Awakened Cast On Critical Strike Support
-Awakened Chain Support
-Awakened Elemental Damage with Attacks Support
-Awakened Elemental Focus Support
-Awakened Empower Support
-Awakened Enhance Support
-Awakened Enlighten Support
-Awakened Fork Support
-Awakened Greater Multiple Projectiles Support
-Awakened Increased Area of Effect Support
-Awakened Multistrike Support
-Awakened Sextant
-Awakened Spell Echo Support
-Awakened Swift Affliction Support
-Awakened Unleash Support
 Awakener's Orb
 Awl
-
 Azurite Flashpowder
-Azyran's Reward
-Baited Expectations
-Ball Lightning
-Ballista Totem Support
-Bane
 Banishing Blade
 Baran's Crest
 Baroque Round Shield
-Barrage Support
 Basalt Flask
 Basemetal Treads
 Basilica Map
 Basket Rapier
 Bastard Sword
 Battery Staff
-Bear Trap
-Beauty Through Death
 Behemoth Mace
-Berserk
 Bestiary Orb
-Bijoux
 Binding Shard
 Birth of the Three
 Bismuth Flask
 Black Maw Talisman
-
-Blacksmith's Delirium Orb
 Blacksmith's Whetstone
-Blade Blast
-Blade Flurry
-Blade Vortex
-Bladefall
-Blast Rain
 Blasting Blade
 Blazing Arrow Quiver
-Blazing Salvo
 Blessed Orb
-Blessing of Chayula
-Blessing of Esh
 Blessing of God
-Blessing of Tul
-Blessing of Uul-Netol
-Blessing of Xoph
-Blight
-Blighted Delirium Orb
-Blighted Incubator
 Blighted Scouting Report
-Blind Venture
 Blinder
-Blink Arrow
 Blizzard Crown
-Block Chance Reduction Support
-Blood and Sand
-Blood Rage
 Blood Raiment
 Blood Sceptre
 Blood-filled Vessel
-Bloodlust Support
-Bloodstained Fossil
-Bloodthirst Support
 Blue Pearl Amulet
-Blueprint: Bunker
-Blueprint: Laboratory
-Blueprint: Mansion
-Blueprint: Prohibited Library
-Blueprint: Records Office
-Blueprint: Repository
-Blueprint: Smuggler's Den
-Blueprint: Tunnels
-Blueprint: Underbelly
 Blunt Arrow Quiver
 Blunt Arrow Quiver Piece
 Blunt Force Condenser
-Bodyswap
 Bone Armour
 Bone Bow
 Bone Circlet
 Bone Crypt Map
-Bone Helmet
-Bone Offering
 Bone Spirit Shield
-Bonechill
-Bonechill Support
-Boneshatter
 Bonespire Talisman
 Boom Mace
-Boon of Justice
-Boon of the First Ones
 Boot Blade
 Boot Knife
-Bound Fossil
-Boundless Realms
-Bowyer's Dream
-Brand Recall
 Branded Kite Shield
 Brass Maul
 Brass Spirit Shield
@@ -861,7 +2489,6 @@ Brimstone Pandemonium Sentinel
 Brimstone Stalker Sentinel
 Brimstone Treads
 Broadhead Arrow Quiver
-Broken Promises
 Bronze Apex Sentinel
 Bronze Gauntlets
 Bronze Pandemonium Sentinel
@@ -870,24 +2497,14 @@ Bronze Stalker Sentinel
 Bronze Tower Shield
 Bronzescale Boots
 Bronzescale Gauntlets
-Brotherhood in Exile
-Brother's Stash
 Brush, Paint and Palette
-Brutality Support
 Buckskin Tunic
 Burial Medallion
-Buried Treasure
-Burning Arrow
-Burning Blood
-Burning Damage
-Burning Damage Support
 Burnished Spiked Shield
 Burst Band
 Butcher Axe
-Call to the First Ones
 Callous Mask
 Callous Mask Piece
-Cameria's Cut
 Capacity Rod
 Capricious Spiritblade
 Cardinal Round Shield
@@ -895,92 +2512,44 @@ Carnal Armour
 Carnal Boots
 Carnal Mitts
 Carnal Sceptre
-Cartographer's Chisel
-Cartographer's Delight
-Cartographer's Delirium Orb
-Cartographer's Incubator
 Carved Wand
-Cast On Critical Strike Support
-Cast on Death Support
-Cast when Damage Taken Support
-Caustic Arrow
 Cedar Tower Shield
-Celestial Armoursmith's Incubator
-Celestial Blacksmith's Incubator
-Celestial Jeweller's Incubator
 Cemetery Map
 Ceremonial Voidstone
 Cerulean Ring
 Chain Belt
 Chain Gloves
-Chain Support
 Champion Kite Shield
-Chance to Bleed Support
-Chance to Poison
-Chaos Orb
 Chaos Shard
-Chaotic Disposition
 Charged Compass
-Charged Dash
-Charged Mines Support
-Chasing Risk
-
 Chiming Spirit Shield
-Chromatic Orb
 Chronicle of Atzoatl
 Chrysalis Talisman
 Citadel Bow
 Citrine Amulet
-Clarity
 Clasped Boots
 Clasped Mitts
-
-Cleave
 Cleaver
-Close Combat Support
 Close Helmet
 Cloth Belt
 Cloth Belt Piece
 Cloudwhisper Boots
-Cluster Traps Support
 Clutching Talisman
 Cobalt Apex Sentinel
 Cobalt Jewel
 Cobalt Pandemonium Sentinel
 Cobalt Stalker Sentinel
-Cobra Lash
 Cogwork Ring
 Coiled Staff
-Cold Penetration
-Cold Snap
-Cold to Fire
-Cold to Fire Support
 Cold-attuned Buckler
 Colossal
 Colossal Tower Shield
-Combustion
-Combustion Support
 Compound Spiked Shield
 Comprehensive Scouting Report
-Concentrated Effect Support
-Conductivity
 Congregator Wand
 Conjurer Boots
 Conjurer Gloves
 Conquest Chainmail
-Consecrated Path
-Contagion
-Contract: Bunker
-Contract: Laboratory
-Contract: Mansion
-Contract: Prohibited Library
-Contract: Records Office
-Contract: Repository
-Contract: Smuggler's Den
-Contract: Tunnels
-Contract: Underbelly
-Controlled Destruction Support
-Convocation
 Convoking Wand
 Copper Kris
 Copper Plate
@@ -988,28 +2557,18 @@ Coral Amulet
 Coral Ring
 Coronal Leather
 Coronal Maul
-Corroded Fossil
 Corrugated Buckler
-Corrupting Fever
 Corsair Sword
 Cosmic Apex Sentinel
-Costly Curio
-Council of Cats
 Courtesan Sword
 Courthouse Map
 Courtyard Map
-Coveted Possession
 Crack Mace
-Crackling Lance
 Craicic Lure
-Creeping Frost
-Cremation
 Crescent Splinter
 Crimson Jewel
-
 Crimson Round Shield
 Crude Bow
-Cruelty Support
 Crusader Boots
 Crusader Buckler
 Crusader Chainmail
@@ -1022,111 +2581,55 @@ Cryptic Apex Sentinel
 Cryptic Pandemonium Sentinel
 Cryptic Stalker Sentinel
 Crystal Belt
-Crystal Sceptre
 Crystal Wand
-Culling Strike Support
 Cursed Crypt Map
-Cursed Words
 Cutlass
 Cutthroat's Garb
-Cyclone
-Damage on Full Life Support
-Dark Dreams
-Dark Pact
-Dark Temptation
-Darker Half
 Darksteel Treads
-Dash
 Deadhand Talisman
-Deadly Ailments Support
-Deadly Joy
 Deafening Essence of
-Death
 Death Bow
-Deathly Designs
 Debilitation Gauntlets
-Decay
-Decay Support
 Decayed Voidstone
 Decimation Bow
 Decorative Axe
-Decoy Totem
 Dedication to the Goddess
 Deep One Talisman
 Deerskin Boots
 Deerskin Gloves
-Defiance Banner
-Deft Fossil
 Deicide Mask
 Delirious Scouting Report
-Delirium Orb
-Dementophobia
-Demigod's Wager
 Demon Crown
 Demon Dagger
 Demon's Horn
-Dense Fossil
 Deregulation Scroll
-Desecrate
-Desecrated Virtue
 Desert Brigandine
-Despair
-Desperate Crusade
 Despot Axe
-Destined to Crumble
 Destiny Leather
 Destroyer Regalia
-Determination
-Detonate Dead
-Devouring Totem
-Dialla's Subjugation
 Diamond Flask
-Diamond Ring
 Disapprobation Axe
-Discharge
-Discipline
-Disdain
 Divine
-Divine Blessing Support
-Divine Ire
-Divine Justice
 Divine Life Flask
 Divine Mana Flask
-Divine Orb
 Divine Vessel
-Diviner's Delirium Orb
-Diviner's Incubator
-Doedre's Madness
-Dominating Blow
-Double Strike
 Dragon Mace
 Dragonscale Boots
 Dragonscale Gauntlets
 Dragoon Sword
-Draped in Dreams
-Dread Banner
 Dread Maul
 Dream Mace
 Dreamquest Slippers
 Driftwood Wand
 Drox's Crest
-Duality
 Dunes Map
 Dusk Blade
 Duskwalk Slippers
-Dying Anguish
-Dying Light
-Earth Drinker
-Earthbreaker Support
-Earthshatter
 Ebony Tower Shield
-Echoes of Love
 Eclipse Staff
 Eelskin Boots
 Eelskin Gloves
-Efficacy Support
 Elder Sword
-Eldritch Chaos Orb
 Eldritch Exalted Orb
 Eldritch Orb of Annulment
 Electroshock Scroll
@@ -1134,59 +2637,32 @@ Elegant Foil
 Elegant Ringmail
 Elegant Round Shield
 Elegant Sword
-Elemental Damage with Attacks Support
-Elemental Hit
-Elemental Penetration Support
-Elemental Proliferation
-Elemental Proliferation Support
-Elemental Weakness
-Elevated Sextant
 Emberstone Apex Sentinel
 Emberstone Pandemonium Sentinel
 Emberstone Stalker Sentinel
 Embroidered Gloves
-Emperor of Purity
-Emperor's Luck
-Empower
-Empower Support
 Enamel Brooch
 Enameled Buckler
-Enchanted Incubator
 Endothermic Buckler
-Enduring Cry
-Energy Blade
-Enfeeble
 Engineer's Orb
 Engineer's Shard
 Engraved Hatchet
 Engraved Wand
-Enhance
-Enhance Support
 Enkindling Orb
-Enlighten
-Enlighten Support
-Ensnaring Arrow
-
 Espionage Disguise Kit
-Essence Drain
 Essence of Delirium
 Essence of Horror
 Essence of Hysteria
 Essence of Insanity
 Estoc
 Etched Greatsword
-Etched in Blood
 Eternal
-Eternal Blessing Support
-Eternal Bonds
 Eternal Burgonet
 Eternal Life Flask
 Eternal Mana Flask
 Eternal Orb
 Eternal Sword
-Ethereal Knives
 Eventuality Rod
-Exalted Orb
 Exalted Shard
 Exceptional Eldritch Ember
 Exceptional Eldritch Ichor
@@ -1195,14 +2671,9 @@ Exothermic Tower Shield
 Exotic Coinage
 Expedition Logbook
 Explorer's Scouting Report
-Explosive Arrow
-Explosive Concoction
-Explosive Trap
 Exquisite Blade
 Exquisite Leather
-Exsanguinate
 Eye Gouger
-Eye of Winter
 Ezomyte Axe
 Ezomyte Blade
 Ezomyte Burgonet
@@ -1210,61 +2681,31 @@ Ezomyte Dagger
 Ezomyte Spiked Shield
 Ezomyte Staff
 Ezomyte Tower Shield
-Faceted Fossil
 Facetor's Lens
 Fancy Foil
 Fangjaw Talisman
 Farric Lure
-Fateful Meeting
 Faun's Horn
 Feathered Arrow Quiver
-Feeding Frenzy Support
 Fencer Helm
 Fenumal Lure
-
 Festival Mask
 Fickle Spiritblade
 Fiend Dagger
-Fine Delirium Orb
-Fine Incubator
 Fine Lockpick
 Fine Sharpening Stone
 Fingerless Silk Gloves
 Fire Arrow Quiver
-Fire Penetration
-Fire Trap
-Fireball
-Firestorm
-Flame Dash
-Flame Link
-Flame Surge
-Flame Wall
-Flameblast
-Flamethrower Trap
-Flammability
 Flare Mace
 Flashfire Blade
 Flask
 Flaying Knife
-Flesh and Stone
-Flesh Offering
 Fleshripper
-Flicker Strike
 Flickerflame Blade
 Fluted Bascinet
-Focused Ballista Support
 Foliate Brooch
-Forbidden Power
-Forbidden Rite
-Foreboding Delirium Orb
-Foreboding Incubator
-Fortify Support
-Fossil
-Fossilised Delirium Orb
-Fossilised Incubator
 Fossilised Spirit Shield
 Foundry Bow
-Fractured Fossil
 Fragment of Constriction
 Fragment of Emptiness
 Fragment of Enslavement
@@ -1278,94 +2719,45 @@ Fragment of the Hydra
 Fragment of the Minotaur
 Fragment of the Phoenix
 Fragmentation Scroll
-Fragmented Delirium Orb
-Fragmented Incubator
-Freezing Pulse
 Friendship
 Fright Claw
-Frigid Fossil
-From Bone to Ashes
-Frost Blades
-Frost Bomb
-Frost Shield
-Frost Wall
-Frostbite
-Frostblink
-Frostbolt
 Fugitive Boots
 Full Dragonscale
 Full Scale Armour
 Full Wyrmscale
-Fundamental Fossil
-Further Invention
 Gale Crown
-Galvanic Arrow
 Gauche Gloves
 Gavel
-Gemcutter's Incubator
-Gemcutter's Prism
-Gemcutter's Promise
 Gemini Claw
 Gemstone Sword
 General's Brigandine
-Generosity Support
 Geodesic Ring
-Geomancer's Incubator
 Ghastly Eye Jewel
 Giant
-Gift of Asenath
-Gift of the Gemling Queen
 Gift to the Goddess
-Gilded Abyss Scarab
-Gilded Ambush Scarab
-Gilded Bestiary Scarab
-Gilded Blight Scarab
-Gilded Breach Scarab
-Gilded Cartography Scarab
-Gilded Divination Scarab
-Gilded Elder Scarab
-Gilded Expedition Scarab
-Gilded Fossil
-Gilded Harbinger Scarab
-Gilded Legion Scarab
-Gilded Metamorph Scarab
-Gilded Reliquary Scarab
-Gilded Sallet
-Gilded Shaper Scarab
-Gilded Sulphite Scarab
-Gilded Torment Scarab
-Glacial Cascade
-Glacial Hammer
 Gladiator Plate
 Gladius
 Glassblower's Bauble
-Glimmer of Hope
 Glorious Plate
-Glyphic Fossil
 Gnarled Branch
 Goathide Boots
 Goathide Gloves
 Goat's Horn
 Gold Amulet
-Gold Ring
 Golden Buckler
 Golden Kris
 Golden Mask
-
 Golden Plate
 Goliath Gauntlets
 Goliath Greaves
-Grace
 Grand
 Grand Eldritch Ember
 Grand Eldritch Ichor
 Grand Mana Flask
 Grandmaster Keyring
-Granite Flask
 Grappler
 Grasping Mail
 Grasping Voidstone
-Grave Knowledge
 Great Crown
 Great Helmet
 Great Mallet
@@ -1373,30 +2765,22 @@ Greater
 Greater Eldritch Ember
 Greater Eldritch Ichor
 Greater Mana Flask
-Greater Multiple Projectiles Support
-Greater Volley Support
 Greatwolf Talisman
 Grinning Fetish
 Gripped Gloves
 Grove Bow
 Gruelling Gauntlets
-Guardian's Challenge
 Gut Ripper
 Haemocombustion Scroll
 Hallowed
 Hallowed Hybrid Flask
 Harbinger Bow
 Harbinger Map
-Harbinger's Orb
 Harbinger's Shard
 Harlequin Mask
 Harmonic Spirit Shield
-Harmony of Souls
 Harpy Rapier
-Haste
-Hatred
 Haunted Mansion Map
-Haunting Shadows
 Headsman Axe
 Heat-attuned Tower Shield
 Heathen Wand
@@ -1404,101 +2788,44 @@ Heavy Arrow Quiver
 Heavy Belt
 Hedron Bow
 Hellion's Paw
-Her Mask
-Herald of Agony
-Herald of Ash
-Herald of Ice
-Herald of Purity
-Herald of Thunder
-Heterochromia
-Hexblast
 Hexclaw Talisman
 Highborn Staff
 Highland Blade
-Hollow Fossil
 Hollowpoint Arrowhead
 Hollowpoint Dagger
 Holy Chainmail
-Holy Flame Totem
-Home
 Honed Cleaver
 Hooded Cloak
-Hope
 Horizon Shard
 Horned Sceptre
-House of Mirrors
-Hubris
 Hubris Circlet
-Humility
 Hunter's Exalted Orb
-Hunter's Resolve
-Hunter's Reward
 Hydrascale Boots
 Hydrascale Gauntlets
-Hydrosphere
 Hypnotic Eye Jewel
-Hypothermia
-Hypothermia Support
-Ice Bite
-Ice Bite Support
-Ice Crash
-Ice Nova
-Ice Shot
-Ice Spear
-Ice Trap
-Icicle Mine
-Ignite Proliferation
-
-
 Imbued Wand
-Immolate
-Immolate Support
-Immortal Call
-Immortal Resolve
 Imp Crown
 Impact Force Propagator
-Impale Support
-Impending Doom
-Imperfect Memories
 Imperial Bow
 Imperial Buckler
 Imperial Claw
-Imperial Delirium Orb
-Imperial Legacy
 Imperial Maul
 Imperial Skean
 Imperial Staff
 Imperial Staff Piece
 Imprint
 Incandescent Invitation
-Incinerate
-Increased Area of Effect Support
-Increased Critical Damage Support
-Increased Critical Strikes Support
-Increased Duration Support
-
 Infernal Axe
 Infernal Blade
-Infernal Blow
-Infernal Cry
-Infernal Legion
 Infernal Sword
 Influenced Scouting Report
-Infused Channelling Support
 Infused Engineer's Orb
-Infused Incubator
-Innervate
-Innervate Support
 Inscribed Ultimatum
-Inspiration Support
 Instilling Orb
-Intimidating Cry
-
 Iolite Ring
 Iron Circlet
 Iron Flask
 Iron Gauntlets
-Iron Grip Support
 Iron Hat
 Iron Mask
 Iron Ring
@@ -1506,73 +2833,42 @@ Iron Sceptre
 Iron Staff
 Ironscale Boots
 Ironscale Gauntlets
-Item Quantity
-Item Rarity Support
 Ivory Spirit Shield
-Jack in the Box
 Jade Amulet
 Jade Flask
 Jade Hatchet
 Jagged Foil
-Jagged Fossil
 Jagged Maul
 Jasper Chopper
 Jewelled Foil
-Jeweller's Delirium Orb
 Jeweller's Orb
 Jewellery Recombinator
 Jingling Spirit Shield
 Judgement Staff
-Judging Voices
-Justified Ambition
-Kalguuran Delirium Orb
-Kalguuran Incubator
 Karui Chopper
 Karui Maul
 Karui Sceptre
-Keeper's Corruption
-Kinetic Blast
 Labrys
-Lacerate
-Lachrymal Necrosis
 Lacquered Buckler
 Lacquered Garb
 Lacquered Helmet
 Laminated Kite Shield
-Lancing Steel
-Lantador's Lost Love
 Lapis Amulet
 Large
 Large Cluster Jewel
 Large Hybrid Flask
-Last Hope
 Lathi
 Latticed Ringmail
-Leap Slam
 Leather Belt
 Leather Cap
 Leather Hood
-Left to Fate
 Legion Boots
 Legion Gloves
 Legion Sword
 Legion Sword Piece
-Less Duration Support
 Lesser Eldritch Ember
 Lesser Eldritch Ichor
-Lesser Multiple Projectiles Support
 Leyline Gloves
-Life Gain on Hit Support
-Lifetap Support
-Light and Truth
-Lightning Arrow
-Lightning Penetration
-Lightning Spire Trap
-Lightning Strike
-Lightning Tendrils
-Lightning Trap
-Lightning Warp
-Lingering Remnants
 Lion Pelt
 Lion Sword
 Lone Antler Talisman
@@ -1580,103 +2876,57 @@ Long Bow
 Long Staff
 Longtooth Talisman
 Loricated Ringmail
-Lost Worlds
-Love Through Ice
-Loyalty
-Lucent Fossil
-Lucky Connections
-Lucky Deck
-Luminous Trove
 Lunaris Circlet
-Lysah's Respite
-Maddening Incubator
 Maelström Staff
 Magistrate Crown
 Magmatic Tower Shield
-Magnum Opus
-Maim Support
-Malevolence
 Malign Fangs
 Maltreatment Axe
-Manabond
 Mandible Talisman
 Maraketh Bow
 Marble Amulet
-Mark On Hit Support
 Master Lockpick
 Maven's
 Maven's Invitation: The Atlas
 Maven's Invitation: The Elderslayers
-Maven's Invitation: The Feared
 Maven's Invitation: The Forgotten
 Maven's Invitation: The Formed
 Maven's Invitation: The Hidden
 Maven's Invitation: The Twisted
-Mawr Blaidd
 Maze Map
-Meat Shield Support
 Meatgrinder
 Mechalarm Belt
 Medium
 Medium Cluster Jewel
-Melee Physical Damage Support
-Melee Splash Support
-Merciless Armament
 Mesh Boots
 Mesh Gloves
-Metallic Fossil
 Micro-Distillery Belt
 Midnight Blade
-Might is Right
 Military Staff
 Mind Cage
-Minefield Support
-Minion Damage Support
-Minion Life Support
-Minion Speed Support
-Mirage Archer Support
-Mirror of Kalandra
-Mirror Shard
 Mirrored Spiked Shield
-Misery in Darkness
-Mitts
-Molten Shell
-Molten Strike
-Monochrome
 Moon Temple Map
 Moonstone Ring
-More is Never Enough
-Morphing Incubator
 Mortal Grief
 Mortal Hope
 Mortal Ignorance
 Mortal Rage
 Mosaic Kite Shield
-Multiple Totems Support
-Multistrike Support
 Murder Boots
 Murder Mitts
 Murderous Eye Jewel
 Museum Map
 Muttering Essence of
-Mysterious Incubator
 Nailed Fist
 Necromancer Circlet
 Necromancer Silks
 Necropolis Map
 Nexus Gloves
-Nightblade Support
-Nightmare Bascinet
 Nightmare Mace
 Nightwind Slippers
-No Traces
 Noble Tricorne
-Nook's Crown
-
 Nubuck Boots
 Nubuck Gloves
-Obscured Delirium Orb
-Obscured Incubator
 Obsidian Apex Sentinel
 Obsidian Pandemonium Sentinel
 Obsidian Sharpening Stone
@@ -1684,64 +2934,38 @@ Obsidian Stalker Sentinel
 Occultist's Vestment
 Ochre Sceptre
 Offering to the Goddess
-
 Omniscient Voidstone
-Onslaught Support
 Onyx Amulet
 Opal Ring
 Opal Sceptre
 Opal Wand
-
 Operative's Scouting Report
-Orb of Alchemy
-Orb of Alteration
-Orb of Annulment
 Orb of Augmentation
 Orb of Binding
-Orb of Chance
 Orb of Conflict
 Orb of Dominance
-Orb of Fusing
 Orb of Horizons
-Orb of Regret
-Orb of Scouring
-Orb of Storms
 Orb of Transmutation
 Orb of Unmaking
-Ornate Incubator
 Ornate Mace
 Ornate Quiver
 Ornate Ringmail
 Ornate Sword
 Oscillating Sceptre
-Otherworldly Incubator
 Otherworldly Scouting Report
 Overgrown Shrine Map
 Pagan Wand
 Painted Buckler
 Painted Tower Shield
-Parasitic Passengers
 Park Map
 Paua Amulet
 Paua Ring
-Peaceful Moments
-Penance Brand
 Penetrating Arrow Quiver
 Penitent Mask
-Perfect Fossil
-Perfection
-Perforate
-Pestilent Strike
-Petrified Blood
-Phase Run
-Physical to Lightning
-Physical to Lightning Support
-Pierce Support
 Pig-Faced Bascinet
 Piledriver
 Pine Buckler
 Pinnacle Tower Shield
-Plague Bearer
 Plague Mask
 Plank Kite Shield
 Plate Vest
@@ -1749,49 +2973,18 @@ Plated Greaves
 Platinum Kris
 Platinum Sceptre
 Pneumatic Dagger
-Poacher's Mark
-Poisonous Concoction
 Polar Buckler
 Polaric Invitation
 Poleaxe
-Polished Abyss Scarab
-Polished Ambush Scarab
-Polished Bestiary Scarab
-Polished Blight Scarab
-Polished Breach Scarab
-Polished Cartography Scarab
-Polished Divination Scarab
-Polished Elder Scarab
-Polished Expedition Scarab
-Polished Harbinger Scarab
-Polished Legion Scarab
-Polished Metamorph Scarab
-Polished Reliquary Scarab
-Polished Sensing Charm
-Polished Shaper Scarab
-Polished Spiked Shield
-Polished Sulphite Scarab
-Polished Torment Scarab
-Portal
 Portal Scroll
 Potent Chaotic Resonator
 Potentiality Rod
-Power Charge On Critical Support
 Power Core
-Power Siphon
 Powerful Chaotic Resonator
 Praetor Crown
 Precise Arrowhead
-Precision
-Predator Support
-Prejudice
 Pressurised Dagger
-Pride
-Pride Before the Fall
-Pride of the First Ones
 Primal Arrow Quiver
-Primal Delirium Orb
-Primal Incubator
 Prime Chaotic Resonator
 Prime Cleaver
 Prime Regrading Lens
@@ -1801,65 +2994,33 @@ Primeval Stalker Sentinel
 Primitive Chaotic Resonator
 Primordial Blocks Map
 Primordial Staff
-
-Prismatic Fossil
-Prismatic Jewel
 Prismatic Ring
-Pristine Fossil
 Profane Wand
 Promenade Map
-Prometheus' Armoury
 Prophecy Wand
 Prophet Crown
-Prosperity
 Psychotic Axe
-Pulverise Support
-Puncture
-Punishment
-Purifying Flame
-Purity of Elements
-Purity of Fire
-Purity of Ice
-Purity of Lightning
-Pyroclast Mine
 Quarterstaff
 Quartz Flask
 Quartz Wand
 Quicksilver Flask
-Rage Support
-Rain of Arrows
-Rain of Chaos
-Rain Tempter
-Raise Spectre
-Raise Zombie
-Rallying Cry
 Ranger Bow
-Rats
 Raven Mask
 Rawhide Boots
 Rawhide Tower Shield
-Reap
 Reaver Helmet
 Reaver Sword
-Rebirth
-Rebirth and Renewal
 Rebuking Blade
 Reciprocation Staff
-Reckless Ambition
-Reckoning
 Recurve Bow
 Redeemer's Exalted Orb
-Regal Orb
 Regal Shard
 Regicide Disguise Kit
 Regicide Mask
 Reinforced Greaves
 Reinforced Tower Shield
 Relic Chambers Map
-Remembrance
 Remnant of Corruption
-Righteous Fire
-Riposte
 Ritual Sceptre
 Ritual Splinter
 Ritual Vessel
@@ -1867,7 +3028,6 @@ Riveted Boots
 Riveted Gloves
 Rock Breaker
 Rogue's Marker
-Rolling Magma
 Rot Head Talisman
 Rotfeather Talisman
 Rotted Round Shield
@@ -1890,26 +3050,8 @@ Runic Hatchet
 Runic Helm
 Runic Sabatons
 Runic Sollerets
-Rusted Abyss Scarab
-Rusted Ambush Scarab
-Rusted Bestiary Scarab
-Rusted Blight Scarab
-Rusted Breach Scarab
-Rusted Cartography Scarab
-Rusted Divination Scarab
-Rusted Elder Scarab
-Rusted Expedition Scarab
-Rusted Harbinger Scarab
-Rusted Legion Scarab
-Rusted Metamorph Scarab
-Rusted Reliquary Scarab
-Rusted Shaper Scarab
 Rusted Stalker Sentinel
-Rusted Sulphite Scarab
 Rusted Sword
-Rusted Torment Scarab
-Rustic Sash
-Ruthless Support
 Sabre
 Sacred
 Sacred Blossom
@@ -1926,13 +3068,10 @@ Sai
 Saintly Chainmail
 Saint's Hauberk
 Sambar Sceptre
-Sambodhi's Vow
-Sambodhi's Wisdom
 Samite Gloves
 Samite Slippers
 Samnite Helmet
 Sanctified
-Sanctified Fossil
 Sanctified Life Flask
 Sanctified Mana Flask
 Sapphire Flask
@@ -1940,94 +3079,60 @@ Sapphire Ring
 Saqawine Lure
 Satin Gloves
 Savant's Robe
-Scarab
 Scholar Boots
-Scholar of the Seas
 Scholar's Robe
-Scorched Fossil
-Scorching Ray
-Scourge Arrow
 Scrap Metal
 Screaming Essence of
 Screaming Invitation
 Scroll Fragment
-Scroll of Wisdom
 Seaglass Amulet
 Searching Eye Jewel
-Searing Bond
-Second Wind Support
 Secondary Regrading Lens
 Secutor Helm
-Seismic Cry
-Seismic Trap
 Sekhem
 Sentinel Jacket
-
 Serpentine Staff
 Serpentscale Boots
 Serpentscale Gauntlets
 Serrated Arrow Quiver
-Serrated Fossil
-Seven Years Bad Luck
 Shackled Boots
 Shadow Axe
 Shadow Fangs
 Shadow Sceptre
 Shagreen Boots
 Shagreen Gloves
-Shard of Fate
 Sharkskin Boots
 Sharkskin Gloves
 Sharkskin Tunic
 Sharktooth Arrow Quiver
-Shattering Steel
-Shield Charge
-Shield Crush
 Shining Ward
-Shock Nova
-Shockwave Support
-Shockwave Totem
 Shore Map
 Short Bow
-Shrapnel Ballista
 Shrieking Essence of
-Shuddering Fossil
 Siege Axe
-Siege Ballista
 Siege Helmet
 Siege Map
-Sigil of Power
-Silence and Frost
 Silk Gloves
 Silk Slippers
 Silken Hood
 Silkweave Sole
 Silver Flask
-
 Simple Robe
 Simplex Amulet
 Simulacrum
 Simulacrum Splinter
-Singular Delirium Orb
-Singular Incubator
 Singular Scouting Report
 Sinistral Gloves
 Sinner Tricorne
-Siphoning Trap
 Skean
 Skeleton Keyring
 Skinning Knife
-Skittering Delirium Orb
-Skittering Incubator
 Slaughter Knife
 Sledgehammer
 Slink Boots
 Slink Gloves
 Small
 Small Cluster Jewel
-Smite
-Sniper's Mark
-Society's Remorse
 Solarine Bow
 Solaris Circlet
 Soldier Boots
@@ -2036,17 +3141,9 @@ Soldier Helmet
 Sorcerer Boots
 Sorcerer Gloves
 Sorrow Mask
-Soulrend
 Southswing Gloves
 Sovereign Spiked Shield
-Spark
-Spectral Helix
-Spectral Shield Throw
-Spectral Throw
 Specularity Scroll
-Spell Cascade Support
-Spell Echo Support
-Spellslinger
 Spidersilk Robe
 Spiked Club
 Spiked Gloves
@@ -2055,19 +3152,14 @@ Spine Bow
 Spinefuse Talisman
 Spiraled Foil
 Spiraled Wand
-Spirit Offering
 Splinter of Chayula
 Splinter of Esh
 Splinter of Tul
 Splinter of Uul-Netol
 Splinter of Xoph
-Split Arrow
-Splitting Steel
 Squandered Prosperity
 Stabilising Sceptre
-Stacked Deck
 Stag Sceptre
-Static Strike
 Stealth Boots
 Stealth Gloves
 Steel Bracers
@@ -2077,47 +3169,24 @@ Steel Kite Shield
 Steel Ring
 Steelhead
 Steelscale Gauntlets
-Steelskin
 Steelwood Bow
 Stibnite Flask
 Stiletto
 Stone Hammer
-Storm Brand
-Storm Burst
-Storm Call
-Storm Rain
-Stormbind
-Stormblast Mine
 Stormrider Boots
 Strand Map
 Strapped Boots
 Strapped Leather
 Strapped Mitts
-Struck by Lightning
 Studded Belt
 Studded Round Shield
 Stygian Vise
 Subsuming Spirit Shield
-Succor of the Sinless
 Sulphur Blowtorch
 Sulphur Flask
-Summon Carrion Golem
-Summon Chaos Golem
-Summon Flame Golem
-Summon Holy Relic
-Summon Ice Golem
-Summon Lightning Golem
-Summon Raging Spirit
-Summon Reaper
-Summon Skeletons
-Summon Skitterbots
-Summon Stone Golem
 Sundering Axe
 Supreme Spiked Shield
 Surveyor's Compass
-Sweep
-Swift Affliction Support
-Swift Assembly Support
 Synthesised Map
 Tailoring Orb
 Tainted Armourer's Scrap
@@ -2129,293 +3198,33 @@ Tainted Divine Teardrop
 Tainted Exalted Orb
 Tainted Jeweller's Orb
 Tainted Mythic Orb
-
 Tainted Orb of Fusing
 Talisman
 Talon Axe
-Tangled Fossil
 Tarnished Spirit Shield
 Taxing Gauntlets
 Teak Round Shield
-
-Tectonic Slam
-
 Tempering Orb
-Tempest Shield
 Temple Map
-Terrible Secret of Space
 Terror Claw
 Terror Maul
-Thaumaturge's Delirium Orb
-Thaumaturge's Incubator
 Thaumaturgical Sensing Charm
 Thaumaturgical Ward
 Thaumetic Blowtorch
 Thaumetic Flashpowder
-The Academic
-The Admirer
-The Adventuring Spirit
-The Aesthete
 The Apothecary
-The Archmage's Right Hand
-The Arena Champion
-The Army of Blood
-The Artist
-The Aspirant
-The Astromancer
-The Avenger
-The Awakened
-The Bargain
-The Battle Born
-The Bear Woman
-The Beast
-The Betrayal
-The Bitter Blossom
-The Blazing Fire
-The Blessing of Moosh
-The Body
-The Bones
-The Brawny Battle Mage
-The Breach
-The Brittle Emperor
-The Cache
-The Cacophony
-The Calling
-The Card Sharp
-The Carrion Crow
-The Cartographer
-The Cataclysm
-The Catalyst
-The Catch
-The Celestial Justicar
-The Celestial Stone
-The Chains that Bind
-The Cheater
-The Chosen
-The Coming Storm
-The Conduit
-The Craving
-The Cursed King
-The Damned
-The Dapper Prodigy
-The Dark Mage
-The Darkest Dream
-The Deal
-The Deceiver
-The Deep Ones
-The Demon
-The Demoness
-The Destination
-The Doctor
-The Doppelganger
-The Dragon
-The Dragon's Heart
-The Dreamer
-The Dreamland
-The Drunken Aristocrat
-The Dungeon Master
-The Easy Stroll
-The Eldritch Decay
-The Emptiness
-The Encroaching Darkness
-The Endless Darkness
-The Endurance
-The Enlightened
-The Enthusiasts
-The Escape
-The Eternal War
-The Ethereal
-The Explorer
-The Eye of Terror
-The Eye of the Dragon
-The Fathomless Depths
-The Feast
-The Fiend
-The Fishmonger
-The Fletcher
-The Flora's Gift
-The Fool
-The Forgotten Treasure
-The Formless Sea
-The Forsaken
-The Forward Gaze
-The Fox
-The Fox in the Brambles
-The Gambler
-The Garish Power
-The Gemcutter
-The Gentleman
-The Gladiator
-The Golden Era
-The Greatest Intentions
-The Gulf
-The Hale Heart
-The Harvester
-The Hermit
-The Heroic Shot
-The Hive of Knowledge
-The Hoarder
-The Hook
-The Hunger
-The Immortal
-The Incantation
-The Innocent
-The Inoculated
-The Insatiable
-The Inventor
 The Iron Bard
-The Jester
-The Jeweller's Boon
-The Journalist
-The Journey
-The King's Blade
-The King's Heart
-The Landing
-The Last One Standing
-The Last Supper
-The Lich
-The Life Thief
-The Lion
-The Long Con
-The Long Watch
-The Lord in Black
-The Lord of Celebration
-The Lover
-The Lunaris Priestess
-The Mad King
-The Magma Crab
-The Master
-The Master Artisan
 The Maven's Writ
 The Mayor
-The Mercenary
-The Messenger
-The Metalsmith's Gift
-The Mind's Eyes
-The Mountain
-The Nurse
-The Oath
-The Obscured
-The Offering
-The Offspring
-The Old Man
-The One That Got Away
-The One With All
-The Opulent
-The Pack Leader
-The Pact
-The Patient
-The Penitent
-The Poet
-The Polymath
-The Porcupine
-The Price of Loyalty
-The Price of Prescience
-The Price of Protection
-The Primordial
-The Prince of Darkness
-The Professor
-The Progeny of Lunaris
-The Puzzle
-The Queen
-The Rabbit's Foot
-The Rabid Rhoa
-The Realm
-The Risk
-The Rite of Elements
-The Road to Power
-The Ruthless Ceinture
-The Sacrifice
-The Saint's Treasure
-The Samurai's Eye
-The Scarred Meadow
-The Scavenger
-The Scholar
-The Scout
-The Seeker
-The Sephirot
-The Shortcut
-The Side Quest
-The Sigil
-The Siren
-The Skeleton
-The Soul
-The Spark and the Flame
-The Spoiled Prince
-The Standoff
-The Stormcaller
-The Strategist
-The Summoner
-The Sun
-The Surgeon
-The Surveyor
-The Survivalist
-The Sustenance
-The Sword King's Salute
-The Thaumaturgist
-The Throne
-The Tinkerer's Table
-The Tireless Extractor
-The Tower
-The Traitor
-The Transformation
-The Trial
-The Tumbleweed
-The Twilight Moon
-The Twins
-The Tyrant
-The Undaunted
-The Undisputed
-The Unexpected Prize
-The Union
-The Valkyrie
 The Valley of Steel Boxes
-The Vast
-The Visionary
-The Void
-The Warden
-The Warlord
-The Watcher
-The Web
-The White Knight
-The Whiteout
-The Wilted Rose
-The Wind
-The Witch
-The Wolf
-The Wolf's Legacy
-The Wolf's Shadow
-The Wolven King's Bite
-The Wolverine
-The World Eater
-The Wrath
-The Wretched
 Thicket Bow
-Thirst for Knowledge
 Thorium Spirit Shield
-Three Faces in the Dark
 Three Rat Talisman
-Three Voices
 Thresher Claw
 Throat Stabber
-Thunderous Skies
 Tiger Hook
 Tiger Sword
-Timeless Delirium Orb
-Timeless Eternal Emblem
-Timeless Eternal Empire Splinter
-Timeless Jewel
-Timeless Karui Emblem
-Timeless Karui Splinter
-Timeless Maraketh Emblem
-Timeless Maraketh Splinter
-Timeless Templar Emblem
-Timeless Templar Splinter
-Timeless Vaal Emblem
-Timeless Vaal Splinter
 Time-light Scroll
-Time-Lost Incubator
-Time-Lost Relic
 Timeworn Claw
 Timeworn Reliquary Key
 Titan Gauntlets
@@ -2424,204 +3233,85 @@ Titanium Spirit Shield
 Tomahawk
 Topaz Flask
 Topaz Ring
-Tornado
-Tornado Shot
-Tornado Wand
-Toxic Rain
-Tranquillity
 Transfer-attuned Spirit Shield
 Transformer Staff
 Transforming Power Core
 Transmutation Shard
-Trap and Mine Damage Support
-Trap Support
 Trapper Boots
-Treasure Hunter
 Tribal Circlet
 Tribute to the Goddess
 Tricorne
-Trinity Support
-Triskaidekaphobia
 Triumphant Lamellar
-
-
-Turn the Other Cheek
 Turquoise Amulet
 Twilight Blade
 Two-Point Arrow Quiver
 Two-Stone Ring
 Two-Toned Boots
 Tyrant's Sekhem
-Unchained
-Underground Forest
 Underground River Map
 Underground Sea Map
-Unearth
-Unleash Support
-Unrelenting Timeless Eternal Emblem
-Unrelenting Timeless Karui Emblem
-Unrelenting Timeless Maraketh Emblem
-Unrelenting Timeless Templar Emblem
-Unrelenting Timeless Vaal Emblem
-Unrequited Love
 Unset Amulet
-Unset Ring
 Unshaping Orb
 Unstable Catalyst
-Urgent Orders Support
 Ursine Pelt
-
 Vaal
-Vaal Ancestral Warchief
-Vaal Arc
 Vaal Axe
 Vaal Blade
-Vaal Blade Vortex
-Vaal Blight
-Vaal Breach
 Vaal Buckler
-Vaal Burning Arrow
-Vaal Clarity
 Vaal Claw
-Vaal Cold Snap
-Vaal Discipline
-Vaal Double Strike
-Vaal Fireball
-Vaal Flameblast
 Vaal Gauntlets
-Vaal Glacial Hammer
-Vaal Grace
 Vaal Greatsword
 Vaal Greaves
-Vaal Ground Slam
-Vaal Haste
 Vaal Hatchet
-Vaal Lightning Strike
 Vaal Mask
-Vaal Molten Shell
-Vaal Orb
-Vaal Power Siphon
 Vaal Pyramid Map
-Vaal Rain of Arrows
 Vaal Rapier
 Vaal Regalia
 Vaal Reliquary Key
-Vaal Righteous Fire
 Vaal Sceptre
 Vaal Scouting Report
-Vaal Spark
 Vaal Spirit Shield
-Vaal Storm Call
-Vaal Summon Skeletons
 Vanguard Belt
-Vanity
 Variscite Blade
 Varnished Coat
 Veiled Chaos Orb
 Velvet Gloves
 Velvet Slippers
-Vengeance
-Venom Gyre
-
 Veritania's Crest
 Vermillion Ring
-Vial of
-Vial of Awakening
-Vial of Consequence
-Vial of Dominance
-Vial of Fate
-Vial of Sacrifice
-Vial of Summoning
-Vial of the Ghost
-Vial of the Ritual
-Vial of Transcendence
-Vicious Projectiles
-Vicious Projectiles Support
+
 Vile Arrow Quiver
-Vile Power
 Vile Staff
 Vine Circlet
-Vinia's Token
-
-Viper Strike
 Viridian Jewel
 Visored Sallet
-Vitality
 Void Axe
 Void Fangs
-Void Manipulation
-Void Manipulation Support
-Void of the Elements
 Void Sceptre
-Void Sphere
-Volatile Dead
-Volatile Power
-Volley Support
-Voltaxic Burst
-Vortex
-Vulnerability
 Wailing Essence of
-War Banner
 War Buckler
 War Hammer
 War Sword
 Warlord's Exalted Orb
-Wave of Conviction
-Wealth and Power
 Weapon Recombinator
 Weeping Essence of
 Wereclaw Talisman
 Whalebone Rapier
-Whispering Delirium Orb
 Whispering Essence of
-Whispering Incubator
 Whisper-woven Cloak
 Widowsilk Robe
 Wild Leather
-Wild Strike
 Windbreak Boots
-Winged Abyss Scarab
-Winged Ambush Scarab
-Winged Bestiary Scarab
-Winged Blight Scarab
-Winged Breach Scarab
-Winged Cartography Scarab
-Winged Divination Scarab
-Winged Elder Scarab
-Winged Expedition Scarab
-Winged Harbinger Scarab
-Winged Legion Scarab
-Winged Metamorph Scarab
-Winged Reliquary Scarab
-Winged Shaper Scarab
-Winged Sole
-Winged Sulphite Scarab
-Winged Torment Scarab
 Winter Crown
-Winter Orb
-Winter's Embrace
-Wintertide Brand
-Wither
-Withering Step
-Withering Touch
-Withering Touch Support
 Woodsplitter
 Wool Gloves
 Wool Shoes
 Wrapped Mitts
-Wrath
 Writhing Invitation
 Writhing Talisman
 Wyrmscale Boots
 Wyrmscale Doublet
 Wyrmscale Gauntlets
-
-
-Zealotry
-
-
-
-
 Zealot Gloves
 Zealot Helmet
 Zodiac Leather
