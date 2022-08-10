@@ -1401,7 +1401,9 @@
                                 "Three Rat Talisman",
                                 "Undying Flesh Talisman",
                                 "Wereclaw Talisman",
-                                "Writhing Talisman"
+                                "Writhing Talisman",
+                                "Greatwolf Talisman",
+                                "Talisman"
                             ],
                             "mods": []
                         }
@@ -1431,17 +1433,7 @@
                     "mods": []
                 }
             ],
-            "flask": [
-                {
-                    "classType": "Flask",
-                    "rarity": [
-                        "normal",
-                        "magic",
-                        "unique"
-                    ],
-                    "baseType": [],
-                    "mods": []
-                },
+            "flasks": [
                 {
                     "classType": "Utility Flask",
                     "rarity": [
@@ -1449,7 +1441,23 @@
                         "magic",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Amethyst Flask",
+                        "Aquamarine Flask",
+                        "Basalt Flask",
+                        "Bismuth Flask",
+                        "Diamond Flask",
+                        "Iron Flask",
+                        "Jade Flask",
+                        "Quartz Flask",
+                        "Quicksilver Flask",
+                        "Ruby Flask",
+                        "Sapphire Flask",
+                        "Silver Flask",
+                        "Stibnite Flask",
+                        "Sulphur Flask",
+                        "Topaz Flask"
+                    ],
                     "mods": []
                 },
                 {
@@ -1459,7 +1467,23 @@
                         "magic",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Sanctified Life Flask",
+                        "Divine Life Flask",
+                        "Eternal Life Flask",
+                        "Colossal",
+                        "Divine",
+                        "Eternal",
+                        "Giant",
+                        "Grand",
+                        "Greater",
+                        "Hallowed",
+                        "Large",
+                        "Medium",
+                        "Sacred",
+                        "Sanctified",
+                        "Small"
+                    ],
                     "mods": []
                 },
                 {
@@ -1469,7 +1493,25 @@
                         "magic",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Sanctified Mana Flask",
+                        "Divine Mana Flask",
+                        "Eternal Mana Flask",
+                        "Grand Mana Flask",
+                        "Greater Mana Flask",
+                        "Colossal",
+                        "Divine",
+                        "Eternal",
+                        "Giant",
+                        "Grand",
+                        "Greater",
+                        "Hallowed",
+                        "Large",
+                        "Medium",
+                        "Sacred",
+                        "Sanctified",
+                        "Small"
+                    ],
                     "mods": []
                 },
                 {
@@ -1479,7 +1521,10 @@
                         "magic",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Hallowed Hybrid Flask",
+                        "Large Hybrid Flask"
+                    ],
                     "mods": []
                 }
             ],
@@ -1491,7 +1536,18 @@
                     "rare",
                     "unique"
                 ],
-                "baseType": [],
+                "baseType": [
+                    "Viridian Jewel",
+                    "Crimson Jewel",
+                    "Cobalt Jewel",
+                    "Murderous Eye Jewel",
+                    "Searching Eye Jewel",
+                    "Hypnotic Eye Jewel",
+                    "Ghastly Eye Jewel",
+                    "Small Cluster Jewel",
+                    "Medium Cluster Jewel",
+                    "Large Cluster Jewel"
+                ],
                 "mods": []
             },
             "gems": {
@@ -2033,6 +2089,7 @@
                         "Colosseum Map",
                         "Conservatory Map",
                         "Core Map",
+                        "Courthouse Map",
                         "Courtyard Map",
                         "Crimson Temple Map",
                         "Crimson Township Map",
@@ -2135,7 +2192,9 @@
                         "The Twilight Temple",
                         "The Vinktar Square",
                         "Untainted Paradise",
-                        "Vaults of Atziri"
+                        "Vaults of Atziri",
+                        "Harbinger Map",
+                        "Synthesised Map"
                     ]
                 },
                 {
@@ -2228,7 +2287,39 @@
                         "Maven's Invitation: The Forgotten",
                         "Maven's Invitation: The Formed",
                         "Maven's Invitation: The Hidden",
-                        "Maven's Invitation: The Twisted"
+                        "Maven's Invitation: The Twisted",
+                        "Mortal Grief",
+                        "Mortal Hope",
+                        "Mortal Ignorance",
+                        "Mortal Rage",
+                        "Sacrifice at Dawn",
+                        "Sacrifice at Dusk",
+                        "Sacrifice at Midnight",
+                        "Sacrifice at Noon",
+                        "Al-Hezmin's Crest",
+                        "Baran's Crest",
+                        "Drox's Crest",
+                        "Veritania's Crest",
+                        "Crescent Splinter",
+                        "Divine Vessel",
+                        "Craicic Lure",
+                        "Farric Lure",
+                        "Fenumal Lure",
+                        "Saqawine Lure",
+                        "Ancient Reliquary Key",
+                        "Timeworn Reliquary Key",
+                        "Vaal Reliquary Key",
+                        "Chronicle of Atzoatl",
+                        "Simulacrum",
+                        "Simulacrum Splinter",
+                        "The Maven's Writ",
+                        "Writhing Invitation",
+                        "Screaming Invitation",
+                        "Polaric Invitation",
+                        "Incandescent Invitation",
+                        "Inscribed Ultimatum",
+                        "Sacred Blossom"
+
                     ]
                 }
             ],
@@ -2266,7 +2357,12 @@
                         "Blessing of Esh",
                         "Blessing of Tul",
                         "Blessing of Uul-Netol",
-                        "Blessing of Xoph"
+                        "Blessing of Xoph",
+                        "Splinter of Chayula",
+                        "Splinter of Esh",
+                        "Splinter of Tul",
+                        "Splinter of Uul-Netol",
+                        "Splinter of Xoph"
                     ]
                 },
                 {
@@ -2320,8 +2416,18 @@
                     ]
                 },
                 {
+                    "leagueName": "Ritual",
+                    "classType": null,
+                    "baseType": [
+                        "Ritual Splinter",
+                        "Ritual Vessel",
+                        "Blood-filled Vessel"
+                    ]
+                },
+                {
                     "leagueName": "Heist",
                     "classType": [
+                        "Currency",
                         "Blueprint",
                         "Contract",
                         "Heist Brooch",
@@ -2354,7 +2460,64 @@
                         "Contract: Repository",
                         "Contract: Smuggler's Den",
                         "Contract: Tunnels",
-                        "Contract: Underbelly"
+                        "Contract: Underbelly",
+                        "Rogue's Marker",
+                        "Rough Sharpening Stone",
+                        "Standard Sharpening Stone",
+                        "Fine Sharpening Stone",
+                        "Obsidian Sharpening Stone",
+                        "Flanged Arrowhead",
+                        "Fragmenting Arrowhead",
+                        "Hollowpoint Arrowhead",
+                        "Precise Arrowhead",
+                        "Focal Stone",
+                        "Conduit Line",
+                        "Aggregator Charm",
+                        "Burst Band",
+                        "Simple Lockpick",
+                        "Standard Lockpick",
+                        "Fine Lockpick",
+                        "Master Lockpick",
+                        "Leather Bracers",
+                        "Studded Bracers",
+                        "Runed Bracers",
+                        "Steel Bracers",
+                        "Steel Drill",
+                        "Flanged Drill",
+                        "Sulphur Blowtorch",
+                        "Thaumetic Blowtorch",
+                        "Eelskin Sole",
+                        "Foxhide Sole",
+                        "Winged Sole",
+                        "Silkweave Sole",
+                        "Crude Ward",
+                        "Lustrous Ward",
+                        "Shining Ward",
+                        "Thaumaturgical Ward",
+                        "Crude Sensing Charm",
+                        "Fine Sensing Charm",
+                        "Polished Sensing Charm",
+                        "Thaumaturgical Sensing Charm",
+                        "Voltaxic Flashpowder",
+                        "Trarthan Flashpowder",
+                        "Azurite Flashpowder",
+                        "Thaumetic Flashpowder",
+                        "Essential Keyring",
+                        "Versatile Keyring",
+                        "Skeleton Keyring",
+                        "Grandmaster Keyring",
+                        "Basic Disguise Kit",
+                        "Theatre Disguise Kit",
+                        "Espionage Disguise Kit",
+                        "Regicide Disguise Kit",
+                        "Torn Cloak",
+                        "Tattered Cloak",
+                        "Hooded Cloak",
+                        "Whisper-woven Cloak",
+                        "Silver Brooch",
+                        "Golden Brooch",
+                        "Enamel Brooch",
+                        "Foliate Brooch"
                     ]
                 },
                 {
@@ -2385,19 +2548,29 @@
                         "Serrated Fossil",
                         "Shuddering Fossil",
                         "Tangled Fossil",
-                        "Fossil"
+                        "Fossil",
+                        "Potent Chaotic Resonator",
+                        "Powerful Chaotic Resonator",
+                        "Prime Chaotic Resonator",
+                        "Primitive Chaotic Resonator"
                     ]
                 },
                 {
                     "leagueName": "Expedition",
-                    "classType": "Expedition Logbook",
+                    "classType": ["Currency", "Expedition Logbook"],
                     "rarity": [
                         "normal",
                         "magic",
                         "rare",
                         "unique"
                     ],
-                    "baseType": []
+                    "baseType": [
+                        "Astragali",
+                        "Burial Medallion",
+                        "Exotic Coinage",
+                        "Scrap Metal",
+                        "Expedition Logbook"
+                    ]
                 },
                 {
                     "leagueName": "Legion",
@@ -2460,7 +2633,8 @@
                         "Noxious Catalyst",
                         "Prismatic Catalyst",
                         "Tempering Catalyst",
-                        "Turbulent Catalyst"
+                        "Turbulent Catalyst",
+                        "Unstable Catalyst"
                     ]
                 },
                 {
@@ -2480,18 +2654,69 @@
                     ]
                 },
                 {
+                    "leagueName": "Kirac",
+                    "classType": null,
+                    "baseType": [
+                        "Blighted Scouting Report",
+                        "Comprehensive Scouting Report",
+                        "Delirious Scouting Report",
+                        "Explorer's Scouting Report",
+                        "Influenced Scouting Report",
+                        "Operative's Scouting Report",
+                        "Otherworldly Scouting Report",
+                        "Singular Scouting Report",
+                        "Vaal Scouting Report"
+                    ]
+                },
+                {
+                    "leagueName": "Essence",
+                    "classType": null,
+                    "baseType": [
+                        "Essence of Delirium",
+                        "Essence of Horror",
+                        "Essence of Hysteria",
+                        "Essence of Insanity",
+                        "Deafening Essence of",
+                        "Muttering Essence of",
+                        "Screaming Essence of",
+                        "Shrieking Essence of",
+                        "Wailing Essence of",
+                        "Weeping Essence of",
+                        "Whispering Essence of",
+                        "Remnant of Corruption"
+                    ]
+                },
+                {
                     "leagueName": "Harbinger",
-                    "classType": "Piece",
+                    "classType": ["Currency", "Piece"],
                     "rarity": [
                         "unique"
                     ],
-                    "baseType": []
+                    "baseType": [
+                        "Blunt Arrow Quiver Piece",
+                        "Archon Kite Shield Piece",
+                        "Callous Mask Piece",
+                        "Cloth Belt Piece",
+                        "Imperial Staff Piece",
+                        "Legion Sword Piece",
+                        "Haemocombustion Scroll",
+                        "Deregulation Scroll",
+                        "Time-light Scroll",
+                        "Electroshock Scroll",
+                        "Fragmentation Scroll",
+                        "Specularity Scroll"
+                    ]
                 }
             ],
             "labyrinth": [
                 {
                     "classType": "Labyrinth",
-                    "baseType": []
+                    "baseType": [
+                        "Tribute to the Goddess",
+                        "Offering to the Goddess",
+                        "Gift to the Goddess",
+                        "Dedication to the Goddess"
+                    ]
                 }
             ],
             "currency": [
@@ -2538,7 +2763,40 @@
                         "Redeemer's Exalted Orb",
                         "Weapon Recombinator",
                         "Jewellery Recombinator",
-                        "Armour Recombinator"
+                        "Armour Recombinator",
+                        "Alchemy Shard",
+                        "Alteration Shard",
+                        "Ancient Shard",
+                        "Annulment Shard",
+                        "Ancient Shard",
+                        "Annulment Shard",
+                        "Binding Shard",
+                        "Chaos Shard",
+                        "Engineer's Shard",
+                        "Exalted Shard",
+                        "Harbinger's Shard",
+                        "Horizon Shard",
+                        "Regal Shard",
+                        "Transmutation Shard",
+                        "Portal Scroll",
+                        "Scroll Fragment",
+                        "Grand Eldritch Ember",
+                        "Grand Eldritch Ichor",
+                        "Greater Eldritch Ember",
+                        "Greater Eldritch Ichor",
+                        "Exceptional Eldritch Ember",
+                        "Exceptional Eldritch Ichor",
+                        "Glassblower's Bauble",
+                        "Prime Regrading Lens",
+                        "Secondary Regrading Lens",
+                        "Armourer's Scrap",
+                        "Blacksmith's Whetstone",
+                        "Charged Compass",
+                        "Facetor's Lens",
+                        "Imprint",
+                        "Lesser Eldritch Ember",
+                        "Lesser Eldritch Ichor",
+                        "Surveyor's Compass"
                     ]
                 },
                 {
@@ -2978,229 +3236,86 @@
                         "Void of the Elements",
                         "Volatile Power",
                         "Wealth and Power",
-                        "Winter's Embrace"
+                        "Winter's Embrace",
+                        "Birth of the Three",
+                        "Blessing of God",
+                        "Brush, Paint and Palette",
+                        "Friendship",
+                        "Squandered Prosperity",
+                        "The Iron Bard",
+                        "The Mayor",
+                        "The Valley of Steel Boxes"
                     ]
                 }
             ],
             "misc": [
                 {
+                    "classType": null,
+                    "baseType": [
+                        "Ceremonial Voidstone",
+                        "Decayed Voidstone",
+                        "Grasping Voidstone",
+                        "Omniscient Voidstone"
+                    ]
+                },
+                {
                     "classType": "Misc Map Items",
-                    "baseType": []
+                    "baseType": [
+                        
+                    ]
                 }
             ]
         }
     }
 }
 
-Aggregator Charm
-Alchemy Shard
-Al-Hezmin's Crest
-Alteration Shard
-Amethyst Flask
-Ancient Reliquary Key
-Ancient Shard
-Annulment Shard
-Aquamarine Flask
-Archon Kite Shield Piece
-Armourer's Scrap
-Astragali
-Awakened
-Azurite Flashpowder
-Baran's Crest
-Basalt Flask
-Binding Shard
-Birth of the Three
-Bismuth Flask
-Blacksmith's Whetstone
-Blessing of God
-Blighted Scouting Report
-Blood-filled Vessel
-Blunt Arrow Quiver Piece
-Brush, Paint and Palette
-Burial Medallion
-Burst Band
-Callous Mask Piece
-Ceremonial Voidstone
-Chaos Shard
-Charged Compass
-Chronicle of Atzoatl
-Cloth Belt Piece
-Cobalt Jewel
-Colossal
-Comprehensive Scouting Report
-Courthouse Map
-Craicic Lure
-Crescent Splinter
-Crimson Jewel
-Deafening Essence of
-Decayed Voidstone
-Dedication to the Goddess
-Delirious Scouting Report
-Deregulation Scroll
-Diamond Flask
-Divine
-Divine Life Flask
-Divine Mana Flask
-Divine Vessel
-Drox's Crest
-Electroshock Scroll
-Enamel Brooch
-Engineer's Shard
-Espionage Disguise Kit
-Essence of Delirium
-Essence of Horror
-Essence of Hysteria
-Essence of Insanity
-Eternal
-Eternal Life Flask
-Eternal Mana Flask
-Exalted Shard
-Exceptional Eldritch Ember
-Exceptional Eldritch Ichor
-Exotic Coinage
-Expedition Logbook
-Explorer's Scouting Report
-Facetor's Lens
-Farric Lure
-Fenumal Lure
-Fine Lockpick
-Fine Sharpening Stone
-Flask
-Foliate Brooch
-Fragmentation Scroll
-Friendship
-Ghastly Eye Jewel
-Giant
-Gift to the Goddess
-Glassblower's Bauble
-Grand
-Grand Eldritch Ember
-Grand Eldritch Ichor
-Grand Mana Flask
-Grandmaster Keyring
-Grasping Voidstone
-Greater
-Greater Eldritch Ember
-Greater Eldritch Ichor
-Greater Mana Flask
-Greatwolf Talisman
-Haemocombustion Scroll
-Hallowed
-Hallowed Hybrid Flask
-Harbinger Map
-Harbinger's Shard
-Hollowpoint Arrowhead
-Hooded Cloak
-Horizon Shard
-Hypnotic Eye Jewel
-Imperial Staff Piece
-Imprint
-Incandescent Invitation
-Influenced Scouting Report
-Inscribed Ultimatum
-Iron Flask
-Jade Flask
-Large
-Large Cluster Jewel
-Large Hybrid Flask
-Legion Sword Piece
-Lesser Eldritch Ember
-Lesser Eldritch Ichor
-Master Lockpick
-Maven's
-Medium
-Medium Cluster Jewel
-Mortal Grief
-Mortal Hope
-Mortal Ignorance
-Mortal Rage
-Murderous Eye Jewel
-Muttering Essence of
-Obsidian Sharpening Stone
-Offering to the Goddess
-Omniscient Voidstone
-Operative's Scouting Report
-Otherworldly Scouting Report
-Polaric Invitation
-Portal Scroll
-Potent Chaotic Resonator
-Powerful Chaotic Resonator
-Precise Arrowhead
-Prime Chaotic Resonator
-Prime Regrading Lens
-Primitive Chaotic Resonator
-Quartz Flask
-Quicksilver Flask
-Regal Shard
-Regicide Disguise Kit
-Remnant of Corruption
-Ritual Splinter
-Ritual Vessel
-Rogue's Marker
-Ruby Flask
-Runed Bracers
-Sacred
-Sacred Blossom
-Sacrifice at Dawn
-Sacrifice at Dusk
-Sacrifice at Midnight
-Sacrifice at Noon
-Sanctified
-Sanctified Life Flask
-Sanctified Mana Flask
-Sapphire Flask
-Saqawine Lure
-Scrap Metal
-Screaming Essence of
-Screaming Invitation
-Scroll Fragment
-Searching Eye Jewel
-Secondary Regrading Lens
-Shining Ward
-Shrieking Essence of
-Silkweave Sole
-Silver Flask
-Simulacrum
-Simulacrum Splinter
-Singular Scouting Report
-Skeleton Keyring
-Small
-Small Cluster Jewel
-Specularity Scroll
-Splinter of Chayula
-Splinter of Esh
-Splinter of Tul
-Splinter of Uul-Netol
-Splinter of Xoph
-Squandered Prosperity
-Steel Bracers
-Stibnite Flask
-Sulphur Blowtorch
-Sulphur Flask
-Surveyor's Compass
-Synthesised Map
-Talisman
-Thaumaturgical Sensing Charm
-Thaumaturgical Ward
-Thaumetic Blowtorch
-Thaumetic Flashpowder
-The Iron Bard
-The Maven's Writ
-The Mayor
-The Valley of Steel Boxes
-Time-light Scroll
-Timeworn Reliquary Key
-Topaz Flask
-Transmutation Shard
-Tribute to the Goddess
-Unstable Catalyst
-Vaal
-Vaal Reliquary Key
-Vaal Scouting Report
-Veritania's Crest
-Viridian Jewel
-Wailing Essence of
-Weeping Essence of
-Whispering Essence of
-Whisper-woven Cloak
-Writhing Invitation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
