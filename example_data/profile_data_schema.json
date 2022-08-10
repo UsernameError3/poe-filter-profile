@@ -65,18 +65,6 @@
         "equipment": {
             "weapons": [
                 {
-                    "classType": "One Hand",
-                    "rarity": [
-                        "normal",
-                        "magic",
-                        "rare",
-                        "unique"
-                    ],
-                    "baseType": [],
-                    "mods": []
-                    
-                },
-                {
                     "classType": "One Hand Axes",
                     "rarity": [
                         "normal",
@@ -84,7 +72,36 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Rusted Hatchet",
+                        "Jade Hatchet",
+                        "Boarding Axe",
+                        "Cleaver",
+                        "Broad Axe",
+                        "Arming Axe",
+                        "Decorative Axe",
+                        "Maltreatment Axe",
+                        "Spectral Axe",
+                        "Etched Hatchet",
+                        "Jasper Axe",
+                        "Tomahawk",
+                        "Wrist Chopper",
+                        "War Axe",
+                        "Chest Splitter",
+                        "Disapprobation Axe",
+                        "Ceremonial Axe",
+                        "Wraith Axe",
+                        "Engraved Hatchet",
+                        "Karui Axe",
+                        "Siege Axe",
+                        "Reaver Axe",
+                        "Butcher Axe",
+                        "Vaal Hatchet",
+                        "Royal Axe",
+                        "Infernal Axe",
+                        "Psychotic Axe",
+                        "Runic Hatchet"
+                    ],
                     "mods": []
                 },
                 {
@@ -95,7 +112,36 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Driftwood Club",
+                        "Tribal Club",
+                        "Spiked Club",
+                        "Stone Hammer",
+                        "War Hammer",
+                        "Bladed Mace",
+                        "Ceremonial Mace",
+                        "Flare Mace",
+                        "Dream Mace",
+                        "Wyrm Mace",
+                        "Petrified Club",
+                        "Barbed Club",
+                        "Rock Breaker",
+                        "Battle Hammer",
+                        "Flanged Mace",
+                        "Crack Mace",
+                        "Ornate Mace",
+                        "Phantom Mace",
+                        "Dragon Mace",
+                        "Ancestral Club",
+                        "Tenderizer",
+                        "Gavel",
+                        "Legion Hammer",
+                        "Pernach",
+                        "Auric Mace",
+                        "Nightmare Mace",
+                        "Behemoth Mace",
+                        "Boom Mace"
+                    ],
                     "mods": []
                 },
                 {
@@ -106,7 +152,74 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Charan's Sword",
+                        "Rusted Sword",
+                        "Copper Sword",
+                        "Sabre",
+                        "Broad Sword",
+                        "War Sword",
+                        "Ancient Sword",
+                        "Elegant Sword",
+                        "Fickle Spiritblade",
+                        "Dusk Blade",
+                        "Hook Sword",
+                        "Variscite Blade",
+                        "Cutlass",
+                        "Baselard",
+                        "Battle Sword",
+                        "Elder Sword",
+                        "Capricious Spiritblade",
+                        "Graceful Sword",
+                        "Twilight Blade",
+                        "Grappler",
+                        "Gemstone Sword",
+                        "Corsair Sword",
+                        "Gladius",
+                        "Legion Sword",
+                        "Vaal Blade",
+                        "Eternal Sword",
+                        "Midnight Blade",
+                        "Anarchic Spiritblade",
+                        "Tiger Hook"
+                    ],
+                    "mods": []
+                },
+                {
+                    "classType": "Thrusting One Hand Swords",
+                    "rarity": [
+                        "normal",
+                        "magic",
+                        "rare",
+                        "unique"
+                    ],
+                    "baseType": [
+                        "Rusted Spike",
+                        "Whalebone Rapier",
+                        "Battered Foil",
+                        "Basket Rapier",
+                        "Jagged Foil",
+                        "Antique Rapier",
+                        "Elegant Foil",
+                        "Thorn Rapier",
+                        "Smallsword",
+                        "Wyrmbone Rapier",
+                        "Burnished Foil",
+                        "Estoc",
+                        "Serrated Foil",
+                        "Primeval Rapier",
+                        "Fancy Foil",
+                        "Apex Rapier",
+                        "Courtesan Sword",
+                        "Dragonbone Rapier",
+                        "Tempered Foil",
+                        "Pecoraro",
+                        "Spiraled Foil",
+                        "Vaal Rapier",
+                        "Jewelled Foil",
+                        "Harpy Rapier",
+                        "Dragoon Sword"
+                    ],
                     "mods": []
                 },
                 {
@@ -117,7 +230,36 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Nailed Fist",
+                        "Sharktooth Claw",
+                        "Awl",
+                        "Cat's Paw",
+                        "Blinder",
+                        "Timeworn Claw",
+                        "Shadow Fangs",
+                        "Sparkling Claw",
+                        "Fright Claw",
+                        "Double Claw",
+                        "Thresher Claw",
+                        "Gouger",
+                        "Tiger's Paw",
+                        "Gut Ripper",
+                        "Prehistoric Claw",
+                        "Malign Fangs",
+                        "Noble Claw",
+                        "Eagle Claw",
+                        "Twin Claw",
+                        "Great White Claw",
+                        "Throat Stabber",
+                        "Hellion's Paw",
+                        "Eye Gouger",
+                        "Vaal Claw",
+                        "Imperial Claw",
+                        "Terror Claw",
+                        "Void Fangs",
+                        "Gemini Claw"
+                    ],
                     "mods": []
                 },
                 {
@@ -128,18 +270,21 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
-                },
-                {
-                    "classType": "Rune Dagger",
-                    "rarity": [
-                        "normal",
-                        "magic",
-                        "rare",
-                        "unique"
+                    "baseType": [
+                        "Glass Shank",
+                        "Skinning Knife",
+                        "Stiletto",
+                        "Flaying Knife",
+                        "Hollowpoint Dagger",
+                        "Prong Dagger",
+                        "Poignard",
+                        "Pressurised Dagger",
+                        "Trisula",
+                        "Gutting Knife",
+                        "Ambusher",
+                        "Pneumatic Dagger",
+                        "Sai"
                     ],
-                    "baseType": [],
                     "mods": []
                 },
                 {
@@ -150,18 +295,26 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
-                },
-                {
-                    "classType": "Sceptre",
-                    "rarity": [
-                        "normal",
-                        "magic",
-                        "rare",
-                        "unique"
+                    "baseType": [
+                        "Carving Knife",
+                        "Boot Knife",
+                        "Copper Kris",
+                        "Skean",
+                        "Flickerflame Blade",
+                        "Imp Dagger",
+                        "Butcher Knife",
+                        "Boot Blade",
+                        "Golden Kris",
+                        "Flashfire Blade",
+                        "Royal Skean",
+                        "Fiend Dagger",
+                        "Slaughter Knife",
+                        "Ezomyte Dagger",
+                        "Platinum Kris",
+                        "Imperial Skean",
+                        "Demon Dagger",
+                        "Infernal Blade"
                     ],
-                    "baseType": [],
                     "mods": []
                 },
                 {
@@ -172,18 +325,36 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
-                },
-                {
-                    "classType": "Wand",
-                    "rarity": [
-                        "normal",
-                        "magic",
-                        "rare",
-                        "unique"
+                    "baseType": [
+                        "Driftwood Sceptre",
+                        "Darkwood Sceptre",
+                        "Bronze Sceptre",
+                        "Quartz Sceptre",
+                        "Iron Sceptre",
+                        "Ochre Sceptre",
+                        "Ritual Sceptre",
+                        "Oscillating Sceptre",
+                        "Shadow Sceptre",
+                        "Grinning Fetish",
+                        "Horned Sceptre",
+                        "Sekhem",
+                        "Crystal Sceptre",
+                        "Lead Sceptre",
+                        "Blood Sceptre",
+                        "Royal Sceptre",
+                        "Stabilising Sceptre",
+                        "Abyssal Sceptre",
+                        "Stag Sceptre",
+                        "Karui Sceptre",
+                        "Tyrant's Sekhem",
+                        "Opal Sceptre",
+                        "Platinum Sceptre",
+                        "Vaal Sceptre",
+                        "Carnal Sceptre",
+                        "Void Sceptre",
+                        "Alternating Sceptre",
+                        "Sambar Sceptre"
                     ],
-                    "baseType": [],
                     "mods": []
                 },
                 {
@@ -194,7 +365,31 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Driftwood Wand",
+                        "Goat's Horn",
+                        "Carved Wand",
+                        "Quartz Wand",
+                        "Spiraled Wand",
+                        "Assembler Wand",
+                        "Sage Wand",
+                        "Pagan Wand",
+                        "Faun's Horn",
+                        "Engraved Wand",
+                        "Crystal Wand",
+                        "Serpent Wand",
+                        "Congregator Wand",
+                        "Omen Wand",
+                        "Heathen Wand",
+                        "Demon's Horn",
+                        "Imbued Wand",
+                        "Opal Wand",
+                        "Tornado Wand",
+                        "Prophecy Wand",
+                        "Accumulator Wand",
+                        "Profane Wand",
+                        "Convoking Wand"
+                    ],
                     "mods": []
                 },
                 {
@@ -205,18 +400,36 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
-                },
-                {
-                    "classType": "Two Hand",
-                    "rarity": [
-                        "normal",
-                        "magic",
-                        "rare",
-                        "unique"
+                    "baseType": [
+                        "Crude Bow",
+                        "Short Bow",
+                        "Long Bow",
+                        "Composite Bow",
+                        "Recurve Bow",
+                        "Bone Bow",
+                        "Royal Bow",
+                        "Hedron Bow",
+                        "Death Bow",
+                        "Grove Bow",
+                        "Reflex Bow",
+                        "Decurve Bow",
+                        "Compound Bow",
+                        "Sniper Bow",
+                        "Ivory Bow",
+                        "Foundry Bow",
+                        "Highborn Bow",
+                        "Decimation Bow",
+                        "Thicket Bow",
+                        "Steelwood Bow",
+                        "Citadel Bow",
+                        "Ranger Bow",
+                        "Assassin Bow",
+                        "Spine Bow",
+                        "Imperial Bow",
+                        "Harbinger Bow",
+                        "Solarine Bow",
+                        "Maraketh Bow"
                     ],
-                    "baseType": [],
                     "mods": []
                 },
                 {
@@ -227,7 +440,33 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Stone Axe",
+                        "Jade Chopper",
+                        "Woodsplitter",
+                        "Poleaxe",
+                        "Double Axe",
+                        "Gilded Axe",
+                        "Prime Cleaver",
+                        "Shadow Axe",
+                        "Dagger Axe",
+                        "Jasper Chopper",
+                        "Timber Axe",
+                        "Headsman Axe",
+                        "Labrys",
+                        "Honed Cleaver",
+                        "Noble Axe",
+                        "Abyssal Axe",
+                        "Karui Chopper",
+                        "Talon Axe",
+                        "Sundering Axe",
+                        "Ezomyte Axe",
+                        "Vaal Axe",
+                        "Despot Axe",
+                        "Void Axe",
+                        "Apex Cleaver",
+                        "Fleshripper"
+                    ],
                     "mods": []
                 },
                 {
@@ -238,7 +477,33 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Driftwood Maul",
+                        "Tribal Maul",
+                        "Mallet",
+                        "Sledgehammer",
+                        "Jagged Maul",
+                        "Brass Maul",
+                        "Blunt Force Condenser",
+                        "Fright Maul",
+                        "Morning Star",
+                        "Totemic Maul",
+                        "Great Mallet",
+                        "Steelhead",
+                        "Spiny Maul",
+                        "Crushing Force Magnifier",
+                        "Plated Maul",
+                        "Dread Maul",
+                        "Solar Maul",
+                        "Karui Maul",
+                        "Colossus Mallet",
+                        "Piledriver",
+                        "Meatgrinder",
+                        "Imperial Maul",
+                        "Terror Maul",
+                        "Coronal Maul",
+                        "Impact Force Propagator"
+                    ],
                     "mods": []
                 },
                 {
@@ -249,7 +514,33 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Corroded Blade",
+                        "Longsword",
+                        "Bastard Sword",
+                        "Two-Handed Sword",
+                        "Etched Greatsword",
+                        "Ornate Sword",
+                        "Rebuking Blade",
+                        "Spectral Sword",
+                        "Curved Blade",
+                        "Butcher Sword",
+                        "Footman Sword",
+                        "Highland Blade",
+                        "Engraved Greatsword",
+                        "Blasting Blade",
+                        "Tiger Sword",
+                        "Wraith Sword",
+                        "Lithe Blade",
+                        "Headman's Sword",
+                        "Reaver Sword",
+                        "Ezomyte Blade",
+                        "Vaal Greatsword",
+                        "Lion Sword",
+                        "Infernal Sword",
+                        "Banishing Blade",
+                        "Exquisite Blade"
+                    ],
                     "mods": []
                 },
                 {
@@ -260,7 +551,24 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Gnarled Branch",
+                        "Primitive Staff",
+                        "Long Staff",
+                        "Royal Staff",
+                        "Transformer Staff",
+                        "Crescent Staff",
+                        "Woodful Staff",
+                        "Quarterstaff",
+                        "Reciprocation Staff",
+                        "Highborn Staff",
+                        "Moon Staff",
+                        "Primordial Staff",
+                        "Lathi",
+                        "Imperial Staff",
+                        "Battery Staff",
+                        "Eclipse Staff"
+                    ],
                     "mods": []
                 },
                 {
@@ -271,7 +579,20 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Iron Staff",
+                        "Coiled Staff",
+                        "Capacity Rod",
+                        "Vile Staff",
+                        "Military Staff",
+                        "Serpentine Staff",
+                        "Potentiality Rod",
+                        "Foul Staff",
+                        "Ezomyte Staff",
+                        "Maelström Staff",
+                        "Judgement Staff",
+                        "Eventuality Rod"
+                    ],
                     "mods": []
                 }
             ],
@@ -965,7 +1286,21 @@
                         "unique"
                     ],
                     "baseType": [
-
+                        "Serrated Arrow Quiver",
+                        "Fire Arrow Quiver",
+                        "Sharktooth Arrow Quiver",
+                        "Feathered Arrow Quiver",
+                        "Penetrating Arrow Quiver",
+                        "Blunt Arrow Quiver",
+                        "Two-Point Arrow Quiver",
+                        "Spike-Point Arrow Quiver",
+                        "Blazing Arrow Quiver",
+                        "Ornate Quiver",
+                        "Broadhead Arrow Quiver",
+                        "Vile Arrow Quiver",
+                        "Heavy Arrow Quiver",
+                        "Primal Arrow Quiver",
+                        "Artillery Quiver"
                     ],
                     "mods": []
                 }
@@ -979,7 +1314,31 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Breach Ring",
+                        "Coral Ring",
+                        "Iron Ring",
+                        "Paua Ring",
+                        "Unset Ring",
+                        "Sapphire Ring",
+                        "Topaz Ring",
+                        "Ruby Ring",
+                        "Diamond Ring",
+                        "Gold Ring",
+                        "Moonstone Ring",
+                        "Two-Stone Ring",
+                        "Two-Stone Ring",
+                        "Two-Stone Ring",
+                        "Cogwork Ring",
+                        "Geodesic Ring",
+                        "Amethyst Ring",
+                        "Prismatic Ring",
+                        "Cerulean Ring",
+                        "Iolite Ring",
+                        "Opal Ring",
+                        "Steel Ring",
+                        "Vermillion Ring"
+                    ],
                     "mods": []
                 },
                 {
@@ -990,8 +1349,63 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
-                    "mods": []
+                    "amuletTypes": [
+                        {
+                            "amuletType": "amulet",
+                            "baseType": [
+                                "Coral Amulet",
+                                "Paua Amulet",
+                                "Amber Amulet",
+                                "Jade Amulet",
+                                "Lapis Amulet",
+                                "Unset Amulet",
+                                "Gold Amulet",
+                                "Agate Amulet",
+                                "Citrine Amulet",
+                                "Turquoise Amulet",
+                                "Onyx Amulet",
+                                "Simplex Amulet",
+                                "Astrolabe Amulet",
+                                "Marble Amulet",
+                                "Seaglass Amulet",
+                                "Blue Pearl Amulet"
+                            ],
+                            "mods": []
+                        },
+                        {
+                            "amuletType": "talisman",
+                            "baseType": [
+                                "Ashscale Talisman",
+                                "Avian Twins Talisman",
+                                "Black Maw Talisman",
+                                "Bonespire Talisman",
+                                "Breakrib Talisman",
+                                "Chrysalis Talisman",
+                                "Clutching Talisman",
+                                "Deadhand Talisman",
+                                "Deep One Talisman",
+                                "Fangjaw Talisman",
+                                "Hexclaw Talisman",
+                                "Horned Talisman",
+                                "Lone Antler Talisman",
+                                "Longtooth Talisman",
+                                "Mandible Talisman",
+                                "Monkey Paw Talisman",
+                                "Monkey Twins Talisman",
+                                "Primal Skull Talisman",
+                                "Rot Head Talisman",
+                                "Rotfeather Talisman",
+                                "Spinefuse Talisman",
+                                "Splitnewt Talisman",
+                                "Three Hands Talisman",
+                                "Three Rat Talisman",
+                                "Undying Flesh Talisman",
+                                "Wereclaw Talisman",
+                                "Writhing Talisman"
+                            ],
+                            "mods": []
+                        }
+                    ]
                 },
                 {
                     "classType": "Belts",
@@ -1001,7 +1415,19 @@
                         "rare",
                         "unique"
                     ],
-                    "baseType": [],
+                    "baseType": [
+                        "Chain Belt",
+                        "Rustic Sash",
+                        "Stygian Vise",
+                        "Heavy Belt",
+                        "Leather Belt",
+                        "Cloth Belt",
+                        "Studded Belt",
+                        "Micro-Distillery Belt",
+                        "Mechalarm Belt",
+                        "Vanguard Belt",
+                        "Crystal Belt"
+                    ],
                     "mods": []
                 }
             ],
@@ -1584,7 +2010,132 @@
                         "unique"
                     ],
                     "baseType": [
-                        
+                        "Acid Caverns Map",
+                        "Alleyways Map",
+                        "Ancient City Map",
+                        "Arachnid Nest Map",
+                        "Arcade Map",
+                        "Arid Lake Map",
+                        "Armoury Map",
+                        "Arsenal Map",
+                        "Ashen Wood Map",
+                        "Atoll Map",
+                        "Barrows Map",
+                        "Basilica Map",
+                        "Bog Map",
+                        "Bone Crypt Map",
+                        "Caldera Map",
+                        "Canyon Map",
+                        "Carcass Map",
+                        "Cells Map",
+                        "Cemetery Map",
+                        "Chateau Map",
+                        "Colosseum Map",
+                        "Conservatory Map",
+                        "Core Map",
+                        "Courtyard Map",
+                        "Crimson Temple Map",
+                        "Crimson Township Map",
+                        "Cursed Crypt Map",
+                        "Dark Forest Map",
+                        "Defiled Cathedral Map",
+                        "Desert Map",
+                        "Dig Map",
+                        "Dry Sea Map",
+                        "Dunes Map",
+                        "Dungeon Map",
+                        "Estuary Map",
+                        "Fields Map",
+                        "Flooded Mine Map",
+                        "Forbidden Woods Map",
+                        "Forking River Map",
+                        "Foundry Map",
+                        "Fungal Hollow Map",
+                        "Gardens Map",
+                        "Ghetto Map",
+                        "Glacier Map",
+                        "Grave Trough Map",
+                        "Grotto Map",
+                        "Haunted Mansion Map",
+                        "Laboratory Map",
+                        "Lair Map",
+                        "Lava Lake Map",
+                        "Leyline Map",
+                        "Lighthouse Map",
+                        "Lookout Map",
+                        "Malformation Map",
+                        "Mausoleum Map",
+                        "Maze Map",
+                        "Mineral Pools Map",
+                        "Moon Temple Map",
+                        "Mud Geyser Map",
+                        "Museum Map",
+                        "Necropolis Map",
+                        "Orchard Map",
+                        "Overgrown Ruin Map",
+                        "Overgrown Shrine Map",
+                        "Palace Map",
+                        "Park Map",
+                        "Pit Map",
+                        "Plateau Map",
+                        "Plaza Map",
+                        "Port Map",
+                        "Primordial Blocks Map",
+                        "Promenade Map",
+                        "Racecourse Map",
+                        "Reef Map",
+                        "Relic Chambers Map",
+                        "Sepulchre Map",
+                        "Shore Map",
+                        "Siege Map",
+                        "Silo Map",
+                        "Spider Forest Map",
+                        "Spider Lair Map",
+                        "Stagnation Map",
+                        "Strand Map",
+                        "Sulphur Vents Map",
+                        "Summit Map",
+                        "Sunken City Map",
+                        "Temple Map",
+                        "Terrace Map",
+                        "Thicket Map",
+                        "Tower Map",
+                        "Toxic Sewer Map",
+                        "Tropical Island Map",
+                        "Underground River Map",
+                        "Underground Sea Map",
+                        "Vaal Pyramid Map",
+                        "Vaal Temple Map",
+                        "Vault Map",
+                        "Waste Pool Map",
+                        "Wasteland Map",
+                        "Waterways Map",
+                        "Wharf Map"
+                    ],
+                    "uniques": [
+                        "Acton's Nightmare",
+                        "Altered Distant Memory",
+                        "Augmented Distant Memory",
+                        "Caer Blaidd, Wolfpack's Den",
+                        "Cortex",
+                        "Death and Taxes",
+                        "Doryani's Machinarium",
+                        "Hall of Grandmasters",
+                        "Hallowed Ground",
+                        "Oba's Cursed Trove",
+                        "Olmec's Sanctum",
+                        "Pillars of Arun",
+                        "Poorjoy's Asylum",
+                        "Replica Cortex",
+                        "Replica Pillars of Arun",
+                        "Replica Poorjoy's Asylum",
+                        "Rewritten Distant Memory",
+                        "The Coward's Trial",
+                        "The Putrid Cloister",
+                        "The Twilight Temple",
+                        "The Vinktar Square",
+                        "Untainted Paradise",
+                        "Vaults of Atziri"
                     ]
                 },
                 {
@@ -1659,7 +2210,25 @@
                         "Winged Sole",
                         "Winged Sulphite Scarab",
                         "Winged Torment Scarab",
-                        "Scarab"
+                        "Scarab",
+                        "Fragment of Constriction",
+                        "Fragment of Emptiness",
+                        "Fragment of Enslavement",
+                        "Fragment of Eradication",
+                        "Fragment of Knowledge",
+                        "Fragment of Purification",
+                        "Fragment of Shape",
+                        "Fragment of Terror",
+                        "Fragment of the Chimera",
+                        "Fragment of the Hydra",
+                        "Fragment of the Minotaur",
+                        "Fragment of the Phoenix",
+                        "Maven's Invitation: The Atlas",
+                        "Maven's Invitation: The Elderslayers",
+                        "Maven's Invitation: The Forgotten",
+                        "Maven's Invitation: The Formed",
+                        "Maven's Invitation: The Hidden",
+                        "Maven's Invitation: The Twisted"
                     ]
                 }
             ],
@@ -1929,7 +2498,47 @@
                 {
                     "classType": "Currency",
                     "baseType": [
-
+                        "Tainted Armourer's Scrap",
+                        "Tainted Blacksmith's Whetstone",
+                        "Tainted Blessing",
+                        "Tainted Chaos Orb",
+                        "Tainted Chromatic Orb",
+                        "Tainted Divine Teardrop",
+                        "Tainted Exalted Orb",
+                        "Tainted Jeweller's Orb",
+                        "Tainted Mythic Orb",
+                        "Tainted Orb of Fusing",
+                        "Orb of Augmentation",
+                        "Orb of Binding",
+                        "Orb of Conflict",
+                        "Orb of Dominance",
+                        "Orb of Horizons",
+                        "Orb of Transmutation",
+                        "Orb of Unmaking",
+                        "Tailoring Orb",
+                        "Tempering Orb",
+                        "Unshaping Orb",
+                        "Veiled Chaos Orb",
+                        "Warlord's Exalted Orb",
+                        "Sacred Orb",
+                        "Eternal Orb",
+                        "Engineer's Orb",
+                        "Enkindling Orb",
+                        "Eldritch Exalted Orb",
+                        "Eldritch Orb of Annulment",
+                        "Crusader's Exalted Orb",
+                        "Ancient Orb",
+                        "Awakener's Orb",
+                        "Bestiary Orb",
+                        "Blessed Orb",
+                        "Hunter's Exalted Orb",
+                        "Infused Engineer's Orb",
+                        "Instilling Orb",
+                        "Jeweller's Orb",
+                        "Redeemer's Exalted Orb",
+                        "Weapon Recombinator",
+                        "Jewellery Recombinator",
+                        "Armour Recombinator"
                     ]
                 },
                 {
@@ -2116,6 +2725,7 @@
                         "The Admirer",
                         "The Adventuring Spirit",
                         "The Aesthete",
+                        "The Apothecary",
                         "The Archmage's Right Hand",
                         "The Arena Champion",
                         "The Army of Blood",
@@ -2382,936 +2992,215 @@
     }
 }
 
-Abyssal Axe
-Accumulator Wand
-Aetherwind Gloves
 Aggregator Charm
 Alchemy Shard
 Al-Hezmin's Crest
 Alteration Shard
-Alternating Sceptre
-Amber Amulet
-Ambush Boots
-Ambush Mitts
-Ambusher
 Amethyst Flask
-Amethyst Ring
-Amplifying Power Core
-Anarchic Spiritblade
-Ancient Apex Sentinel
-Ancient Gauntlets
-Ancient Greaves
-Ancient Orb
-Ancient Pandemonium Sentinel
 Ancient Reliquary Key
 Ancient Shard
-Ancient Spirit Shield
-Ancient Stalker Sentinel
 Annulment Shard
-Antique Greaves
-Antique Rapier
-Apex Cleaver
-Apothecary's Gloves
 Aquamarine Flask
-Arcanist Gloves
-Arcanist Slippers
-Archdemon Crown
-Archon Kite Shield
 Archon Kite Shield Piece
-Armour Recombinator
 Armourer's Scrap
-Artillery Quiver
-Ashscale Talisman
-Assassin Bow
-Assassin's Boots
-Assassin's Garb
-Assassin's Mitts
-Assembler Wand
 Astragali
-Astral Plate
-Astrolabe Amulet
-Atoll Map
-Atonement Mask
-Augmenting Power Core
-Auric Mace
-Aventail Helmet
-Avian Twins Talisman
 Awakened
-Awakener's Orb
-Awl
 Azurite Flashpowder
-Banishing Blade
 Baran's Crest
-Baroque Round Shield
 Basalt Flask
-Basemetal Treads
-Basilica Map
-Basket Rapier
-Bastard Sword
-Battery Staff
-Behemoth Mace
-Bestiary Orb
 Binding Shard
 Birth of the Three
 Bismuth Flask
-Black Maw Talisman
 Blacksmith's Whetstone
-Blasting Blade
-Blazing Arrow Quiver
-Blessed Orb
 Blessing of God
 Blighted Scouting Report
-Blinder
-Blizzard Crown
-Blood Raiment
-Blood Sceptre
 Blood-filled Vessel
-Blue Pearl Amulet
-Blunt Arrow Quiver
 Blunt Arrow Quiver Piece
-Blunt Force Condenser
-Bone Armour
-Bone Bow
-Bone Circlet
-Bone Crypt Map
-Bone Spirit Shield
-Bonespire Talisman
-Boom Mace
-Boot Blade
-Boot Knife
-Branded Kite Shield
-Brass Maul
-Brass Spirit Shield
-Breach
-Breakrib Talisman
-Brimstone Apex Sentinel
-Brimstone Pandemonium Sentinel
-Brimstone Stalker Sentinel
-Brimstone Treads
-Broadhead Arrow Quiver
-Bronze Apex Sentinel
-Bronze Gauntlets
-Bronze Pandemonium Sentinel
-Bronze Sceptre
-Bronze Stalker Sentinel
-Bronze Tower Shield
-Bronzescale Boots
-Bronzescale Gauntlets
 Brush, Paint and Palette
-Buckskin Tunic
 Burial Medallion
-Burnished Spiked Shield
 Burst Band
-Butcher Axe
-Callous Mask
 Callous Mask Piece
-Capacity Rod
-Capricious Spiritblade
-Cardinal Round Shield
-Carnal Armour
-Carnal Boots
-Carnal Mitts
-Carnal Sceptre
-Carved Wand
-Cedar Tower Shield
-Cemetery Map
 Ceremonial Voidstone
-Cerulean Ring
-Chain Belt
-Chain Gloves
-Champion Kite Shield
 Chaos Shard
 Charged Compass
-Chiming Spirit Shield
 Chronicle of Atzoatl
-Chrysalis Talisman
-Citadel Bow
-Citrine Amulet
-Clasped Boots
-Clasped Mitts
-Cleaver
-Close Helmet
-Cloth Belt
 Cloth Belt Piece
-Cloudwhisper Boots
-Clutching Talisman
-Cobalt Apex Sentinel
 Cobalt Jewel
-Cobalt Pandemonium Sentinel
-Cobalt Stalker Sentinel
-Cogwork Ring
-Coiled Staff
-Cold-attuned Buckler
 Colossal
-Colossal Tower Shield
-Compound Spiked Shield
 Comprehensive Scouting Report
-Congregator Wand
-Conjurer Boots
-Conjurer Gloves
-Conquest Chainmail
-Convoking Wand
-Copper Kris
-Copper Plate
-Coral Amulet
-Coral Ring
-Coronal Leather
-Coronal Maul
-Corrugated Buckler
-Corsair Sword
-Cosmic Apex Sentinel
-Courtesan Sword
 Courthouse Map
-Courtyard Map
-Crack Mace
 Craicic Lure
 Crescent Splinter
 Crimson Jewel
-Crimson Round Shield
-Crude Bow
-Crusader Boots
-Crusader Buckler
-Crusader Chainmail
-Crusader Gloves
-Crusader Helmet
-Crusader Plate
-Crusader's Exalted Orb
-Crushing Force Magnifier
-Cryptic Apex Sentinel
-Cryptic Pandemonium Sentinel
-Cryptic Stalker Sentinel
-Crystal Belt
-Crystal Wand
-Cursed Crypt Map
-Cutlass
-Cutthroat's Garb
-Darksteel Treads
-Deadhand Talisman
 Deafening Essence of
-Death Bow
-Debilitation Gauntlets
 Decayed Voidstone
-Decimation Bow
-Decorative Axe
 Dedication to the Goddess
-Deep One Talisman
-Deerskin Boots
-Deerskin Gloves
-Deicide Mask
 Delirious Scouting Report
-Demon Crown
-Demon Dagger
-Demon's Horn
 Deregulation Scroll
-Desert Brigandine
-Despot Axe
-Destiny Leather
-Destroyer Regalia
 Diamond Flask
-Disapprobation Axe
 Divine
 Divine Life Flask
 Divine Mana Flask
 Divine Vessel
-Dragon Mace
-Dragonscale Boots
-Dragonscale Gauntlets
-Dragoon Sword
-Dread Maul
-Dream Mace
-Dreamquest Slippers
-Driftwood Wand
 Drox's Crest
-Dunes Map
-Dusk Blade
-Duskwalk Slippers
-Ebony Tower Shield
-Eclipse Staff
-Eelskin Boots
-Eelskin Gloves
-Elder Sword
-Eldritch Exalted Orb
-Eldritch Orb of Annulment
 Electroshock Scroll
-Elegant Foil
-Elegant Ringmail
-Elegant Round Shield
-Elegant Sword
-Emberstone Apex Sentinel
-Emberstone Pandemonium Sentinel
-Emberstone Stalker Sentinel
-Embroidered Gloves
 Enamel Brooch
-Enameled Buckler
-Endothermic Buckler
-Engineer's Orb
 Engineer's Shard
-Engraved Hatchet
-Engraved Wand
-Enkindling Orb
 Espionage Disguise Kit
 Essence of Delirium
 Essence of Horror
 Essence of Hysteria
 Essence of Insanity
-Estoc
-Etched Greatsword
 Eternal
-Eternal Burgonet
 Eternal Life Flask
 Eternal Mana Flask
-Eternal Orb
-Eternal Sword
-Eventuality Rod
 Exalted Shard
 Exceptional Eldritch Ember
 Exceptional Eldritch Ichor
-Exhausting Spirit Shield
-Exothermic Tower Shield
 Exotic Coinage
 Expedition Logbook
 Explorer's Scouting Report
-Exquisite Blade
-Exquisite Leather
-Eye Gouger
-Ezomyte Axe
-Ezomyte Blade
-Ezomyte Burgonet
-Ezomyte Dagger
-Ezomyte Spiked Shield
-Ezomyte Staff
-Ezomyte Tower Shield
 Facetor's Lens
-Fancy Foil
-Fangjaw Talisman
 Farric Lure
-Faun's Horn
-Feathered Arrow Quiver
-Fencer Helm
 Fenumal Lure
-Festival Mask
-Fickle Spiritblade
-Fiend Dagger
 Fine Lockpick
 Fine Sharpening Stone
-Fingerless Silk Gloves
-Fire Arrow Quiver
-Flare Mace
-Flashfire Blade
 Flask
-Flaying Knife
-Fleshripper
-Flickerflame Blade
-Fluted Bascinet
 Foliate Brooch
-Fossilised Spirit Shield
-Foundry Bow
-Fragment of Constriction
-Fragment of Emptiness
-Fragment of Enslavement
-Fragment of Eradication
-Fragment of Knowledge
-Fragment of Purification
-Fragment of Shape
-Fragment of Terror
-Fragment of the Chimera
-Fragment of the Hydra
-Fragment of the Minotaur
-Fragment of the Phoenix
 Fragmentation Scroll
 Friendship
-Fright Claw
-Fugitive Boots
-Full Dragonscale
-Full Scale Armour
-Full Wyrmscale
-Gale Crown
-Gauche Gloves
-Gavel
-Gemini Claw
-Gemstone Sword
-General's Brigandine
-Geodesic Ring
 Ghastly Eye Jewel
 Giant
 Gift to the Goddess
-Gladiator Plate
-Gladius
 Glassblower's Bauble
-Glorious Plate
-Gnarled Branch
-Goathide Boots
-Goathide Gloves
-Goat's Horn
-Gold Amulet
-Golden Buckler
-Golden Kris
-Golden Mask
-Golden Plate
-Goliath Gauntlets
-Goliath Greaves
 Grand
 Grand Eldritch Ember
 Grand Eldritch Ichor
 Grand Mana Flask
 Grandmaster Keyring
-Grappler
-Grasping Mail
 Grasping Voidstone
-Great Crown
-Great Helmet
-Great Mallet
 Greater
 Greater Eldritch Ember
 Greater Eldritch Ichor
 Greater Mana Flask
 Greatwolf Talisman
-Grinning Fetish
-Gripped Gloves
-Grove Bow
-Gruelling Gauntlets
-Gut Ripper
 Haemocombustion Scroll
 Hallowed
 Hallowed Hybrid Flask
-Harbinger Bow
 Harbinger Map
 Harbinger's Shard
-Harlequin Mask
-Harmonic Spirit Shield
-Harpy Rapier
-Haunted Mansion Map
-Headsman Axe
-Heat-attuned Tower Shield
-Heathen Wand
-Heavy Arrow Quiver
-Heavy Belt
-Hedron Bow
-Hellion's Paw
-Hexclaw Talisman
-Highborn Staff
-Highland Blade
 Hollowpoint Arrowhead
-Hollowpoint Dagger
-Holy Chainmail
-Honed Cleaver
 Hooded Cloak
 Horizon Shard
-Horned Sceptre
-Hubris Circlet
-Hunter's Exalted Orb
-Hydrascale Boots
-Hydrascale Gauntlets
 Hypnotic Eye Jewel
-Imbued Wand
-Imp Crown
-Impact Force Propagator
-Imperial Bow
-Imperial Buckler
-Imperial Claw
-Imperial Maul
-Imperial Skean
-Imperial Staff
 Imperial Staff Piece
 Imprint
 Incandescent Invitation
-Infernal Axe
-Infernal Blade
-Infernal Sword
 Influenced Scouting Report
-Infused Engineer's Orb
 Inscribed Ultimatum
-Instilling Orb
-Iolite Ring
-Iron Circlet
 Iron Flask
-Iron Gauntlets
-Iron Hat
-Iron Mask
-Iron Ring
-Iron Sceptre
-Iron Staff
-Ironscale Boots
-Ironscale Gauntlets
-Ivory Spirit Shield
-Jade Amulet
 Jade Flask
-Jade Hatchet
-Jagged Foil
-Jagged Maul
-Jasper Chopper
-Jewelled Foil
-Jeweller's Orb
-Jewellery Recombinator
-Jingling Spirit Shield
-Judgement Staff
-Karui Chopper
-Karui Maul
-Karui Sceptre
-Labrys
-Lacquered Buckler
-Lacquered Garb
-Lacquered Helmet
-Laminated Kite Shield
-Lapis Amulet
 Large
 Large Cluster Jewel
 Large Hybrid Flask
-Lathi
-Latticed Ringmail
-Leather Belt
-Leather Cap
-Leather Hood
-Legion Boots
-Legion Gloves
-Legion Sword
 Legion Sword Piece
 Lesser Eldritch Ember
 Lesser Eldritch Ichor
-Leyline Gloves
-Lion Pelt
-Lion Sword
-Lone Antler Talisman
-Long Bow
-Long Staff
-Longtooth Talisman
-Loricated Ringmail
-Lunaris Circlet
-Maelström Staff
-Magistrate Crown
-Magmatic Tower Shield
-Malign Fangs
-Maltreatment Axe
-Mandible Talisman
-Maraketh Bow
-Marble Amulet
 Master Lockpick
 Maven's
-Maven's Invitation: The Atlas
-Maven's Invitation: The Elderslayers
-Maven's Invitation: The Forgotten
-Maven's Invitation: The Formed
-Maven's Invitation: The Hidden
-Maven's Invitation: The Twisted
-Maze Map
-Meatgrinder
-Mechalarm Belt
 Medium
 Medium Cluster Jewel
-Mesh Boots
-Mesh Gloves
-Micro-Distillery Belt
-Midnight Blade
-Military Staff
-Mind Cage
-Mirrored Spiked Shield
-Moon Temple Map
-Moonstone Ring
 Mortal Grief
 Mortal Hope
 Mortal Ignorance
 Mortal Rage
-Mosaic Kite Shield
-Murder Boots
-Murder Mitts
 Murderous Eye Jewel
-Museum Map
 Muttering Essence of
-Nailed Fist
-Necromancer Circlet
-Necromancer Silks
-Necropolis Map
-Nexus Gloves
-Nightmare Mace
-Nightwind Slippers
-Noble Tricorne
-Nubuck Boots
-Nubuck Gloves
-Obsidian Apex Sentinel
-Obsidian Pandemonium Sentinel
 Obsidian Sharpening Stone
-Obsidian Stalker Sentinel
-Occultist's Vestment
-Ochre Sceptre
 Offering to the Goddess
 Omniscient Voidstone
-Onyx Amulet
-Opal Ring
-Opal Sceptre
-Opal Wand
 Operative's Scouting Report
-Orb of Augmentation
-Orb of Binding
-Orb of Conflict
-Orb of Dominance
-Orb of Horizons
-Orb of Transmutation
-Orb of Unmaking
-Ornate Mace
-Ornate Quiver
-Ornate Ringmail
-Ornate Sword
-Oscillating Sceptre
 Otherworldly Scouting Report
-Overgrown Shrine Map
-Pagan Wand
-Painted Buckler
-Painted Tower Shield
-Park Map
-Paua Amulet
-Paua Ring
-Penetrating Arrow Quiver
-Penitent Mask
-Pig-Faced Bascinet
-Piledriver
-Pine Buckler
-Pinnacle Tower Shield
-Plague Mask
-Plank Kite Shield
-Plate Vest
-Plated Greaves
-Platinum Kris
-Platinum Sceptre
-Pneumatic Dagger
-Polar Buckler
 Polaric Invitation
-Poleaxe
 Portal Scroll
 Potent Chaotic Resonator
-Potentiality Rod
-Power Core
 Powerful Chaotic Resonator
-Praetor Crown
 Precise Arrowhead
-Pressurised Dagger
-Primal Arrow Quiver
 Prime Chaotic Resonator
-Prime Cleaver
 Prime Regrading Lens
-Primeval Apex Sentinel
-Primeval Pandemonium Sentinel
-Primeval Stalker Sentinel
 Primitive Chaotic Resonator
-Primordial Blocks Map
-Primordial Staff
-Prismatic Ring
-Profane Wand
-Promenade Map
-Prophecy Wand
-Prophet Crown
-Psychotic Axe
-Quarterstaff
 Quartz Flask
-Quartz Wand
 Quicksilver Flask
-Ranger Bow
-Raven Mask
-Rawhide Boots
-Rawhide Tower Shield
-Reaver Helmet
-Reaver Sword
-Rebuking Blade
-Reciprocation Staff
-Recurve Bow
-Redeemer's Exalted Orb
 Regal Shard
 Regicide Disguise Kit
-Regicide Mask
-Reinforced Greaves
-Reinforced Tower Shield
-Relic Chambers Map
 Remnant of Corruption
-Ritual Sceptre
 Ritual Splinter
 Ritual Vessel
-Riveted Boots
-Riveted Gloves
-Rock Breaker
 Rogue's Marker
-Rot Head Talisman
-Rotfeather Talisman
-Rotted Round Shield
-Royal Axe
-Royal Bow
-Royal Burgonet
-Royal Sceptre
-Royal Skean
-Royal Staff
 Ruby Flask
-Ruby Ring
 Runed Bracers
-Runic Crest
-Runic Crown
-Runic Gages
-Runic Gauntlets
-Runic Gloves
-Runic Greaves
-Runic Hatchet
-Runic Helm
-Runic Sabatons
-Runic Sollerets
-Rusted Stalker Sentinel
-Rusted Sword
-Sabre
 Sacred
 Sacred Blossom
-Sacred Orb
 Sacrifice at Dawn
 Sacrifice at Dusk
 Sacrifice at Midnight
 Sacrifice at Noon
-Sacrificial Garb
-Sadist Garb
-Sage Wand
-Sage's Robe
-Sai
-Saintly Chainmail
-Saint's Hauberk
-Sambar Sceptre
-Samite Gloves
-Samite Slippers
-Samnite Helmet
 Sanctified
 Sanctified Life Flask
 Sanctified Mana Flask
 Sapphire Flask
-Sapphire Ring
 Saqawine Lure
-Satin Gloves
-Savant's Robe
-Scholar Boots
-Scholar's Robe
 Scrap Metal
 Screaming Essence of
 Screaming Invitation
 Scroll Fragment
-Seaglass Amulet
 Searching Eye Jewel
 Secondary Regrading Lens
-Secutor Helm
-Sekhem
-Sentinel Jacket
-Serpentine Staff
-Serpentscale Boots
-Serpentscale Gauntlets
-Serrated Arrow Quiver
-Shackled Boots
-Shadow Axe
-Shadow Fangs
-Shadow Sceptre
-Shagreen Boots
-Shagreen Gloves
-Sharkskin Boots
-Sharkskin Gloves
-Sharkskin Tunic
-Sharktooth Arrow Quiver
 Shining Ward
-Shore Map
-Short Bow
 Shrieking Essence of
-Siege Axe
-Siege Helmet
-Siege Map
-Silk Gloves
-Silk Slippers
-Silken Hood
 Silkweave Sole
 Silver Flask
-Simple Robe
-Simplex Amulet
 Simulacrum
 Simulacrum Splinter
 Singular Scouting Report
-Sinistral Gloves
-Sinner Tricorne
-Skean
 Skeleton Keyring
-Skinning Knife
-Slaughter Knife
-Sledgehammer
-Slink Boots
-Slink Gloves
 Small
 Small Cluster Jewel
-Solarine Bow
-Solaris Circlet
-Soldier Boots
-Soldier Gloves
-Soldier Helmet
-Sorcerer Boots
-Sorcerer Gloves
-Sorrow Mask
-Southswing Gloves
-Sovereign Spiked Shield
 Specularity Scroll
-Spidersilk Robe
-Spiked Club
-Spiked Gloves
-Spike-Point Arrow Quiver
-Spine Bow
-Spinefuse Talisman
-Spiraled Foil
-Spiraled Wand
 Splinter of Chayula
 Splinter of Esh
 Splinter of Tul
 Splinter of Uul-Netol
 Splinter of Xoph
 Squandered Prosperity
-Stabilising Sceptre
-Stag Sceptre
-Stealth Boots
-Stealth Gloves
 Steel Bracers
-Steel Circlet
-Steel Gauntlets
-Steel Kite Shield
-Steel Ring
-Steelhead
-Steelscale Gauntlets
-Steelwood Bow
 Stibnite Flask
-Stiletto
-Stone Hammer
-Stormrider Boots
-Strand Map
-Strapped Boots
-Strapped Leather
-Strapped Mitts
-Studded Belt
-Studded Round Shield
-Stygian Vise
-Subsuming Spirit Shield
 Sulphur Blowtorch
 Sulphur Flask
-Sundering Axe
-Supreme Spiked Shield
 Surveyor's Compass
 Synthesised Map
-Tailoring Orb
-Tainted Armourer's Scrap
-Tainted Blacksmith's Whetstone
-Tainted Blessing
-Tainted Chaos Orb
-Tainted Chromatic Orb
-Tainted Divine Teardrop
-Tainted Exalted Orb
-Tainted Jeweller's Orb
-Tainted Mythic Orb
-Tainted Orb of Fusing
 Talisman
-Talon Axe
-Tarnished Spirit Shield
-Taxing Gauntlets
-Teak Round Shield
-Tempering Orb
-Temple Map
-Terror Claw
-Terror Maul
 Thaumaturgical Sensing Charm
 Thaumaturgical Ward
 Thaumetic Blowtorch
 Thaumetic Flashpowder
-The Apothecary
 The Iron Bard
 The Maven's Writ
 The Mayor
 The Valley of Steel Boxes
-Thicket Bow
-Thorium Spirit Shield
-Three Rat Talisman
-Thresher Claw
-Throat Stabber
-Tiger Hook
-Tiger Sword
 Time-light Scroll
-Timeworn Claw
 Timeworn Reliquary Key
-Titan Gauntlets
-Titan Greaves
-Titanium Spirit Shield
-Tomahawk
 Topaz Flask
-Topaz Ring
-Transfer-attuned Spirit Shield
-Transformer Staff
-Transforming Power Core
 Transmutation Shard
-Trapper Boots
-Tribal Circlet
 Tribute to the Goddess
-Tricorne
-Triumphant Lamellar
-Turquoise Amulet
-Twilight Blade
-Two-Point Arrow Quiver
-Two-Stone Ring
-Two-Toned Boots
-Tyrant's Sekhem
-Underground River Map
-Underground Sea Map
-Unset Amulet
-Unshaping Orb
 Unstable Catalyst
-Ursine Pelt
 Vaal
-Vaal Axe
-Vaal Blade
-Vaal Buckler
-Vaal Claw
-Vaal Gauntlets
-Vaal Greatsword
-Vaal Greaves
-Vaal Hatchet
-Vaal Mask
-Vaal Pyramid Map
-Vaal Rapier
-Vaal Regalia
 Vaal Reliquary Key
-Vaal Sceptre
 Vaal Scouting Report
-Vaal Spirit Shield
-Vanguard Belt
-Variscite Blade
-Varnished Coat
-Veiled Chaos Orb
-Velvet Gloves
-Velvet Slippers
 Veritania's Crest
-Vermillion Ring
-
-Vile Arrow Quiver
-Vile Staff
-Vine Circlet
 Viridian Jewel
-Visored Sallet
-Void Axe
-Void Fangs
-Void Sceptre
 Wailing Essence of
-War Buckler
-War Hammer
-War Sword
-Warlord's Exalted Orb
-Weapon Recombinator
 Weeping Essence of
-Wereclaw Talisman
-Whalebone Rapier
 Whispering Essence of
 Whisper-woven Cloak
-Widowsilk Robe
-Wild Leather
-Windbreak Boots
-Winter Crown
-Woodsplitter
-Wool Gloves
-Wool Shoes
-Wrapped Mitts
 Writhing Invitation
-Writhing Talisman
-Wyrmscale Boots
-Wyrmscale Doublet
-Wyrmscale Gauntlets
-Zealot Gloves
-Zealot Helmet
-Zodiac Leather
