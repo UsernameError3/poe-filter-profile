@@ -1,96 +1,29 @@
 {
-    "itemModGroupHeader": "Flat Physical Damage",
+    "itemModGroupHeader": "Flat Mod",
     "itemModGroupAttackTypes": [
         {
             "itemModGroupAttackType": "minion",
             "itemModGroupList": [
                 {
-                    "itemModGroup": "jewelAbyss",
-                    "itemModGroupModList": [
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "minion",
-                            "itemModHeader": "Minions deal # to # additional Physical Damage",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "itemModGroup": "weapon",
-                    "itemModGroupModList": []
-                },
-                {
-                    "itemModGroup": "equipment",
-                    "itemModGroupModList": []
-                }
-            ]
-        },
-        {
-            "itemModGroupAttackType": "spell",
-            "itemModGroupList": [
-                {
-                    "itemModGroup": "jewelAbyss",
-                    "itemModGroupModList": [
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "dualWielding",
-                            "itemModHeader": "# to # Added Spell Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "shield",
-                            "itemModHeader": "# to # Added Spell Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "twoHandedWeapon",
-                            "itemModHeader": "# to # Added Spell Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "itemModGroup": "weapon",
                     "itemModGroupModList": [
                         {
                             "itemModPool": "tbd",
                             "itemModTags": "tbd",
-                            "itemModHeader": "Adds # to # Physical Damage to Spells",
+                            "itemModHeader": "",
                             "itemModClasses": [
+                                {
+                                    "itemModClass": "oneHandAttacks",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                },
+                                {
+                                    "itemModClass": "twoHandAttacks",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                },
                                 {
                                     "itemModClass": "oneHandSpells",
                                     "itemModTiers": [
@@ -109,161 +42,11 @@
                 },
                 {
                     "itemModGroup": "equipment",
-                    "itemModGroupModList": []
-                }
-            ]
-        },
-        {
-            "itemModGroupAttackType": "attack",
-            "itemModGroupList": [
-                {
-                    "itemModGroup": "jewelAbyss",
                     "itemModGroupModList": [
                         {
                             "itemModPool": "tbd",
                             "itemModTags": "tbd",
-                            "itemModJewelCondition": "axe",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "claw",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "dagger",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "maceScepter",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "staff",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "sword",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "bow",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModJewelCondition": "wand",
-                            "itemModHeader": "# to # Added Physical Damage #",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "jewelAbyss",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "itemModGroup": "weapon",
-                    "itemModGroupModList": [
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModHeader": "Adds # to # Physical Damage",
-                            "itemModClasses": [
-                                {
-                                    "itemModClass": "oneHandAttack",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                },
-                                {
-                                    "itemModClass": "twoHandAttacks",
-                                    "itemModTiers": [
-                                        
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "itemModGroup": "equipment",
-                    "itemModGroupModList": [
-                        {
-                            "itemModPool": "tbd",
-                            "itemModTags": "tbd",
-                            "itemModHeader": "Adds # to # Physical Damage to Attacks",
+                            "itemModHeader": "",
                             "itemModClasses": [
                                 {
                                     "itemModClass": "gloves",
@@ -286,8 +69,302 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "itemModGroup": "jewel",
+                    "itemModGroupModList": [
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "minion",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemModGroupAttackType": "spell",
+            "itemModGroupList": [
+                {
+                    "itemModGroup": "weapon",
+                    "itemModGroupModList": [
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "oneHandSpells",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                },
+                                {
+                                    "itemModClass": "twoHandSpells",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemModGroup": "equipment",
+                    "itemModGroupModList": [
+                        {
+                            "itemModClass": "gloves",
+                            "itemModTiers": [
+                                
+                            ]
+                        },
+                        {
+                            "itemModClass": "quiver",
+                            "itemModTiers": [
+                                
+                            ]
+                        },
+                        {
+                            "itemModClass": "jewellery",
+                            "itemModTiers": [
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemModGroup": "jewel",
+                    "itemModGroupModList": [
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "dualWielding",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "shield",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "twoHandedWeapon",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itemModGroupAttackType": "attack",
+            "itemModGroupList": [
+                {
+                    "itemModGroup": "weapon",
+                    "itemModGroupModList": [
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "oneHandAttacks",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                },
+                                {
+                                    "itemModClass": "twoHandAttacks",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemModGroup": "equipment",
+                    "itemModGroupModList": [
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "gloves",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                },
+                                {
+                                    "itemModClass": "quiver",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                },
+                                {
+                                    "itemModClass": "jewellery",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "itemModGroup": "jewel",
+                    "itemModGroupModList": [
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "axe",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "claw",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "dagger",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "maceScepter",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "staff",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "sword",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "bow",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "itemModPool": "tbd",
+                            "itemModTags": "tbd",
+                            "itemModJewelCondition": "wand",
+                            "itemModHeader": "",
+                            "itemModClasses": [
+                                {
+                                    "itemModClass": "jewelAbyss",
+                                    "itemModTiers": [
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
     ]
-},
+}
