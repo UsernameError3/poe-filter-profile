@@ -21,10 +21,9 @@
         "build": "gulp build",
         "build-message": "echo \"Linting & Building Files...\" && exit 0",
         "format": "npx eslint --fix \"./app/**/*.js\"",
-        "test": "node index.js",
         "start": "node index.js",
         "stop": "node index.js",
-        "coverage": "nyc npm run test"
+        "coverage": "nyc npm run start"
     },
     "pre-commit": [
         "build-message",
