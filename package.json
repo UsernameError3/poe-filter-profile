@@ -20,6 +20,7 @@
     "scripts": {
         "build": "gulp build",
         "build-message": "echo \"Linting & Building Files...\" && exit 0",
+        "commit-check": "gulp commit-status",
         "format": "npx eslint --fix \"./app/**/*.js\"",
         "start": "node index.js",
         "stop": "node index.js",
@@ -28,7 +29,8 @@
     "pre-commit": [
         "build-message",
         "format",
-        "build"
+        "build",
+        "commit-check"
     ],
     "nyc": {
         "check-coverage": true,
