@@ -6,6 +6,7 @@ const dayjs = require('dayjs');
 // Setup Environment
 dotenv.config();
 
+// Build Application Context & Generate Files
 const init = async () => {
 
     console.log('Generating Context...');
@@ -69,6 +70,7 @@ const init = async () => {
     return context
 }
 
+// Main Process
 const main = async () => {
     let context = await init();
     
@@ -78,5 +80,4 @@ const main = async () => {
         console.log('Context Generation Failed!');
     }
 };
-
 main();
