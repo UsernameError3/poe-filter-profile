@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const exec = require('child_process').execSync;
-const utils = require('./utils/util.js');
+const utils = require('./app/main.js');
 
 const build = (cb) => {
     console.log('Building Application...');
