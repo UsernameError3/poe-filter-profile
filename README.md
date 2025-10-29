@@ -1,2 +1,2 @@
 # poe-filter-profile
-Parse filterblade files and make updates programatically.
+Generate PoE Filter Files from Pre Configured JSON Preferences.
