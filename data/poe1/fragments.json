@@ -1,0 +1,25 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {"ruleSortIndex": 0, "ruleSortCategory": "Mirror"},
+            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Currency"},
+            {"ruleSortIndex": 2, "ruleSortCategory": "Mapping Currency"},
+            {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
+            {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
+            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"}
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Mirror",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "Mirror",
+            "Class": "Currency",
+            "BaseType": [
+                "Mirror of Kalandra"
+            ]
+        }
+    ]
+}
