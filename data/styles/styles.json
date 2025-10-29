@@ -1,0 +1,101 @@
+[
+    {
+        "styleClass": "Currency",
+        "styleName": "Mirror",
+        "SetTextColor": "#FF00C6",
+        "SetBorderColor": "#FF00C6",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "50",
+        "PlayAlertSound": "ShMirror 300",
+        "MinimapIcon": "0 Pink Star",
+        "PlayEffect": "Pink"
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "T0",
+        "SetTextColor": "#FF00C6",
+        "SetBorderColor": "#FF00C6",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "45",
+        "PlayAlertSound": "10 300",
+        "MinimapIcon": "0 Pink Circle",
+        "PlayEffect": "Pink"
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "T1",
+        "SetTextColor": "#FF0000",
+        "SetBorderColor": "#FF0000",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "40",
+        "PlayAlertSound": "",
+        "MinimapIcon": "1 Red Circle",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "T2",
+        "SetTextColor": "#8D00FF",
+        "SetBorderColor": "#8D00FF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "35",
+        "PlayAlertSound": "",
+        "MinimapIcon": "1 Purple Circle",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "T3",
+        "SetTextColor": "#00C8FF",
+        "SetBorderColor": "#00C8FF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "30",
+        "PlayAlertSound": "",
+        "MinimapIcon": "2 Cyan Circle",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "T4",
+        "SetTextColor": "#00FF00",
+        "SetBorderColor": "#00FF00",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "T5",
+        "SetTextColor": "#FFFFFF",
+        "SetBorderColor": "#FFFFFF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "20",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "T6",
+        "SetTextColor": "#767676",
+        "SetBorderColor": "#767676",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "18",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Currency",
+        "styleName": "Portal",
+        "SetTextColor": "#233594",
+        "SetBorderColor": "#233594",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "18",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    }
+]

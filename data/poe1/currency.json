@@ -1,0 +1,355 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {"ruleSortIndex": 0, "ruleSortCategory": "Mirror"},
+            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Currency"},
+            {"ruleSortIndex": 2, "ruleSortCategory": "Mapping Currency"},
+            {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
+            {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
+            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"}
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Mirror",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "Mirror",
+            "Class": "Currency",
+            "BaseType": [
+                "Mirror of Kalandra"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": "Currency",
+            "BaseType": [
+                "Hinekora's Lock",
+                "Mirror Shard",
+                "Orb of Remembrance",
+                "Veiled Exalted Orb",
+                "Orb of Unravelling",
+                "Reflecting Mist",
+                "Redeemer's Exalted Orb",
+                "Orb of Dominance",
+                "Fracturing Orb",
+                "Tainted Divine Teardrop",
+                "Hunter's Exalted Orb",
+                "Elder's Exalted Orb",
+                "Tailoring Orb",
+                "Awakener's Orb",
+                "Shaper's Exalted Orb",
+                "Exceptional Eldritch Ichor",
+                "Orb of Conflict",
+                "Tempering Orb",
+                "Exceptional Eldritch Ember",
+                "Sacred Crystallised Lifeforce",
+                "Divine Orb",
+                "Tainted Exalted Orb",
+                "Crusader's Exalted Orb",
+                "Warlord's Exalted Orb"
+            ]
+        },
+        {
+            "ruleName": "Mapping Currency",
+            "ruleSortIndex": 2,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": "Currency",
+            "BaseType": [
+                "Orb of Intention"
+            ]
+        },
+        {
+            "ruleName": "Misc Currency",
+            "ruleSortIndex": 3,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": "Currency",
+            "BaseType": [
+                "Albino Rhoa Feather",
+                "Eternal Orb",
+                "Facetor's Lens"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": "Currency",
+            "BaseType": [
+                "Fracturing Shard",
+                "Eldritch Chaos Orb",
+                "Veiled Chaos Orb",
+                "Sacred Orb",
+                "Eldritch Orb of Annulment",
+                "Eldritch Exalted Orb",
+                "Exalted Orb",
+                "Tainted Chaos Orb"
+            ]
+        },
+        {
+            "ruleName": "Mapping Currency",
+            "ruleSortIndex": 2,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": "Currency",
+            "BaseType": [
+                "Maven's Chisel of Proliferation",
+                "Maven's Chisel of Scarabs",
+                "Maven's Chisel of Avarice"
+            ]
+        },
+        {
+            "ruleName": " Basic Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": "Currency",
+            "BaseType": [
+                "Grand Eldritch Ember",
+                "Grand Eldritch Ichor",
+                "Tainted Mythic Orb",
+                "Tainted Orb of Fusing",
+                "Tainted Chromatic Orb",
+                "Ancient Orb",
+                "Orb of Annulment"
+            ]
+        },
+        {
+            "ruleName": "Mapping Currency",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": "Currency",
+            "BaseType": [
+                "Maven's Chisel of Proliferation",
+                "Maven's Chisel of Scarabs",
+                "Maven's Chisel of Avarice",
+                "Maven's Chisel of Divination",
+                "Maven's Chisel of Procurement",
+                "Crescent Splinter",
+                "Ritual Vessel"
+            ]
+        },
+        {
+            "ruleName": "Catalysts",
+            "ruleSortIndex": 4,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": "Currency",
+            "BaseType": [
+                "Tainted Catalyst",
+                "Prismatic Catalyst",
+                "Fertile Catalyst"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": "Currency",
+            "BaseType": [
+                "Greater Eldritch Ember",
+                "Greater Eldritch Ichor",
+                "Tainted Blacksmith's Whetstone",
+                "Tainted Armourer's Scrap",
+                "Tainted Jeweller's Orb",
+                "Gemcutter's Prism",
+                "Chaos Orb",
+                "Regal Orb",
+                "Vaal Orb",
+                "Orb of Scouring",
+                "Blessed Orb",
+                "Orb of Alteration"
+            ]
+        },
+        {
+            "ruleName": "Mapping Currency",
+            "ruleSortIndex": 2,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": "Currency",
+            "BaseType": [
+                "Cartographer's Chisel",
+                "Harbinger's Orb",
+                "Orb of Horizons",
+                "Orb of Unmaking",
+                "Engineer's Orb",
+                "Ritual Splinter"
+            ]
+        },
+        {
+            "ruleName": "Stacked Decks",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": "Currency",
+            "BaseType": [
+                "Stacked Deck"
+            ]
+        },
+        {
+            "ruleName": "Harvest",
+            "ruleSortIndex": 4,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": "Currency",
+            "BaseType": [
+                "Primal Crystallised Lifeforce",
+                "Vivid Crystallised Lifeforce",
+                "Wild Crystallised Lifeforce"
+            ]
+        },
+        {
+            "ruleName": "Expedition",
+            "ruleSortIndex": 4,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": "Currency",
+            "BaseType": [
+                "Burial Medallion",
+                "Exotic Coinage",
+                "Scrap Metal",
+                "Astragali"
+            ]
+        },
+        {
+            "ruleName": "Catalysts",
+            "ruleSortIndex": 4,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": "Currency",
+            "BaseType": [
+                "Intrinsic Catalyst",
+                "Tempering Catalyst",
+                "Noxious Catalyst",
+                "Turbulent Catalyst",
+                "Unstable Catalyst",
+                "Imbued Catalyst",
+                "Accelerating Catalyst",
+                "Abrasive Catalyst"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": "Currency",
+            "BaseType": [
+                "Lesser Eldritch Ember",
+                "Lesser Eldritch Ichor",
+                "Glassblower's Bauble",
+                "Instilling Orb",
+                "Enkindling Orb",
+                "Orb of Regret",
+                "Orb of Fusing",
+                "Orb of Alchemy",
+                "Orb of Chance",
+                "Chromatic Orb"
+            ]
+        },
+        {
+            "ruleName": "Scouting Reports",
+            "ruleSortIndex": 2,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": "Currency",
+            "BaseType": [
+                "Vaal Scouting Report",
+                "Explorer's Scouting Report",
+                "Singular Scouting Report",
+                "Comprehensive Scouting Report",
+                "Influenced Scouting Report",
+                "Operative's Scouting Report",
+                "Otherworldly Scouting Report",
+                "Blighted Scouting Report",
+                "Delirious Scouting Report"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "visibility": "Show",
+            "styleName": "T5",
+            "Class": "Currency",
+            "BaseType": [
+                "Orb of Transmutation",
+                "Orb of Augmentation",
+                "Jeweller's Orb",
+                "Blacksmith's Whetstone",
+                "Armourer's Scrap",
+                "Orb of Binding"
+            ]
+        },
+        {
+            "ruleName": "Shards",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "visibility": "Hide",
+            "styleName": "T5",
+            "Class": "Currency",
+            "BaseType": [
+                "Annulment Shard",
+                "Exalted Shard",
+                "Ancient Shard",
+                "Harbinger's Shard",
+                "Alchemy Shard",
+                "Alteration Shard",
+                "Binding Shard",
+                "Chaos Shard",
+                "Horizon Shard",
+                "Regal Shard",
+                "Armourer's Scrap",
+                "Engineer's Shard",
+                "Transmutation Shard"
+            ]
+        },
+        {
+            "ruleName": "Wisdom Scrolls",
+            "ruleSortIndex": 1,
+            "ruleTier": 6,
+            "visibility": "Show",
+            "styleName": "T6",
+            "Class": "Currency",
+            "BaseType": [
+                "Scroll of Wisdom"
+            ]
+        },
+        {
+            "ruleName": "Portal Scrolls",
+            "ruleSortIndex": 1,
+            "ruleTier": 6,
+            "visibility": "Show",
+            "styleName": "Portal",
+            "Class": "Currency",
+            "BaseType": [
+                "Portal Scroll"
+            ]
+        }
+    ]
+}

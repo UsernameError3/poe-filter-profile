@@ -20,10 +20,11 @@
     "scripts": {
         "build": "gulp build",
         "build-message": "echo \"Linting & Building Files...\" && exit 0",
-        "format": "npx eslint --fix \"./app/**/*.js\"",
-        "test": "node index.js",
-        "start": "node index.js",
-        "stop": "node index.js",
+        "commit-check": "gulp commit-status",
+        "format": "npx eslint --fix \"./**/index.js\"",
+        "test": "",
+        "start": "",
+        "stop": "",
         "coverage": "nyc npm run test"
     },
     "pre-commit": [
@@ -48,17 +49,16 @@
         "lines": 0
     },
     "devDependencies": {
-        "nyc": "^15.1.0",
         "eslint": "^8.15.0",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^6.0.0",
         "gulp": "^4.0.2",
         "gulp-cli": "^2.3.0",
-        "pre-commit": "^1.2.2"
+        "nyc": "^15.1.0",
+        "pre-commit": "^1.2.2",
     },
     "dependencies": {
-        "dotenv": "^16.0.1",
-        "dayjs": "^1.11.1"
+        "dotenv": "^16.0.1"
     }
 }
