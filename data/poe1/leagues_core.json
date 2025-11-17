@@ -360,7 +360,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T3",
-            "BaseType": ["Sanctum Research"]
+            "Class": ["Sanctum Research"]
         },
         {
             "ruleName": "League - Ultimatum: Tablet",
