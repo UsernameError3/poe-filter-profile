@@ -370,8 +370,7 @@
                 "Jeweller's Orb",
                 "Blacksmith's Whetstone",
                 "Armourer's Scrap",
-                "Orb of Binding",
-                "Gold"
+                "Orb of Binding"
             ]
         },
         {
@@ -418,6 +417,17 @@
             "Class": ["Currency"],
             "BaseType": [
                 "Portal Scroll"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "visibility": "Show",
+            "styleName": "T5",
+            "Class": ["Stackable Currency"],
+            "BaseType": [
+                "Gold"
             ]
         },
         {
