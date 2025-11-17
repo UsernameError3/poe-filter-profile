@@ -219,7 +219,7 @@ const buildFilterRule = (rule, style) => {
     // Styles Added Last:
     if (style) {
         properties.push(style);
-        // properties.push('\n');        
+        properties.push('\n');        
     }
     
     // Join Properties into Rule
