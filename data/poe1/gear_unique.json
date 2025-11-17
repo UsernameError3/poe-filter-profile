@@ -157,6 +157,15 @@
             "SynthesisedItem": "True"
         },
         {
+            "ruleName": "Exception - Foulborn",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Rarity": "Unique",
+            "Foulborn": "True"
+        },
+        {
             "ruleName": "Exception - Crucible",
             "ruleSortIndex": 0,
             "ruleTier": 0,
@@ -184,15 +193,6 @@
             "Rarity": "Unique",
             "Corrupted": "True",
             "CorruptedMods": 1
-        },
-        {
-            "ruleName": "Exception - Foulborn",
-            "ruleSortIndex": 0,
-            "ruleTier": 0,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Rarity": "Unique",
-            "Foulborn": "True"
         },
         {
             "ruleName": "Exception - 6 Link",
