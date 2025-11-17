@@ -385,6 +385,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T3",
+            "Class": ["Stackable Currency"],
             "BaseType": [
                 "Primal Crystallised Lifeforce",
                 "Vivid Crystallised Lifeforce",
