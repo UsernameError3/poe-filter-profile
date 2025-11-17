@@ -62,15 +62,118 @@ const buildFilterRule = (rule, style) => {
     properties.push(`${rule.visibility} # Tier: ${rule.ruleTier}-${rule.ruleSortIndex} - ${rule.ruleName}`);
     
     // Add Conditional Array Validation
+    if (rule.ItemLevel) {
+        
+    }
+    if (rule.GemLevel) {
+        
+    }
+    if (rule.AreaLevel) {
+        
+    }
+    if (rule.DropLevel) {
+        
+    }
+    if (rule.Identified) {
+        
+    }
+    if (rule.Corrupted) {
+        
+    }
+    if (rule.CorruptedMods) {
+        
+    }
+    if (rule.Mirrored) {
+        
+    }
+    if (rule.LinkedSockets) {
+        
+    }
+    if (rule.SocketGroup) {
+        
+    }
+    if (rule.Sockets) {
+        
+    }
+    if (rule.Rarity) {
+        
+    }
     if (rule.Class) {
         properties.push(filterRulePropertyList(`Class`, '==', rule.Class));
+    }
+    if (rule.BaseDefencePercentile) {
+        
     }
     if (rule.BaseType) {
         properties.push(filterRulePropertyList(`BaseType`, '==', rule.BaseType));
     }
-    properties.push(style);
-    properties.push('\n');
-
+    if (rule.HasExplicitMod) {
+        
+    }
+    if (rule.HasInfluence) {
+        
+    }
+    if (rule.HasSearingExarchImplicit) {
+        
+    }
+    if (rule.HasEaterOfWorldsImplicit) {
+        
+    }
+    if (rule.SynthesisedItem) {
+        
+    }
+    if (rule.FracturedItem) {
+        
+    }
+    if (rule.AnyEnchantment) {
+        
+    }
+    if (rule.EnchantmentPassiveNum) {
+        
+    }
+    if (rule.EnchantmentPassiveNode) {
+        
+    }
+    if (rule.GemQualityType) {
+        
+    }
+    if (rule.AlternateQuality) {
+        
+    }
+    if (rule.Quality) {
+        
+    }
+    if (rule.Replica) {
+        
+    }
+    if (rule.MapTier) {
+        
+    }
+    if (rule.BlightedMap) {
+        
+    }
+    if (rule.UberBlightedMap) {
+        
+    }
+    if (rule.Scourged) {
+        
+    }
+    if (rule.StackSize) {
+        
+    }
+    if (rule.Width) {
+        
+    }
+    if (rule.Height) {
+        
+    }
+    
+    // Styles Added Last:
+    if (style) {
+        properties.push(style);
+        properties.push('\n');        
+    }
+    
     // Join Properties into Rule
     return properties.join('\n');
 };
@@ -153,19 +256,25 @@ const importRuleJSON = (file) => {
 const buildFilterFile = async () => {
     const filterStyleRules = importRuleJSON('data/styles/default.json');
     const filterRuleObj = {
+        questRules: importRuleJSON('data/poe1/quest.json'),
         currencyRules: importRuleJSON('data/poe1/currency.json'),
-        fragmentRules: importRuleJSON('data/poe1/fragments.json'),
         divCardRules: importRuleJSON('data/poe1/div_cards.json'),
+        scarabRules: importRuleJSON('data/poe1/scarabs.json'),
+        fragmentRules: importRuleJSON('data/poe1/fragments.json'),
+        mapRules: importRuleJSON('data/poe1/maps.json'),
+        idolRules: importRuleJSON('data/poe1/idols.json'),
+        relicRules: importRuleJSON('data/poe1/relics.json'),
         leagueCoreRules: importRuleJSON('data/poe1/leagues_core.json'),
         leagueNewRules: importRuleJSON('data/poe1/leagues_new.json'),
-        mapRules: importRuleJSON('data/poe1/maps.json'),
+        gemRules: importRuleJSON('data/poe1/gems.json'),
+        corpseRules: importRuleJSON('data/poe1/corpses.json'),
+        jewelRules: importRuleJSON('data/poe1/jewels.json'),
+        clusterRules: importRuleJSON('data/poe1/clusters.json'),
+        gearFlaskRules: importRuleJSON('data/poe1/gear_normal.json'),
         gearUniqueRules: importRuleJSON('data/poe1/gear_unique.json'),
         gearRareRules: importRuleJSON('data/poe1/gear_rare.json'),
         gearMagicRules: importRuleJSON('data/poe1/gear_magic.json'),
         gearNormalRules: importRuleJSON('data/poe1/gear_normal.json'),
-        gearFlaskRules: importRuleJSON('data/poe1/gear_normal.json'),
-        corpseRules: importRuleJSON('data/poe1/corpses.json'),
-        questRules: importRuleJSON('data/poe1/quest.json'),
         safetyRules: importRuleJSON('data/poe1/safety.json'),
     };
 
@@ -178,9 +287,26 @@ const buildFilterFile = async () => {
 
     // Main File Data
     const filterFileData = [];
+    filterFileData.push(mapFilterRuleList(filterRuleObj.questRules, filterStyleLegend));
     filterFileData.push(mapFilterRuleList(filterRuleObj.currencyRules, filterStyleLegend));
-
-    // Finish Other FIlter Rule Sets
+    filterFileData.push(mapFilterRuleList(filterRuleObj.divCardRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.scarabRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.fragmentRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.mapRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.idolRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.relicRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.leagueCoreRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.leagueNewRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.gemRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.corpseRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.jewelRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.clusterRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.gearFlaskRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.gearUniqueRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.gearRareRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.gearMagicRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.gearNormalRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.safetyRules, filterStyleLegend));
 
     // Export Main File List
     fs.writeFileSync(fileOutputName, filterFileData.join('\n'));
