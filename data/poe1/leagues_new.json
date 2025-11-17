@@ -16,7 +16,6 @@
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "T1",
-            "Class": ["Grafts"],
             "BaseType": [
                 "Hivebrain Gland"
             ]
@@ -89,7 +88,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T1",
-            "Class": ["Grafts"],
+            "Class": ["Stackable Currency"],
             "BaseType": [
                 "Foulborn Orb of Augmentation",
                 "Foulborn Regal Orb",
@@ -102,29 +101,12 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T2",
-            "Class": ["Grafts"],
+            "Class": ["Stackable Currency"],
             "BaseType": [
                 "Augmentation Implant",
                 "Regal Implant",
                 "Exalted Implant",
                 "Unstable Implant"
-            ]
-        },
-        {
-            "ruleName": "League - Breach: Currency",
-            "ruleSortIndex": 1,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Class": ["Grafts"],
-            "BaseType": [
-                "Augmentation Implant",
-                "Regal Implant",
-                "Exalted Implant",
-                "Unstable Implant",
-                "Foulborn Orb of Augmentation",
-                "Foulborn Regal Orb",
-                "Foulborn Exalted Orb"
             ]
         }
     ]
