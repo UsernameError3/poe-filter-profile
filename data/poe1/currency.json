@@ -7,13 +7,9 @@
             {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
             {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
             {"ruleSortIndex": 5, "ruleSortCategory": "Shards"},
-            {"ruleSortIndex": 6, "ruleSortCategory": "Fossils"},
-            {"ruleSortIndex": 7, "ruleSortCategory": "Oils"},
-            {"ruleSortIndex": 8, "ruleSortCategory": "Essences"},
             {"ruleSortIndex": 9, "ruleSortCategory": "Runes"},
             {"ruleSortIndex": 10, "ruleSortCategory": "Omens"},
-            {"ruleSortIndex": 11, "ruleSortCategory": "Tattoos"},
-            {"ruleSortIndex": 12, "ruleSortCategory": "Incubators"}
+            {"ruleSortIndex": 11, "ruleSortCategory": "Tattoos"}
         ]
     },
     "rules": [
@@ -55,7 +51,6 @@
                 "Orb of Conflict",
                 "Tempering Orb",
                 "Exceptional Eldritch Ember",
-                "Sacred Crystallised Lifeforce",
                 "Divine Orb",
                 "Tainted Exalted Orb",
                 "Crusader's Exalted Orb",
@@ -95,33 +90,6 @@
             ]
         },
         {
-            "ruleName": "Fossils",
-            "ruleSortIndex": 6,
-            "ruleTier": 0,
-            "visibility": "Show",
-            "styleName": "T0",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Faceted Fossil",
-                "Fractured Fossil",
-                "Glyphic Fossil",
-                "Hollow Fossil"
-            ]
-        },
-        {
-            "ruleName": "Oils",
-            "ruleSortIndex": 7,
-            "ruleTier": 0,
-            "visibility": "Show",
-            "styleName": "T0",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Tainted Oil",
-                "Prismatic Oil",
-                "Golden Oil"
-            ]
-        },
-        {
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 1,
@@ -150,48 +118,6 @@
                 "Maven's Chisel of Proliferation",
                 "Maven's Chisel of Scarabs",
                 "Maven's Chisel of Avarice"
-            ]
-        },
-        {
-            "ruleName": "Misc Currency",
-            "ruleSortIndex": 3,
-            "ruleTier": 1,
-            "visibility": "Show",
-            "styleName": "T1",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Vial of Sacrifice",
-                "Vial of Summoning",
-                "Vial of the Ghost",
-                "Vial of Transcendence",
-                "Prime Chaotic Resonator"
-            ]
-        },
-        {
-            "ruleName": "Oils",
-            "ruleSortIndex": 7,
-            "ruleTier": 1,
-            "visibility": "Show",
-            "styleName": "T1",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Silver Oil"
-            ]
-        },
-        {
-            "ruleName": "Essences",
-            "ruleSortIndex": 8,
-            "ruleTier": 1,
-            "visibility": "Show",
-            "styleName": "T1",
-            "Class": ["Currency"],
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Deafening Essence of",
-                "Essence of Delirium",
-                "Essence of Horror",
-                "Essence of Hysteria",
-                "Essence of Insanity"
             ]
         },
         {
@@ -344,76 +270,6 @@
             ]
         },
         {
-            "ruleName": "Misc Currency",
-            "ruleSortIndex": 2,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Vial of Awakening",
-                "Vial of Consequence",
-                "Vial of Dominance",
-                "Vial of Fate",
-                "Vial of the Ritual"
-            ]
-        },
-        {
-            "ruleName": "Catalysts",
-            "ruleSortIndex": 4,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Tainted Catalyst",
-                "Prismatic Catalyst",
-                "Fertile Catalyst"
-            ]
-        },
-        {
-            "ruleName": "Oils",
-            "ruleSortIndex": 7,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Opalescent Oil",
-                "Reflective Oil",
-                "Black Oil",
-                "Crimson Oil"
-            ]
-        },
-        {
-            "ruleName": "Essences",
-            "ruleSortIndex": 8,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Class": ["Currency"],
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Shrieking Essence of"
-            ]
-        },
-        {
-            "ruleName": "Incubators",
-            "ruleSortIndex": 12,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Class": ["Incubators"],
-            "BaseType": [
-                "Fragmented Incubator",
-                "Maddening Incubator",
-                "Diviner's Incubator",
-                "Fossilised Incubator",
-                "Infused Incubator",
-                "Ornate Incubator"
-            ]
-        },
-        {
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 3,
@@ -463,109 +319,6 @@
             ]
         },
         {
-            "ruleName": "Harvest",
-            "ruleSortIndex": 4,
-            "ruleTier": 3,
-            "visibility": "Show",
-            "styleName": "T3",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Primal Crystallised Lifeforce",
-                "Vivid Crystallised Lifeforce",
-                "Wild Crystallised Lifeforce"
-            ]
-        },
-        {
-            "ruleName": "Expedition",
-            "ruleSortIndex": 4,
-            "ruleTier": 3,
-            "visibility": "Show",
-            "styleName": "T3",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Burial Medallion",
-                "Exotic Coinage",
-                "Scrap Metal",
-                "Astragali"
-            ]
-        },
-        {
-            "ruleName": "Catalysts",
-            "ruleSortIndex": 4,
-            "ruleTier": 3,
-            "visibility": "Show",
-            "styleName": "T3",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Intrinsic Catalyst",
-                "Tempering Catalyst",
-                "Noxious Catalyst",
-                "Turbulent Catalyst",
-                "Unstable Catalyst",
-                "Imbued Catalyst",
-                "Accelerating Catalyst",
-                "Abrasive Catalyst"
-            ]
-        },
-        {
-            "ruleName": "Oils",
-            "ruleSortIndex": 7,
-            "ruleTier": 3,
-            "visibility": "Show",
-            "styleName": "T3",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Azure Oil",
-                "Indigo Oil",
-                "Teal Oil",
-                "Violet Oil",
-                "Amber Oil",
-                "Clear Oil",
-                "Sepia Oil",
-                "Verdant Oil"
-            ]
-        },
-        {
-            "ruleName": "Essences",
-            "ruleSortIndex": 8,
-            "ruleTier": 3,
-            "visibility": "Show",
-            "styleName": "T3",
-            "Class": ["Currency"],
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Screaming Essence of"
-            ]
-        },
-        {
-            "ruleName": "Incubators",
-            "ruleSortIndex": 12,
-            "ruleTier": 3,
-            "visibility": "Show",
-            "styleName": "T3",
-            "Class": ["Incubators"],
-            "BaseType": [
-                "Abyssal Incubator",
-                "Blighted Incubator",
-                "Cartographer's Incubator",
-                "Celestial Armoursmith's Incubator",
-                "Celestial Blacksmith's Incubator",
-                "Celestial Jeweller's Incubator",
-                "Foreboding Incubator",
-                "Geomancer's Incubator",
-                "Kalguuran Incubator",
-                "Maddening Incubator",
-                "Mysterious Incubator",
-                "Obscured Incubator",
-                "Otherworldly Incubator",
-                "Singular Incubator",
-                "Skittering Incubator",
-                "Thaumaturge's Incubator",
-                "Fragmented Incubator",
-                "Primal Incubator"
-            ]
-        },
-        {
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 4,
@@ -605,21 +358,6 @@
             ]
         },
         {
-            "ruleName": "Essences",
-            "ruleSortIndex": 8,
-            "ruleTier": 4,
-            "visibility": "Show",
-            "styleName": "T4",
-            "Class": ["Currency"],
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Wailing Essence of",
-                "Weeping Essence of",
-                "Muttering Essence of",
-                "Whispering Essence of"
-            ]
-        },
-        {
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 5,
@@ -633,7 +371,6 @@
                 "Blacksmith's Whetstone",
                 "Armourer's Scrap",
                 "Orb of Binding",
-                "Rogue's Marker",
                 "Gold"
             ]
         },

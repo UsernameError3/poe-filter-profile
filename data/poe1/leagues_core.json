@@ -251,6 +251,7 @@
             "visibility": "Show",
             "styleName": "T1",
             "BaseType": [
+                "Prime Chaotic Resonator",
                 "Potent Chaotic Resonator",
                 "Powerful Chaotic Resonator",
                 "Primitive Chaotic Resonator"
@@ -374,7 +375,8 @@
             "visibility": "Show",
             "styleName": "T0",
             "BaseType": [
-                "Sacred Blossom"
+                "Sacred Blossom",
+                "Sacred Crystallised Lifeforce"
             ]
         },
         {
@@ -382,10 +384,11 @@
             "ruleSortIndex": 20,
             "ruleTier": 2,
             "visibility": "Show",
-            "styleName": "T1",
+            "styleName": "T3",
             "BaseType": [
-                "Dedication to the Goddess",
-                "Tribute to the Goddess"
+                "Primal Crystallised Lifeforce",
+                "Vivid Crystallised Lifeforce",
+                "Wild Crystallised Lifeforce"
             ]
         },
         {
@@ -411,7 +414,7 @@
             "visibility": "Show",
             "styleName": "T3",
             "BaseType": [
-                
+                "Rogue's Marker"
             ]
         },
         {
@@ -427,9 +430,17 @@
             "ruleSortIndex": 25,
             "ruleTier": 2,
             "visibility": "Show",
-            "styleName": "T3",
+            "styleName": "T1",
             "BaseType": [
-                
+                "Vial of Awakening",
+                "Vial of Consequence",
+                "Vial of Dominance",
+                "Vial of Fate",
+                "Vial of the Ritual",
+                "Vial of Sacrifice",
+                "Vial of Summoning",
+                "Vial of the Ghost",
+                "Vial of Transcendence"
             ]
         },
         {
