@@ -73,112 +73,112 @@ const buildFilterRule = (rule, style) => {
     
     // Add Conditional Array Validation
     if (rule.ItemLevel) {
-        properties.push(filterRuleProperty(`ItemLevel`, '', rule.ItemLevel));
+        properties.push(filterRuleProperty(`ItemLevel`, null, rule.ItemLevel));
     }
     if (rule.GemLevel) {
-        properties.push(filterRuleProperty(`GemLevel`, '', rule.GemLevel));
+        properties.push(filterRuleProperty(`GemLevel`, null, rule.GemLevel));
     }
     if (rule.AreaLevel) {
-        properties.push(filterRuleProperty(`AreaLevel`, '', rule.AreaLevel));
+        properties.push(filterRuleProperty(`AreaLevel`, null, rule.AreaLevel));
     }
     if (rule.DropLevel) {
-        properties.push(filterRuleProperty(`DropLevel`, '', rule.DropLevel));
+        properties.push(filterRuleProperty(`DropLevel`, null, rule.DropLevel));
     }
     if (rule.Identified) {
-        properties.push(filterRuleProperty(`Identified`, '', rule.Identified));
+        properties.push(filterRuleProperty(`Identified`, null, rule.Identified));
     }
     if (rule.Corrupted) {
-        properties.push(filterRuleProperty(`Corrupted`, '', rule.Corrupted));
+        properties.push(filterRuleProperty(`Corrupted`, null, rule.Corrupted));
     }
     if (rule.CorruptedMods) {
-        properties.push(filterRuleProperty(`CorruptedMods`, '', rule.CorruptedMods));
+        properties.push(filterRuleProperty(`CorruptedMods`, null, rule.CorruptedMods));
     }
     if (rule.Mirrored) {
-        properties.push(filterRuleProperty(`Mirrored`, '', rule.Mirrored));
+        properties.push(filterRuleProperty(`Mirrored`, null, rule.Mirrored));
     }
     if (rule.LinkedSockets) {
-        properties.push(filterRuleProperty(`LinkedSockets`, '', rule.LinkedSockets));
+        properties.push(filterRuleProperty(`LinkedSockets`, null, rule.LinkedSockets));
     }
     if (rule.SocketGroup) {
-        properties.push(filterRuleProperty(`SocketGroup`, '', rule.SocketGroup));
+        properties.push(filterRuleProperty(`SocketGroup`, null, rule.SocketGroup));
     }
     if (rule.Sockets) {
-        properties.push(filterRuleProperty(`Sockets`, '', rule.Sockets));
+        properties.push(filterRuleProperty(`Sockets`, null, rule.Sockets));
     }
     if (rule.Rarity) {
-        properties.push(filterRuleProperty(`Rarity`, '', rule.Rarity));
+        properties.push(filterRuleProperty(`Rarity`, null, rule.Rarity));
     }
     if (rule.Class) {
         properties.push(filterRulePropertyList(`Class`, '==', rule.Class));
     }
     if (rule.BaseDefencePercentile) {
-        properties.push(filterRuleProperty(`BaseDefencePercentile`, '', rule.BaseDefencePercentile));
+        properties.push(filterRuleProperty(`BaseDefencePercentile`, null, rule.BaseDefencePercentile));
     }
     if (rule.BaseType) {
         properties.push(filterRulePropertyList(`BaseType`, '==', rule.BaseType));
     }
     if (rule.HasExplicitMod) {
-        properties.push(filterRuleProperty(`HasExplicitMod`, '', rule.HasExplicitMod));
+        properties.push(filterRuleProperty(`HasExplicitMod`, null, rule.HasExplicitMod));
     }
     if (rule.HasInfluence) {
-        properties.push(filterRulePropertyListRaw(`HasInfluence`, '', rule.HasInfluence));
+        properties.push(filterRulePropertyListRaw(`HasInfluence`, null, rule.HasInfluence));
     }
     if (rule.HasSearingExarchImplicit) {
-        properties.push(filterRuleProperty(`HasSearingExarchImplicit`, '', rule.HasSearingExarchImplicit));
+        properties.push(filterRuleProperty(`HasSearingExarchImplicit`, null, rule.HasSearingExarchImplicit));
     }
     if (rule.HasEaterOfWorldsImplicit) {
-        properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, '', rule.HasEaterOfWorldsImplicit));
+        properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, null, rule.HasEaterOfWorldsImplicit));
     }
     if (rule.MemoryStrands) {
-        properties.push(filterRuleProperty(`MemoryStrands`, '', rule.MemoryStrands));
+        properties.push(filterRuleProperty(`MemoryStrands`, null, rule.MemoryStrands));
     }
     if (rule.SynthesisedItem) {
-        properties.push(filterRuleProperty(`SynthesisedItem`, '', rule.SynthesisedItem));
+        properties.push(filterRuleProperty(`SynthesisedItem`, null, rule.SynthesisedItem));
     }
     if (rule.FracturedItem) {
-        properties.push(filterRuleProperty(`FracturedItem`, '', rule.FracturedItem));
+        properties.push(filterRuleProperty(`FracturedItem`, null, rule.FracturedItem));
     }
     if (rule.AnyEnchantment) {
-        properties.push(filterRuleProperty(`AnyEnchantment`, '', rule.AnyEnchantment));
+        properties.push(filterRuleProperty(`AnyEnchantment`, null, rule.AnyEnchantment));
     }
     if (rule.EnchantmentPassiveNum) {
-        properties.push(filterRuleProperty(`EnchantmentPassiveNum`, '', rule.EnchantmentPassiveNum));
+        properties.push(filterRuleProperty(`EnchantmentPassiveNum`, null, rule.EnchantmentPassiveNum));
     }
     if (rule.EnchantmentPassiveNode) {
-        properties.push(filterRuleProperty(`EnchantmentPassiveNode`, '', rule.EnchantmentPassiveNode));
+        properties.push(filterRuleProperty(`EnchantmentPassiveNode`, null, rule.EnchantmentPassiveNode));
     }
     if (rule.GemQualityType) {
-        properties.push(filterRuleProperty(`GemQualityType`, '', rule.GemQualityType));
+        properties.push(filterRuleProperty(`GemQualityType`, null, rule.GemQualityType));
     }
     if (rule.AlternateQuality) {
-        properties.push(filterRuleProperty(`AlternateQuality`, '', rule.AlternateQuality));
+        properties.push(filterRuleProperty(`AlternateQuality`, null, rule.AlternateQuality));
     }
     if (rule.Quality) {
-        properties.push(filterRuleProperty(`Quality`, '', rule.Quality));
+        properties.push(filterRuleProperty(`Quality`, null, rule.Quality));
     }
     if (rule.Replica) {
-        properties.push(filterRuleProperty(`Replica`, '', rule.Replica));
+        properties.push(filterRuleProperty(`Replica`, null, rule.Replica));
     }
     if (rule.MapTier) {
-        properties.push(filterRuleProperty(`MapTier`, '', rule.MapTier));
+        properties.push(filterRuleProperty(`MapTier`, '==', rule.MapTier));
     }
     if (rule.BlightedMap) {
-        properties.push(filterRuleProperty(`BlightedMap`, '', rule.BlightedMap));
+        properties.push(filterRuleProperty(`BlightedMap`, null, rule.BlightedMap));
     }
     if (rule.UberBlightedMap) {
-        properties.push(filterRuleProperty(`UberBlightedMap`, '', rule.UberBlightedMap));
+        properties.push(filterRuleProperty(`UberBlightedMap`, null, rule.UberBlightedMap));
     }
     if (rule.Scourged) {
-        properties.push(filterRuleProperty(`Scourged`, '', rule.Scourged));
+        properties.push(filterRuleProperty(`Scourged`, null, rule.Scourged));
     }
     if (rule.StackSize) {
-        properties.push(filterRuleProperty(`StackSize`, '', rule.StackSize));
+        properties.push(filterRuleProperty(`StackSize`, null, rule.StackSize));
     }
     if (rule.Width) {
-        properties.push(filterRuleProperty(`Width`, '', rule.Width));
+        properties.push(filterRuleProperty(`Width`, '==', rule.Width));
     }
     if (rule.Height) {
-        properties.push(filterRuleProperty(`Height`, '', rule.Height));
+        properties.push(filterRuleProperty(`Height`, '==', rule.Height));
     }
     
     // Styles Added Last:
