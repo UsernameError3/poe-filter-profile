@@ -98,6 +98,22 @@
             ]
         },
         {
+            "ruleName": "Misc - Unknown Currency",
+            "ruleSortIndex": 98,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Currency"]
+        },
+        {
+            "ruleName": "Misc - Unknown Stackable Currency",
+            "ruleSortIndex": 99,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Stackable Currency"]
+        },
+        {
             "ruleName": "Safety Layer",
             "ruleSortIndex": 100,
             "ruleTier": 0,

@@ -428,22 +428,6 @@
             "BaseType": [
                 "Gold"
             ]
-        },
-        {
-            "ruleName": "Misc - Unknown Currency",
-            "ruleSortIndex": 100,
-            "ruleTier": 1,
-            "visibility": "Show",
-            "styleName": "T0",
-            "Class": ["Currency"]
-        },
-        {
-            "ruleName": "Misc - Unknown Stackable Currency",
-            "ruleSortIndex": 100,
-            "ruleTier": 1,
-            "visibility": "Show",
-            "styleName": "T0",
-            "Class": ["Stackable Currency"]
         }
     ]
 }
