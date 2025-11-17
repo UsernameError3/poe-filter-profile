@@ -1,0 +1,42 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {"ruleSortIndex": 0, "ruleSortCategory": "Quest ClassTypes"},
+            {"ruleSortIndex": 1, "ruleSortCategory": "Quest BaseTypes"}
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Quest ClassTypes",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "Quest",
+            "Class": [
+                "Labyrinth Items",
+                "Labyrinth Trinkets",
+                "Incursion Items",
+                "Pantheon Souls",
+                "Quest Items"
+            ]
+        },
+        {
+            "ruleName": "Quest BaseTypes",
+            "ruleSortIndex": 1,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Maven's",
+                "Incandescent Invitation",
+                "Screaming Invitation",
+                "Polaric Invitation",
+                "Writhing Invitation",
+                "Ceremonial Voidstone",
+                "Decayed Voidstone",
+                "Grasping Voidstone",
+                "Omniscient Voidstone"
+            ]
+        }
+    ]
+}

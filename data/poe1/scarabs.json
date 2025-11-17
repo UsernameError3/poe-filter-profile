@@ -1,0 +1,198 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "T0 Scarabs"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "T1 Scarabs"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "T2 Scarabs"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "T3 Scarabs"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "T4 Scarabs"
+            },
+            {
+                "ruleSortIndex": 6,
+                "ruleSortCategory": "Misc"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "T0 Scarabs",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Ambush Scarab of Containment",
+                "Horned Scarab of Awakening",
+                "Horned Scarab of Preservation",
+                "Ultimatum Scarab of Catalysing"
+            ]
+        },
+        {
+            "ruleName": "T1 Scarabs",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Horned Scarab of Bloodlines",
+                "Harvest Scarab of Cornucopia",
+                "Essence Scarab of Calcification",
+                "Blight Scarab of Invigoration"
+            ]
+        },
+        {
+            "ruleName": "T2 Scarabs",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Blight Scarab of Blooming",
+                "Horned Scarab of Pandemonium",
+                "Divination Scarab of Pilfering",
+                "Cartography Scarab of Risk",
+                "Domination Scarab of Terrors",
+                "Incursion Scarab of Timelines",
+                "Harvest Scarab of Doubling",
+                "Ritual Scarab of Abundance",
+                "Breach Scarab of Snares",
+                "Horned Scarab of Glittering",
+                "Kalguuran Scarab of Refinement",
+                "Incursion Scarab of Champions",
+                "Delirium Scarab of Paranoia",
+                "Harbinger Scarab of Regency",
+                "Harbinger Scarab of Warhoards",
+                "Scarab of Wisps",
+                "Ultimatum Scarab of Dueling",
+                "Essence Scarab of Adaptation",
+                "Breach Scarab of Resonant Cascade"
+            ]
+        },
+        {
+            "ruleName": "T3 Scarabs",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                "Abyss Scarab of Edifice",
+                "Domination Scarab of Evolution",
+                "Breach Scarab",
+                "Beyond Scarab of the Invasion",
+                "Legion Scarab of Eternal Conflict",
+                "Abyss Scarab of Profound Depth",
+                "Divination Scarab of The Cloister",
+                "Cartography Scarab of Corruption",
+                "Ambush Scarab of Discernment",
+                "Bestiary Scarab of Duplicating",
+                "Delirium Scarab of Mania",
+                "Horned Scarab of Tradition",
+                "Scarab of Radiant Storms",
+                "Divination Scarab of Plenty",
+                "Kalguuran Scarab",
+                "Essence Scarab of Ascent",
+                "Bestiary Scarab of the Herd",
+                "Harbinger Scarab",
+                "Blight Scarab of the Blightheart",
+                "Scarab of Monstrous Lineage",
+                "Horned Scarab of Nemeses",
+                "Ritual Scarab of Selectiveness",
+                "Ultimatum Scarab of Inscription",
+                "Influencing Scarab of Conversion",
+                "Delirium Scarab of Neuroses",
+                "Legion Scarab",
+                "Expedition Scarab of Verisium Powder",
+                "Legion Scarab of Command",
+                "Breach Scarab of Splintering",
+                "Anarchy Scarab of Gigantification",
+                "Ultimatum Scarab of Bribing",
+                "Breach Scarab of Lordship",
+                "Influencing Scarab of Hordes",
+                "Expedition Scarab of Runefinding",
+                "Anarchy Scarab of Partnership",
+                "Delirium Scarab of Delusions",
+                "Expedition Scarab of Archaeology",
+                "Scarab of Stability",
+                "Legion Scarab of Officers",
+                "Torment Scarab of Possession",
+                "Cartography Scarab of the Multitude",
+                "Ritual Scarab of Wisps",
+                "Titanic Scarab of Legend",
+                "Titanic Scarab of Treasures",
+                "Scarab of Bisection",
+                "Kalguuran Scarab of Guarded Riches"
+            ]
+        },
+        {
+            "ruleName": "T4 Scarabs",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "visibility": "Show",
+            "styleName": "T4",
+            "BaseType": [
+                "Harbinger Scarab of Obelisks",
+                "Delirium Scarab",
+                "Beyond Scarab of Resurgence",
+                "Betrayal Scarab of Reinforcements",
+                "Sulphite Scarab of Fumes",
+                "Essence Scarab",
+                "Domination Scarab",
+                "Sulphite Scarab",
+                "Ambush Scarab",
+                "Scarab of Hunted Traitors",
+                "Essence Scarab of Stability",
+                "Abyss Scarab",
+                "Expedition Scarab",
+                "Ambush Scarab of Potency",
+                "Ambush Scarab of Hidden Compartments",
+                "Scarab of Adversaries",
+                "Scarab of Divinity",
+                "Domination Scarab of Apparitions",
+                "Torment Scarab of Peculiarity",
+                "Anarchy Scarab",
+                "Abyss Scarab of Multitudes",
+                "Betrayal Scarab of the Allflame",
+                "Harvest Scarab",
+                "Beyond Scarab",
+                "Incursion Scarab of Invasion",
+                "Beyond Scarab of Haemophilia",
+                "Cartography Scarab of Escalation",
+                "Titanic Scarab",
+                "Blight Scarab",
+                "Torment Scarab",
+                "Bestiary Scarab",
+                "Influencing Scarab of the Elder",
+                "Betrayal Scarab",
+                "Incursion Scarab",
+                "Ultimatum Scarab",
+                "Influencing Scarab of the Shaper"
+            ]
+        },
+        {
+            "ruleName": "Misc",
+            "ruleSortIndex": 6,
+            "ruleTier": 6,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": ["Scarab"]
+        }
+    ]
+}

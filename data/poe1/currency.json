@@ -6,7 +6,14 @@
             {"ruleSortIndex": 2, "ruleSortCategory": "Mapping Currency"},
             {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
             {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
-            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"}
+            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"},
+            {"ruleSortIndex": 6, "ruleSortCategory": "Fossils"},
+            {"ruleSortIndex": 7, "ruleSortCategory": "Oils"},
+            {"ruleSortIndex": 8, "ruleSortCategory": "Essences"},
+            {"ruleSortIndex": 9, "ruleSortCategory": "Runes"},
+            {"ruleSortIndex": 10, "ruleSortCategory": "Omens"},
+            {"ruleSortIndex": 11, "ruleSortCategory": "Tattoos"},
+            {"ruleSortIndex": 12, "ruleSortCategory": "Incubators"}
         ]
     },
     "rules": [
@@ -16,7 +23,7 @@
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "Mirror",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Mirror of Kalandra"
             ]
@@ -27,7 +34,7 @@
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "T0",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Hinekora's Lock",
                 "Mirror Shard",
@@ -61,7 +68,7 @@
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "T0",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Orb of Intention"
             ]
@@ -72,11 +79,46 @@
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "T0",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Albino Rhoa Feather",
                 "Eternal Orb",
-                "Facetor's Lens"
+                "Facetor's Lens",
+                "Deregulation Scroll",
+                "Electroshock Scroll",
+                "Fragmentation Scroll",
+                "Haemocombustion Scroll",
+                "Specularity Scroll",
+                "Time-light Scroll",
+                "Imprint",
+                "Unshaping Orb"
+            ]
+        },
+        {
+            "ruleName": "Fossils",
+            "ruleSortIndex": 6,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Faceted Fossil",
+                "Fractured Fossil",
+                "Glyphic Fossil",
+                "Hollow Fossil"
+            ]
+        },
+        {
+            "ruleName": "Oils",
+            "ruleSortIndex": 7,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Tainted Oil",
+                "Prismatic Oil",
+                "Golden Oil"
             ]
         },
         {
@@ -85,7 +127,7 @@
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "T1",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Fracturing Shard",
                 "Eldritch Chaos Orb",
@@ -103,20 +145,186 @@
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "T1",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Maven's Chisel of Proliferation",
                 "Maven's Chisel of Scarabs",
-                "Maven's Chisel of Avarice"
+                "Maven's Chisel of Avarice",
+                "Skittering Delirium Orb",
+                "Fine Delirium Orb",
+                "Foreboding Delirium Orb",
+                "Fossilised Delirium Orb",
+                "Thaumaturge's Delirium Orb",
+                "Blighted Delirium Orb",
+                "Abyssal Delirium Orb",
+                "Singular Delirium Orb",
+                "Timeless Delirium Orb"
             ]
         },
         {
-            "ruleName": " Basic Currency",
+            "ruleName": "Misc Currency",
+            "ruleSortIndex": 3,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Vial of Sacrifice",
+                "Vial of Summoning",
+                "Vial of the Ghost",
+                "Vial of Transcendence",
+                "Prime Chaotic Resonator"
+            ]
+        },
+        {
+            "ruleName": "Oils",
+            "ruleSortIndex": 7,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Silver Oil"
+            ]
+        },
+        {
+            "ruleName": "Essences",
+            "ruleSortIndex": 8,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Deafening Essence of",
+                "Essence of Delirium",
+                "Essence of Horror",
+                "Essence of Hysteria",
+                "Essence of Insanity"
+            ]
+        },
+        {
+            "ruleName": "Runes",
+            "ruleSortIndex": 9,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Runegraft of Gemcraft",
+                "Runegraft of the Angler",
+                "Runegraft of Stability",
+                "Runegraft of the Fortress",
+                "Runegraft of the Warp",
+                "Runegraft of the Witchmark",
+                "Runegraft of Treachery",
+                "Runegraft of Bellows",
+                "Runegraft of Blasphemy",
+                "Runegraft of Loyalty",
+                "Runegraft of Quaffing",
+                "Runegraft of Recompense",
+                "Runegraft of Restitching",
+                "Runegraft of the Bound",
+                "Runegraft of the Combatant",
+                "Runegraft of the Jeweller",
+                "Runegraft of the Novamark",
+                "Runegraft of the River",
+                "Runegraft of the Sinistral",
+                "Runegraft of the Soulwick",
+                "Runegraft of Time"
+            ]
+        },
+        {
+            "ruleName": "Omens",
+            "ruleSortIndex": 10,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Omen of Amelioration",
+                "Omen of Blanching",
+                "Omen of Connections",
+                "Omen of Fortune",
+                "Omen of Brilliance",
+                "Omen of the Jeweller",
+                "Omen of Death-dancing",
+                "Omen of Adrenaline",
+                "Omen of Death's Door",
+                "Omen of Refreshment",
+                "Omen of Return",
+                "Omen of the Soul Devourer"
+            ]
+        },
+        {
+            "ruleName": "Omens",
+            "ruleSortIndex": 11,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Journey Tattoo of the Body",
+                "Journey Tattoo of the Mind",
+                "Journey Tattoo of the Soul",
+                "Tattoo of the Hinekora Warrior",
+                "Tattoo of the Ngamahu Warmonger",
+                "Tattoo of the Ramako Fleetfoot",
+                "Tattoo of the Ramako Shaman",
+                "Tattoo of the Rongokurai Turtle",
+                "Tattoo of the Tukohama Warcaller",
+                "Tattoo of the Valako Shieldbearer",
+                "Tattoo of the Arohongui Shaman",
+                "Tattoo of the Hinekora Storyteller",
+                "Tattoo of the Hinekora Warmonger",
+                "Tattoo of the Ngamahu Firewalker",
+                "Tattoo of the Ramako Archer",
+                "Tattoo of the Ramako Scout",
+                "Tattoo of the Ramako Sniper",
+                "Tattoo of the Tasalio Scout",
+                "Tattoo of the Tasalio Warrior",
+                "Tattoo of the Tawhoa Shaman",
+                "Tattoo of the Arohongui Moonwarden",
+                "Tattoo of the Arohongui Scout",
+                "Tattoo of the Arohongui Warmonger",
+                "Tattoo of the Arohongui Warrior",
+                "Tattoo of the Hinekora Deathwarden",
+                "Tattoo of the Hinekora Shaman",
+                "Tattoo of the Kitava Blood Drinker",
+                "Tattoo of the Kitava Heart Eater",
+                "Tattoo of the Kitava Rebel",
+                "Tattoo of the Kitava Shaman",
+                "Tattoo of the Kitava Warrior",
+                "Tattoo of the Ngamahu Shaman",
+                "Tattoo of the Ngamahu Warrior",
+                "Tattoo of the Ngamahu Woodcarver",
+                "Tattoo of the Rongokurai Brute",
+                "Tattoo of the Rongokurai Goliath",
+                "Tattoo of the Rongokurai Guard",
+                "Tattoo of the Rongokurai Warrior",
+                "Tattoo of the Tasalio Bladedancer",
+                "Tattoo of the Tasalio Shaman",
+                "Tattoo of the Tasalio Tideshifter",
+                "Tattoo of the Tawhoa Herbalist",
+                "Tattoo of the Tawhoa Naturalist",
+                "Tattoo of the Tawhoa Scout",
+                "Tattoo of the Tawhoa Warrior",
+                "Tattoo of the Tukohama Brawler",
+                "Tattoo of the Tukohama Shaman",
+                "Tattoo of the Tukohama Warmonger",
+                "Tattoo of the Tukohama Warrior",
+                "Tattoo of the Valako Scout",
+                "Tattoo of the Valako Shaman",
+                "Tattoo of the Valako Stormrider",
+                "Tattoo of the Valako Warrior"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T2",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Grand Eldritch Ember",
                 "Grand Eldritch Ichor",
@@ -133,7 +341,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T2",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Maven's Chisel of Proliferation",
                 "Maven's Chisel of Scarabs",
@@ -141,7 +349,32 @@
                 "Maven's Chisel of Divination",
                 "Maven's Chisel of Procurement",
                 "Crescent Splinter",
-                "Ritual Vessel"
+                "Ritual Vessel",
+                "Armoursmith's Delirium Orb",
+                "Blacksmith's Delirium Orb",
+                "Cartographer's Delirium Orb",
+                "Diviner's Delirium Orb",
+                "Fragmented Delirium Orb",
+                "Jeweller's Delirium Orb",
+                "Obscured Delirium Orb"
+            ]
+        },
+        {
+            "ruleName": "Misc Currency",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Vial of Awakening",
+                "Vial of Consequence",
+                "Vial of Dominance",
+                "Vial of Fate",
+                "Vial of the Ritual",
+                "Potent Chaotic Resonator",
+                "Powerful Chaotic Resonator",
+                "Primitive Chaotic Resonator"
             ]
         },
         {
@@ -150,11 +383,83 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T2",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Tainted Catalyst",
                 "Prismatic Catalyst",
                 "Fertile Catalyst"
+            ]
+        },
+        {
+            "ruleName": "Fossils",
+            "ruleSortIndex": 6,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Aberrant Fossil",
+                "Aetheric Fossil",
+                "Bloodstained Fossil",
+                "Bound Fossil",
+                "Corroded Fossil",
+                "Deft Fossil",
+                "Dense Fossil",
+                "Frigid Fossil",
+                "Fundamental Fossil",
+                "Gilded Fossil",
+                "Jagged Fossil",
+                "Lucent Fossil",
+                "Metallic Fossil",
+                "Opulent Fossil",
+                "Prismatic Fossil",
+                "Pristine Fossil",
+                "Sanctified Fossil",
+                "Scorched Fossil",
+                "Serrated Fossil",
+                "Shuddering Fossil",
+                "Tangled Fossil"
+            ]
+        },
+        {
+            "ruleName": "Oils",
+            "ruleSortIndex": 7,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Opalescent Oil",
+                "Reflective Oil",
+                "Black Oil",
+                "Crimson Oil"
+            ]
+        },
+        {
+            "ruleName": "Essences",
+            "ruleSortIndex": 8,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Shrieking Essence of"
+            ]
+        },
+        {
+            "ruleName": "Incubators",
+            "ruleSortIndex": 12,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Incubators"],
+            "BaseType": [
+                "Fragmented Incubator",
+                "Maddening Incubator",
+                "Diviner's Incubator",
+                "Fossilised Incubator",
+                "Infused Incubator",
+                "Ornate Incubator"
             ]
         },
         {
@@ -163,7 +468,7 @@
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "T3",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Greater Eldritch Ember",
                 "Greater Eldritch Ichor",
@@ -185,7 +490,7 @@
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "T3",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Cartographer's Chisel",
                 "Harbinger's Orb",
@@ -201,7 +506,7 @@
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "T3",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Stacked Deck"
             ]
@@ -212,7 +517,7 @@
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "T3",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Primal Crystallised Lifeforce",
                 "Vivid Crystallised Lifeforce",
@@ -225,7 +530,7 @@
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "T3",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Burial Medallion",
                 "Exotic Coinage",
@@ -239,7 +544,7 @@
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "T3",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Intrinsic Catalyst",
                 "Tempering Catalyst",
@@ -252,12 +557,69 @@
             ]
         },
         {
+            "ruleName": "Oils",
+            "ruleSortIndex": 7,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Azure Oil",
+                "Indigo Oil",
+                "Teal Oil",
+                "Violet Oil",
+                "Amber Oil",
+                "Clear Oil",
+                "Sepia Oil",
+                "Verdant Oil"
+            ]
+        },
+        {
+            "ruleName": "Essences",
+            "ruleSortIndex": 8,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Screaming Essence of"
+            ]
+        },
+        {
+            "ruleName": "Incubators",
+            "ruleSortIndex": 12,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Incubators"],
+            "BaseType": [
+                "Abyssal Incubator",
+                "Blighted Incubator",
+                "Cartographer's Incubator",
+                "Celestial Armoursmith's Incubator",
+                "Celestial Blacksmith's Incubator",
+                "Celestial Jeweller's Incubator",
+                "Foreboding Incubator",
+                "Geomancer's Incubator",
+                "Kalguuran Incubator",
+                "Maddening Incubator",
+                "Mysterious Incubator",
+                "Obscured Incubator",
+                "Otherworldly Incubator",
+                "Singular Incubator",
+                "Skittering Incubator",
+                "Thaumaturge's Incubator",
+                "Fragmented Incubator",
+                "Primal Incubator"
+            ]
+        },
+        {
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 4,
             "visibility": "Show",
             "styleName": "T4",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Lesser Eldritch Ember",
                 "Lesser Eldritch Ichor",
@@ -277,7 +639,7 @@
             "ruleTier": 4,
             "visibility": "Show",
             "styleName": "T4",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Vaal Scouting Report",
                 "Explorer's Scouting Report",
@@ -291,19 +653,35 @@
             ]
         },
         {
+            "ruleName": "Essences",
+            "ruleSortIndex": 8,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": ["Currency"],
+            "BaseType": [
+                "Wailing Essence of",
+                "Weeping Essence of",
+                "Muttering Essence of",
+                "Whispering Essence of"
+            ]
+        },
+        {
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 5,
             "visibility": "Show",
             "styleName": "T5",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Orb of Transmutation",
                 "Orb of Augmentation",
                 "Jeweller's Orb",
                 "Blacksmith's Whetstone",
                 "Armourer's Scrap",
-                "Orb of Binding"
+                "Orb of Binding",
+                "Rogue's Marker",
+                "Gold"
             ]
         },
         {
@@ -312,7 +690,7 @@
             "ruleTier": 5,
             "visibility": "Hide",
             "styleName": "T5",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Annulment Shard",
                 "Exalted Shard",
@@ -326,7 +704,8 @@
                 "Regal Shard",
                 "Armourer's Scrap",
                 "Engineer's Shard",
-                "Transmutation Shard"
+                "Transmutation Shard",
+                "Scroll Fragment"
             ]
         },
         {
@@ -335,7 +714,7 @@
             "ruleTier": 6,
             "visibility": "Show",
             "styleName": "T6",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Scroll of Wisdom"
             ]
@@ -346,10 +725,26 @@
             "ruleTier": 6,
             "visibility": "Show",
             "styleName": "Portal",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Portal Scroll"
             ]
+        },
+        {
+            "ruleName": "Misc - Unknown Currency",
+            "ruleSortIndex": 100,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Currency"]
+        },
+        {
+            "ruleName": "Misc - Unknown Stackable Currency",
+            "ruleSortIndex": 100,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Stackable Currency"]
         }
     ]
 }

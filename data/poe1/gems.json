@@ -1,0 +1,188 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Awakened Gems"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Exceptional Gems"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Leveled Quality Gems"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "Quality Gems"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Misc Gems"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Exception - Corrupted Skill Gems",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "CorruptedBorder",
+            "Class": ["Skill Gems"],
+            "Corrupted": "True"
+        },
+        {
+            "ruleName": "Exception - Corrupted Support Gems",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "CorruptedBorder",
+            "Class": ["Support Gems"],
+            "Corrupted": "True"
+        },
+        {
+            "ruleName": "Exception - Legacy",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Item Quantity Support"
+            ]
+        },
+        {
+            "ruleName": "Exception - Special",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Vaal Breach",
+                "Portal"
+            ]
+        },
+        {
+            "ruleName": "Awakened Support Gems",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Support Gems"],
+            "BaseType": [
+                "Awakened"
+            ]
+        },
+        {
+            "ruleName": "Transfigured Skill Gems",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Skill Gems"],
+            "TransfiguredGem": "True"
+        },
+        {
+            "ruleName": "Exceptional Gems",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Support Gems"],
+            "BaseType": [
+                "Empower Support",
+                "Enhance Support",
+                "Enlighten Support"
+            ]
+        },
+        {
+            "ruleName": "Leveled Quality Skill Gems",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Skill Gems"],
+            "GemLevel": ">= 20",
+            "Quality": ">= 20"
+        },
+        {
+            "ruleName": "Leveled Quality Vaal Gems",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Skill Gems"],
+            "GemLevel": ">= 20",
+            "Quality": ">= 20"
+        },
+        {
+            "ruleName": "Leveled Quality Support Gems",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Support Gems"],
+            "GemLevel": ">= 20",
+            "Quality": ">= 20"
+        },
+        {
+            "ruleName": "Quality Skill Gems",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Skill Gems"],
+            "Quality": ">= 15"
+        },
+        {
+            "ruleName": "Quality Vaal Gems",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Skill Gems"],
+            "Quality": ">= 15"
+        },
+        {
+            "ruleName": "Quality Support Gems",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Support Gems"],
+            "Quality": ">= 15"
+        },
+        {
+            "ruleName": "Misc - Skill Gems",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "visibility": "Show",
+            "styleName": "T3B",
+            "Class": ["Skill Gems"]
+        },
+        {
+            "ruleName": "Misc - Vaal Gems",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "visibility": "Show",
+            "styleName": "T3B",
+            "Class": ["Skill Gems"],
+            "BaseType": [
+                "Vaal"
+            ]
+        },
+        {
+            "ruleName": "Misc - Support Gems",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "visibility": "Show",
+            "styleName": "T3B",
+            "Class": ["Support Gems"]
+        }
+    ]
+}

@@ -1,25 +1,291 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 0, "ruleSortCategory": "Mirror"},
-            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Currency"},
-            {"ruleSortIndex": 2, "ruleSortCategory": "Mapping Currency"},
-            {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
-            {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
-            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"}
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Red Maps"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Yellow Maps"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "White Maps"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "Unique Maps"
+            },
+            {
+                "ruleSortIndex": 6,
+                "ruleSortCategory": "Misc"
+            }
         ]
     },
     "rules": [
         {
-            "ruleName": "Mirror",
+            "ruleName": "Map - Corrupted Implicit",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "CorruptedBorder",
+            "Class": ["Maps"],
+            "CorruptedMods": 1
+        },
+        {
+            "ruleName": "Map - Implicit",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "influencedBorder",
+            "Class": ["Maps"],
+            "HasImplicitMod": "True"
+        },
+        {
+            "ruleName": "Map - Enchanted",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "enchantedBorder",
+            "Class": ["Maps"],
+            "AnyEnchantment": "True"
+        },
+        {
+            "ruleName": "Map - Uber Blighted",
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Mirror",
-            "Class": "Currency",
-            "BaseType": [
-                "Mirror of Kalandra"
-            ]
+            "styleName": "T0",
+            "Class": ["Maps"],
+            "UberBlightedMap": "True"
+        },
+        {
+            "ruleName": "Map - Blighted",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Maps"],
+            "BlightedMap": "True"
+        },
+        {
+            "ruleName": "Map - Originator",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Maps"],
+            "ZanaMemory": "True"
+        },
+        {
+            "ruleName": "Map - Shaper",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Maps"],
+            "HasInfluence": "Shaper"
+        },
+        {
+            "ruleName": "Map - Elder",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Maps"],
+            "HasInfluence": "Elder"
+        },
+        {
+            "ruleName": "Map - Conquerors",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Maps"],
+            "HasInfluence": "Crusader Hunter Redeemer Warlord"
+        },
+        {
+            "ruleName": "Map - Vaal Temple",
+            "ruleSortIndex": 0,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Maps"],
+            "BaseType": ["Vaal Temple Map"]
+        },
+        {
+            "ruleName": "Map - T17",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Maps"],
+            "MapTier": 17
+        },
+        {
+            "ruleName": "Map - T16",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Maps"],
+            "MapTier": 16
+        },
+        {
+            "ruleName": "Map - T15",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Maps"],
+            "MapTier": 15
+        },
+        {
+            "ruleName": "Map - T14",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Maps"],
+            "MapTier": 14
+        },
+        {
+            "ruleName": "Map - T13",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Maps"],
+            "MapTier": 13
+        },
+        {
+            "ruleName": "Map - T12",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Maps"],
+            "MapTier": 12
+        },
+        {
+            "ruleName": "Map - T11",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Maps"],
+            "MapTier": 11
+        },
+        {
+            "ruleName": "Map - T10",
+            "ruleSortIndex": 2,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Maps"],
+            "MapTier": 10
+        },
+        {
+            "ruleName": "Map - T9",
+            "ruleSortIndex": 2,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Maps"],
+            "MapTier": 9
+        },
+        {
+            "ruleName": "Map - T8",
+            "ruleSortIndex": 2,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Maps"],
+            "MapTier": 8
+        },
+        {
+            "ruleName": "Map - T7",
+            "ruleSortIndex": 2,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Maps"],
+            "MapTier": 7
+        },
+        {
+            "ruleName": "Map - T6",
+            "ruleSortIndex": 2,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "T3",
+            "Class": ["Maps"],
+            "MapTier": 6
+        },
+        {
+            "ruleName": "Map - T5",
+            "ruleSortIndex": 3,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": ["Maps"],
+            "MapTier": 5
+        },
+        {
+            "ruleName": "Map - T4",
+            "ruleSortIndex": 3,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": ["Maps"],
+            "MapTier": 4
+        },
+        {
+            "ruleName": "Map - T3",
+            "ruleSortIndex": 3,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": ["Maps"],
+            "MapTier": 3
+        },
+        {
+            "ruleName": "Map - T2",
+            "ruleSortIndex": 3,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": ["Maps"],
+            "MapTier": 2
+        },
+        {
+            "ruleName": "Map - T1",
+            "ruleSortIndex": 3,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "T4",
+            "Class": ["Maps"],
+            "MapTier": 1
+        },
+        {
+            "ruleName": "Map - Unique",
+            "ruleSortIndex": 5,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "Unique",
+            "Class": ["Maps"]
+        },
+        {
+            "ruleName": "Map - Unknown",
+            "ruleSortIndex": 6,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Maps"]
         }
     ]
 }

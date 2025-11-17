@@ -1,0 +1,374 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "T0 Fragments"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "T1 Fragments"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "T2 Fragments"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "T3 Fragments"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "T4 Fragments"
+            },
+            {
+                "ruleSortIndex": 6,
+                "ruleSortCategory": "Misc"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Exceptions",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": []
+        },
+        {
+            "ruleName": "League - Betrayal: Boss",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Syndicate Medallion"
+            ]
+        },
+        {
+            "ruleName": "League - Betrayal: T1 Allflames",
+            "ruleSortIndex": 2,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Allflame Ember of the Ethereal",
+                "Allflame Ember of the Gilded",
+                "Allflame Ember of Kulemak",
+                "Allflame Ember of Propagation"
+            ]
+        },
+        {
+            "ruleName": "League - Betrayal: T2 Allflames",
+            "ruleSortIndex": 3,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Allflame Ember of Resplendence",
+                "Allflame Ember of the Wildwood"
+            ]
+        },
+        {
+            "ruleName": "League - Betrayal: T3 Allflames",
+            "ruleSortIndex": 4,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                "Allflame Ember of Flesh",
+                "Allflame Ember of Toads"
+            ]
+        },
+        {
+            "ruleName": "League - Betrayal: Misc Allflames",
+            "ruleSortIndex": 5,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": ["Allflame"]
+        },
+        {
+            "ruleName": "League - Breach (Legacy): Flawless Breachstones",
+            "ruleSortIndex": 6,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Chayula's Flawless Breachstone",
+                "Esh's Flawless Breachstone",
+                "Tul's Flawless Breachstone",
+                "Uul-Netol's Flawless Breachstone",
+                "Xoph's Flawless Breachstone"
+            ]
+        },
+        {
+            "ruleName": "League - Breach (Legacy): Breachstones",
+            "ruleSortIndex": 7,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Chayula's Breachstone",
+                "Uul-Netol's Breachstone",
+                "Esh's Breachstone",
+                "Tul's Breachstone",
+                "Xoph's Breachstone"
+            ]
+        },
+        {
+            "ruleName": "League - Breach (Legacy): Splinters",
+            "ruleSortIndex": 8,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                "Splinter of Chayula",
+                "Splinter of Uul-Netol",
+                "Splinter of Esh",
+                "Splinter of Tul",
+                "Splinter of Xoph"
+            ]
+        },
+        {
+            "ruleName": "League - Breach (Legacy): Misc Breachstones",
+            "ruleSortIndex": 9,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Breachstones"]
+        },
+        {
+            "ruleName": "League - Crucible (Legacy): Primordial Forge",
+            "ruleSortIndex": 10,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": ["Primordial Remnant"]
+        },
+        {
+            "ruleName": "League - Crucible (Legacy): Primeval Forge",
+            "ruleSortIndex": 11,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": ["Primeval Remnant"]
+        },
+        {
+            "ruleName": "League - Delirium: Simulacrum",
+            "ruleSortIndex": 12,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": ["Simulacrum"]
+        },
+        {
+            "ruleName": "League - Delirium: Splinters",
+            "ruleSortIndex": 13,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": ["Simulacrum Splinter"]
+        },
+        {
+            "ruleName": "League - Delve: Consumables",
+            "ruleSortIndex": 14,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": []
+        },
+        {
+            "ruleName": "League - Delve: Resonators",
+            "ruleSortIndex": 15,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": []
+        },
+        {
+            "ruleName": "League - Delve: Fossils",
+            "ruleSortIndex": 16,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": []
+        },
+        {
+            "ruleName": "League - Essence: Essences",
+            "ruleSortIndex": 17,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": []
+        },
+        {
+            "ruleName": "League - Expedition: Logbook",
+            "ruleSortIndex": 18,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T4",
+            "BaseType": ["Expedition Logbook"]
+        },
+        {
+            "ruleName": "League - Expedition: Currency",
+            "ruleSortIndex": 18,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T4",
+            "BaseType": []
+        },
+        {
+            "ruleName": "League - Harvest: Boss",
+            "ruleSortIndex": 19,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Sacred Blossom"
+            ]
+        },
+        {
+            "ruleName": "League - Harvest: Currency",
+            "ruleSortIndex": 20,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Dedication to the Goddess",
+                "Tribute to the Goddess"
+            ]
+        },
+        {
+            "ruleName": "League - Heist: Contracts",
+            "ruleSortIndex": 21,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": ["Contracts"]
+        },
+        {
+            "ruleName": "League - Heist: Blueprints",
+            "ruleSortIndex": 22,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": ["Blueprints"]
+        },
+        {
+            "ruleName": "League - Heist: Currency",
+            "ruleSortIndex": 23,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                
+            ]
+        },
+        {
+            "ruleName": "League - Incursion: Temples",
+            "ruleSortIndex": 24,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": ["Chronicle of Atzoatl"]
+        },
+        {
+            "ruleName": "League - Incursion: Currency",
+            "ruleSortIndex": 25,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                
+            ]
+        },
+        {
+            "ruleName": "League - Kalandra (Legacy): Tablets",
+            "ruleSortIndex": 26,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": ["Mirrored Tablet"]
+        },
+        {
+            "ruleName": "League - Legion: Unrelenting Emblems",
+            "ruleSortIndex": 27,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Unrelenting Timeless Maraketh Emblem",
+                "Unrelenting Timeless Eternal Emblem",
+                "Unrelenting Timeless Karui Emblem",
+                "Unrelenting Timeless Templar Emblem",
+                "Unrelenting Timeless Vaal Emblem"
+            ]
+        },
+        {
+            "ruleName": "League - Legion: Emblems",
+            "ruleSortIndex": 28,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Timeless Maraketh Emblem",
+                "Timeless Eternal Emblem",
+                "Timeless Karui Emblem",
+                "Timeless Templar Emblem",
+                "Timeless Vaal Emblem"
+            ]
+        },
+        {
+            "ruleName": "League - Legion: Splinters",
+            "ruleSortIndex": 29,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                "Timeless Maraketh Splinter",
+                "Timeless Eternal Empire Splinter",
+                "Timeless Karui Splinter",
+                "Timeless Templar Splinter",
+                "Timeless Vaal Splinter"
+            ]
+        },
+        {
+            "ruleName": "League - Ritual: Boss",
+            "ruleSortIndex": 30,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": ["An Audience With The King"]
+        },
+        {
+            "ruleName": "League - Ritual: Currency",
+            "ruleSortIndex": 31,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": ["Blood-filled Vessel"]
+        },
+        {
+            "ruleName": "League - Sanctum: Tomes",
+            "ruleSortIndex": 32,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": ["Sanctum Research"]
+        },
+        {
+            "ruleName": "League - Ultimatum: Tablet",
+            "ruleSortIndex": 33,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": ["Inscribed Ultimatum"]
+        }
+    ]
+}

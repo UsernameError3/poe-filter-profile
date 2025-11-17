@@ -7,15 +7,19 @@
             },
             {
                 "ruleSortIndex": 1,
-                "ruleSortCategory": "Unique Flasks"
+                "ruleSortCategory": "Unique Jewel"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Rare Jewel"
             },
             {
                 "ruleSortIndex": 3,
-                "ruleSortCategory": "Magic Flasks"
+                "ruleSortCategory": "Magic Jewel"
             },
             {
                 "ruleSortIndex": 4,
-                "ruleSortCategory": "Normal Flasks"
+                "ruleSortCategory": "Normal Jewel"
             },
             {
                 "ruleSortIndex": 5,
@@ -25,120 +29,128 @@
     },
     "rules": [
         {
-            "ruleName": "Exception: Quality Flasks",
+            "ruleName": "Exception: Double Corrupted Jewel",
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "T1",
-            "Quality": ">=20",
-            "BaseType": [
-                "Flask"
-            ]
+            "CorruptedMods": 2,
+            "Class": ["Jewels"]
         },
         {
-            "ruleName": "Exception: Quality Tinctures",
+            "ruleName": "Exception: Single Corrupted Jewel",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T2",
+            "CorruptedMods": 1,
+            "Class": ["Jewels"]
+        },
+        {
+            "ruleName": "Exception: Double Corrupted Abyss Jewel",
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "T1",
-            "Quality": ">=20",
-            "Class": ["Tinctures"]
+            "CorruptedMods": 2,
+            "Class": ["Abyss Jewels"]
         },
         {
-            "ruleName": "Unique Flasks",
+            "ruleName": "Exception: Single Corrupted Abyss Jewel",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T2",
+            "CorruptedMods": 1,
+            "Class": ["Abyss Jewels"]
+        },
+        {
+            "ruleName": "Unique Jewel",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "Unique",
             "Rarity": "Unique",
-            "BaseType": [
-                "Flask"
-            ]
+            "Class": ["Jewels"]
         },
         {
-            "ruleName": "Unique Tinctures",
+            "ruleName": "Unique Abyss Jewel",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "Unique",
             "Rarity": "Unique",
-            "Class": ["Tinctures"]
+            "Class": ["Abyss Jewels"]
         },
         {
-            "ruleName": "Magic Utility Flasks",
+            "ruleName": "Rare Jewel",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "Rare",
+            "Rarity": "Rare",
+            "Class": ["Jewels"]
+        },
+        {
+            "ruleName": "Rare Abyss Jewel",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "Rare",
+            "Rarity": "Rare",
+            "Class": ["Abyss Jewels"]
+        },
+        {
+            "ruleName": "Magic Jewel",
             "ruleSortIndex": 3,
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "Magic",
             "Rarity": "Magic",
-            "Class": ["Utility Flasks"]
+            "Class": ["Jewels"]
         },
         {
-            "ruleName": "Magic Flasks",
+            "ruleName": "Magic Abyss Jewel",
             "ruleSortIndex": 3,
             "ruleTier": 3,
             "visibility": "Show",
             "styleName": "Magic",
             "Rarity": "Magic",
-            "BaseType": [
-                "Flask"
-            ]
+            "Class": ["Jewels"]
         },
         {
-            "ruleName": "Magic Tinctures",
-            "ruleSortIndex": 3,
-            "ruleTier": 3,
-            "visibility": "Show",
-            "styleName": "Magic",
-            "Rarity": "Magic",
-            "Class": ["Tinctures"]
-        },
-        {
-            "ruleName": "Normal Utility Flasks",
+            "ruleName": "Normal Jewel",
             "ruleSortIndex": 4,
             "ruleTier": 4,
             "visibility": "Show",
             "styleName": "Normal",
             "Rarity": "Normal",
-            "Class": ["Utility Flasks"]
+            "Class": ["Jewels"]
         },
         {
-            "ruleName": "Normal Flasks",
+            "ruleName": "Normal Abyss Jewel",
             "ruleSortIndex": 4,
             "ruleTier": 4,
             "visibility": "Show",
             "styleName": "Normal",
             "Rarity": "Normal",
-            "BaseType": [
-                "Flask"
-            ]
+            "Class": ["Abyss Jewels"]
         },
         {
-            "ruleName": "Normal Tinctures",
-            "ruleSortIndex": 4,
-            "ruleTier": 4,
-            "visibility": "Show",
-            "styleName": "Normal",
-            "Rarity": "Normal",
-            "Class": ["Tinctures"]
-        },
-        {
-            "ruleName": "Misc  - Flasks",
+            "ruleName": "Misc  - Jewels",
             "ruleSortIndex": 5,
             "ruleTier": 5,
             "visibility": "Show",
             "styleName": "T0",
-            "BaseType": [
-                "Flask"
-            ]
+            "Class": ["Jewels"]
         },
         {
-            "ruleName": "Misc  - Tinctures",
+            "ruleName": "Misc  - Abyss Jewels",
             "ruleSortIndex": 5,
             "ruleTier": 5,
             "visibility": "Show",
             "styleName": "T0",
-            "Class": ["Tinctures"]
+            "Class": ["Abyss Jewels"]
         }
     ]
 }

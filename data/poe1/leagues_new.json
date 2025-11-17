@@ -16,7 +16,7 @@
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "Mirror",
-            "Class": "Currency",
+            "Class": ["Currency"],
             "BaseType": [
                 "Mirror of Kalandra"
             ]

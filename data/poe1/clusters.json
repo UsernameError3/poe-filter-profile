@@ -1,0 +1,76 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Unique Cluster Jewel"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Rare Cluster Jewel"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Magic Cluster Jewel"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "Normal Cluster Jewel"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Misc"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Unique Cluster Jewel",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "Unique",
+            "Class": ["Cluster Jewel"],
+            "Rarity": "Unique"
+        },
+        {
+            "ruleName": "Rare Cluster Jewel",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "Rare",
+            "Class": ["Cluster Jewel"],
+            "Rarity": "Rare"
+        },
+        {
+            "ruleName": "Magic Cluster Jewel",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "visibility": "Show",
+            "styleName": "Magic",
+            "Class": ["Cluster Jewel"],
+            "Rarity": "Magic"
+        },
+        {
+            "ruleName": "Normal Cluster Jewel",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "visibility": "Show",
+            "styleName": "Normal",
+            "Class": ["Cluster Jewel"],
+            "Rarity": "Normal"
+        },
+        {
+            "ruleName": "Misc",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "visibility": "Show",
+            "styleName": "T0",
+            "Class": ["Cluster Jewel"]
+        }
+    ]
+}

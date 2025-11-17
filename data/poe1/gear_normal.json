@@ -1,24 +1,51 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 0, "ruleSortCategory": "Mirror"},
-            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Currency"},
-            {"ruleSortIndex": 2, "ruleSortCategory": "Mapping Currency"},
-            {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
-            {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
-            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"}
+            {"ruleSortIndex": 0, "ruleSortCategory": "Exceptions"},
+            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Filtering"}
         ]
     },
     "rules": [
-        {
-            "ruleName": "Mirror",
-            "ruleSortIndex": 0,
-            "ruleTier": 0,
+{
+            "ruleName": "Normals - All",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
             "visibility": "Show",
-            "styleName": "Mirror",
-            "Class": "Currency",
-            "BaseType": [
-                "Mirror of Kalandra"
+            "styleName": "Normal",
+            "ItemLevel": ">= 68",
+            "Rarity": "Normal",
+            "Class": [
+                "Abyss Jewels",
+                "Amulets",
+                "Belts",
+                "Body Armours",
+                "Boots",
+                "Bows",
+                "Claws",
+                "Daggers",
+                "Fishing Rods",
+                "Gloves",
+                "Heist Brooches",
+                "Heist Cloaks",
+                "Heist Gear",
+                "Heist Tools",
+                "Helmets",
+                "One Hand Axes",
+                "One Hand Maces",
+                "One Hand Swords",
+                "Quivers",
+                "Rings",
+                "Rune Daggers",
+                "Sceptres",
+                "Shields",
+                "Staves",
+                "Thrusting One Hand Swords",
+                "Trinkets",
+                "Two Hand Axes",
+                "Two Hand Maces",
+                "Two Hand Swords",
+                "Wands",
+                "Warstaves"
             ]
         }
     ]

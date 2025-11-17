@@ -56,6 +56,17 @@
     },
     {
         "styleClass": "Any",
+        "styleName": "T3B",
+        "SetTextColor": "#00C8FF",
+        "SetBorderColor": "#00C8FF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Any",
         "styleName": "T4",
         "SetTextColor": "#00FF00",
         "SetBorderColor": "#00FF00",
@@ -95,6 +106,88 @@
         "SetBackgroundColor": "#000000",
         "SetFontSize": "18",
         "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
+        "styleName": "Unique",
+        "SetTextColor": "#af6025",
+        "SetBorderColor": "#af6025",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+        {
+        "styleClass": "Gear",
+        "styleName": "Rare",
+        "SetTextColor": "#ffea00",
+        "SetBorderColor": "#ffea00",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
+        "styleName": "Magic",
+        "SetTextColor": "#004bfa",
+        "SetBorderColor": "#004bfa",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "23",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
+        "styleName": "Normal",
+        "SetTextColor": "#FFFFFF",
+        "SetBorderColor": "#FFFFFF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "18",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "Quest",
+        "SetTextColor": "#00FF00",
+        "SetBorderColor": "#00FF00",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "45",
+        "PlayAlertSound": "3 300",
+        "MinimapIcon": "0 Green Pentagon",
+        "PlayEffect": "Green"
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "CorruptedBorder",
+        "SetBorderColor": "#FF0000"
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "influencedBorder",
+        "SetBorderColor": "#8D00FF"
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "enchantedBorder",
+        "SetBorderColor": "#00C8FF"
+    },
+    {
+        "styleClass": "Any",
+        "styleName": "Hide",
+        "SetTextColor": "",
+        "SetBorderColor": "#00000000",
+        "SetBackgroundColor": "#14140000",
+        "SetFontSize": "18",
+        "PlayAlertSound": "",
+        "DisableDropSound": "True",
         "MinimapIcon": "",
         "PlayEffect": ""
     }
