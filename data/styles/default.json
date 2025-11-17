@@ -167,17 +167,20 @@
     {
         "styleClass": "Any",
         "styleName": "CorruptedBorder",
-        "SetBorderColor": "#FF0000"
+        "SetBorderColor": "#FF0000",
+        "Continue": ""
     },
     {
         "styleClass": "Any",
         "styleName": "influencedBorder",
-        "SetBorderColor": "#8D00FF"
+        "SetBorderColor": "#8D00FF",
+        "Continue": ""
     },
     {
         "styleClass": "Any",
         "styleName": "enchantedBorder",
-        "SetBorderColor": "#00C8FF"
+        "SetBorderColor": "#00C8FF",
+        "Continue": ""
     },
     {
         "styleClass": "Any",

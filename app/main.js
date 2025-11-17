@@ -72,8 +72,12 @@ const filterRuleProperty = (property, operator, value) => {
 
 // Single Property Line for Styles
 const filterStyleProperty = (property, value) => {
-    if (value !== "" && value !== null) {
-        return `    ${property} ${value}`
+    if (value !== "" && value !== null || property == "Continue") {
+        if (property == "Continue") {
+            return `    ${property}`
+        } else {
+            return `    ${property} ${value}`
+        }
     } else {
         return;
     }
@@ -190,6 +194,9 @@ const buildFilterRule = (rule, style) => {
     if (rule.MapTier) {
         properties.push(filterRuleProperty(`MapTier`, '==', rule.MapTier));
     }
+    if (rule.ZanaMemory) {
+        properties.push(filterRuleProperty(`ZanaMemory`, '==', rule.ZanaMemory));
+    }
     if (rule.BlightedMap) {
         properties.push(filterRuleProperty(`BlightedMap`, null, rule.BlightedMap));
     }
@@ -263,7 +270,9 @@ const buildFilterStyle = async (json) => {
     if (json.PlayEffect) {
         style.push(filterStyleProperty('PlayEffect', json.PlayEffect));
     }
-
+    if (json.Continue) {
+        style.push(filterStyleProperty('Continue', json.Continue));
+    }
     // Join Style Array
     return style.join('\n');
 };
