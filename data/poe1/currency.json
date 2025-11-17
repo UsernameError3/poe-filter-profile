@@ -425,7 +425,6 @@
             "ruleTier": 5,
             "visibility": "Show",
             "styleName": "T5",
-            "Class": ["Stackable Currency"],
             "BaseType": [
                 "Gold"
             ]
