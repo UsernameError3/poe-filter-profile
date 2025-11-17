@@ -99,8 +99,8 @@
         },
         {
             "ruleName": "Safety Layer",
-            "ruleSortIndex": 2,
-            "ruleTier": 2,
+            "ruleSortIndex": 100,
+            "ruleTier": 0,
             "visibility": "Show",
             "styleName": "T0"
         }
