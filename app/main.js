@@ -219,11 +219,11 @@ const buildFilterRule = (rule, style) => {
     // Styles Added Last:
     if (style) {
         properties.push(style);
-        // properties.push('\n');        
+        properties.push('\n');        
     }
     
     // Join Properties into Rule
-    return properties.join('\n\n');
+    return properties.join('\n');
 };
 
 // Map Filter Rules
@@ -359,7 +359,7 @@ const buildFilterFile = async () => {
     filterFileData.push(mapFilterRuleList(filterRuleObj.safetyRules, filterStyleLegend));
 
     // Export Main File List
-    fs.writeFileSync(fileOutputName, filterFileData.join('\n'));
+    fs.writeFileSync(fileOutputName, filterFileData.join('\n\n'));
     console.log('Finished Filter Export...');
     return;
 };
