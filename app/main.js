@@ -242,7 +242,7 @@ const mapFilterRuleList = (json, styles) => {
     }
 
     // Join Rule List
-    return rules.join('\n');
+    return rules.join('\n\n');
 };
 
 // Build Filter Styles
