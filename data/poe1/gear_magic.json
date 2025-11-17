@@ -10,7 +10,7 @@
             "ruleName": "Magics - All",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "visibility": "Hide",
             "styleName": "Magic",
             "ItemLevel": ">= 68",
             "Rarity": "Magic",

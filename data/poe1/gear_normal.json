@@ -10,7 +10,7 @@
             "ruleName": "Normals - All",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "visibility": "Hide",
             "styleName": "Normal",
             "ItemLevel": ">= 68",
             "Rarity": "Normal",
