@@ -219,11 +219,11 @@ const buildFilterRule = (rule, style) => {
     // Styles Added Last:
     if (style) {
         properties.push(style);
-        properties.push('\n');        
+        // properties.push('\n');        
     }
     
     // Join Properties into Rule
-    return properties.join('\n');
+    return properties.join('\n\n');
 };
 
 // Map Filter Rules
