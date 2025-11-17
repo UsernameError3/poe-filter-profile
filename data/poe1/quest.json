@@ -26,6 +26,7 @@
             "ruleTier": 0,
             "visibility": "Show",
             "styleName": "T1",
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Maven's",
                 "Incandescent Invitation",

@@ -192,6 +192,7 @@
             "ruleTier": 6,
             "visibility": "Show",
             "styleName": "T0",
+            "BaseTypeOperator": "",
             "BaseType": ["Scarab"]
         }
     ]

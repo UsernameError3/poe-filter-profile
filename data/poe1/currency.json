@@ -194,6 +194,7 @@
             "visibility": "Show",
             "styleName": "T1",
             "Class": ["Currency"],
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Deafening Essence of",
                 "Essence of Delirium",
@@ -442,6 +443,7 @@
             "visibility": "Show",
             "styleName": "T2",
             "Class": ["Currency"],
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Shrieking Essence of"
             ]
@@ -581,6 +583,7 @@
             "visibility": "Show",
             "styleName": "T3",
             "Class": ["Currency"],
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Screaming Essence of"
             ]
@@ -659,6 +662,7 @@
             "visibility": "Show",
             "styleName": "T4",
             "Class": ["Currency"],
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Wailing Essence of",
                 "Weeping Essence of",

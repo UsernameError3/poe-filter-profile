@@ -32,7 +32,7 @@ const hexToRGB = (hex) => {
 const filterRulePropertyListRaw = (property, operator, list) => {
     if (list.length) {
         let value = list.map(r => `${r}`).join(' ');
-        if (operator) {
+        if (operator && operator != "") {
             return `    ${property} ${operator} ${value}`
         } else {
             return `    ${property} ${value}`
@@ -47,7 +47,7 @@ const filterRulePropertyList = (property, operator, list) => {
     if (list.length) {
         let value = list.map(r => `"${r}"`).join(' ');
         
-        if (operator) {
+        if (operator && operator != "") {
             return `    ${property} ${operator} ${value}`
         } else {
             return `    ${property} ${value}`
@@ -60,7 +60,7 @@ const filterRulePropertyList = (property, operator, list) => {
 // Single Property Line
 const filterRuleProperty = (property, operator, value) => {
     if (value !== "" && value !== null) {
-        if (operator) {
+        if (operator && operator != "") {
             return `    ${property} ${operator} ${value}`
         } else {
             return `    ${property} ${value}`
@@ -122,13 +122,25 @@ const buildFilterRule = (rule, style) => {
         properties.push(filterRuleProperty(`Rarity`, null, rule.Rarity));
     }
     if (rule.Class) {
-        properties.push(filterRulePropertyList(`Class`, '==', rule.Class));
+        if (rule.ClassOperator) {
+            let ClassOperator = rule.ClassOperator;
+            properties.push(filterRulePropertyList(`Class`, ClassOperator, rule.Class));
+        } else {
+            let ClassOperator = '==';
+            properties.push(filterRulePropertyList(`Class`, ClassOperator, rule.Class));
+        }
     }
     if (rule.BaseDefencePercentile) {
         properties.push(filterRuleProperty(`BaseDefencePercentile`, null, rule.BaseDefencePercentile));
     }
     if (rule.BaseType) {
-        properties.push(filterRulePropertyList(`BaseType`, '==', rule.BaseType));
+        if (rule.BaseTypeOperator) {
+            let BaseTypeOperator = rule.BaseTypeOperator;
+            properties.push(filterRulePropertyList(`BaseType`, BaseTypeOperator, rule.BaseType));
+        } else {
+            let BaseTypeOperator = '==';
+            properties.push(filterRulePropertyList(`BaseType`, BaseTypeOperator, rule.BaseType));
+        }
     }
     if (rule.HasExplicitMod) {
         properties.push(filterRuleProperty(`HasExplicitMod`, null, rule.HasExplicitMod));

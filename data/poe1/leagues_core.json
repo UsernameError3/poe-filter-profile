@@ -250,7 +250,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T3",
-            "BaseType": ["Contracts"]
+            "Class": ["Contracts"]
         },
         {
             "ruleName": "League - Heist: Blueprints",
@@ -258,7 +258,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T3",
-            "BaseType": ["Blueprints"]
+            "Class": ["Blueprints"]
         },
         {
             "ruleName": "League - Heist: Currency",

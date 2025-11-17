@@ -74,6 +74,7 @@
             "visibility": "Show",
             "styleName": "T0",
             "Class": ["Support Gems"],
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Awakened"
             ]
@@ -117,6 +118,10 @@
             "visibility": "Show",
             "styleName": "T1",
             "Class": ["Skill Gems"],
+            "BaseTypeOperator": "",
+            "BaseType": [
+                "Vaal"
+            ],
             "GemLevel": ">= 20",
             "Quality": ">= 20"
         },
@@ -146,6 +151,10 @@
             "visibility": "Show",
             "styleName": "T2",
             "Class": ["Skill Gems"],
+            "BaseTypeOperator": "",
+            "BaseType": [
+                "Vaal"
+            ],
             "Quality": ">= 15"
         },
         {
@@ -172,6 +181,7 @@
             "visibility": "Show",
             "styleName": "T3B",
             "Class": ["Skill Gems"],
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Vaal"
             ]

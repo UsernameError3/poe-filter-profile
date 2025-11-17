@@ -57,6 +57,7 @@
             "ruleTier": 1,
             "visibility": "Hide",
             "styleName": "Hide",
+            "ClassOperator": "",
             "Class": [
                 "Abyss Jewels",
                 "Amulets",
