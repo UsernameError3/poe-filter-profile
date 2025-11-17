@@ -89,7 +89,7 @@
             "visibility": "Show",
             "styleName": "T1",
             "Class": ["Maps"],
-            "HasInfluence": "Shaper"
+            "HasInfluence": ["Shaper"]
         },
         {
             "ruleName": "Map - Elder",
@@ -98,7 +98,7 @@
             "visibility": "Show",
             "styleName": "T1",
             "Class": ["Maps"],
-            "HasInfluence": "Elder"
+            "HasInfluence": ["Elder"]
         },
         {
             "ruleName": "Map - Conquerors",
@@ -107,7 +107,7 @@
             "visibility": "Show",
             "styleName": "T1",
             "Class": ["Maps"],
-            "HasInfluence": "Crusader Hunter Redeemer Warlord"
+            "HasInfluence": ["Crusader", "Hunter", "Redeemer", "Warlord"]
         },
         {
             "ruleName": "Map - Vaal Temple",

@@ -28,6 +28,16 @@ const hexToRGB = (hex) => {
     }
 };
 
+// Single Property Line with no formatting for Lists
+const filterRulePropertyListRaw = (property, operator, list) => {
+    if (list.length) {
+        let value = list.map(r => `${r}`).join(' ');
+        return `    ${property} ${operator} ${value}`
+    } else {
+        return;
+    }
+};
+
 // Single Property Line for Lists
 const filterRulePropertyList = (property, operator, list) => {
     if (list.length) {
@@ -63,109 +73,112 @@ const buildFilterRule = (rule, style) => {
     
     // Add Conditional Array Validation
     if (rule.ItemLevel) {
-        
+        properties.push(filterRuleProperty(`ItemLevel`, '', rule.ItemLevel));
     }
     if (rule.GemLevel) {
-        
+        properties.push(filterRuleProperty(`GemLevel`, '', rule.GemLevel));
     }
     if (rule.AreaLevel) {
-        
+        properties.push(filterRuleProperty(`AreaLevel`, '', rule.AreaLevel));
     }
     if (rule.DropLevel) {
-        
+        properties.push(filterRuleProperty(`DropLevel`, '', rule.DropLevel));
     }
     if (rule.Identified) {
-        
+        properties.push(filterRuleProperty(`Identified`, '', rule.Identified));
     }
     if (rule.Corrupted) {
-        
+        properties.push(filterRuleProperty(`Corrupted`, '', rule.Corrupted));
     }
     if (rule.CorruptedMods) {
-        
+        properties.push(filterRuleProperty(`CorruptedMods`, '', rule.CorruptedMods));
     }
     if (rule.Mirrored) {
-        
+        properties.push(filterRuleProperty(`Mirrored`, '', rule.Mirrored));
     }
     if (rule.LinkedSockets) {
-        
+        properties.push(filterRuleProperty(`LinkedSockets`, '', rule.LinkedSockets));
     }
     if (rule.SocketGroup) {
-        
+        properties.push(filterRuleProperty(`SocketGroup`, '', rule.SocketGroup));
     }
     if (rule.Sockets) {
-        
+        properties.push(filterRuleProperty(`Sockets`, '', rule.Sockets));
     }
     if (rule.Rarity) {
-        
+        properties.push(filterRuleProperty(`Rarity`, '', rule.Rarity));
     }
     if (rule.Class) {
         properties.push(filterRulePropertyList(`Class`, '==', rule.Class));
     }
     if (rule.BaseDefencePercentile) {
-        
+        properties.push(filterRuleProperty(`BaseDefencePercentile`, '', rule.BaseDefencePercentile));
     }
     if (rule.BaseType) {
         properties.push(filterRulePropertyList(`BaseType`, '==', rule.BaseType));
     }
     if (rule.HasExplicitMod) {
-        
+        properties.push(filterRuleProperty(`HasExplicitMod`, '', rule.HasExplicitMod));
     }
     if (rule.HasInfluence) {
-        
+        properties.push(filterRulePropertyListRaw(`HasInfluence`, '', rule.HasInfluence));
     }
     if (rule.HasSearingExarchImplicit) {
-        
+        properties.push(filterRuleProperty(`HasSearingExarchImplicit`, '', rule.HasSearingExarchImplicit));
     }
     if (rule.HasEaterOfWorldsImplicit) {
-        
+        properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, '', rule.HasEaterOfWorldsImplicit));
+    }
+    if (rule.MemoryStrands) {
+        properties.push(filterRuleProperty(`MemoryStrands`, '', rule.MemoryStrands));
     }
     if (rule.SynthesisedItem) {
-        
+        properties.push(filterRuleProperty(`SynthesisedItem`, '', rule.SynthesisedItem));
     }
     if (rule.FracturedItem) {
-        
+        properties.push(filterRuleProperty(`FracturedItem`, '', rule.FracturedItem));
     }
     if (rule.AnyEnchantment) {
-        
+        properties.push(filterRuleProperty(`AnyEnchantment`, '', rule.AnyEnchantment));
     }
     if (rule.EnchantmentPassiveNum) {
-        
+        properties.push(filterRuleProperty(`EnchantmentPassiveNum`, '', rule.EnchantmentPassiveNum));
     }
     if (rule.EnchantmentPassiveNode) {
-        
+        properties.push(filterRuleProperty(`EnchantmentPassiveNode`, '', rule.EnchantmentPassiveNode));
     }
     if (rule.GemQualityType) {
-        
+        properties.push(filterRuleProperty(`GemQualityType`, '', rule.GemQualityType));
     }
     if (rule.AlternateQuality) {
-        
+        properties.push(filterRuleProperty(`AlternateQuality`, '', rule.AlternateQuality));
     }
     if (rule.Quality) {
-        
+        properties.push(filterRuleProperty(`Quality`, '', rule.Quality));
     }
     if (rule.Replica) {
-        
+        properties.push(filterRuleProperty(`Replica`, '', rule.Replica));
     }
     if (rule.MapTier) {
-        
+        properties.push(filterRuleProperty(`MapTier`, '', rule.MapTier));
     }
     if (rule.BlightedMap) {
-        
+        properties.push(filterRuleProperty(`BlightedMap`, '', rule.BlightedMap));
     }
     if (rule.UberBlightedMap) {
-        
+        properties.push(filterRuleProperty(`UberBlightedMap`, '', rule.UberBlightedMap));
     }
     if (rule.Scourged) {
-        
+        properties.push(filterRuleProperty(`Scourged`, '', rule.Scourged));
     }
     if (rule.StackSize) {
-        
+        properties.push(filterRuleProperty(`StackSize`, '', rule.StackSize));
     }
     if (rule.Width) {
-        
+        properties.push(filterRuleProperty(`Width`, '', rule.Width));
     }
     if (rule.Height) {
-        
+        properties.push(filterRuleProperty(`Height`, '', rule.Height));
     }
     
     // Styles Added Last:
