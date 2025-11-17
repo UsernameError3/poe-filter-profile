@@ -122,7 +122,7 @@ const buildFilterRule = (rule, style) => {
         properties.push(filterRuleProperty(`Rarity`, null, rule.Rarity));
     }
     if (rule.Class) {
-        if (rule.ClassOperator) {
+        if (rule.ClassOperator  || rule.ClassOperator == "") {
             let ClassOperator = rule.ClassOperator;
             properties.push(filterRulePropertyList(`Class`, ClassOperator, rule.Class));
         } else {
@@ -134,7 +134,7 @@ const buildFilterRule = (rule, style) => {
         properties.push(filterRuleProperty(`BaseDefencePercentile`, null, rule.BaseDefencePercentile));
     }
     if (rule.BaseType) {
-        if (rule.BaseTypeOperator) {
+        if (rule.BaseTypeOperator || rule.BaseTypeOperator == "") {
             let BaseTypeOperator = rule.BaseTypeOperator;
             properties.push(filterRulePropertyList(`BaseType`, BaseTypeOperator, rule.BaseType));
         } else {
