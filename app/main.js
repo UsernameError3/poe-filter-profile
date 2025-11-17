@@ -172,6 +172,9 @@ const buildFilterRule = (rule, style) => {
     if (rule.EnchantmentPassiveNode) {
         properties.push(filterRuleProperty(`EnchantmentPassiveNode`, null, rule.EnchantmentPassiveNode));
     }
+    if (rule.TransfiguredGem) {
+        properties.push(filterRuleProperty(`TransfiguredGem`, null, rule.TransfiguredGem));
+    }
     if (rule.GemQualityType) {
         properties.push(filterRuleProperty(`GemQualityType`, null, rule.GemQualityType));
     }
