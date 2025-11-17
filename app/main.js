@@ -270,7 +270,7 @@ const buildFilterStyle = async (json) => {
     if (json.PlayEffect) {
         style.push(filterStyleProperty('PlayEffect', json.PlayEffect));
     }
-    if (json.Continue) {
+    if (json.Continue == "") {
         style.push(filterStyleProperty('Continue', json.Continue));
     }
     // Join Style Array
