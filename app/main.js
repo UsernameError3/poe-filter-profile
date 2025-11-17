@@ -32,7 +32,11 @@ const hexToRGB = (hex) => {
 const filterRulePropertyListRaw = (property, operator, list) => {
     if (list.length) {
         let value = list.map(r => `${r}`).join(' ');
-        return `    ${property} ${operator} ${value}`
+        if (operator) {
+            return `    ${property} ${operator} ${value}`
+        } else {
+            return `    ${property} ${value}`
+        }
     } else {
         return;
     }
@@ -42,7 +46,12 @@ const filterRulePropertyListRaw = (property, operator, list) => {
 const filterRulePropertyList = (property, operator, list) => {
     if (list.length) {
         let value = list.map(r => `"${r}"`).join(' ');
-        return `    ${property} ${operator} ${value}`
+        
+        if (operator) {
+            return `    ${property} ${operator} ${value}`
+        } else {
+            return `    ${property} ${value}`
+        }
     } else {
         return;
     }
@@ -51,7 +60,11 @@ const filterRulePropertyList = (property, operator, list) => {
 // Single Property Line
 const filterRuleProperty = (property, operator, value) => {
     if (value !== "" && value !== null) {
-        return `    ${property} ${operator} ${value}`
+        if (operator) {
+            return `    ${property} ${operator} ${value}`
+        } else {
+            return `    ${property} ${value}`
+        }
     } else {
         return;
     }
