@@ -11,14 +11,120 @@
     },
     "rules": [
         {
-            "ruleName": "Mirror",
-            "ruleSortIndex": 0,
-            "ruleTier": 0,
+            "ruleName": "League - Breach: Boss",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
             "visibility": "Show",
-            "styleName": "Mirror",
-            "Class": ["Currency"],
+            "styleName": "T1",
+            "Class": ["Grafts"],
             "BaseType": [
-                "Mirror of Kalandra"
+                "Hivebrain Gland"
+            ]
+        },
+        {
+            "ruleName": "League - Breach: T1 Wombgifts",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Wombgifts"],
+            "BaseType": [
+                "Ancient Wombgift",
+                "Mysterious Wombgift",
+                "Lavish Wombgift"
+            ]
+        },
+        {
+            "ruleName": "League - Breach: T2 Wombgifts",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Wombgifts"],
+            "BaseType": [
+                "Provisioning Wombgift",
+                "Growing Wombgift"
+            ]
+        },
+        {
+            "ruleName": "League - Breach: T1 Grafts",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Grafts"],
+            "BaseType": [
+                "Aegis Tulgraft",
+                "Jolting Eshgraft"
+            ]
+        },
+        {
+            "ruleName": "League - Breach: T2 Grafts",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Grafts"],
+            "BaseType": [
+                "Battering Uulgraft",
+                "Draining Eshgraft",
+                "Erupting Xophgraft",
+                "Flamecaller Xophgraft",
+                "Freezing Tulgraft",
+                "Hardening Uulgraft",
+                "Impaling Uulgraft",
+                "Molten Xophgraft",
+                "Replicating Eshgraft",
+                "Spiking Uulgraft",
+                "Squalling Tulgraft",
+                "Stoking Xophgraft",
+                "Storming Eshgraft",
+                "Summoning Tulgraft",
+                "Fleshgraft"
+            ]
+        },
+        {
+            "ruleName": "League - Breach: T1 Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Grafts"],
+            "BaseType": [
+                "Foulborn Orb of Augmentation",
+                "Foulborn Regal Orb",
+                "Foulborn Exalted Orb"
+            ]
+        },
+        {
+            "ruleName": "League - Breach: T2 Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Grafts"],
+            "BaseType": [
+                "Augmentation Implant",
+                "Regal Implant",
+                "Exalted Implant",
+                "Unstable Implant"
+            ]
+        },
+        {
+            "ruleName": "League - Breach: Currency",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": ["Grafts"],
+            "BaseType": [
+                "Augmentation Implant",
+                "Regal Implant",
+                "Exalted Implant",
+                "Unstable Implant",
+                "Foulborn Orb of Augmentation",
+                "Foulborn Regal Orb",
+                "Foulborn Exalted Orb"
             ]
         }
     ]

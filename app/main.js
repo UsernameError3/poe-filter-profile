@@ -164,6 +164,9 @@ const buildFilterRule = (rule, style) => {
     if (rule.SynthesisedItem) {
         properties.push(filterRuleProperty(`SynthesisedItem`, null, rule.SynthesisedItem));
     }
+    if (rule.Foulborn) {
+        properties.push(filterRuleProperty(`Foulborn`, null, rule.Foulborn));
+    }
     if (rule.FracturedItem) {
         properties.push(filterRuleProperty(`FracturedItem`, null, rule.FracturedItem));
     }

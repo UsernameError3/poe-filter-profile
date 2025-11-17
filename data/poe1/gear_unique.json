@@ -186,6 +186,15 @@
             "CorruptedMods": 1
         },
         {
+            "ruleName": "Exception - Foulborn",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Rarity": "Unique",
+            "Foulborn": "True"
+        },
+        {
             "ruleName": "Exception - 6 Link",
             "ruleSortIndex": 0,
             "ruleTier": 0,
