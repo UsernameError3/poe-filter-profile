@@ -149,16 +149,7 @@
             "BaseType": [
                 "Maven's Chisel of Proliferation",
                 "Maven's Chisel of Scarabs",
-                "Maven's Chisel of Avarice",
-                "Skittering Delirium Orb",
-                "Fine Delirium Orb",
-                "Foreboding Delirium Orb",
-                "Fossilised Delirium Orb",
-                "Thaumaturge's Delirium Orb",
-                "Blighted Delirium Orb",
-                "Abyssal Delirium Orb",
-                "Singular Delirium Orb",
-                "Timeless Delirium Orb"
+                "Maven's Chisel of Avarice"
             ]
         },
         {
@@ -349,15 +340,7 @@
                 "Maven's Chisel of Avarice",
                 "Maven's Chisel of Divination",
                 "Maven's Chisel of Procurement",
-                "Crescent Splinter",
-                "Ritual Vessel",
-                "Armoursmith's Delirium Orb",
-                "Blacksmith's Delirium Orb",
-                "Cartographer's Delirium Orb",
-                "Diviner's Delirium Orb",
-                "Fragmented Delirium Orb",
-                "Jeweller's Delirium Orb",
-                "Obscured Delirium Orb"
+                "Crescent Splinter"
             ]
         },
         {
@@ -372,10 +355,7 @@
                 "Vial of Consequence",
                 "Vial of Dominance",
                 "Vial of Fate",
-                "Vial of the Ritual",
-                "Potent Chaotic Resonator",
-                "Powerful Chaotic Resonator",
-                "Primitive Chaotic Resonator"
+                "Vial of the Ritual"
             ]
         },
         {
@@ -389,37 +369,6 @@
                 "Tainted Catalyst",
                 "Prismatic Catalyst",
                 "Fertile Catalyst"
-            ]
-        },
-        {
-            "ruleName": "Fossils",
-            "ruleSortIndex": 6,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T2",
-            "Class": ["Currency"],
-            "BaseType": [
-                "Aberrant Fossil",
-                "Aetheric Fossil",
-                "Bloodstained Fossil",
-                "Bound Fossil",
-                "Corroded Fossil",
-                "Deft Fossil",
-                "Dense Fossil",
-                "Frigid Fossil",
-                "Fundamental Fossil",
-                "Gilded Fossil",
-                "Jagged Fossil",
-                "Lucent Fossil",
-                "Metallic Fossil",
-                "Opulent Fossil",
-                "Prismatic Fossil",
-                "Pristine Fossil",
-                "Sanctified Fossil",
-                "Scorched Fossil",
-                "Serrated Fossil",
-                "Shuddering Fossil",
-                "Tangled Fossil"
             ]
         },
         {

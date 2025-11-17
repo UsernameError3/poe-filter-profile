@@ -33,14 +33,6 @@
     },
     "rules": [
         {
-            "ruleName": "Exceptions",
-            "ruleSortIndex": 0,
-            "ruleTier": 0,
-            "visibility": "Show",
-            "styleName": "T0",
-            "BaseType": []
-        },
-        {
             "ruleName": "League - Betrayal: Boss",
             "ruleSortIndex": 1,
             "ruleTier": 1,
@@ -92,6 +84,58 @@
             "visibility": "Show",
             "styleName": "T0",
             "BaseType": ["Allflame"]
+        },
+        {
+            "ruleName": "League - Blight: T0 Oils",
+            "ruleSortIndex": 5,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Tainted Oil",
+                "Prismatic Oil",
+                "Golden Oil"
+            ]
+        },
+        {
+            "ruleName": "League - Blight: T1 Oils",
+            "ruleSortIndex": 5,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Silver Oil"
+            ]
+        },
+        {
+            "ruleName": "League - Blight: T2 Oils",
+            "ruleSortIndex": 5,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Opalescent Oil",
+                "Reflective Oil",
+                "Black Oil",
+                "Crimson Oil"
+            ]
+        },
+        {
+            "ruleName": "League - Blight: T3 Oils",
+            "ruleSortIndex": 5,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Azure Oil",
+                "Indigo Oil",
+                "Teal Oil",
+                "Violet Oil",
+                "Amber Oil",
+                "Clear Oil",
+                "Sepia Oil",
+                "Verdant Oil"
+            ]
         },
         {
             "ruleName": "League - Breach (Legacy): Flawless Breachstones",
@@ -176,12 +220,29 @@
             "BaseType": ["Simulacrum Splinter"]
         },
         {
-            "ruleName": "League - Delve: Consumables",
+            "ruleName": "League - Delirium: Orbs",
             "ruleSortIndex": 14,
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T2",
-            "BaseType": []
+            "BaseType": [
+                "Skittering Delirium Orb",
+                "Fine Delirium Orb",
+                "Foreboding Delirium Orb",
+                "Fossilised Delirium Orb",
+                "Thaumaturge's Delirium Orb",
+                "Blighted Delirium Orb",
+                "Abyssal Delirium Orb",
+                "Singular Delirium Orb",
+                "Timeless Delirium Orb",
+                "Armoursmith's Delirium Orb",
+                "Blacksmith's Delirium Orb",
+                "Cartographer's Delirium Orb",
+                "Diviner's Delirium Orb",
+                "Fragmented Delirium Orb",
+                "Jeweller's Delirium Orb",
+                "Obscured Delirium Orb"
+            ]
         },
         {
             "ruleName": "League - Delve: Resonators",
@@ -189,23 +250,101 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T1",
-            "BaseType": []
+            "BaseType": [
+                "Potent Chaotic Resonator",
+                "Powerful Chaotic Resonator",
+                "Primitive Chaotic Resonator"
+            ]
         },
         {
-            "ruleName": "League - Delve: Fossils",
+            "ruleName": "League - Delve: T0 Fossils",
+            "ruleSortIndex": 16,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": [
+                "Faceted Fossil",
+                "Fractured Fossil",
+                "Glyphic Fossil",
+                "Hollow Fossil"
+            ]
+        },
+        {
+            "ruleName": "League - Delve: T2 Fossils",
             "ruleSortIndex": 16,
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T2",
-            "BaseType": []
+            "BaseType": [
+                "Aberrant Fossil",
+                "Aetheric Fossil",
+                "Bloodstained Fossil",
+                "Bound Fossil",
+                "Corroded Fossil",
+                "Deft Fossil",
+                "Dense Fossil",
+                "Frigid Fossil",
+                "Fundamental Fossil",
+                "Gilded Fossil",
+                "Jagged Fossil",
+                "Lucent Fossil",
+                "Metallic Fossil",
+                "Opulent Fossil",
+                "Prismatic Fossil",
+                "Pristine Fossil",
+                "Sanctified Fossil",
+                "Scorched Fossil",
+                "Serrated Fossil",
+                "Shuddering Fossil",
+                "Tangled Fossil"
+            ]
         },
         {
-            "ruleName": "League - Essence: Essences",
+            "ruleName": "League - Essence: T1 Essences",
+            "ruleSortIndex": 17,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseTypeOperator": "",
+            "BaseType": [
+                "Deafening Essence of",
+                "Essence of Delirium",
+                "Essence of Horror",
+                "Essence of Hysteria",
+                "Essence of Insanity"
+            ]
+        },
+        {
+            "ruleName": "League - Essence: T2 Essences",
             "ruleSortIndex": 17,
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T2",
-            "BaseType": []
+            "BaseTypeOperator": "",
+            "BaseType": ["Shrieking Essence of"]
+        },
+        {
+            "ruleName": "League - Essence: T3 Essences",
+            "ruleSortIndex": 17,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseTypeOperator": "",
+            "BaseType": ["Screaming Essence of"]
+        },
+        {
+            "ruleName": "League - Essence: T4 Essences",
+            "ruleSortIndex": 17,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseTypeOperator": "",
+            "BaseType": [
+                "Wailing Essence of",
+                "Weeping Essence of",
+                "Muttering Essence of",
+                "Whispering Essence of"
+            ]
         },
         {
             "ruleName": "League - Expedition: Logbook",
@@ -221,7 +360,12 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T4",
-            "BaseType": []
+            "BaseType": [
+                "Burial Medallion",
+                "Exotic Coinage",
+                "Scrap Metal",
+                "Astragali"
+            ]
         },
         {
             "ruleName": "League - Harvest: Boss",
@@ -339,6 +483,48 @@
             ]
         },
         {
+            "ruleName": "League - Legion: T2 Incubators",
+            "ruleSortIndex": 29,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Fragmented Incubator",
+                "Maddening Incubator",
+                "Diviner's Incubator",
+                "Fossilised Incubator",
+                "Infused Incubator",
+                "Ornate Incubator"
+            ]
+        },
+        {
+            "ruleName": "League - Legion: T3 Incubators",
+            "ruleSortIndex": 29,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                "Abyssal Incubator",
+                "Blighted Incubator",
+                "Cartographer's Incubator",
+                "Celestial Armoursmith's Incubator",
+                "Celestial Blacksmith's Incubator",
+                "Celestial Jeweller's Incubator",
+                "Foreboding Incubator",
+                "Geomancer's Incubator",
+                "Kalguuran Incubator",
+                "Maddening Incubator",
+                "Mysterious Incubator",
+                "Obscured Incubator",
+                "Otherworldly Incubator",
+                "Singular Incubator",
+                "Skittering Incubator",
+                "Thaumaturge's Incubator",
+                "Fragmented Incubator",
+                "Primal Incubator"
+            ]
+        },
+        {
             "ruleName": "League - Ritual: Boss",
             "ruleSortIndex": 30,
             "ruleTier": 2,
@@ -352,7 +538,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T3",
-            "BaseType": ["Blood-filled Vessel"]
+            "BaseType": ["Blood-filled Vessel", "Ritual Vessel"]
         },
         {
             "ruleName": "League - Sanctum: Tomes",
@@ -369,6 +555,35 @@
             "visibility": "Show",
             "styleName": "T2",
             "BaseType": ["Inscribed Ultimatum"]
+        },
+        {
+            "ruleName": "League - Ultimatum: T1 Catalysts",
+            "ruleSortIndex": 34,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Tainted Catalyst",
+                "Prismatic Catalyst",
+                "Fertile Catalyst"
+            ]
+        },
+        {
+            "ruleName": "League - Ultimatum: T2 Catalysts",
+            "ruleSortIndex": 35,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Intrinsic Catalyst",
+                "Tempering Catalyst",
+                "Noxious Catalyst",
+                "Turbulent Catalyst",
+                "Unstable Catalyst",
+                "Imbued Catalyst",
+                "Accelerating Catalyst",
+                "Abrasive Catalyst"
+            ]
         }
     ]
 }

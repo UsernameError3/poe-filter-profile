@@ -288,7 +288,9 @@
             "visibility": "Show",
             "styleName": "Unique",
             "Rarity": "Unique",
-            "BaseType": []
+            "BaseType": [
+                "Prismatic Jewel"
+            ]
         },
         {
             "ruleName": "Tier 1",
@@ -301,7 +303,6 @@
                 "Girded Tower Shield",
                 "Gold Flask",
                 "Papyrus Relic",
-                "Prismatic Jewel",
                 "Ring",
                 "Ruby Flask",
                 "Savant's Robe",
