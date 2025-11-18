@@ -41,48 +41,6 @@
             "styleName": "T2",
             "Rarity": "Magic",
             "AnyEnchantment": "True"
-        },
-        {
-            "ruleName": "Magics - All",
-            "ruleSortIndex": 1,
-            "ruleTier": 1,
-            "visibility": "Hide",
-            "styleName": "Magic",
-            "ItemLevelOperator": ">=",
-            "ItemLevel": "68",
-            "Rarity": "Magic",
-            "Class": [
-                "Amulets",
-                "Belts",
-                "Body Armours",
-                "Boots",
-                "Bows",
-                "Claws",
-                "Daggers",
-                "Fishing Rods",
-                "Gloves",
-                "Heist Brooches",
-                "Heist Cloaks",
-                "Heist Gear",
-                "Heist Tools",
-                "Helmets",
-                "One Hand Axes",
-                "One Hand Maces",
-                "One Hand Swords",
-                "Quivers",
-                "Rings",
-                "Rune Daggers",
-                "Sceptres",
-                "Shields",
-                "Staves",
-                "Thrusting One Hand Swords",
-                "Trinkets",
-                "Two Hand Axes",
-                "Two Hand Maces",
-                "Two Hand Swords",
-                "Wands",
-                "Warstaves"
-            ]
         }
     ]
 }
