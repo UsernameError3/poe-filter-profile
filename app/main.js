@@ -168,7 +168,13 @@ const buildFilterRule = (rule, style) => {
         properties.push(filterRuleProperty(`HasCruciblePassiveTree`, null, rule.HasCruciblePassiveTree));
     }
     if (rule.MemoryStrands) {
-        properties.push(filterRuleProperty(`MemoryStrands`, null, rule.MemoryStrands));
+        if (rule.MemoryStrandsOperator  || rule.MemoryStrandsOperator == "") {
+            let MemoryStrandsOperator = rule.MemoryStrandsOperator;
+            properties.push(filterRuleProperty(`MemoryStrands`, MemoryStrandsOperator, rule.MemoryStrands));
+        } else {
+            let MemoryStrandsOperator = '==';
+            properties.push(filterRuleProperty(`MemoryStrands`, MemoryStrandsOperator, rule.MemoryStrands));
+        }
     }
     if (rule.SynthesisedItem) {
         properties.push(filterRuleProperty(`SynthesisedItem`, null, rule.SynthesisedItem));
