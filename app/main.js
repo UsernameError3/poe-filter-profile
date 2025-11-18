@@ -159,10 +159,22 @@ const buildFilterRule = (rule, style) => {
         properties.push(filterRulePropertyListRaw(`HasInfluence`, null, rule.HasInfluence));
     }
     if (rule.HasSearingExarchImplicit) {
-        properties.push(filterRuleProperty(`HasSearingExarchImplicit`, null, rule.HasSearingExarchImplicit));
+        if (rule.HasSearingExarchImplicitOperator  || rule.HasSearingExarchImplicitOperator == "") {
+            let HasSearingExarchImplicitOperator = rule.HasSearingExarchImplicitOperator;
+            properties.push(filterRuleProperty(`HasSearingExarchImplicit`, HasSearingExarchImplicitOperator, rule.HasSearingExarchImplicit));
+        } else {
+            let HasSearingExarchImplicitOperator = '==';
+            properties.push(filterRuleProperty(`HasSearingExarchImplicit`, HasSearingExarchImplicitOperator, rule.HasSearingExarchImplicit));
+        }
     }
     if (rule.HasEaterOfWorldsImplicit) {
-        properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, null, rule.HasEaterOfWorldsImplicit));
+        if (rule.HasEaterOfWorldsImplicitOperator  || rule.HasEaterOfWorldsImplicitOperator == "") {
+            let HasEaterOfWorldsImplicitOperator = rule.HasEaterOfWorldsImplicitOperator;
+            properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, HasEaterOfWorldsImplicitOperator, rule.HasEaterOfWorldsImplicit));
+        } else {
+            let HasEaterOfWorldsImplicitOperator = '==';
+            properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, HasEaterOfWorldsImplicitOperator, rule.HasEaterOfWorldsImplicit));
+        }
     }
     if (rule.HasCruciblePassiveTree) {
         properties.push(filterRuleProperty(`HasCruciblePassiveTree`, null, rule.HasCruciblePassiveTree));
