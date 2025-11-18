@@ -1,0 +1,372 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {"ruleSortIndex": 0, "ruleSortCategory": "Exceptions"},
+            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Filtering"}
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Rares - Fishing Rods",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Fishing Rods"]
+        },
+        {
+            "ruleName": "Rares - Heist: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Accumulator Wand",
+                "Alternating Sceptre",
+                "Anarchic Spiritblade",
+                "Apex Cleaver",
+                "Astrolabe Amulet",
+                "Banishing Blade",
+                "Battery Staff",
+                "Blasting Blade",
+                "Boom Mace",
+                "Capricious Spiritblade",
+                "Cogwork Ring",
+                "Cold-attuned Buckler",
+                "Composite Ring",
+                "Congregator Wand",
+                "Crack Mace",
+                "Crushing Force Magnifier",
+                "Disapprobation Axe",
+                "Eventuality Rod",
+                "Flashfire Blade",
+                "Focused Amulet",
+                "Foundry Bow",
+                "Geodesic Ring",
+                "Heat-attuned Tower Shield",
+                "Helical Ring",
+                "Honed Cleaver",
+                "Impact Force Propagator",
+                "Infernal Blade",
+                "Magmatic Tower Shield",
+                "Malign Fangs",
+                "Manifold Ring",
+                "Mechalarm Belt",
+                "Mechanical Belt",
+                "Micro-Distillery Belt",
+                "Oscillating Sceptre",
+                "Pneumatic Dagger",
+                "Polar Buckler",
+                "Potentiality Rod",
+                "Pressurised Dagger",
+                "Psychotic Axe",
+                "Ratcheting Ring",
+                "Reciprocation Staff",
+                "Simplex Amulet",
+                "Solarine Bow",
+                "Stabilising Sceptre",
+                "Subsuming Spirit Shield",
+                "Transfer-attuned Spirit Shield",
+                "Void Fangs"
+            ]
+        },
+        {
+            "ruleName": "Rares - Heist: Trinkets",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Class": ["Trinkets"]
+        },
+        {
+            "ruleName": "Rares - Heist: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Class": [
+                "Heist Brooches",
+                "Heist Cloaks",
+                "Heist Gear",
+                "Heist Tools"
+            ]
+        },
+        {
+            "ruleName": "Rares - Ritual: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Aetherwind Gloves",
+                "Apprentice Gloves",
+                "Archdemon Crown",
+                "Atonement Mask",
+                "Basemetal Treads",
+                "Blizzard Crown",
+                "Brimstone Treads",
+                "Cloudwhisper Boots",
+                "Darksteel Treads",
+                "Demon Crown",
+                "Dreamquest Slippers",
+                "Duskwalk Slippers",
+                "Gale Crown",
+                "Guarding Gauntlets",
+                "Imp Crown",
+                "Leyline Gloves",
+                "Nexus Gloves",
+                "Nightwind Slippers",
+                "Penitent Mask",
+                "Preserving Gauntlets",
+                "Sorrow Mask",
+                "Stormrider Boots",
+                "Thwarting Gauntlets",
+                "Tinker Gloves",
+                "Trapsetter Gloves",
+                "Windbreak Boots",
+                "Winter Crown"
+            ]
+        },
+        {
+            "ruleName": "Rares - Kalandra: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Dusk Ring",
+                "Gloam Ring",
+                "Penumbra Ring",
+                "Shadowed Ring",
+                "Tenebrous Ring"
+            ]
+        },
+        {
+            "ruleName": "Rares - Expedition: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Runic Crest",
+                "Runic Crown",
+                "Runic Gages",
+                "Runic Gauntlets",
+                "Runic Gloves",
+                "Runic Greaves",
+                "Runic Helm",
+                "Runic Sabatons",
+                "Runic Sollerets"
+            ]
+        },
+        {
+            "ruleName": "Rares - Talisman: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Greatwolf Talisman",
+                "Rot Head Talisman"
+            ]
+        },
+        {
+            "ruleName": "Rares - Breach: T1 Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": [
+                "Grasping Mail"
+            ]
+        },
+        {
+            "ruleName": "Rares - Breach: T2 Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Breach Ring",
+                "Cryonic Ring",
+                "Enthalpic Ring",
+                "Formless Ring",
+                "Fugitive Ring",
+                "Organic Ring",
+                "Synaptic Ring"
+            ]
+        },
+        {
+            "ruleName": "Rares - Atziri: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Sacrificial Garb"
+            ]
+        },
+        {
+            "ruleName": "Rares - Abyss: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Stygian Vise"
+            ]
+        },
+        {
+            "ruleName": "Rares - Misc: Exotic Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": [
+                "Nameless Ring",
+                "Ornate Quiver",
+                "Prismatic Jewel",
+                "Ring",
+                "Ruby Amulet",
+                "Unset Amulet"
+            ]
+        },
+        {
+            "ruleName": "Rares - Memory Strand: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "MemoryStrandsOperator": ">=",
+            "MemoryStrands": 1,
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 82,
+            "BaseType": [
+                "Nameless Ring",
+                "Ornate Quiver",
+                "Prismatic Jewel",
+                "Ring",
+                "Ruby Amulet",
+                "Unset Amulet"
+            ]
+        },
+        {
+            "ruleName": "Rares - Crucible: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T0",
+            "HasCruciblePassiveTree": "True"
+        },
+        {
+            "ruleName": "Rares - Double Corrupt: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "CorruptedMods": 2
+        },
+        {
+            "ruleName": "Rares - Synthesised: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "SynthesisedItem": "True"
+        },
+        {
+            "ruleName": "Rares - Fractured: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "FracturedItem": "True"
+        },
+        {
+            "ruleName": "Rares - Veiled: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "HasExplicitMod": ["Veil"]
+        },
+        {
+            "ruleName": "Rares - Enchanted: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "AnyEnchantment": "True"
+        },
+        {
+            "ruleName": "Rares - Influence: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 82,
+            "HasInfluence": ["Crusader", "Hunter", "Redeemer", "Warlord", "Shaper", "Elder"],
+            "Class": [
+                "Amulets",
+                "Belts",
+                "Body Armours",
+                "Boots",
+                "Bows",
+                "Claws",
+                "Daggers",
+                "Gloves",
+                "Helmets",
+                "One Hand Axes",
+                "One Hand Maces",
+                "One Hand Swords",
+                "Quivers",
+                "Rings",
+                "Rune Daggers",
+                "Sceptres",
+                "Shields",
+                "Staves",
+                "Thrusting One Hand Swords",
+                "Two Hand Axes",
+                "Two Hand Maces",
+                "Two Hand Swords",
+                "Wands",
+                "Warstaves"
+            ]
+        },
+        {
+            "ruleName": "Rares - Influence: Exarch",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "HasSearingExarchImplicitOperator": ">=",
+            "HasSearingExarchImplicit": 1,
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 84,
+            "Class": [
+                "Body Armours",
+                "Boots",
+                "Gloves",
+                "Helmets"
+            ]
+        },
+        {
+            "ruleName": "Rares - Influence: Eater",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "HasEaterOfWorldsImplicitOperator": ">=",
+            "HasEaterOfWorldsImplicit": 1,
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 84,
+            "Class": [
+                "Body Armours",
+                "Boots",
+                "Gloves",
+                "Helmets"
+            ]
+        }
+    ]
+}
