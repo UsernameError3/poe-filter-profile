@@ -170,8 +170,8 @@
             "ruleName": "Misc - Skill Gems",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Show",
-            "styleName": "T3B",
+            "visibility": "Hide",
+            "styleName": "T4",
             "Class": ["Skill Gems"]
         },
         {
@@ -179,7 +179,7 @@
             "ruleSortIndex": 5,
             "ruleTier": 5,
             "visibility": "Show",
-            "styleName": "T3B",
+            "styleName": "T4",
             "Class": ["Skill Gems"],
             "BaseTypeOperator": "",
             "BaseType": [
@@ -190,8 +190,8 @@
             "ruleName": "Misc - Support Gems",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Show",
-            "styleName": "T3B",
+            "visibility": "Hide",
+            "styleName": "T4",
             "Class": ["Support Gems"]
         }
     ]

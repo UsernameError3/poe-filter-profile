@@ -396,16 +396,16 @@
             "ruleName": "League - Heist: Contracts",
             "ruleSortIndex": 21,
             "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T3",
+            "visibility": "Hide",
+            "styleName": "T3B",
             "Class": ["Contracts"]
         },
         {
             "ruleName": "League - Heist: Blueprints",
             "ruleSortIndex": 22,
             "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T3",
+            "visibility": "Hide",
+            "styleName": "T3B",
             "Class": ["Blueprints"]
         },
         {
@@ -413,7 +413,7 @@
             "ruleSortIndex": 23,
             "ruleTier": 2,
             "visibility": "Show",
-            "styleName": "T3",
+            "styleName": "T4",
             "BaseType": [
                 "Rogue's Marker"
             ]
