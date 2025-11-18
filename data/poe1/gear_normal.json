@@ -39,7 +39,8 @@
             "ruleTier": 1,
             "visibility": "Hide",
             "styleName": "Normal",
-            "ItemLevel": ">= 68",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": "68",
             "Rarity": "Normal",
             "Class": [
                 "Amulets",

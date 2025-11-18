@@ -48,7 +48,8 @@
             "ruleTier": 1,
             "visibility": "Hide",
             "styleName": "Magic",
-            "ItemLevel": ">= 68",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": "68",
             "Rarity": "Magic",
             "Class": [
                 "Amulets",
