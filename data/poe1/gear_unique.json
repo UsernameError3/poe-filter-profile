@@ -553,7 +553,7 @@
             "ruleName": "Tier 4",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Show",
+            "visibility": "Hide",
             "styleName": "Unique",
             "Rarity": "Unique",
             "BaseType": [
