@@ -396,7 +396,7 @@
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "visibility": "Show",
-            "styleName": "T2",
+            "styleName": "Rare",
             "ItemLevelOperator": ">=",
             "ItemLevel": 68,
             "Rarity": "Rare",
