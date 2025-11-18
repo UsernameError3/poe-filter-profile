@@ -337,8 +337,8 @@
             "ruleSortIndex": 2,
             "ruleTier": 2,
             "visibility": "Show",
-            "styleName": "Unique",
-            "Rarity": "T1",
+            "styleName": "T1",
+            "Rarity": "Unique",
             "Replica": "True",
             "BaseType": [
                 "Blood Raiment",
