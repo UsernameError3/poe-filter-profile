@@ -147,7 +147,7 @@ const buildFilterRule = (rule, style) => {
         }
     }
     if (rule.HasExplicitMod) {
-        properties.push(filterRuleProperty(`HasExplicitMod`, null, rule.HasExplicitMod));
+        properties.push(filterRulePropertyList(`HasExplicitMod`, null, rule.HasExplicitMod));
     }
     if (rule.HasInfluence) {
         properties.push(filterRulePropertyListRaw(`HasInfluence`, null, rule.HasInfluence));
@@ -157,6 +157,9 @@ const buildFilterRule = (rule, style) => {
     }
     if (rule.HasEaterOfWorldsImplicit) {
         properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, null, rule.HasEaterOfWorldsImplicit));
+    }
+    if (rule.HasCruciblePassiveTree) {
+        properties.push(filterRuleProperty(`HasCruciblePassiveTree`, null, rule.HasCruciblePassiveTree));
     }
     if (rule.MemoryStrands) {
         properties.push(filterRuleProperty(`MemoryStrands`, null, rule.MemoryStrands));

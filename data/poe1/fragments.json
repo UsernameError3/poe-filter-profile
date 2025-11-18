@@ -89,12 +89,44 @@
             "BaseType": ["Blazing Fragment"]
         },
         {
+            "ruleName": "Boss - Exarch",
+            "ruleSortIndex": 6,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": ["Incandescent Invitation"]
+        },
+        {
+            "ruleName": "Boss - Black Star",
+            "ruleSortIndex": 6,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": ["Polaric Invitation"]
+        },
+        {
             "ruleName": "Boss - Uber Eater",
             "ruleSortIndex": 7,
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "T1",
             "BaseType": ["Devouring Fragment"]
+        },
+        {
+            "ruleName": "Boss - Eater",
+            "ruleSortIndex": 7,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T1",
+            "BaseType": ["Screaming Invitation"]
+        },
+        {
+            "ruleName": "Boss - Infinite Hunger",
+            "ruleSortIndex": 7,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T2",
+            "BaseType": ["Writhing Invitation"]
         },
         {
             "ruleName": "Boss - Uber Maven",
