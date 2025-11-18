@@ -352,10 +352,11 @@ const buildFilterFile = async () => {
         clusterRules: importRuleJSON('data/poe1/clusters.json'),
         gearFlaskRules: importRuleJSON('data/poe1/gear_normal.json'),
         gearUniqueRules: importRuleJSON('data/poe1/gear_unique.json'),
+        gearSpecialRules: importRuleJSON('data/poe1/gear_special.json'),
+        recipeRules: importRuleJSON('data/poe1/recipe.json'),
         gearRareRules: importRuleJSON('data/poe1/gear_rare.json'),
         gearMagicRules: importRuleJSON('data/poe1/gear_magic.json'),
         gearNormalRules: importRuleJSON('data/poe1/gear_normal.json'),
-        recipeRules: importRuleJSON('data/poe1/recipe.json'),
         safetyRules: importRuleJSON('data/poe1/safety.json'),
     };
 
@@ -384,10 +385,11 @@ const buildFilterFile = async () => {
     filterFileData.push(mapFilterRuleList(filterRuleObj.clusterRules, filterStyleLegend));
     filterFileData.push(mapFilterRuleList(filterRuleObj.gearFlaskRules, filterStyleLegend));
     filterFileData.push(mapFilterRuleList(filterRuleObj.gearUniqueRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.gearSpecialRules, filterStyleLegend));
+    filterFileData.push(mapFilterRuleList(filterRuleObj.recipeRules, filterStyleLegend));
     filterFileData.push(mapFilterRuleList(filterRuleObj.gearRareRules, filterStyleLegend));
     filterFileData.push(mapFilterRuleList(filterRuleObj.gearMagicRules, filterStyleLegend));
     filterFileData.push(mapFilterRuleList(filterRuleObj.gearNormalRules, filterStyleLegend));
-    filterFileData.push(mapFilterRuleList(filterRuleObj.recipeRules, filterStyleLegend));
     filterFileData.push(mapFilterRuleList(filterRuleObj.safetyRules, filterStyleLegend));
 
     // Export Main File List
