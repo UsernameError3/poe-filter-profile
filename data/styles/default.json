@@ -124,7 +124,7 @@
         "styleClass": "Gear",
         "styleName": "Rare",
         "SetTextColor": "#ffea00",
-        "SetBorderColor": "#ffea00",
+        "SetBorderColor": "#FF0000",
         "SetBackgroundColor": "#000000",
         "SetFontSize": "25",
         "PlayAlertSound": "",
