@@ -90,7 +90,13 @@ const buildFilterRule = (rule, style) => {
     
     // Add Conditional Array Validation
     if (rule.ItemLevel) {
-        properties.push(filterRuleProperty(`ItemLevel`, null, rule.ItemLevel));
+        if (rule.ItemLevelOperator  || rule.ItemLevelOperator == "") {
+            let ItemLevelOperator = rule.ItemLevelOperator;
+            properties.push(filterRuleProperty(`ItemLevel`, ItemLevelOperator, rule.ItemLevel));
+        } else {
+            let ItemLevelOperator = '==';
+            properties.push(filterRuleProperty(`ItemLevel`, ItemLevelOperator, rule.ItemLevel));
+        }
     }
     if (rule.GemLevel) {
         properties.push(filterRuleProperty(`GemLevel`, null, rule.GemLevel));
