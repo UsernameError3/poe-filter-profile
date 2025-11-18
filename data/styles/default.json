@@ -185,7 +185,7 @@
     {
         "styleClass": "Any",
         "styleName": "Hide",
-        "SetTextColor": "",
+        "SetTextColor": "#303030",
         "SetBorderColor": "#00000000",
         "SetBackgroundColor": "#14140000",
         "SetFontSize": "18",
