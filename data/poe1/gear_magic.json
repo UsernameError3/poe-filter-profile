@@ -7,6 +7,42 @@
     },
     "rules": [
         {
+            "ruleName": "Magics - Fishing Rods",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Rarity": "Magic",
+            "Class": ["Fishing Rods"]
+        },
+        {
+            "ruleName": "Magics - Synthesised: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Rarity": "Magic",
+            "SynthesisedItem": "True"
+        },
+        {
+            "ruleName": "Magics - Fractured: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Rarity": "Magic",
+            "FracturedItem": "True"
+        },
+        {
+            "ruleName": "Magics - Enchanted: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Rarity": "Magic",
+            "AnyEnchantment": "True"
+        },
+        {
             "ruleName": "Magics - All",
             "ruleSortIndex": 1,
             "ruleTier": 1,

@@ -6,7 +6,34 @@
         ]
     },
     "rules": [
-{
+        {
+            "ruleName": "Normals - Fishing Rods",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Rarity": "Normal",
+            "Class": ["Fishing Rods"]
+        },
+        {
+            "ruleName": "Normals - Synthesised: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T1",
+            "Rarity": "Normal",
+            "SynthesisedItem": "True"
+        },
+        {
+            "ruleName": "Normals - Enchanted: Gear",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "visibility": "Show",
+            "styleName": "T2",
+            "Rarity": "Normal",
+            "AnyEnchantment": "True"
+        },
+        {
             "ruleName": "Normals - All",
             "ruleSortIndex": 1,
             "ruleTier": 1,
