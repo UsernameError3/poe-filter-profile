@@ -123,7 +123,7 @@ const buildFilterRule = (rule, style) => {
         properties.push(filterRuleProperty(`Sockets`, null, rule.Sockets));
     }
     if (rule.Rarity) {
-        properties.push(filterRuleProperty(`Rarity`, null, rule.Rarity));
+        properties.push(filterRuleProperty(`Rarity`, "==", rule.Rarity));
     }
     if (rule.Class) {
         if (rule.ClassOperator  || rule.ClassOperator == "") {
