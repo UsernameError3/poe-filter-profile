@@ -49,7 +49,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "HasInfluence": ["Shaper", "Elder"],
             "BaseType": [
@@ -73,7 +73,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "Sockets": 3,
             "SocketGroup": "WWW",
@@ -98,7 +98,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "Sockets": 4,
             "SocketGroup": "WWWW",
@@ -111,7 +111,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "HasInfluence": ["Shaper", "Elder"],
             "BaseType": [
@@ -123,7 +123,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "SynthesisedItem": "True",
             "BaseType": [
@@ -135,7 +135,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "SynthesisedItem": "True",
             "BaseType": [
@@ -152,7 +152,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "SynthesisedItem": "True"
         },
@@ -170,7 +170,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "HasCruciblePassiveTree": "True"
         },
@@ -199,7 +199,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "LinkedSockets": 6
         },
@@ -208,7 +208,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "LinkedSockets": 5
         },
@@ -217,7 +217,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "Sockets": 6
         },
@@ -226,7 +226,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "SocketGroup": "AAAAAA"
         },
@@ -235,7 +235,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "SocketGroup": "AAAA",
             "BaseType": [
@@ -247,7 +247,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "SocketGroup": "AAA",
             "BaseType": [
@@ -259,7 +259,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "SocketGroup": "AA",
             "BaseType": [
@@ -286,7 +286,7 @@
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "Class": ["Pieces"]
         },
@@ -295,7 +295,7 @@
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T0",
             "Rarity": "Unique",
             "BaseType": [
                 "Prismatic Jewel"
@@ -306,7 +306,7 @@
             "ruleSortIndex": 2,
             "ruleTier": 2,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T1",
             "Rarity": "Unique",
             "BaseType": [
                 "Cabalist Regalia",
@@ -322,7 +322,6 @@
                 "Greatwolf Talisman",
                 "Papyrus Relic",
                 "Processional Relic",
-                "Ring",
                 "Riveted Boots",
                 "Ruby Flask",
                 "Seaglass Amulet",
@@ -339,7 +338,7 @@
             "ruleTier": 2,
             "visibility": "Show",
             "styleName": "Unique",
-            "Rarity": "Unique",
+            "Rarity": "T1",
             "Replica": "True",
             "BaseType": [
                 "Blood Raiment",
@@ -364,7 +363,7 @@
             "ruleSortIndex": 3,
             "ruleTier": 3,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "BaseType": [
                 "Amethyst Flask",
@@ -408,7 +407,7 @@
             "ruleSortIndex": 3,
             "ruleTier": 3,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "Replica": "True",
             "BaseType": [
@@ -445,7 +444,7 @@
             "ruleSortIndex": 4,
             "ruleTier": 4,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "BaseType": [
                 "Ashbark Tincture",
@@ -497,7 +496,7 @@
             "ruleSortIndex": 4,
             "ruleTier": 4,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "Replica": "True",
             "BaseType": [
@@ -859,7 +858,7 @@
             "ruleSortIndex": 6,
             "ruleTier": 6,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "BaseType": [
                 "Abyssal Axe",
@@ -975,7 +974,7 @@
             "ruleSortIndex": 7,
             "ruleTier": 7,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "BaseType": [
                 "Heavy Belt",
@@ -991,7 +990,7 @@
             "ruleSortIndex": 7,
             "ruleTier": 7,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "T2",
             "Rarity": "Unique",
             "Replica": "True",
             "BaseType": [
@@ -1003,7 +1002,7 @@
             "ruleSortIndex": 7,
             "ruleTier": 7,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "BaseType": [
                 "Gold Ring",
@@ -1028,7 +1027,7 @@
             "ruleSortIndex": 8,
             "ruleTier": 8,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "BaseType": [
                 "Topaz Flask",
@@ -1133,7 +1132,7 @@
             "ruleSortIndex": 8,
             "ruleTier": 8,
             "visibility": "Show",
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "BaseType": [
                 "Cobalt Jewel",

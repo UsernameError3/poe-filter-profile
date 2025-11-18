@@ -111,6 +111,17 @@
     },
     {
         "styleClass": "Gear",
+        "styleName": "UniquePriority",
+        "SetTextColor": "#ff6000",
+        "SetBorderColor": "#ff6000",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
         "styleName": "Unique",
         "SetTextColor": "#af6025",
         "SetBorderColor": "#af6025",
@@ -120,7 +131,7 @@
         "MinimapIcon": "",
         "PlayEffect": ""
     },
-        {
+    {
         "styleClass": "Gear",
         "styleName": "Rare",
         "SetTextColor": "#ffea00",
