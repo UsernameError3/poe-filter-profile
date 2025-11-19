@@ -78,14 +78,6 @@
             ]
         },
         {
-            "ruleName": "League - Betrayal: Misc Allflames",
-            "ruleSortIndex": 5,
-            "ruleTier": 2,
-            "visibility": "Show",
-            "styleName": "T0",
-            "BaseType": ["Allflame"]
-        },
-        {
             "ruleName": "League - Blight: T0 Oils",
             "ruleSortIndex": 5,
             "ruleTier": 2,

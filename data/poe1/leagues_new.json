@@ -11,14 +11,15 @@
     },
     "rules": [
         {
-            "ruleName": "League - Breach: Boss",
+            "ruleName": "League - Breach: Hive",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "T1",
             "Class": ["Breachstones"],
+            "BaseTypeOperator": "",
             "BaseType": [
-                "Hivebrain Gland"
+                "Hivebrain"
             ]
         },
         {
