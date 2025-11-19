@@ -10,17 +10,7 @@
         ]
     },
     "rules": [
-        {
-            "ruleName": "League - Breach: Hive",
-            "ruleSortIndex": 1,
-            "ruleTier": 1,
-            "visibility": "Show",
-            "styleName": "T1",
-            "Class": [],
-            "BaseType": [
 
-            ]
-        },
         {
             "ruleName": "League - Breach: T1 Wombgifts",
             "ruleSortIndex": 1,
