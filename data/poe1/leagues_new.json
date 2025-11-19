@@ -16,7 +16,6 @@
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "T1",
-            "BaseTypeOperator": "",
             "BaseType": [
                 "Hivebrain Gland"
             ]

@@ -180,14 +180,6 @@
             ]
         },
         {
-            "ruleName": "League - Breach (Legacy): Misc Breachstones",
-            "ruleSortIndex": 9,
-            "ruleTier": 0,
-            "visibility": "Show",
-            "styleName": "T0",
-            "Class": ["Breachstones"]
-        },
-        {
             "ruleName": "League - Crucible (Legacy): Primordial Forge",
             "ruleSortIndex": 10,
             "ruleTier": 0,
