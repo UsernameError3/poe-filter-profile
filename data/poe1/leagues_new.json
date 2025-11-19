@@ -16,7 +16,7 @@
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "T1",
-            "BaseTypeOperator": "",
+            "Class": ["Map Fragments"],
             "BaseType": [
                 "Hivebrain Gland"
             ]
