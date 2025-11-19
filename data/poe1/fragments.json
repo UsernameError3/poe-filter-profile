@@ -276,22 +276,6 @@
             "BaseType": [
                 "Offering to the Goddess"
             ]
-        },
-        {
-            "ruleName": "Misc - Map Fragments",
-            "ruleSortIndex": 22,
-            "ruleTier": 6,
-            "visibility": "Show",
-            "styleName": "T0",
-            "Class": ["Map Fragments"]
-        },
-        {
-            "ruleName": "Misc - Map Items",
-            "ruleSortIndex": 23,
-            "ruleTier": 6,
-            "visibility": "Show",
-            "styleName": "T0",
-            "Class": ["Misc Map Items"]
         }
     ]
 }
