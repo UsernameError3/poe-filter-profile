@@ -200,7 +200,7 @@
         "SetBorderColor": "#FFFFFF",
         "SetBackgroundColor": "#000000",
         "SetFontSize": "45",
-        "PlayAlertSound": "10 300",
+        "PlayAlertSound": "10 200",
         "MinimapIcon": "0 White Circle",
         "PlayEffect": "White"
     },
