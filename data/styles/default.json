@@ -195,6 +195,17 @@
     },
     {
         "styleClass": "Any",
+        "styleName": "MissingRule",
+        "SetTextColor": "#FFFFFF",
+        "SetBorderColor": "#FFFFFF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "45",
+        "PlayAlertSound": "10 300",
+        "MinimapIcon": "0 White Circle",
+        "PlayEffect": "White"
+    },
+    {
+        "styleClass": "Any",
         "styleName": "Hide",
         "SetTextColor": "#303030",
         "SetBorderColor": "#00000000",
