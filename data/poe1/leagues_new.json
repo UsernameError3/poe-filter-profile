@@ -16,7 +16,10 @@
             "ruleTier": 1,
             "visibility": "Show",
             "styleName": "T1",
-            "Class": ["Breachstones"]
+            "BaseTypeOperator": "",
+            "BaseType": [
+                "Hivebrain Gland"
+            ]
         },
         {
             "ruleName": "League - Breach: T1 Wombgifts",
