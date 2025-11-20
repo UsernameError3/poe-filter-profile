@@ -33,6 +33,14 @@
     },
     "rules": [
         {
+            "ruleName": "Valdos - Puzzlebox",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "visibility": "Show",
+            "styleName": "T0",
+            "BaseType": ["Valdo's Puzzle Box"]
+        },
+        {
             "ruleName": "Vault Key - Voidborn",
             "ruleSortIndex": 0,
             "ruleTier": 0,
