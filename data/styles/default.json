@@ -197,11 +197,11 @@
         "styleClass": "Any",
         "styleName": "MissingRule",
         "SetTextColor": "#FFFFFF",
-        "SetBorderColor": "#FFFFFF",
+        "SetBorderColor": "#FF0000",
         "SetBackgroundColor": "#000000",
         "SetFontSize": "45",
         "PlayAlertSound": "6 300",
-        "MinimapIcon": "0 White Circle",
+        "MinimapIcon": "0 Red Star",
         "PlayEffect": "White"
     },
     {
