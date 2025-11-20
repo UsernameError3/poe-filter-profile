@@ -284,6 +284,16 @@
             "BaseType": [
                 "Offering to the Goddess"
             ]
+        },
+        {
+            "ruleName": "Pantheon - Vessel",
+            "ruleSortIndex": 21,
+            "ruleTier": 2,
+            "visibility": "Show",
+            "styleName": "T3",
+            "BaseType": [
+                "Divine Vessel"
+            ]
         }
     ]
 }
