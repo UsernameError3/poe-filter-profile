@@ -56,9 +56,10 @@
             },
             "styleName": "T1",
             "Quality": ">=20",
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Flask"
+            "Class": [
+                "Hybrid Flasks",
+                "Life Flasks",
+                "Mana Flasks"
             ]
         },
         {
@@ -129,9 +130,11 @@
             },
             "styleName": "Unique",
             "Rarity": "UniquePriority",
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Flask"
+            "Class": [
+                "Hybrid Flasks",
+                "Life Flasks",
+                "Mana Flasks",
+                "Utility Flasks"
             ]
         },
         {
@@ -203,7 +206,7 @@
             "styleName": "Magic",
             "Rarity": "Magic",
             "Class": [
-                "Utility Flask"
+                "Utility Flasks"
             ]
         },
         {
@@ -238,9 +241,10 @@
             },
             "styleName": "Magic",
             "Rarity": "Magic",
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Flask"
+            "Class": [
+                "Hybrid Flasks",
+                "Life Flasks",
+                "Mana Flasks"
             ]
         },
         {
@@ -312,7 +316,7 @@
             "styleName": "Normal",
             "Rarity": "Normal",
             "Class": [
-                "Utility Flask"
+                "Utility Flasks"
             ]
         },
         {
@@ -347,9 +351,10 @@
             },
             "styleName": "Normal",
             "Rarity": "Normal",
-            "BaseTypeOperator": "",
-            "BaseType": [
-                "Flask"
+            "Class": [
+                "Hybrid Flasks",
+                "Life Flasks",
+                "Mana Flasks"
             ]
         },
         {
