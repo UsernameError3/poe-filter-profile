@@ -370,7 +370,7 @@ const buildFilterFile = async () => {
         corpseRules: importRuleJSON('data/poe1/corpses.json'),
         jewelRules: importRuleJSON('data/poe1/jewels.json'),
         clusterRules: importRuleJSON('data/poe1/clusters.json'),
-        gearFlaskRules: importRuleJSON('data/poe1/gear_normal.json'),
+        gearFlaskRules: importRuleJSON('data/poe1/gear_flask.json'),
         gearUniqueRules: importRuleJSON('data/poe1/gear_unique.json'),
         gearSpecialRules: importRuleJSON('data/poe1/gear_special.json'),
         recipeRules: importRuleJSON('data/poe1/recipe.json'),
