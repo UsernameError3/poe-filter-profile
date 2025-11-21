@@ -36,10 +36,10 @@
                     "visibility": "Show"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "Rare",
@@ -79,19 +79,19 @@
             "ruleTier": 1,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T4_2ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
                     "visibility": "Hide"
@@ -207,13 +207,13 @@
             "ruleTier": 1,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Hide"
@@ -331,10 +331,10 @@
             "ruleTier": 1,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
                     "visibility": "Hide"
