@@ -56,6 +56,7 @@
             },
             "styleName": "T1",
             "Quality": ">=20",
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Flask"
             ]
@@ -93,7 +94,7 @@
             "styleName": "T1",
             "Quality": ">=20",
             "Class": [
-                "Tinctures"
+                "Tincture"
             ]
         },
         {
@@ -127,7 +128,8 @@
                 }
             },
             "styleName": "Unique",
-            "Rarity": "Unique",
+            "Rarity": "UniquePriority",
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Flask"
             ]
@@ -162,10 +164,10 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "Unique",
+            "styleName": "UniquePriority",
             "Rarity": "Unique",
             "Class": [
-                "Tinctures"
+                "Tincture"
             ]
         },
         {
@@ -201,7 +203,7 @@
             "styleName": "Magic",
             "Rarity": "Magic",
             "Class": [
-                "Utility Flasks"
+                "Utility Flask"
             ]
         },
         {
@@ -236,6 +238,7 @@
             },
             "styleName": "Magic",
             "Rarity": "Magic",
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Flask"
             ]
@@ -273,7 +276,7 @@
             "styleName": "Magic",
             "Rarity": "Magic",
             "Class": [
-                "Tinctures"
+                "Tincture"
             ]
         },
         {
@@ -309,7 +312,7 @@
             "styleName": "Normal",
             "Rarity": "Normal",
             "Class": [
-                "Utility Flasks"
+                "Utility Flask"
             ]
         },
         {
@@ -344,6 +347,7 @@
             },
             "styleName": "Normal",
             "Rarity": "Normal",
+            "BaseTypeOperator": "",
             "BaseType": [
                 "Flask"
             ]
@@ -381,7 +385,7 @@
             "styleName": "Normal",
             "Rarity": "Normal",
             "Class": [
-                "Tinctures"
+                "Tincture"
             ]
         }
     ]
