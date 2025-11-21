@@ -1147,13 +1147,13 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "UniquePriority",
