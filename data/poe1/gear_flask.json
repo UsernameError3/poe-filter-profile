@@ -355,7 +355,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T4",
+            "styleName": "T5",
             "Rarity": "Magic",
             "Class": [
                 "Utility Flasks"
@@ -391,7 +391,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T4",
+            "styleName": "T5",
             "Rarity": "Magic",
             "Class": [
                 "Hybrid Flasks",
@@ -429,7 +429,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T4",
+            "styleName": "T5",
             "Rarity": "Magic",
             "Class": [
                 "Tincture"
@@ -465,7 +465,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T4",
+            "styleName": "T5",
             "Rarity": "Normal",
             "Class": [
                 "Utility Flasks"
@@ -501,7 +501,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T4",
+            "styleName": "T5",
             "Rarity": "Normal",
             "Class": [
                 "Hybrid Flasks",
@@ -539,7 +539,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T4",
+            "styleName": "T5",
             "Rarity": "Normal",
             "Class": [
                 "Tincture"
