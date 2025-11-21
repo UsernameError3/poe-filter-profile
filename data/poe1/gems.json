@@ -519,7 +519,7 @@
             "ruleTier": 5,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
                     "visibility": "Hide"
@@ -593,7 +593,7 @@
             "ruleTier": 5,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
                     "visibility": "Hide"

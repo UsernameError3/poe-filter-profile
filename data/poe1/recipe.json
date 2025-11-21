@@ -103,13 +103,13 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 }
             },
             "styleName": "T4",
@@ -136,13 +136,13 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 }
             },
             "styleName": "T4",
@@ -171,13 +171,13 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Remove"
                 }
             },
             "styleName": "T4",
