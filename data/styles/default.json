@@ -60,7 +60,7 @@
         "SetTextColor": "#00C8FF",
         "SetBorderColor": "#00C8FF",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "25",
+        "SetFontSize": "30",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
@@ -71,7 +71,7 @@
         "SetTextColor": "#00FF00",
         "SetBorderColor": "#00FF00",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "25",
+        "SetFontSize": "28",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
@@ -82,7 +82,7 @@
         "SetTextColor": "#FFFFFF",
         "SetBorderColor": "#FFFFFF",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "20",
+        "SetFontSize": "23",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
@@ -93,7 +93,7 @@
         "SetTextColor": "#767676",
         "SetBorderColor": "#767676",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "18",
+        "SetFontSize": "20",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
@@ -104,7 +104,7 @@
         "SetTextColor": "#233594",
         "SetBorderColor": "#233594",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "18",
+        "SetFontSize": "20",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
