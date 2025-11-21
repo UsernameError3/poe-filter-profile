@@ -1,10 +1,22 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 1, "ruleSortCategory": "Perfect"},
-            {"ruleSortIndex": 2, "ruleSortCategory": "Regular"},
-            {"ruleSortIndex": 3, "ruleSortCategory": "imperfect"},
-            {"ruleSortIndex": 4, "ruleSortCategory": "misc"}
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Perfect"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Regular"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "imperfect"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "misc"
+            }
         ]
     },
     "rules": [
@@ -12,9 +24,36 @@
             "ruleName": "Perfect Corpses",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Corpses"],
+            "Class": [
+                "Corpses"
+            ],
             "BaseType": [
                 "Perfect Blasphemer",
                 "Perfect Blood Demon",
@@ -51,9 +90,36 @@
             "ruleName": "Regular Corpses",
             "ruleSortIndex": 2,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Corpses"],
+            "Class": [
+                "Corpses"
+            ],
             "BaseType": [
                 "Blasphemer",
                 "Blood Demon",
@@ -86,13 +152,40 @@
                 "Spirit of Fortune"
             ]
         },
-                {
+        {
             "ruleName": "Imperfect Corpses",
             "ruleSortIndex": 3,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T3",
-            "Class": ["Corpses"],
+            "Class": [
+                "Corpses"
+            ],
             "BaseType": [
                 "Imperfect Blasphemer",
                 "Imperfect Blood Demon",
@@ -129,9 +222,36 @@
             "ruleName": "Misc Corpses",
             "ruleSortIndex": 4,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Corpses"]
+            "Class": [
+                "Corpses"
+            ]
         }
     ]
 }

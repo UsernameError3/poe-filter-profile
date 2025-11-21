@@ -1,8 +1,14 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 0, "ruleSortCategory": "Quest ClassTypes"},
-            {"ruleSortIndex": 1, "ruleSortCategory": "Quest BaseTypes"}
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Quest ClassTypes"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Quest BaseTypes"
+            }
         ]
     },
     "rules": [
@@ -10,7 +16,32 @@
             "ruleName": "Quest ClassTypes",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "Quest",
             "Class": [
                 "Labyrinth Items",
@@ -24,7 +55,32 @@
             "ruleName": "Quest BaseTypes",
             "ruleSortIndex": 1,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
             "BaseTypeOperator": "",
             "BaseType": [

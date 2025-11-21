@@ -1,9 +1,18 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 0, "ruleSortCategory": "Exceptions"},
-            {"ruleSortIndex": 1, "ruleSortCategory": "Hide Known"},
-            {"ruleSortIndex": 2, "ruleSortCategory": "Safety Layer"}
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Hide Known"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Safety Layer"
+            }
         ]
     },
     "rules": [
@@ -11,7 +20,32 @@
             "ruleName": "Hide - Known",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Hide",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Hide"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
             "styleName": "Hide",
             "ClassOperator": "",
             "Class": [
@@ -57,7 +91,32 @@
             "ruleName": "Safety Layer",
             "ruleSortIndex": 100,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "MissingRule"
         }
     ]

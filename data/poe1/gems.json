@@ -32,25 +32,104 @@
             "ruleName": "Exception - Corrupted Skill Gems",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "CorruptedBorder",
-            "Class": ["Skill Gems"],
+            "Class": [
+                "Skill Gems"
+            ],
             "Corrupted": "True"
         },
         {
             "ruleName": "Exception - Corrupted Support Gems",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "CorruptedBorder",
-            "Class": ["Support Gems"],
+            "Class": [
+                "Support Gems"
+            ],
             "Corrupted": "True"
         },
         {
             "ruleName": "Exception - Legacy",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
             "BaseType": [
                 "Item Quantity Support"
@@ -60,7 +139,32 @@
             "ruleName": "Exception - Special",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
             "BaseType": [
                 "Vaal Breach",
@@ -71,9 +175,36 @@
             "ruleName": "Awakened Support Gems",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Support Gems"],
+            "Class": [
+                "Support Gems"
+            ],
             "BaseTypeOperator": "",
             "BaseType": [
                 "Awakened"
@@ -83,18 +214,72 @@
             "ruleName": "Transfigured Skill Gems",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Skill Gems"],
+            "Class": [
+                "Skill Gems"
+            ],
             "TransfiguredGem": "True"
         },
         {
             "ruleName": "Exceptional Gems",
             "ruleSortIndex": 2,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Support Gems"],
+            "Class": [
+                "Support Gems"
+            ],
             "BaseType": [
                 "Empower Support",
                 "Enhance Support",
@@ -105,9 +290,36 @@
             "ruleName": "Leveled Quality Skill Gems",
             "ruleSortIndex": 3,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Skill Gems"],
+            "Class": [
+                "Skill Gems"
+            ],
             "GemLevel": ">= 20",
             "Quality": ">= 20"
         },
@@ -115,9 +327,36 @@
             "ruleName": "Leveled Quality Vaal Gems",
             "ruleSortIndex": 3,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Skill Gems"],
+            "Class": [
+                "Skill Gems"
+            ],
             "BaseTypeOperator": "",
             "BaseType": [
                 "Vaal"
@@ -129,9 +368,36 @@
             "ruleName": "Leveled Quality Support Gems",
             "ruleSortIndex": 3,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Support Gems"],
+            "Class": [
+                "Support Gems"
+            ],
             "GemLevel": ">= 20",
             "Quality": ">= 20"
         },
@@ -139,18 +405,72 @@
             "ruleName": "Quality Skill Gems",
             "ruleSortIndex": 4,
             "ruleTier": 4,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Skill Gems"],
+            "Class": [
+                "Skill Gems"
+            ],
             "Quality": ">= 15"
         },
         {
             "ruleName": "Quality Vaal Gems",
             "ruleSortIndex": 4,
             "ruleTier": 4,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Skill Gems"],
+            "Class": [
+                "Skill Gems"
+            ],
             "BaseTypeOperator": "",
             "BaseType": [
                 "Vaal"
@@ -161,26 +481,107 @@
             "ruleName": "Quality Support Gems",
             "ruleSortIndex": 4,
             "ruleTier": 4,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Support Gems"],
+            "Class": [
+                "Support Gems"
+            ],
             "Quality": ">= 15"
         },
         {
             "ruleName": "Misc - Skill Gems",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Hide",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Hide"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
             "styleName": "T4",
-            "Class": ["Skill Gems"]
+            "Class": [
+                "Skill Gems"
+            ]
         },
         {
             "ruleName": "Misc - Vaal Gems",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T4",
-            "Class": ["Skill Gems"],
+            "Class": [
+                "Skill Gems"
+            ],
             "BaseTypeOperator": "",
             "BaseType": [
                 "Vaal"
@@ -190,9 +591,36 @@
             "ruleName": "Misc - Support Gems",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Hide",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Hide"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
             "styleName": "T4",
-            "Class": ["Support Gems"]
+            "Class": [
+                "Support Gems"
+            ]
         }
     ]
 }

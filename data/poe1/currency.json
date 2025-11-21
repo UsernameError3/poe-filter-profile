@@ -1,15 +1,42 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 0, "ruleSortCategory": "Mirror"},
-            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Currency"},
-            {"ruleSortIndex": 2, "ruleSortCategory": "Mapping Currency"},
-            {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
-            {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
-            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"},
-            {"ruleSortIndex": 9, "ruleSortCategory": "Runes"},
-            {"ruleSortIndex": 10, "ruleSortCategory": "Omens"},
-            {"ruleSortIndex": 11, "ruleSortCategory": "Tattoos"}
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Mirror"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Basic Currency"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Mapping Currency"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Misc Currency"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "League Currency"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Shards"
+            },
+            {
+                "ruleSortIndex": 9,
+                "ruleSortCategory": "Runes"
+            },
+            {
+                "ruleSortIndex": 10,
+                "ruleSortCategory": "Omens"
+            },
+            {
+                "ruleSortIndex": 11,
+                "ruleSortCategory": "Tattoos"
+            }
         ]
     },
     "rules": [
@@ -17,9 +44,36 @@
             "ruleName": "Mirror",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "Mirror",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Mirror of Kalandra"
             ]
@@ -28,9 +82,36 @@
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Hinekora's Lock",
                 "Mirror Shard",
@@ -61,9 +142,36 @@
             "ruleName": "Mapping Currency",
             "ruleSortIndex": 2,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Orb of Intention"
             ]
@@ -72,9 +180,36 @@
             "ruleName": "Misc Currency",
             "ruleSortIndex": 3,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Albino Rhoa Feather",
                 "Eternal Orb",
@@ -93,9 +228,36 @@
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Fracturing Shard",
                 "Eldritch Chaos Orb",
@@ -111,9 +273,36 @@
             "ruleName": "Mapping Currency",
             "ruleSortIndex": 2,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Maven's Chisel of Proliferation",
                 "Maven's Chisel of Scarabs",
@@ -124,9 +313,36 @@
             "ruleName": "Runes",
             "ruleSortIndex": 9,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Runegraft of Gemcraft",
                 "Runegraft of the Angler",
@@ -155,9 +371,36 @@
             "ruleName": "Omens",
             "ruleSortIndex": 10,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Omen of Amelioration",
                 "Omen of Blanching",
@@ -177,9 +420,36 @@
             "ruleName": "Omens",
             "ruleSortIndex": 11,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Journey Tattoo of the Body",
                 "Journey Tattoo of the Mind",
@@ -240,9 +510,36 @@
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Grand Eldritch Ember",
                 "Grand Eldritch Ichor",
@@ -257,9 +554,36 @@
             "ruleName": "Mapping Currency",
             "ruleSortIndex": 2,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Maven's Chisel of Proliferation",
                 "Maven's Chisel of Scarabs",
@@ -273,9 +597,36 @@
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T3",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Greater Eldritch Ember",
                 "Greater Eldritch Ichor",
@@ -295,9 +646,36 @@
             "ruleName": "Mapping Currency",
             "ruleSortIndex": 2,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T3",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Cartographer's Chisel",
                 "Harbinger's Orb",
@@ -311,9 +689,36 @@
             "ruleName": "Stacked Decks",
             "ruleSortIndex": 3,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T3",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Stacked Deck"
             ]
@@ -322,9 +727,36 @@
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 4,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T4",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Lesser Eldritch Ember",
                 "Lesser Eldritch Ichor",
@@ -342,9 +774,36 @@
             "ruleName": "Scouting Reports",
             "ruleSortIndex": 2,
             "ruleTier": 4,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T4",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Vaal Scouting Report",
                 "Explorer's Scouting Report",
@@ -361,9 +820,36 @@
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 5,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T5",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Orb of Transmutation",
                 "Orb of Augmentation",
@@ -377,9 +863,36 @@
             "ruleName": "Shards",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Hide",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Hide"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
             "styleName": "T5",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Annulment Shard",
                 "Exalted Shard",
@@ -401,9 +914,36 @@
             "ruleName": "Wisdom Scrolls",
             "ruleSortIndex": 1,
             "ruleTier": 6,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T6",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Scroll of Wisdom"
             ]
@@ -412,9 +952,36 @@
             "ruleName": "Portal Scrolls",
             "ruleSortIndex": 1,
             "ruleTier": 6,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "Portal",
-            "Class": ["Currency"],
+            "Class": [
+                "Currency"
+            ],
             "BaseType": [
                 "Portal Scroll"
             ]
@@ -423,7 +990,32 @@
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 5,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T5",
             "BaseType": [
                 "Gold"

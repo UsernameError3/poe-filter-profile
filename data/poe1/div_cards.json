@@ -1,14 +1,38 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 0, "ruleSortCategory": "Top Cards"},
-            {"ruleSortIndex": 0, "ruleSortCategory": "T0 Cards"},
-            {"ruleSortIndex": 1, "ruleSortCategory": "T1 Cards"},
-            {"ruleSortIndex": 2, "ruleSortCategory": "T2 Cards"},
-            {"ruleSortIndex": 3, "ruleSortCategory": "T3 Cards"},
-            {"ruleSortIndex": 4, "ruleSortCategory": "T4 Cards"},
-            {"ruleSortIndex": 5, "ruleSortCategory": "T5 Cards"},
-            {"ruleSortIndex": 6, "ruleSortCategory": "Unknown Cards"}
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Top Cards"
+            },
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "T0 Cards"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "T1 Cards"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "T2 Cards"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "T3 Cards"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "T4 Cards"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "T5 Cards"
+            },
+            {
+                "ruleSortIndex": 6,
+                "ruleSortCategory": "Unknown Cards"
+            }
         ]
     },
     "rules": [
@@ -16,9 +40,36 @@
             "ruleName": "Top Cards",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Divination Cards"],
+            "Class": [
+                "Divination Cards"
+            ],
             "BaseType": [
                 "House of Mirrors",
                 "Unrequited Love",
@@ -41,9 +92,36 @@
             "ruleName": "T0 Cards",
             "ruleSortIndex": 0,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Divination Cards"],
+            "Class": [
+                "Divination Cards"
+            ],
             "BaseType": [
                 "Luminous Trove",
                 "The Progeny of Lunaris",
@@ -67,9 +145,36 @@
             "ruleName": "T1 Cards",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Divination Cards"],
+            "Class": [
+                "Divination Cards"
+            ],
             "BaseType": [
                 "The Sephirot",
                 "Broken Promises",
@@ -102,9 +207,36 @@
             "ruleName": "T2 Cards",
             "ruleSortIndex": 2,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Divination Cards"],
+            "Class": [
+                "Divination Cards"
+            ],
             "BaseType": [
                 "The Leviathan",
                 "Friendship",
@@ -129,9 +261,36 @@
             "ruleName": "T3 Cards",
             "ruleSortIndex": 3,
             "ruleTier": 3,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T3",
-            "Class": ["Divination Cards"],
+            "Class": [
+                "Divination Cards"
+            ],
             "BaseType": [
                 "The Eye of Terror",
                 "Tranquillity",
@@ -206,9 +365,36 @@
             "ruleName": "T4 Cards",
             "ruleSortIndex": 4,
             "ruleTier": 4,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T4",
-            "Class": ["Divination Cards"],
+            "Class": [
+                "Divination Cards"
+            ],
             "BaseType": [
                 "Echoes of Love",
                 "Merciless Armament",
@@ -294,9 +480,36 @@
             "ruleName": "T5 Cards",
             "ruleSortIndex": 5,
             "ruleTier": 5,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T5",
-            "Class": ["Divination Cards"],
+            "Class": [
+                "Divination Cards"
+            ],
             "BaseType": [
                 "The White Knight",
                 "Draped in Dreams",
@@ -531,9 +744,36 @@
             "ruleName": "Unknown Cards",
             "ruleSortIndex": 6,
             "ruleTier": 0,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T0",
-            "Class": ["Divination Cards"]
+            "Class": [
+                "Divination Cards"
+            ]
         }
     ]
 }

@@ -1,12 +1,30 @@
 {
     "ruleSorting": {
         "ruleSortLegend": [
-            {"ruleSortIndex": 0, "ruleSortCategory": "Mirror"},
-            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Currency"},
-            {"ruleSortIndex": 2, "ruleSortCategory": "Mapping Currency"},
-            {"ruleSortIndex": 3, "ruleSortCategory": "Misc Currency"},
-            {"ruleSortIndex": 4, "ruleSortCategory": "League Currency"},
-            {"ruleSortIndex": 5, "ruleSortCategory": "Shards"}
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Mirror"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Basic Currency"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Mapping Currency"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Misc Currency"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "League Currency"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Shards"
+            }
         ]
     },
     "rules": [
@@ -14,9 +32,36 @@
             "ruleName": "League - Breach: Hive",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Map Fragments"],
+            "Class": [
+                "Map Fragments"
+            ],
             "BaseType": [
                 "Hivebrain Gland"
             ]
@@ -25,9 +70,36 @@
             "ruleName": "League - Breach: T1 Wombgifts",
             "ruleSortIndex": 1,
             "ruleTier": 1,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Wombgifts"],
+            "Class": [
+                "Wombgifts"
+            ],
             "BaseType": [
                 "Ancient Wombgift",
                 "Mysterious Wombgift",
@@ -38,9 +110,36 @@
             "ruleName": "League - Breach: T2 Wombgifts",
             "ruleSortIndex": 1,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Wombgifts"],
+            "Class": [
+                "Wombgifts"
+            ],
             "BaseType": [
                 "Provisioning Wombgift",
                 "Growing Wombgift"
@@ -50,9 +149,36 @@
             "ruleName": "League - Breach: T1 Grafts",
             "ruleSortIndex": 1,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Grafts"],
+            "Class": [
+                "Grafts"
+            ],
             "BaseType": [
                 "Aegis Tulgraft",
                 "Jolting Eshgraft"
@@ -62,9 +188,36 @@
             "ruleName": "League - Breach: T2 Grafts",
             "ruleSortIndex": 1,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Grafts"],
+            "Class": [
+                "Grafts"
+            ],
             "BaseType": [
                 "Battering Uulgraft",
                 "Draining Eshgraft",
@@ -87,9 +240,36 @@
             "ruleName": "League - Breach: T1 Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T1",
-            "Class": ["Stackable Currency"],
+            "Class": [
+                "Stackable Currency"
+            ],
             "BaseType": [
                 "Foulborn Orb of Augmentation",
                 "Foulborn Regal Orb",
@@ -100,9 +280,36 @@
             "ruleName": "League - Breach: T2 Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
-            "visibility": "Show",
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
             "styleName": "T2",
-            "Class": ["Stackable Currency"],
+            "Class": [
+                "Stackable Currency"
+            ],
             "BaseType": [
                 "Augmentation Implant",
                 "Regal Implant",
