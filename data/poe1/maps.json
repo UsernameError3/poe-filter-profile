@@ -432,7 +432,8 @@
             "styleName": "UniquePriority",
             "Class": [
                 "Maps"
-            ]
+            ],
+            "rarity": "Unique"
         },
         {
             "ruleName": "Map - T17",
