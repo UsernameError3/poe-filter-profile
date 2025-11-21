@@ -429,11 +429,11 @@
                     "visibility": "Show"
                 }
             },
+            "rarity": "Unique",
             "styleName": "UniquePriority",
             "Class": [
                 "Maps"
-            ],
-            "rarity": "Unique"
+            ]
         },
         {
             "ruleName": "Map - T17",
