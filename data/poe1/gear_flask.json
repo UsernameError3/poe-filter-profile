@@ -138,6 +138,81 @@
             ]
         },
         {
+            "ruleName": "Unique Flasks",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "UniquePriority",
+            "Rarity": "Unique",
+            "Class": [
+                "Hybrid Flasks",
+                "Life Flasks",
+                "Mana Flasks",
+                "Utility Flasks"
+            ]
+        },
+        {
+            "ruleName": "Unique Tinctures",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "UniquePriority",
+            "Rarity": "Unique",
+            "Class": [
+                "Tincture"
+            ]
+        },
+        {
             "ruleName": "Exception: High ItemLevel Utility Flasks",
             "ruleSortIndex": 0,
             "ruleTier": 0,
@@ -246,81 +321,6 @@
             "styleName": "T2",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
-            "Class": [
-                "Tincture"
-            ]
-        },
-        {
-            "ruleName": "Unique Flasks",
-            "ruleSortIndex": 1,
-            "ruleTier": 1,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "UniquePriority",
-            "Rarity": "Unique",
-            "Class": [
-                "Hybrid Flasks",
-                "Life Flasks",
-                "Mana Flasks",
-                "Utility Flasks"
-            ]
-        },
-        {
-            "ruleName": "Unique Tinctures",
-            "ruleSortIndex": 1,
-            "ruleTier": 1,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "UniquePriority",
-            "Rarity": "Unique",
             "Class": [
                 "Tincture"
             ]
