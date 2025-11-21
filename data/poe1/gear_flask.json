@@ -54,7 +54,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T1",
+            "styleName": "T2",
             "QualityOperator": ">=",
             "Quality": 20,
             "Class": [
@@ -91,7 +91,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T1",
+            "styleName": "T2",
             "QualityOperator": ">=",
             "Quality": 20,
             "Class": [
@@ -130,7 +130,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T1",
+            "styleName": "T2",
             "QualityOperator": ">=",
             "Quality": 20,
             "Class": [
@@ -242,7 +242,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T2",
+            "styleName": "T3",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
             "Class": [
@@ -318,7 +318,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T2",
+            "styleName": "T3",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
             "Class": [
