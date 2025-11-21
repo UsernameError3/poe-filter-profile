@@ -150,6 +150,15 @@ const buildFilterRule = (rule, style, visibility) => {
         if (rule.Rarity) {
             properties.push(filterRuleProperty(`Rarity`, null, rule.Rarity));
         }
+        if (rule.StackSize) {
+            if (rule.StackSizeOperator  || rule.StackSizeOperator == "") {
+                let StackSizeOperator = rule.StackSizeOperator;
+                properties.push(filterRuleProperty(`StackSize`, StackSizeOperator, rule.StackSize));
+            } else {
+                let StackSizeOperator = '==';
+                properties.push(filterRuleProperty(`StackSize`, StackSizeOperator, rule.StackSize));
+            }
+        }
         if (rule.Class) {
             if (rule.ClassOperator  || rule.ClassOperator == "") {
                 let ClassOperator = rule.ClassOperator;
@@ -260,15 +269,6 @@ const buildFilterRule = (rule, style, visibility) => {
         }
         if (rule.Scourged) {
             properties.push(filterRuleProperty(`Scourged`, null, rule.Scourged));
-        }
-        if (rule.StackSize) {
-            if (rule.StackSizeOperator  || rule.StackSizeOperator == "") {
-                let StackSizeOperator = rule.StackSizeOperator;
-                properties.push(filterRuleProperty(`StackSize`, StackSizeOperator, rule.StackSize));
-            } else {
-                let StackSizeOperator = '==';
-                properties.push(filterRuleProperty(`StackSize`, StackSizeOperator, rule.StackSize));
-            }
         }
         if (rule.Width) {
             properties.push(filterRuleProperty(`Width`, '==', rule.Width));
