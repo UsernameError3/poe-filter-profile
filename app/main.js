@@ -112,7 +112,13 @@ const buildFilterRule = (rule, style, visibility) => {
             }
         }
         if (rule.GemLevel) {
-            properties.push(filterRuleProperty(`GemLevel`, null, rule.GemLevel));
+            if (rule.GemLevelOperator || rule.GemLevelOperator == "") {
+                let GemLevelOperator = rule.GemLevelOperator;
+                properties.push(filterRuleProperty(`GemLevel`, GemLevelOperator, rule.GemLevel));
+            } else {
+                let GemLevelOperator = '==';
+                properties.push(filterRuleProperty(`GemLevel`, GemLevelOperator, rule.GemLevel));
+            }
         }
         if (rule.AreaLevel) {
             properties.push(filterRuleProperty(`AreaLevel`, null, rule.AreaLevel));
@@ -229,7 +235,6 @@ const buildFilterRule = (rule, style, visibility) => {
             properties.push(filterRuleProperty(`AlternateQuality`, null, rule.AlternateQuality));
         }
         if (rule.Quality) {
-
             if (rule.QualityOperator  || rule.QualityOperator == "") {
                 let QualityOperator = rule.QualityOperator;
                 properties.push(filterRuleProperty(`Quality`, QualityOperator, rule.Quality));
@@ -237,8 +242,6 @@ const buildFilterRule = (rule, style, visibility) => {
                 let QualityOperator = '==';
                 properties.push(filterRuleProperty(`Quality`, QualityOperator, rule.Quality));
             }
-
-            
         }
         if (rule.Replica) {
             properties.push(filterRuleProperty(`Replica`, null, rule.Replica));

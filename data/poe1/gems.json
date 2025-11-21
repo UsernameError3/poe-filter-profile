@@ -321,7 +321,8 @@
                 "Skill Gems"
             ],
             "GemLevel": ">= 20",
-            "Quality": ">= 20"
+            "QualityOperator": ">=",
+            "Quality": 20
         },
         {
             "ruleName": "Leveled Quality Vaal Gems",
@@ -362,7 +363,8 @@
                 "Vaal"
             ],
             "GemLevel": ">= 20",
-            "Quality": ">= 20"
+            "QualityOperator": ">=",
+            "Quality": 20
         },
         {
             "ruleName": "Leveled Quality Support Gems",
@@ -399,7 +401,8 @@
                 "Support Gems"
             ],
             "GemLevel": ">= 20",
-            "Quality": ">= 20"
+            "QualityOperator": ">=",
+            "Quality": 20
         },
         {
             "ruleName": "Quality Skill Gems",
@@ -435,7 +438,8 @@
             "Class": [
                 "Skill Gems"
             ],
-            "Quality": ">= 15"
+            "QualityOperator": ">=",
+            "Quality": 15
         },
         {
             "ruleName": "Quality Vaal Gems",
@@ -475,7 +479,8 @@
             "BaseType": [
                 "Vaal"
             ],
-            "Quality": ">= 15"
+            "QualityOperator": ">=",
+            "Quality": 15
         },
         {
             "ruleName": "Quality Support Gems",
@@ -511,7 +516,8 @@
             "Class": [
                 "Support Gems"
             ],
-            "Quality": ">= 15"
+            "QualityOperator": ">=",
+            "Quality": 15
         },
         {
             "ruleName": "Misc - Skill Gems",
