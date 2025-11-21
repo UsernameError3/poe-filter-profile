@@ -242,7 +242,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T3",
+            "styleName": "T4",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
             "Class": [
@@ -279,7 +279,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T3",
+            "styleName": "T4",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
             "Class": [
@@ -318,7 +318,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T3",
+            "styleName": "T4",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
             "Class": [
