@@ -56,7 +56,7 @@
             },
             "styleName": "T2",
             "QualityOperator": ">=",
-            "Quality": 20,
+            "Quality": 15,
             "Class": [
                 "Utility Flasks"
             ]
@@ -93,7 +93,7 @@
             },
             "styleName": "T2",
             "QualityOperator": ">=",
-            "Quality": 20,
+            "Quality": 15,
             "Class": [
                 "Hybrid Flasks",
                 "Life Flasks",
@@ -132,7 +132,7 @@
             },
             "styleName": "T2",
             "QualityOperator": ">=",
-            "Quality": 20,
+            "Quality": 15,
             "Class": [
                 "Tincture"
             ]
@@ -239,7 +239,7 @@
                     "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "T3",
@@ -276,7 +276,7 @@
                     "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "T2",
@@ -315,7 +315,7 @@
                     "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "T3",
