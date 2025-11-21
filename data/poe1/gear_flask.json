@@ -128,8 +128,8 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "Unique",
-            "Rarity": "UniquePriority",
+            "styleName": "UniquePriority",
+            "Rarity": "Unique",
             "Class": [
                 "Hybrid Flasks",
                 "Life Flasks",
