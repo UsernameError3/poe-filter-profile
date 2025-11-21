@@ -320,7 +320,8 @@
             "Class": [
                 "Skill Gems"
             ],
-            "GemLevel": ">= 20",
+            "GemLevelOperator": ">=",
+            "GemLevel": 20,
             "QualityOperator": ">=",
             "Quality": 20
         },
@@ -362,7 +363,8 @@
             "BaseType": [
                 "Vaal"
             ],
-            "GemLevel": ">= 20",
+            "GemLevelOperator": ">=",
+            "GemLevel": 20,
             "QualityOperator": ">=",
             "Quality": 20
         },
@@ -400,7 +402,8 @@
             "Class": [
                 "Support Gems"
             ],
-            "GemLevel": ">= 20",
+            "GemLevelOperator": ">=",
+            "GemLevel": 20,
             "QualityOperator": ">=",
             "Quality": 20
         },
