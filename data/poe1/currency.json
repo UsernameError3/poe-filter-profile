@@ -987,7 +987,7 @@
             ]
         },
         {
-            "ruleName": "Basic Currency",
+            "ruleName": "Basic Currency: High Gold",
             "ruleSortIndex": 1,
             "ruleTier": 5,
             "ruleStrictness": {
@@ -1016,7 +1016,120 @@
                     "visibility": "Show"
                 }
             },
+            "styleName": "T2",
+            "StackSizeOperator": ">=",
+            "StackSize": 1000,
+            "BaseType": [
+                "Gold"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Decent Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T3",
+            "StackSizeOperator": ">=",
+            "StackSize": 350,
+            "BaseType": [
+                "Gold"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Normal Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T4",
+            "StackSizeOperator": ">=",
+            "StackSize": 150,
+            "BaseType": [
+                "Gold"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Low Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
             "styleName": "T5",
+            "StackSizeOperator": ">=",
+            "StackSize": 50,
             "BaseType": [
                 "Gold"
             ]

@@ -262,7 +262,13 @@ const buildFilterRule = (rule, style, visibility) => {
             properties.push(filterRuleProperty(`Scourged`, null, rule.Scourged));
         }
         if (rule.StackSize) {
-            properties.push(filterRuleProperty(`StackSize`, null, rule.StackSize));
+            if (rule.StackSizeOperator  || rule.StackSizeOperator == "") {
+                let StackSizeOperator = rule.StackSizeOperator;
+                properties.push(filterRuleProperty(`StackSize`, StackSizeOperator, rule.StackSize));
+            } else {
+                let StackSizeOperator = '==';
+                properties.push(filterRuleProperty(`StackSize`, StackSizeOperator, rule.StackSize));
+            }
         }
         if (rule.Width) {
             properties.push(filterRuleProperty(`Width`, '==', rule.Width));
