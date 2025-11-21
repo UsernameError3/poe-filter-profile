@@ -267,10 +267,10 @@
                     "visibility": "Show"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
                     "visibility": "Hide"
@@ -279,7 +279,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T2",
+            "styleName": "T3",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
             "Class": [
