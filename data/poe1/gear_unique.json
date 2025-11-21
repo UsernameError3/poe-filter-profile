@@ -1292,16 +1292,16 @@
             "ruleTier": 5,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T4_2ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T5_3ST_MAPS": {
                     "visibility": "Hide"
@@ -1636,10 +1636,10 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
                     "visibility": "Show"
@@ -1902,16 +1902,16 @@
                     "visibility": "Show"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "UniquePriority",
@@ -2012,44 +2012,6 @@
                 "Prismatic Ring",
                 "Solaris Circlet",
                 "Murder Mitts"
-            ]
-        },
-        {
-            "ruleName": "Jewels",
-            "ruleSortIndex": 8,
-            "ruleTier": 8,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "UniquePriority",
-            "Rarity": "Unique",
-            "BaseType": [
-                "Cobalt Jewel",
-                "Crimson Jewel",
-                "Viridian Jewel"
             ]
         },
         {
