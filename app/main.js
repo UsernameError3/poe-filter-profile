@@ -229,7 +229,16 @@ const buildFilterRule = (rule, style, visibility) => {
             properties.push(filterRuleProperty(`AlternateQuality`, null, rule.AlternateQuality));
         }
         if (rule.Quality) {
-            properties.push(filterRuleProperty(`Quality`, null, rule.Quality));
+
+            if (rule.QualityOperator  || rule.QualityOperator == "") {
+                let QualityOperator = rule.QualityOperator;
+                properties.push(filterRuleProperty(`Quality`, QualityOperator, rule.Quality));
+            } else {
+                let QualityOperator = '==';
+                properties.push(filterRuleProperty(`Quality`, QualityOperator, rule.Quality));
+            }
+
+            
         }
         if (rule.Replica) {
             properties.push(filterRuleProperty(`Replica`, null, rule.Replica));

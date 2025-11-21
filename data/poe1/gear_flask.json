@@ -55,7 +55,8 @@
                 }
             },
             "styleName": "T1",
-            "Quality": ">=20",
+            "QualityOperator": ">=",
+            "Quality": 20,
             "Class": [
                 "Hybrid Flasks",
                 "Life Flasks",
@@ -93,7 +94,8 @@
                 }
             },
             "styleName": "T1",
-            "Quality": ">=20",
+            "QualityOperator": ">=",
+            "Quality": 20,
             "Class": [
                 "Tincture"
             ]
