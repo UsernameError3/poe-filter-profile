@@ -485,7 +485,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "UniqueCorrupted",
+            "styleName": "T1",
             "Rarity": "Unique",
             "Corrupted": "True",
             "CorruptedModsOperator": ">=",
