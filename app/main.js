@@ -135,11 +135,10 @@ const buildFilterRule = (rule, style, visibility) => {
         if (rule.CorruptedMods) {
             if (rule.CorruptedModsOperator || rule.CorruptedModsOperator == "") {
                 let CorruptedModsOperator = rule.CorruptedModsOperator;
-                console.log(filterRulePropertyList(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods))
-                properties.push(filterRulePropertyList(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods));
+                properties.push(filterRuleProperty(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods));
             } else {
                 let CorruptedModsOperator = '==';
-                properties.push(filterRulePropertyList(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods));
+                properties.push(filterRuleProperty(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods));
             }
         }
         if (rule.Mirrored) {
