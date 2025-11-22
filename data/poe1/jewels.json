@@ -59,6 +59,7 @@
                 }
             },
             "styleName": "T1",
+            "CorruptedModsOperator": ">=",
             "CorruptedMods": 2,
             "Class": [
                 "Jewels"
@@ -95,6 +96,7 @@
                 }
             },
             "styleName": "T2",
+            "CorruptedModsOperator": "==",
             "CorruptedMods": 1,
             "Class": [
                 "Jewels"
@@ -131,6 +133,7 @@
                 }
             },
             "styleName": "T1",
+            "CorruptedModsOperator": ">=",
             "CorruptedMods": 2,
             "Class": [
                 "Abyss Jewels"
@@ -167,6 +170,7 @@
                 }
             },
             "styleName": "T2",
+            "CorruptedModsOperator": "==",
             "CorruptedMods": 1,
             "Class": [
                 "Abyss Jewels"
