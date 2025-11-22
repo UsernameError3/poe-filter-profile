@@ -133,7 +133,7 @@ const buildFilterRule = (rule, style, visibility) => {
             properties.push(filterRuleProperty(`Corrupted`, null, rule.Corrupted));
         }
         if (rule.CorruptedMods) {
-            if (rule.CorruptedModsOperator  || rule.CorruptedModsOperator == "") {
+            if (rule.CorruptedModsOperator || rule.CorruptedModsOperator == "") {
                 let CorruptedModsOperator = rule.CorruptedModsOperator;
                 properties.push(filterRulePropertyList(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods));
             } else {
