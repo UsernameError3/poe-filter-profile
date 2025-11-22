@@ -62,6 +62,7 @@
             "Class": [
                 "Maps"
             ],
+            "CorruptedModsOperator": ">=",
             "CorruptedMods": 1
         },
         {
