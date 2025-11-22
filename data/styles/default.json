@@ -111,6 +111,17 @@
     },
     {
         "styleClass": "Gear",
+        "styleName": "UniqueCorrupted",
+        "SetTextColor": "#ff6000",
+        "SetBorderColor": "#ff0000",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
         "styleName": "UniquePriority",
         "SetTextColor": "#ff6000",
         "SetBorderColor": "#ff6000",
