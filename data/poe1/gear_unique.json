@@ -488,12 +488,13 @@
             "styleName": "UniqueCorrupted",
             "Rarity": "Unique",
             "Corrupted": "True",
+            "CorruptedModsOperator": ">=",
             "CorruptedMods": 2
         },
         {
             "ruleName": "Exception - Single Corrupt",
             "ruleSortIndex": 0,
-            "ruleTier": 0,
+            "ruleTier": 1,
             "ruleStrictness": {
                 "T1_LEVELING": {
                     "visibility": "Show"
@@ -523,6 +524,7 @@
             "styleName": "UniqueCorrupted",
             "Rarity": "Unique",
             "Corrupted": "True",
+            "CorruptedModsOperator": "==",
             "CorruptedMods": 1
         },
         {
