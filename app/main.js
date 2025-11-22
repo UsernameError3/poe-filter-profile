@@ -135,11 +135,10 @@ const buildFilterRule = (rule, style, visibility) => {
         if (rule.CorruptedMods) {
             if (rule.CorruptedModsOperator || rule.CorruptedModsOperator == "") {
                 let CorruptedModsOperator = rule.CorruptedModsOperator;
-                console.log("Custom Operator");
+                console.log(filterRulePropertyList(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods))
                 properties.push(filterRulePropertyList(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods));
             } else {
                 let CorruptedModsOperator = '==';
-                console.log("Default Operator");
                 properties.push(filterRulePropertyList(`CorruptedMods`, CorruptedModsOperator, rule.CorruptedMods));
             }
         }
