@@ -29,7 +29,7 @@
     },
     "rules": [
         {
-            "ruleName": "League - Breach: Hive",
+            "ruleName": "League - Mirage: Boss",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
@@ -63,181 +63,11 @@
                 "Map Fragments"
             ],
             "BaseType": [
-                "Hivebrain Gland"
+                "The Black Barya"
             ]
         },
         {
-            "ruleName": "League - Breach: T1 Wombgifts",
-            "ruleSortIndex": 1,
-            "ruleTier": 1,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T1",
-            "Class": [
-                "Wombgifts"
-            ],
-            "BaseType": [
-                "Ancient Wombgift",
-                "Mysterious Wombgift",
-                "Lavish Wombgift"
-            ]
-        },
-        {
-            "ruleName": "League - Breach: T2 Wombgifts",
-            "ruleSortIndex": 1,
-            "ruleTier": 2,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T2",
-            "Class": [
-                "Wombgifts"
-            ],
-            "BaseType": [
-                "Provisioning Wombgift",
-                "Growing Wombgift"
-            ]
-        },
-        {
-            "ruleName": "League - Breach: T1 Grafts",
-            "ruleSortIndex": 1,
-            "ruleTier": 2,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T1",
-            "Class": [
-                "Grafts"
-            ],
-            "BaseType": [
-                "Aegis Tulgraft",
-                "Jolting Eshgraft"
-            ]
-        },
-        {
-            "ruleName": "League - Breach: T2 Grafts",
-            "ruleSortIndex": 1,
-            "ruleTier": 2,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T2",
-            "Class": [
-                "Grafts"
-            ],
-            "BaseType": [
-                "Battering Uulgraft",
-                "Draining Eshgraft",
-                "Erupting Xophgraft",
-                "Flamecaller Xophgraft",
-                "Freezing Tulgraft",
-                "Hardening Uulgraft",
-                "Impaling Uulgraft",
-                "Molten Xophgraft",
-                "Replicating Eshgraft",
-                "Spiking Uulgraft",
-                "Squalling Tulgraft",
-                "Stoking Xophgraft",
-                "Storming Eshgraft",
-                "Summoning Tulgraft",
-                "Fleshgraft"
-            ]
-        },
-        {
-            "ruleName": "League - Breach: T1 Currency",
+            "ruleName": "League - Mirage: T1 Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
             "ruleStrictness": {
@@ -271,13 +101,15 @@
                 "Stackable Currency"
             ],
             "BaseType": [
-                "Foulborn Orb of Augmentation",
-                "Foulborn Regal Orb",
-                "Foulborn Exalted Orb"
+                "Coin of Restoration",
+                "Coin of Desecration",
+                "Coin of Knowledge",
+                "Coin of Power",
+                "Coin of Skill"
             ]
         },
         {
-            "ruleName": "League - Breach: T2 Currency",
+            "ruleName": "League - Mirage: T2 Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
             "ruleStrictness": {
@@ -310,12 +142,7 @@
             "Class": [
                 "Stackable Currency"
             ],
-            "BaseType": [
-                "Augmentation Implant",
-                "Regal Implant",
-                "Exalted Implant",
-                "Unstable Implant"
-            ]
+            "BaseType": []
         }
     ]
 }

@@ -55,8 +55,11 @@
                 "Corpses"
             ],
             "BaseType": [
+                "Perfect Astral Lich",
+                "Perfect Adherent of Zarokh",
                 "Perfect Blasphemer",
                 "Perfect Blood Demon",
+                "Perfect Conjuror of Rot",
                 "Perfect Dancing Sword",
                 "Perfect Dark Marionette",
                 "Perfect Dark Reaper",
@@ -121,8 +124,11 @@
                 "Corpses"
             ],
             "BaseType": [
+                "Astral Lich",
+                "Adherent of Zarokh",
                 "Blasphemer",
                 "Blood Demon",
+                "Conjuror of Rot",
                 "Dancing Sword",
                 "Dark Marionette",
                 "Dark Reaper",
@@ -187,8 +193,11 @@
                 "Corpses"
             ],
             "BaseType": [
+                "Imperfect Astral Lich",
+                "Imperfect Adherent of Zarokh",
                 "Imperfect Blasphemer",
                 "Imperfect Blood Demon",
+                "Imperfect Conjuror of Rot",
                 "Imperfect Dancing Sword",
                 "Imperfect Dark Marionette",
                 "Imperfect Dark Reaper",

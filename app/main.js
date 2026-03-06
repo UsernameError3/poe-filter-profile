@@ -16,7 +16,6 @@ const filters = {
 // Prepare Environment
 dotenv.config();
 
-
 // Convert Hex to Flat RGBA
 const hexToRGB = (hex) => {
     // Convert Hex Codes
@@ -437,8 +436,11 @@ const buildFilterFile = async () => {
         let filterData = filters[key].join('\n\n');
         
         // Log Export
-        const fileOutputName = path.resolve(`${process.env.GAMEDIR_POE1}/${key}.filter`);
+        const fileOutputName = path.resolve(`${process.env.GAMEDIR_POE1}/${process.env.VERSION_POE1}/${key}.filter`);
         console.log('Exporting: ', fileOutputName);
+
+        // Sync Directory
+        fs.mkdirSync(path.dirname(fileOutputName), { recursive: true });
 
         // Export Main File List
         fs.writeFileSync(fileOutputName, filterData);

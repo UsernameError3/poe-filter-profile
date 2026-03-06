@@ -53,10 +53,10 @@
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^6.0.0",
-        "gulp": "^4.0.2",
-        "gulp-cli": "^2.3.0",
+        "gulp": "^5.0.1",
+        "gulp-cli": "^3.1.0",
         "nyc": "^15.1.0",
-        "pre-commit": "^1.2.2"
+        "pre-commit": "^1.0.10"
     },
     "dependencies": {
         "dotenv": "^16.6.1"

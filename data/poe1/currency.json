@@ -135,7 +135,9 @@
                 "Divine Orb",
                 "Tainted Exalted Orb",
                 "Crusader's Exalted Orb",
-                "Warlord's Exalted Orb"
+                "Warlord's Exalted Orb",
+                "Volatile Vaal Orb",
+                "Refracting Fog"
             ]
         },
         {
@@ -214,12 +216,6 @@
                 "Albino Rhoa Feather",
                 "Eternal Orb",
                 "Facetor's Lens",
-                "Deregulation Scroll",
-                "Electroshock Scroll",
-                "Fragmentation Scroll",
-                "Haemocombustion Scroll",
-                "Specularity Scroll",
-                "Time-light Scroll",
                 "Imprint",
                 "Unshaping Orb"
             ]
@@ -265,7 +261,6 @@
                 "Sacred Orb",
                 "Eldritch Orb of Annulment",
                 "Eldritch Exalted Orb",
-                "Exalted Orb",
                 "Tainted Chaos Orb"
             ]
         },
@@ -306,7 +301,17 @@
             "BaseType": [
                 "Maven's Chisel of Proliferation",
                 "Maven's Chisel of Scarabs",
-                "Maven's Chisel of Avarice"
+                "Maven's Chisel of Avarice",
+                "Templar Astrolabe",
+                "Fruiting Astrolabe",
+                "Lightless Astrolabe",
+                "Grasping Astrolabe",
+                "Nameless Astrolabe",
+                "Fungal Astrolabe",
+                "Chaotic Astrolabe",
+                "Enshrouded Astrolabe",
+                "Timeless Astrolabe",
+                "Runic Astrolabe"
             ]
         },
         {
@@ -364,7 +369,17 @@
                 "Runegraft of the River",
                 "Runegraft of the Sinistral",
                 "Runegraft of the Soulwick",
-                "Runegraft of Time"
+                "Runegraft of Time",
+                "Runegraft of Consecration",
+                "Runegraft of Fury",
+                "Runegraft of Rallying",
+                "Runegraft of Rotblood",
+                "Runegraft of the Imbued",
+                "Runegraft of the Agile",
+                "Runegraft of Suffering",
+                "Runegraft of the Spellbound",
+                "Runegraft of Resurgence",
+                "Runegraft of Connection"
             ]
         },
         {
@@ -547,7 +562,8 @@
                 "Tainted Orb of Fusing",
                 "Tainted Chromatic Orb",
                 "Ancient Orb",
-                "Orb of Annulment"
+                "Orb of Annulment",
+                "Exalted Orb"
             ]
         },
         {
@@ -590,7 +606,10 @@
                 "Maven's Chisel of Avarice",
                 "Maven's Chisel of Divination",
                 "Maven's Chisel of Procurement",
-                "Crescent Splinter"
+                "Crescent Splinter",
+                "Memory of Trauma",
+                "Memory of Reverence",
+                "Memory of Loneliness"
             ]
         },
         {
@@ -677,11 +696,7 @@
                 "Currency"
             ],
             "BaseType": [
-                "Cartographer's Chisel",
-                "Harbinger's Orb",
-                "Orb of Horizons",
                 "Orb of Unmaking",
-                "Engineer's Orb",
                 "Ritual Splinter"
             ]
         },
@@ -771,52 +786,6 @@
             ]
         },
         {
-            "ruleName": "Scouting Reports",
-            "ruleSortIndex": 2,
-            "ruleTier": 4,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T4",
-            "Class": [
-                "Currency"
-            ],
-            "BaseType": [
-                "Vaal Scouting Report",
-                "Explorer's Scouting Report",
-                "Singular Scouting Report",
-                "Comprehensive Scouting Report",
-                "Influenced Scouting Report",
-                "Operative's Scouting Report",
-                "Otherworldly Scouting Report",
-                "Blighted Scouting Report",
-                "Delirious Scouting Report"
-            ]
-        },
-        {
             "ruleName": "Basic Currency",
             "ruleSortIndex": 1,
             "ruleTier": 5,
@@ -896,16 +865,11 @@
             "BaseType": [
                 "Annulment Shard",
                 "Exalted Shard",
-                "Ancient Shard",
-                "Harbinger's Shard",
                 "Alchemy Shard",
                 "Alteration Shard",
-                "Binding Shard",
                 "Chaos Shard",
-                "Horizon Shard",
                 "Regal Shard",
                 "Armourer's Scrap",
-                "Engineer's Shard",
                 "Transmutation Shard",
                 "Scroll Fragment"
             ]

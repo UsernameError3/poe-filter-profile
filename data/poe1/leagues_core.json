@@ -330,6 +330,41 @@
             ]
         },
         {
+            "ruleName": "League - Breach: Currency",
+            "ruleSortIndex": 6,
+            "ruleTier": 2,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T1",
+            "BaseType": [
+                "Flesh of Xesht"
+            ]
+        },
+        {
             "ruleName": "League - Breach (Legacy): Flawless Breachstones",
             "ruleSortIndex": 6,
             "ruleTier": 2,
@@ -620,7 +655,6 @@
             "BaseType": [
                 "Skittering Delirium Orb",
                 "Fine Delirium Orb",
-                "Foreboding Delirium Orb",
                 "Fossilised Delirium Orb",
                 "Thaumaturge's Delirium Orb",
                 "Blighted Delirium Orb",
@@ -629,11 +663,9 @@
                 "Timeless Delirium Orb",
                 "Armoursmith's Delirium Orb",
                 "Blacksmith's Delirium Orb",
-                "Cartographer's Delirium Orb",
                 "Diviner's Delirium Orb",
                 "Fragmented Delirium Orb",
-                "Jeweller's Delirium Orb",
-                "Obscured Delirium Orb"
+                "Jeweller's Delirium Orb"
             ]
         },
         {
@@ -804,7 +836,8 @@
                 "Essence of Delirium",
                 "Essence of Horror",
                 "Essence of Hysteria",
-                "Essence of Insanity"
+                "Essence of Insanity",
+                "Essence of Desolation"
             ]
         },
         {
@@ -1023,6 +1056,7 @@
             },
             "styleName": "T0",
             "BaseType": [
+                "Crystallised Rancour",
                 "Sacred Blossom",
                 "Sacred Crystallised Lifeforce"
             ]
@@ -1439,7 +1473,10 @@
                 "Diviner's Incubator",
                 "Fossilised Incubator",
                 "Infused Incubator",
-                "Ornate Incubator"
+                "Ornate Incubator",
+                "Honoured Incubator",
+                "Sacred Incubator",
+                "Miraged Incubator"
             ]
         },
         {
@@ -1667,6 +1704,8 @@
             },
             "styleName": "T2",
             "BaseType": [
+                "Sinistral Catalyst",
+                "Dextral Catalyst",
                 "Tainted Catalyst",
                 "Prismatic Catalyst",
                 "Fertile Catalyst"

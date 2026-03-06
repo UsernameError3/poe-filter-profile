@@ -474,6 +474,72 @@
                 "Zealot Boots",
                 "Zealot Gloves"
             ]
+        },
+        {
+            "ruleName": "Rares - Leveling: All Rares (iLvl < 67)",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": "<=",
+            "ItemLevel": 67,
+            "Rarity": "Rare",
+            "Class": [
+                "Amulets",
+                "Belts",
+                "Body Armours",
+                "Boots",
+                "Bows",
+                "Claws",
+                "Daggers",
+                "Gloves",
+                "Heist Brooches",
+                "Heist Cloaks",
+                "Heist Gear",
+                "Heist Tools",
+                "Helmets",
+                "One Hand Axes",
+                "One Hand Maces",
+                "One Hand Swords",
+                "Quivers",
+                "Rings",
+                "Rune Daggers",
+                "Sceptres",
+                "Shields",
+                "Staves",
+                "Thrusting One Hand Swords",
+                "Two Hand Axes",
+                "Two Hand Maces",
+                "Two Hand Swords",
+                "Utility Flasks",
+                "Wands",
+                "Warstaves"
+            ]
         }
     ]
 }
