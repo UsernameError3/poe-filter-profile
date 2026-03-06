@@ -437,9 +437,15 @@ const buildFilterFile = async () => {
     Object.keys(filters).forEach(function(key) {
         // Join Filter Data
         let filterData = filters[key].join('\n\n');
+        let fileOutputName = ''
+
+        if (process.env.VERSION_POE1){
+            fileOutputName = path.resolve(`${process.env.GAMEDIR_POE1}/${process.env.VERSION_POE1}/${key}.filter`);
+    
+        } else {
+            fileOutputName = path.resolve(`${process.env.GAMEDIR_POE1}/${key}.filter`);
+        }
         
-        // Log Export
-        const fileOutputName = path.resolve(`${process.env.GAMEDIR_POE1}/${process.env.VERSION_POE1}/${key}.filter`);
         console.log('Exporting: ', fileOutputName);
 
         // Sync Directory

@@ -156,8 +156,8 @@
     {
         "styleClass": "Gear",
         "styleName": "Magic",
-        "SetTextColor": "#004bfa",
-        "SetBorderColor": "#004bfa",
+        "SetTextColor": "#0081fa",
+        "SetBorderColor": "#0081fa",
         "SetBackgroundColor": "#000000",
         "SetFontSize": "23",
         "PlayAlertSound": "",
