@@ -12,7 +12,7 @@
             "ruleTier": 1,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T2_0ST_MAPS": {
                     "visibility": "Hide"
