@@ -119,6 +119,9 @@ const buildFilterRule = (rule, style, visibility) => {
                 properties.push(filterRuleProperty(`GemLevel`, GemLevelOperator, rule.GemLevel));
             }
         }
+        if (rule.Imbued) {
+            properties.push(filterRuleProperty(`Imbued`, null, rule.Imbued));
+        }
         if (rule.AreaLevel) {
             properties.push(filterRuleProperty(`AreaLevel`, null, rule.AreaLevel));
         }
