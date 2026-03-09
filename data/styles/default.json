@@ -93,7 +93,7 @@
         "SetTextColor": "#767676",
         "SetBorderColor": "#767676",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "20",
+        "SetFontSize": "25",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
@@ -159,7 +159,7 @@
         "SetTextColor": "#0081fa",
         "SetBorderColor": "#0081fa",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "23",
+        "SetFontSize": "25",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
@@ -170,7 +170,7 @@
         "SetTextColor": "#FFFFFF",
         "SetBorderColor": "#FFFFFF",
         "SetBackgroundColor": "#000000",
-        "SetFontSize": "18",
+        "SetFontSize": "25",
         "PlayAlertSound": "",
         "MinimapIcon": "",
         "PlayEffect": ""
