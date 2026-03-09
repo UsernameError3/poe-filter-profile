@@ -334,7 +334,7 @@
                     "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T3_1ST_MAPS": {
                     "visibility": "Hide"
