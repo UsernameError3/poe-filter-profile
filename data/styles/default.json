@@ -101,7 +101,7 @@
     {
         "styleClass": "Currency",
         "styleName": "Portal",
-        "SetTextColor": "#233594",
+        "SetTextColor": "#0081fa",
         "SetBorderColor": "#233594",
         "SetBackgroundColor": "#000000",
         "SetFontSize": "20",
