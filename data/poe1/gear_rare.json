@@ -13,7 +13,339 @@
     },
     "rules": [
         {
-            "ruleName": "Rares - T1: Bases",
+            "ruleName": "Rares - T1: Bow Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Spine Bow"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: 1h Foil Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Jewelled Foil"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Claw Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Imperial Claw",
+                "Gemini Claw"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Dagger Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Ambusher",
+                "Platinum Kris"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Axe Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Fleshripper",
+                "Void Axe",
+                "Vaal Axe",
+                "Despot Axe"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Wand Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Convoking Wand",
+                "Profane Wand",
+                "Accumulator Wand",
+                "Prophecy Wand",
+                "Tornado Wand",
+                "Opal Wand",
+                "Kinetic Wand",
+                "Demon's Horn"
+            ]
+        },
+        {
+            "ruleName": "Rares - T2: Wand Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Heathen Wand",
+                "Omen Wand",
+                "Convening Wand",
+                "Congregator Wand",
+                "Coiled Wand",
+                "Crystal Wand",
+                "Blasting Wand"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Shield Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Pinnacle Tower Shield",
+                "Colossal Tower Shield",
+                "Ezomyte Tower Shield",
+                "Imperial Buckler",
+                "Crusader Buckler",
+                "Titanium Spirit Shield",
+                "Harmonic Spirit Shield",
+                "Elegant Round Shield",
+                "Archon Kite Shield",
+                "Supreme Spiked Shield",
+                "Mirrored Spiked Shield"
+            ]
+        },
+        {
+            "ruleName": "Rares - T0: Armour Bases",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
@@ -74,7 +406,7 @@
             ]
         },
         {
-            "ruleName": "Rares - T2: Bases",
+            "ruleName": "Rares - T1: Implicit Bases",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
@@ -94,7 +426,7 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T7_UBER_MAPS": {
                     "visibility": "Hide"
@@ -108,101 +440,148 @@
             "ItemLevel": 68,
             "Rarity": "Rare",
             "BaseType": [
-                "Ambusher",
-                "Ancient Mask",
                 "Apothecary's Gloves",
-                "Arcane Vestment",
-                "Archon Kite Shield",
-                "Assassin's Boots",
-                "Assassin's Mitts",
-                "Astral Leather",
-                "Bone Helmet",
-                "Broadhead Arrow Quiver",
-                "Carnal Mitts",
-                "Chimerascale Boots",
-                "Chimerascale Gauntlets",
-                "Colossal Tower Shield",
-                "Conqueror's Helmet",
-                "Conquest Helmet",
-                "Convoking Wand",
-                "Crusader Boots",
-                "Crusader Gloves",
-                "Deicide Mask",
-                "Despot Axe",
-                "Dire Pelt",
-                "Dragonscale Boots",
-                "Dragonscale Gauntlets",
-                "Eternal Burgonet",
-                "Faithful Helmet",
-                "Feathered Arrow Quiver",
-                "Fugitive Boots",
-                "Full Wyvernscale",
-                "General's Helmet",
-                "Golden Kris",
-                "Grand Ringmail",
+                "Nexus Gloves",
+                "Fingerless Silk Gloves",
+                "Trapsetter Gloves",
                 "Gripped Gloves",
-                "Grizzly Pelt",
-                "Harpyskin Boots",
-                "Harpyskin Gloves",
-                "Hubris Circlet",
-                "Hydrascale Boots",
-                "Hydrascale Gauntlets",
-                "Imperial Claw",
-                "Infiltrator Boots",
-                "Infiltrator Mitts",
-                "Jester Mask",
-                "Kinetic Wand",
-                "Knight Helm",
-                "Lacquered Buckler",
+                "Thwarting Gloves",
+                "Spiked Gloves",
+                "Penitent Mask",
+                "Archdemon Crown",
+                "Bone Helmet",
+                "Blizzard Crown",
+                "Brimstone Treads",
+                "Stormrider Boots",
+                "Dreamquest Slippers",
+                "Two-Toned Boots",
+                "Fugitive Boots"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Armour Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
                 "Legion Plate",
-                "Lion Pelt",
-                "Marshall's Brigandine",
-                "Martyr Boots",
-                "Martyr Gloves",
-                "Mirrored Spiked Shield",
-                "Moonlit Circlet",
-                "Murder Boots",
-                "Murder Mitts",
-                "Nightmare Bascinet",
+                "Astral Leather",
                 "Nightweave Robe",
-                "Opal Sceptre",
-                "Paladin Crown",
+                "Marshall's Brigandine",
                 "Paladin's Hauberk",
-                "Praetor Crown",
+                "Torturer Garb",
+                "Conqueror's Helmet",
+                "Grizzly Pelt",
+                "Sunfire Circlet",
+                "Conquest Helmet",
+                "Paladin Crown",
+                "Ancient Mask",
                 "Precursor Gauntlets",
                 "Precursor Greaves",
-                "Profane Wand",
-                "Prophecy Wand",
-                "Royal Burgonet",
+                "Harpyskin Boots",
+                "Harpyskin Gloves",
                 "Sage Gloves",
                 "Sage Slippers",
+                "Chimerascale Boots",
+                "Chimerascale Gauntlets",
+                "Martyr Boots",
+                "Martyr Gloves",
+                "Infiltrator Boots",
+                "Infiltrator Mitts"
+            ]
+        },
+        {
+            "ruleName": "Rares - T2: Armour Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Titan Plate",
+                "Supreme Leather",
+                "Arcane Vestment",
+                "Full Wyvernscale",
+                "Grand Ringmail",
                 "Sanguine Raiment",
-                "Short Bow",
-                "Siege Axe",
+                "General's Helmet",
+                "Dire Pelt",
+                "Moonlit Circlet",
+                "Knight Helm",
+                "Faithful Helmet",
+                "Jester Mask",
+                "Titan Gauntlets",
+                "Titan Greaves",
                 "Slink Boots",
                 "Slink Gloves",
                 "Sorcerer Boots",
                 "Sorcerer Gloves",
-                "Spiked Gloves",
-                "Spine Bow",
-                "Stealth Boots",
-                "Sunfire Circlet",
-                "Supreme Leather",
-                "Titan Gauntlets",
-                "Titan Greaves",
-                "Titan Plate",
-                "Titanium Spirit Shield",
-                "Tornado Wand",
-                "Torturer Garb",
-                "Two-Toned Boots",
-                "Vaal Axe",
-                "Vaal Greaves",
-                "Vaal Mask",
-                "Void Sceptre"
+                "Dragonscale Boots",
+                "Dragonscale Gauntlets",
+                "Crusader Boots",
+                "Crusader Gloves",
+                "Murder Boots",
+                "Murder Mitts"
             ]
         },
         {
-            "ruleName": "Rares - T3: Bases",
+            "ruleName": "Rares - T3: Armour Bases",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
@@ -213,7 +592,7 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Hide"
@@ -236,16 +615,86 @@
             "ItemLevel": 68,
             "Rarity": "Rare",
             "BaseType": [
+                "Glorious Plate",
+                "Zodiac Leather",
+                "Vaal Regalia",
+                "Triumphant Lamellar",
+                "Saintly Chainmail",
+                "Sadist Garb",
+                "Eternal Burgonet",
+                "Lion Pelt",
+                "Hubris Circlet",
+                "Nightmare Bascinet",
+                "Pig-Faced Bascinet",
+                "Praetor Crown",
+                "Deicide Mask",
+                "Vaal Gauntlets",
+                "Vaal Greaves",
+                "Stealth Gloves",
+                "Stealth Boots",
+                "Arcanist Gloves",
+                "Arcanist Slippers",
+                "Hydrascale Boots",
+                "Hydrascale Gauntlets",
+                "Legion Boots",
+                "Legion Gloves",
+                "Assassin's Boots",
+                "Assassin's Mitts"
+            ]
+        },
+        {
+            "ruleName": "Rares - T3: Misc Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
+                "Broadhead Arrow Quiver",
+                "Carnal Mitts",
+                "Feathered Arrow Quiver",
+                "Golden Kris",
+                "Lacquered Buckler",
+                "Opal Sceptre",
+                "Royal Burgonet",
+                "Short Bow",
+                "Siege Axe",
+                "Vaal Mask",
+                "Void Sceptre",
                 "Ambush Boots",
                 "Ambush Mitts",
                 "Ancient Greaves",
                 "Antique Greaves",
-                "Arcanist Gloves",
-                "Arcanist Slippers",
                 "Assassin's Garb",
                 "Astral Plate",
                 "Battered Foil",
-                "Blasting Wand",
                 "Callous Mask",
                 "Cardinal Round Shield",
                 "Carnal Boots",
@@ -253,52 +702,32 @@
                 "Champion Kite Shield",
                 "Citadel Bow",
                 "Conjurer Boots",
-                "Convening Wand",
                 "Copper Kris",
-                "Crusader Buckler",
-                "Demon's Horn",
                 "Eelskin Boots",
-                "Elegant Round Shield",
                 "Eternal Sword",
-                "Eye Gouger",
                 "Ezomyte Axe",
                 "Ezomyte Burgonet",
                 "Ezomyte Staff",
-                "Ezomyte Tower Shield",
-                "Fingerless Silk Gloves",
                 "Fluted Bascinet",
                 "Fossilised Spirit Shield",
                 "Full Dragonscale",
-                "Gemini Claw",
-                "Glorious Plate",
                 "Goliath Gauntlets",
                 "Goliath Greaves",
                 "Gutting Knife",
                 "Harlequin Mask",
-                "Harmonic Spirit Shield",
-                "Heathen Wand",
                 "Heavy Arrow Quiver",
                 "Imperial Bow",
-                "Imperial Buckler",
                 "Imperial Skean",
-                "Legion Boots",
-                "Legion Gloves",
                 "Maraketh Bow",
                 "Mind Cage",
                 "Mosaic Kite Shield",
                 "Nubuck Boots",
-                "Opal Wand",
-                "Pig-Faced Bascinet",
-                "Pinnacle Tower Shield",
-                "Platinum Kris",
                 "Primal Arrow Quiver",
                 "Prophet Crown",
                 "Reaver Axe",
                 "Reaver Sword",
                 "Regicide Mask",
                 "Runic Hatchet",
-                "Sadist Garb",
-                "Saintly Chainmail",
                 "Samnite Helmet",
                 "Serpentscale Boots",
                 "Serpentscale Gauntlets",
@@ -309,20 +738,14 @@
                 "Sinner Tricorne",
                 "Solaris Circlet",
                 "Soldier Boots",
-                "Stealth Gloves",
                 "Sundering Axe",
-                "Supreme Spiked Shield",
                 "Thicket Bow",
                 "Trapper Mitts",
-                "Triumphant Lamellar",
                 "Ursine Pelt",
-                "Vaal Gauntlets",
-                "Vaal Regalia",
                 "Vaal Sceptre",
                 "Vaal Spirit Shield",
                 "Wyrmscale Boots",
-                "Wyrmscale Gauntlets",
-                "Zodiac Leather"
+                "Wyrmscale Gauntlets"
             ]
         },
         {
@@ -374,15 +797,12 @@
                 "Bronzescale Boots",
                 "Bronzescale Gauntlets",
                 "Butcher Axe",
-                "Calling Wand",
                 "Carnal Armour",
                 "Chiming Spirit Shield",
                 "Clasped Mitts",
-                "Coiled Wand",
                 "Conjurer Gloves",
                 "Corsair Sword",
                 "Crystal Sceptre",
-                "Crystal Wand",
                 "Deerskin Boots",
                 "Demon Dagger",
                 "Desert Brigandine",
@@ -398,7 +818,6 @@
                 "Ezomyte Blade",
                 "Ezomyte Spiked Shield",
                 "Fencer Helm",
-                "Fleshripper",
                 "General's Brigandine",
                 "Gladiator Plate",
                 "Goathide Boots",
@@ -410,7 +829,6 @@
                 "Hunter Hood",
                 "Infernal Axe",
                 "Ivory Bow",
-                "Jewelled Foil",
                 "Judgement Staff",
                 "Karui Chopper",
                 "Karui Sceptre",
@@ -423,8 +841,6 @@
                 "Necromancer Circlet",
                 "Nightmare Mace",
                 "Noble Tricorne",
-                "Omen Wand",
-                "Pagan Wand",
                 "Penetrating Arrow Quiver",
                 "Piledriver",
                 "Plated Greaves",
@@ -457,19 +873,16 @@
                 "Steelscale Boots",
                 "Steelscale Gauntlets",
                 "Teak Round Shield",
-                "Terror Claw",
                 "Thorium Spirit Shield",
                 "Throat Stabber",
                 "Trapper Boots",
                 "Trisula",
-                "Twin Claw",
                 "Two-Point Arrow Quiver",
                 "Tyrant's Sekhem",
                 "Vaal Buckler",
                 "Vaal Greatsword",
                 "Vaal Hatchet",
                 "Vile Arrow Quiver",
-                "Void Axe",
                 "Widowsilk Robe",
                 "Zealot Boots",
                 "Zealot Gloves"
