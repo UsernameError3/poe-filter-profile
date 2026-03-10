@@ -114,7 +114,7 @@
         "styleName": "Gold",
         "SetTextColor": "#ffae0099",
         "SetBorderColor": "#ff550099",
-        "SetBackgroundColor": "#ff840099",
+        "SetBackgroundColor": "#00000099",
         "SetFontSize": "25",
         "PlayAlertSound": "",
         "MinimapIcon": "",
