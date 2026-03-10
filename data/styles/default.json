@@ -112,8 +112,8 @@
     {
         "styleClass": "Currency",
         "styleName": "Gold",
-        "SetTextColor": "#ffae0099",
-        "SetBorderColor": "#ff550099",
+        "SetTextColor": "#ffae00",
+        "SetBorderColor": "#ffae0099",
         "SetBackgroundColor": "#00000099",
         "SetFontSize": "25",
         "PlayAlertSound": "",
