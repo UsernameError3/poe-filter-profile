@@ -110,6 +110,17 @@
         "PlayEffect": ""
     },
     {
+        "styleClass": "Currency",
+        "styleName": "Gold",
+        "SetTextColor": "#ffae0099",
+        "SetBorderColor": "#ff550099",
+        "SetBackgroundColor": "#ff840099",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
         "styleClass": "Gear",
         "styleName": "UniqueCorrupted",
         "SetTextColor": "#ff6000",

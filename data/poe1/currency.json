@@ -829,7 +829,7 @@
             ]
         },
         {
-            "ruleName": "Shards",
+            "ruleName": "Shards T1",
             "ruleSortIndex": 5,
             "ruleTier": 5,
             "ruleStrictness": {
@@ -844,6 +844,45 @@
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T3",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Annulment Shard",
+                "Exalted Shard"
+            ]
+        },
+        {
+            "ruleName": "Shards T2",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
                 },
                 "T5_3ST_MAPS": {
                     "visibility": "Hide"
@@ -863,8 +902,6 @@
                 "Currency"
             ],
             "BaseType": [
-                "Annulment Shard",
-                "Exalted Shard",
                 "Alchemy Shard",
                 "Alteration Shard",
                 "Chaos Shard",
@@ -1054,7 +1091,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T4",
+            "styleName": "Gold",
             "StackSizeOperator": ">=",
             "StackSize": 150,
             "BaseType": [
@@ -1073,7 +1110,7 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Hide"
@@ -1091,7 +1128,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T5",
+            "styleName": "Gold",
             "StackSizeOperator": ">=",
             "StackSize": 50,
             "BaseType": [
@@ -1128,7 +1165,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "T6",
+            "styleName": "Gold",
             "StackSizeOperator": ">=",
             "StackSize": 1,
             "BaseType": [
