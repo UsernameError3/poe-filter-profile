@@ -334,16 +334,16 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
                     "visibility": "Hide"
@@ -368,7 +368,7 @@
                     "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
                     "visibility": "Hide"
@@ -399,7 +399,7 @@
             ]
         },
         {
-            "ruleName": "Exception: High ItemLevel Tinctures",
+            "ruleName": "Exception: Prismatic Tinctures",
             "ruleSortIndex": 0,
             "ruleTier": 0,
             "ruleStrictness": {
@@ -431,6 +431,43 @@
             "styleName": "T4",
             "ItemLevelOperator": ">=",
             "ItemLevel": 84,
+            "BaseType": [
+                "Prismatic Tincture"
+            ]
+        },
+        {
+            "ruleName": "Exception: High ItemLevel Tinctures",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T4",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 84,
             "Class": [
                 "Tincture"
             ]
@@ -447,7 +484,7 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Hide"
@@ -521,7 +558,7 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Hide"
@@ -557,7 +594,7 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Hide"
@@ -631,7 +668,7 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
                     "visibility": "Hide"
