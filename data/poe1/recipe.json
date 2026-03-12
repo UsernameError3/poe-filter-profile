@@ -103,13 +103,13 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "T4",
@@ -127,22 +127,22 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "T4",
@@ -162,22 +162,22 @@
                     "visibility": "Show"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Remove"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "T4",
