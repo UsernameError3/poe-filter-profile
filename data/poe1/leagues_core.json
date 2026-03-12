@@ -365,6 +365,44 @@
             ]
         },
         {
+            "ruleName": "League - Breach: Wombgifts",
+            "ruleSortIndex": 6,
+            "ruleTier": 2,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "BaseType": [
+                "Lavish Wombgift",
+                "Provisioning Wombgift",
+                "Ancient Wombgift",
+                "Mysterious Wombgift"
+            ]
+        },
+        {
             "ruleName": "League - Breach (Legacy): Flawless Breachstones",
             "ruleSortIndex": 6,
             "ruleTier": 2,
@@ -1025,7 +1063,7 @@
             ]
         },
         {
-            "ruleName": "League - Harvest: Boss",
+            "ruleName": "League - Harvest: Boss Currency",
             "ruleSortIndex": 19,
             "ruleTier": 2,
             "ruleStrictness": {
@@ -1056,13 +1094,50 @@
             },
             "styleName": "T0",
             "BaseType": [
-                "Crystallised Rancour",
                 "Sacred Blossom",
                 "Sacred Crystallised Lifeforce"
             ]
         },
         {
-            "ruleName": "League - Harvest: Currency",
+            "ruleName": "League - Harvest: T2 Currency",
+            "ruleSortIndex": 20,
+            "ruleTier": 2,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Crystallised Rancour"
+            ]
+        },
+        {
+            "ruleName": "League - Harvest: T3 Currency",
             "ruleSortIndex": 20,
             "ruleTier": 2,
             "ruleStrictness": {
@@ -1096,6 +1171,7 @@
                 "Stackable Currency"
             ],
             "BaseType": [
+                "Crystallised Rancour",
                 "Primal Crystallised Lifeforce",
                 "Vivid Crystallised Lifeforce",
                 "Wild Crystallised Lifeforce"

@@ -101,7 +101,6 @@
                 "Stackable Currency"
             ],
             "BaseType": [
-                "Coin of Restoration",
                 "Coin of Desecration",
                 "Coin of Knowledge",
                 "Coin of Power",
@@ -142,7 +141,9 @@
             "Class": [
                 "Stackable Currency"
             ],
-            "BaseType": []
+            "BaseType": [
+                "Coin of Restoration"
+            ]
         }
     ]
 }
