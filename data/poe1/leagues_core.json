@@ -246,6 +246,7 @@
             },
             "styleName": "T1",
             "BaseType": [
+                "Reflective Oil",
                 "Silver Oil"
             ]
         },
@@ -279,10 +280,9 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T0",
+            "styleName": "T3",
             "BaseType": [
                 "Opalescent Oil",
-                "Reflective Oil",
                 "Black Oil",
                 "Crimson Oil"
             ]
@@ -317,7 +317,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T0",
+            "styleName": "T4",
             "BaseType": [
                 "Azure Oil",
                 "Indigo Oil",
