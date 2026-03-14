@@ -102,7 +102,7 @@
             "Corrupted": "True",
             "Identified": "True",
             "HasExplicitModOperator": ">=8",
-            "HasExplicitMod": ""
+            "HasExplicitMod": "\"a\" \"e\" \"i\" \"o\" \"u\" \"y\""
         },
         {
             "ruleName": "Map - Implicit",
