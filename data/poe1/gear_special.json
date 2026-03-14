@@ -773,6 +773,7 @@
                 }
             },
             "styleName": "T2",
+            "HasExplicitModOperator": "",
             "HasExplicitMod": [
                 "Veil"
             ]
