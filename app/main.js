@@ -189,13 +189,19 @@ const buildFilterRule = (rule, style, visibility) => {
             }
         }
         if (rule.HasExplicitMod) {
-            properties.push(filterRulePropertyList(`HasExplicitMod`, null, rule.HasExplicitMod));
+            if (rule.HasExplicitModOperator || rule.HasExplicitModOperator == "") {
+                let HasExplicitModOperator = rule.HasExplicitModOperator;
+                properties.push(filterRuleProperty(`HasExplicitMod`, HasExplicitModOperator, rule.HasExplicitMod));
+            } else {
+                let HasExplicitModOperator = '==';
+                properties.push(filterRuleProperty(`HasExplicitMod`, HasExplicitModOperator, rule.HasExplicitMod));
+            }
         }
         if (rule.HasInfluence) {
             properties.push(filterRulePropertyListRaw(`HasInfluence`, null, rule.HasInfluence));
         }
         if (rule.HasSearingExarchImplicit) {
-            if (rule.HasSearingExarchImplicitOperator  || rule.HasSearingExarchImplicitOperator == "") {
+            if (rule.HasSearingExarchImplicitOperator || rule.HasSearingExarchImplicitOperator == "") {
                 let HasSearingExarchImplicitOperator = rule.HasSearingExarchImplicitOperator;
                 properties.push(filterRuleProperty(`HasSearingExarchImplicit`, HasSearingExarchImplicitOperator, rule.HasSearingExarchImplicit));
             } else {
@@ -204,7 +210,7 @@ const buildFilterRule = (rule, style, visibility) => {
             }
         }
         if (rule.HasEaterOfWorldsImplicit) {
-            if (rule.HasEaterOfWorldsImplicitOperator  || rule.HasEaterOfWorldsImplicitOperator == "") {
+            if (rule.HasEaterOfWorldsImplicitOperator || rule.HasEaterOfWorldsImplicitOperator == "") {
                 let HasEaterOfWorldsImplicitOperator = rule.HasEaterOfWorldsImplicitOperator;
                 properties.push(filterRuleProperty(`HasEaterOfWorldsImplicit`, HasEaterOfWorldsImplicitOperator, rule.HasEaterOfWorldsImplicit));
             } else {

@@ -12,7 +12,43 @@
         ]
     },
     "rules": [
-                {
+                        {
+            "ruleName": "Rares - Exception: Corrupted Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare - Corrupted",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "Corrupted": "True"
+        },
+        {
             "ruleName": "Rares - Exception: Identified Bases",
             "ruleSortIndex": 1,
             "ruleTier": 1,
@@ -46,7 +82,8 @@
             "ItemLevelOperator": ">=",
             "ItemLevel": 68,
             "Rarity": "Rare",
-            "Identified": "True"
+            "Identified": "True",
+            "Corrupted": "False"
         },
         {
             "ruleName": "Rares - T1: Bow Bases",
@@ -184,7 +221,7 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
                     "visibility": "Hide"
@@ -223,7 +260,7 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
                     "visibility": "Hide"
@@ -370,7 +407,7 @@
             ]
         },
         {
-            "ruleName": "Rares - T1: Shield Bases",
+            "ruleName": "Rares - T0: Shield Bases",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
@@ -406,14 +443,51 @@
             "BaseType": [
                 "Pinnacle Tower Shield",
                 "Colossal Tower Shield",
+                "Titanium Spirit Shield",
+                "Harmonic Spirit Shield",
+                "Supreme Spiked Shield"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Shield Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
                 "Ezomyte Tower Shield",
                 "Imperial Buckler",
                 "Crusader Buckler",
-                "Titanium Spirit Shield",
-                "Harmonic Spirit Shield",
                 "Elegant Round Shield",
                 "Archon Kite Shield",
-                "Supreme Spiked Shield",
                 "Mirrored Spiked Shield"
             ]
         },
@@ -499,7 +573,7 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
                     "visibility": "Hide"
@@ -613,7 +687,7 @@
                     "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
                     "visibility": "Hide"

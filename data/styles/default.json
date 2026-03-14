@@ -166,6 +166,17 @@
     },
     {
         "styleClass": "Gear",
+        "styleName": "Rare - Corrupted",
+        "SetTextColor": "#ffea00",
+        "SetBorderColor": "#ff0000",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
         "styleName": "Rare",
         "SetTextColor": "#ffea00",
         "SetBorderColor": "#ffcc00",
