@@ -100,7 +100,7 @@
                 "Maps"
             ],
             "HasExplicitModOperator": ">=",
-            "HasExplicitMod": 8
+            "HasExplicitMod": "8 'a' 'e' 'i' 'o' 'u' 'y'"
         },
         {
             "ruleName": "Map - Implicit",
