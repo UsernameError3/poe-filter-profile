@@ -361,7 +361,8 @@
             },
             "styleName": "T1",
             "BaseType": [
-                "Flesh of Xesht"
+                "Flesh of Xesht",
+                "Hivebrain Gland"
             ]
         },
         {
@@ -400,123 +401,6 @@
                 "Provisioning Wombgift",
                 "Ancient Wombgift",
                 "Mysterious Wombgift"
-            ]
-        },
-        {
-            "ruleName": "League - Breach (Legacy): Flawless Breachstones",
-            "ruleSortIndex": 6,
-            "ruleTier": 2,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T0",
-            "BaseType": [
-                "Chayula's Flawless Breachstone",
-                "Esh's Flawless Breachstone",
-                "Tul's Flawless Breachstone",
-                "Uul-Netol's Flawless Breachstone",
-                "Xoph's Flawless Breachstone"
-            ]
-        },
-        {
-            "ruleName": "League - Breach (Legacy): Breachstones",
-            "ruleSortIndex": 7,
-            "ruleTier": 2,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T1",
-            "BaseType": [
-                "Chayula's Breachstone",
-                "Uul-Netol's Breachstone",
-                "Esh's Breachstone",
-                "Tul's Breachstone",
-                "Xoph's Breachstone"
-            ]
-        },
-        {
-            "ruleName": "League - Breach (Legacy): Splinters",
-            "ruleSortIndex": 8,
-            "ruleTier": 2,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T3",
-            "BaseType": [
-                "Splinter of Chayula",
-                "Splinter of Uul-Netol",
-                "Splinter of Esh",
-                "Splinter of Tul",
-                "Splinter of Xoph"
             ]
         },
         {
