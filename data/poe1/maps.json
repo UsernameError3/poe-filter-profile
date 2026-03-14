@@ -437,7 +437,7 @@
             ]
         },
         {
-            "ruleName": "Map - Nightmare",
+            "ruleName": "Map - Special",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
@@ -467,10 +467,11 @@
                 }
             },
             "styleName": "T1",
-            "Class": [
-                "Maps"
-            ],
-            "MapTier": 17
+            "BaseType": [
+                "Nightmare Map",
+                "Shaper Gaurdian Map",
+                "Valdo Map"
+            ]
         },
         {
             "ruleName": "Map - T16",
