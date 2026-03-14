@@ -244,7 +244,7 @@
             ]
         },
         {
-            "ruleName": "Rares - T1: Wand Bases",
+            "ruleName": "Rares - T0: Wand Bases",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
@@ -278,13 +278,50 @@
             "ItemLevel": 68,
             "Rarity": "Rare",
             "BaseType": [
+                "Prophecy Wand",
+                "Kinetic Wand"
+            ]
+        },
+        {
+            "ruleName": "Rares - T1: Wand Bases",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Rare",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 68,
+            "Rarity": "Rare",
+            "BaseType": [
                 "Convoking Wand",
                 "Profane Wand",
                 "Accumulator Wand",
-                "Prophecy Wand",
                 "Tornado Wand",
                 "Opal Wand",
-                "Kinetic Wand",
                 "Demon's Horn"
             ]
         },
