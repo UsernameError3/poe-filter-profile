@@ -207,7 +207,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 16
+            "WaystoneTier": 16
         },
         {
             "ruleName": "Map - T15",
@@ -243,7 +243,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 15
+            "WaystoneTier": 15
         },
         {
             "ruleName": "Map - T14",
@@ -279,7 +279,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 14
+            "WaystoneTier": 14
         },
         {
             "ruleName": "Map - T13",
@@ -315,7 +315,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 13
+            "WaystoneTier": 13
         },
         {
             "ruleName": "Map - T12",
@@ -351,7 +351,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 12
+            "WaystoneTier": 12
         },
         {
             "ruleName": "Map - T11",
@@ -387,7 +387,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 11
+            "WaystoneTier": 11
         },
         {
             "ruleName": "Map - T10",
@@ -423,7 +423,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 10
+            "WaystoneTier": 10
         },
         {
             "ruleName": "Map - T9",
@@ -459,7 +459,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 9
+            "WaystoneTier": 9
         },
         {
             "ruleName": "Map - T8",
@@ -495,7 +495,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 8
+            "WaystoneTier": 8
         },
         {
             "ruleName": "Map - T7",
@@ -531,7 +531,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 7
+            "WaystoneTier": 7
         },
         {
             "ruleName": "Map - T6",
@@ -567,7 +567,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 6
+            "WaystoneTier": 6
         },
         {
             "ruleName": "Map - T5",
@@ -603,7 +603,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 5
+            "WaystoneTier": 5
         },
         {
             "ruleName": "Map - T4",
@@ -639,7 +639,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 4
+            "WaystoneTier": 4
         },
         {
             "ruleName": "Map - T3",
@@ -675,7 +675,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 3
+            "WaystoneTier": 3
         },
         {
             "ruleName": "Map - T2",
@@ -711,7 +711,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 2
+            "WaystoneTier": 2
         },
         {
             "ruleName": "Map - T1",
@@ -747,7 +747,7 @@
             "Class": [
                 "Waystones"
             ],
-            "MapTier": 1
+            "WaystoneTier": 1
         }
     ]
 }

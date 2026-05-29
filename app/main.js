@@ -272,6 +272,9 @@ const buildFilterRule = (rule, style, visibility) => {
         if (rule.MapTier) {
             properties.push(filterRuleProperty(`MapTier`, '==', rule.MapTier));
         }
+        if (rule.WaystoneTier) {
+            properties.push(filterRuleProperty(`WaystoneTier`, '==', rule.WaystoneTier));
+        }
         if (rule.ZanaMemory) {
             properties.push(filterRuleProperty(`ZanaMemory`, '==', rule.ZanaMemory));
         }
