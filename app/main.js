@@ -384,8 +384,8 @@ const importRuleJSON = (file) => {
     return data;
 };
 
-// Main File
-const buildFilterFile = async () => {
+// PoE 1 Filter
+const buildFilterFilePoE1 = async () => {
     const filterStyleRules = importRuleJSON('data/styles/default.json');
     const filterRuleObj = {
         questRules: importRuleJSON('data/poe1/quest.json'),
@@ -462,8 +462,86 @@ const buildFilterFile = async () => {
 
     });
 
-    console.log('Finished Filter Export...');
+    console.log('Finished PoE1 Filter Export...');
     return;
 };
 
-module.exports.buildFilterFile = buildFilterFile;
+// PoE 2 Filter
+const buildFilterFilePoE2 = async () => {
+    const filterStyleRules = importRuleJSON('data/styles/default.json');
+    const filterRuleObj = {
+        questRules: importRuleJSON('data/poe2/quest.json'),
+        currencyRules: importRuleJSON('data/poe2/currency.json'),
+        fragmentRules: importRuleJSON('data/poe2/fragments.json'),
+        mapRules: importRuleJSON('data/poe2/maps.json'),
+        relicRules: importRuleJSON('data/poe2/relics.json'),
+        // leagueCoreRules: importRuleJSON('data/poe2/leagues_core.json'),
+        // leagueNewRules: importRuleJSON('data/poe2/leagues_new.json'),
+        gemRules: importRuleJSON('data/poe2/gems.json'),
+        jewelRules: importRuleJSON('data/poe2/jewels.json'),
+        gearFlaskRules: importRuleJSON('data/poe2/gear_flask.json'),
+        gearUniqueRules: importRuleJSON('data/poe2/gear_unique.json'),
+        gearSpecialRules: importRuleJSON('data/poe2/gear_special.json'),
+        gearRareRules: importRuleJSON('data/poe2/gear_rare.json'),
+        gearMagicRules: importRuleJSON('data/poe2/gear_magic.json'),
+        gearNormalRules: importRuleJSON('data/poe2/gear_normal.json'),
+        safetyRules: importRuleJSON('data/poe2/safety.json'),
+    };
+
+    // Build Style Objects
+    const filterStyleLegend = await mapFilterStyleList(filterStyleRules);
+
+    // Generate Filter Rules
+    mapFilterRuleList(filterRuleObj.questRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.currencyRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.fragmentRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.mapRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.relicRules, filterStyleLegend);
+    // mapFilterRuleList(filterRuleObj.leagueCoreRules, filterStyleLegend);
+    // mapFilterRuleList(filterRuleObj.leagueNewRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.gemRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.jewelRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.gearFlaskRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.gearUniqueRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.gearSpecialRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.gearRareRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.gearMagicRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.gearNormalRules, filterStyleLegend);
+    mapFilterRuleList(filterRuleObj.safetyRules, filterStyleLegend);
+
+    // Generate Rule Data by Strictness
+    Object.keys(filters).forEach(function(key) {
+        // Join Filter Data
+        let filterData = filters[key].join('\n\n');
+        let fileOutputName = ''
+
+        if (process.env.VERSION_POE2){
+            fileOutputName = path.resolve(`${process.env.GAMEDIR_POE2}/${process.env.VERSION_POE2}/${key}.filter`);
+    
+        } else {
+            fileOutputName = path.resolve(`${process.env.GAMEDIR_POE2}/${key}.filter`);
+        }
+        
+        console.log('Exporting: ', fileOutputName);
+
+        // Sync Directory
+        fs.mkdirSync(path.dirname(fileOutputName), { recursive: true });
+
+        // Export Main File List
+        fs.writeFileSync(fileOutputName, filterData);
+
+    });
+
+    console.log('Finished PoE2 Filter Export...');
+    return;
+};
+
+const main = async () => {
+    // buildFilterFilePoE1();
+    buildFilterFilePoE2();
+    return;
+};
+
+
+
+module.exports.main = main;

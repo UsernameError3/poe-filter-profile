@@ -4,7 +4,7 @@ const utils = require('./app/main.js');
 
 const build = (cb) => {
     console.log('Building Application...');
-    utils.buildFilterFile();
+    utils.main();
     cb();
 }
 

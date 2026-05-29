@@ -1,0 +1,344 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Exceptional Gems"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Lineage Gems"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Uncut Gems"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "Misc Gems"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Lineage - T0",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T0",
+            "Class": [
+                "Skill Gems",
+                "Support Gems"
+            ],
+            "BaseType": [
+                "Amanamu's Tithe",
+                "Atalui's Bloodletting",
+                "Atziri's Impatience",
+                "Brutus' Brain",
+                "Dialla's Desire",
+                "Doedre's Undoing",
+                "Esh's Radiance",
+                "Garukhan's Resolve",
+                "Rakiata's Flow",
+                "Rigwald's Ferocity",
+                "Tul's Stillness",
+                "Uhtred's Augury",
+                "Uhtred's Exodus",
+                "Uhtred's Omen",
+                "Uul-Netol's Embrace",
+                "Xoph's Pyre",
+                "Zerphi's Infamy"
+            ]
+        },
+        {
+            "ruleName": "Lineage - T1",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T1",
+            "Class": [
+                "Skill Gems",
+                "Support Gems"
+            ],
+            "BaseType": [
+                "Ahn's Citadel",
+                "Arjun's Medal",
+                "Atziri's Call",
+                "Atziri's Communion",
+                "Bhatair's Vengeance",
+                "Dreamer's Knell",
+                "Eonyr's Thunder",
+                "Hayoxi's Fulmination",
+                "Helbrym's Hide",
+                "Ixchel's Torment",
+                "Kulemak's Dominion",
+                "Ratha's Assault",
+                "Sione's Temper",
+                "Tecrod's Revenge"
+            ]
+        },
+        {
+            "ruleName": "Lineage - T2",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "Class": [
+                "Skill Gems",
+                "Support Gems"
+            ],
+            "BaseType": [
+                "Arakaali's Lust",
+                "Arbiter's Ignition",
+                "Dominus' Grasp",
+                "Khatal's Rejuvenation",
+                "Oisín's Oath",
+                "Paquate's Pact",
+                "Zarokh's Revolt"
+            ]
+        },
+        {
+            "ruleName": "Lineage - T3",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T3",
+            "Class": [
+                "Skill Gems",
+                "Support Gems"
+            ],
+            "BaseType": [
+                "Ailith's Chimes",
+                "Atziri's Allure",
+                "Cirel's Cultivation",
+                "Daresso's Passion",
+                "Einhar's Beastrite",
+                "Guatelitzi's Ablation",
+                "Kalisa's Crescendo",
+                "Kaom's Madness",
+                "Kurgal's Leash",
+                "Morgana's Tempest",
+                "Romira's Requital",
+                "Tacati's Ire",
+                "Tasalio's Rhythm",
+                "Tawhoa's Tending",
+                "Uruk's Smelting",
+                "Varashta's Blessing",
+                "Vilenta's Propulsion",
+                "Xibaqua's Rending",
+                "Zarokh's Refrain"
+            ]
+        },
+        {
+            "ruleName": "Misc - Uncut Gems",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T4",
+            "BaseType": [
+                "Uncut Skill Gem",
+                "Uncut Spirit Gem",
+                "Uncut Support Gem"
+            ]
+        },
+        {
+            "ruleName": "Misc - Skill Gems",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T4",
+            "Class": [
+                "Skill Gems"
+            ]
+        },
+        {
+            "ruleName": "Misc - Support Gems",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T4",
+            "Class": [
+                "Support Gems"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Hide Known"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Safety Layer"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Hide - Known",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Hide"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Hide",
+            "ClassOperator": "",
+            "Class": [
+                "Amulets",
+                "Belts",
+                "Body Armours",
+                "Boots",
+                "Bows",
+                "Bucklers",
+                "Charms",
+                "Crossbows",
+                "Foci",
+                "Gloves",
+                "Helmets",
+                "Jewels",
+                "Life Flasks",
+                "Mana Flasks",
+                "One Hand Maces",
+                "Quarterstaves",
+                "Quivers",
+                "Rings",
+                "Sceptres",
+                "Shields",
+                "Spears",
+                "Staves",
+                "Talismans",
+                "Two Hand Maces",
+                "Wands"
+            ]
+        },
+        {
+            "ruleName": "Safety Layer",
+            "ruleSortIndex": 100,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "MissingRule"
+        }
+    ]
+}

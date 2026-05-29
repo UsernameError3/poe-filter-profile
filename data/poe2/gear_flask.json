@@ -1,0 +1,397 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Unique Flasks"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Magic Flasks"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "Normal Flasks"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Misc"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Exception: High Quality Flasks",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "QualityOperator": ">=",
+            "Quality": 15,
+            "Class": [
+                "Life Flasks",
+                "Mana Flasks"
+            ]
+        },
+        {
+            "ruleName": "Exception: High Quality Charms",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "QualityOperator": ">=",
+            "Quality": 15,
+            "Class": [
+                "Charms"
+            ]
+        },
+        {
+            "ruleName": "Unique Flasks",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "UniquePriority",
+            "Rarity": "Unique",
+            "Class": [
+                "Life Flasks",
+                "Mana Flasks"
+            ]
+        },
+        {
+            "ruleName": "Unique Charms",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "UniquePriority",
+            "Rarity": "Unique",
+            "Class": [
+                "Charms"
+            ]
+        },
+        {
+            "ruleName": "Exception: High ItemLevel Flasks",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T4",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 83,
+            "Class": [
+                "Life Flasks",
+                "Mana Flasks"
+            ]
+        },
+        {
+            "ruleName": "Exception: High ItemLevel Charms",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T4",
+            "ItemLevelOperator": ">=",
+            "ItemLevel": 83,
+            "Class": [
+                "Charms"
+            ]
+        },
+        {
+            "ruleName": "Magic Flasks",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T5",
+            "Rarity": "Magic",
+            "Class": [
+                "Life Flasks",
+                "Mana Flasks"
+            ]
+        },
+        {
+            "ruleName": "Magic Charms",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T5",
+            "Rarity": "Magic",
+            "Class": [
+                "Charms"
+            ]
+        },
+        {
+            "ruleName": "Normal Flasks",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T5",
+            "Rarity": "Normal",
+            "Class": [
+                "Life Flasks",
+                "Mana Flasks"
+            ]
+        },
+        {
+            "ruleName": "Normal Charms",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T5",
+            "Rarity": "Normal",
+            "Class": [
+                "Charms"
+            ]
+        }
+    ]
+}

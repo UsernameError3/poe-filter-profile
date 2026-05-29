@@ -1,0 +1,211 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Unique Relics"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Rare Relics"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Magic Relics"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "Normal Relics"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Misc"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Unique Relics",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "Unique",
+            "Class": [
+                "Relics"
+            ],
+            "Rarity": "Unique"
+        },
+        {
+            "ruleName": "Rare Relics",
+            "ruleSortIndex": 2,
+            "ruleTier": 2,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "Rare",
+            "Class": [
+                "Relics"
+            ],
+            "Rarity": "Rare"
+        },
+        {
+            "ruleName": "Magic Relics",
+            "ruleSortIndex": 3,
+            "ruleTier": 3,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "Magic",
+            "Class": [
+                "Relics"
+            ],
+            "Rarity": "Magic"
+        },
+        {
+            "ruleName": "Normal Relics",
+            "ruleSortIndex": 4,
+            "ruleTier": 4,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "Normal",
+            "Class": [
+                "Relics"
+            ],
+            "Rarity": "Normal"
+        },
+        {
+            "ruleName": "Misc",
+            "ruleSortIndex": 5,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T0",
+            "Class": [
+                "Relics"
+            ]
+        }
+    ]
+}

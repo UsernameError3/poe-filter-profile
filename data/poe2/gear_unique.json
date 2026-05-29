@@ -1,0 +1,81 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Tier 0"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Tier 1"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Tier 2"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "Tier 3"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Tier 4"
+            },
+            {
+                "ruleSortIndex": 6,
+                "ruleSortCategory": "Boss Uniques"
+            },
+            {
+                "ruleSortIndex": 7,
+                "ruleSortCategory": "Multi Base"
+            },
+            {
+                "ruleSortIndex": 8,
+                "ruleSortCategory": "Leveling"
+            },
+            {
+                "ruleSortIndex": 9,
+                "ruleSortCategory": "Misc"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Misc",
+            "ruleSortIndex": 9,
+            "ruleTier": 9,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "Unique",
+            "Rarity": "Unique"
+        }
+    ]
+}

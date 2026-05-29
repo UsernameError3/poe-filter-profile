@@ -1,0 +1,544 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Mirror"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "Basic Currency"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "Mapping Currency"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "Misc Currency"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "League Currency"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "Shards"
+            },
+            {
+                "ruleSortIndex": 9,
+                "ruleSortCategory": "Runes"
+            },
+            {
+                "ruleSortIndex": 10,
+                "ruleSortCategory": "Omens"
+            },
+            {
+                "ruleSortIndex": 11,
+                "ruleSortCategory": "Tattoos"
+            }
+        ]
+    },
+    "rules": [
+        {
+            "ruleName": "Mirror",
+            "ruleSortIndex": 0,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "Mirror",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Mirror of Kalandra"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency - Top Value",
+            "ruleSortIndex": 1,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T0",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Hinekora's Lock",
+                "Divine Orb",
+                "Perfect Chaos Orb",
+                "Perfect Exalted Orb",
+                "Perfect Jeweller's Orb",
+                "Albino Rhoa Feather",
+                "Ancient Collarbone",
+                "Ancient Jawbone",
+                "Ancient Rib",
+                "Vaal Cultivation Orb"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency - High Value",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T1",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Ancient Infuser",
+                "Preserved Collarbone",
+                "Preserved Cranium",
+                "Preserved Rib",
+                "Architect's Orb",
+                "Fracturing Orb",
+                "Orb of Annulment",
+                "Greater Chaos Orb",
+                "Greater Exalted Orb",
+                "Perfect Regal Orb"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency - Medium Value",
+            "ruleSortIndex": 1,
+            "ruleTier": 2,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Chaos Orb",
+                "Core Destabiliser",
+                "Crystallised Corruption",
+                "Orb of Chance",
+                "Orb of Extraction",
+                "Vaal Infuser",
+                "Exalted Orb",
+                "Gemcutter's Prism",
+                "Gnawed Jawbone",
+                "Greater Jeweller's Orb",
+                "Perfect Orb of Augmentation",
+                "Preserved Jawbone",
+                "Vaal Orb",
+                "Vaal Siphoner"
+            ]
+        },
+{
+            "ruleName": "Basic Currency - Lower Value",
+            "ruleSortIndex": 1,
+            "ruleTier": 3,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T3",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Arcanist's Etcher",
+                "Armourer's Scrap",
+                "Artificer's Orb",
+                "Blacksmith's Whetstone",
+                "Chance Shard",
+                "Glassblower's Bauble",
+                "Gnawed Collarbone",
+                "Gnawed Rib",
+                "Greater Orb of Augmentation",
+                "Greater Orb of Transmutation",
+                "Greater Regal Orb",
+                "Orb of Alchemy",
+                "Perfect Orb of Transmutation",
+                "Regal Orb",
+                "Lesser Jeweller's Orb",
+                "Black Scythe Artifact",
+                "Broken Circle Artifact",
+                "Exotic Coinage",
+                "Order Artifact",
+                "Sun Artifact",
+                "Orb of Augmentation",
+                "Orb of Transmutation"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency - Misc",
+            "ruleSortIndex": 1,
+            "ruleTier": 3,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T0",
+            "Class": [
+                "Currency"
+            ]
+        },
+        {
+            "ruleName": "Wisdom Scrolls",
+            "ruleSortIndex": 1,
+            "ruleTier": 6,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "T6",
+            "Class": [
+                "Currency"
+            ],
+            "BaseType": [
+                "Scroll of Wisdom"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: High Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "StackSizeOperator": ">=",
+            "StackSize": 1000,
+            "BaseType": [
+                "Gold"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Decent Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T3",
+            "StackSizeOperator": ">=",
+            "StackSize": 350,
+            "BaseType": [
+                "Gold"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Normal Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Gold",
+            "StackSizeOperator": ">=",
+            "StackSize": 150,
+            "BaseType": [
+                "Gold"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Low Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Gold",
+            "StackSizeOperator": ">=",
+            "StackSize": 50,
+            "BaseType": [
+                "Gold"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Single Gold",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Gold",
+            "StackSizeOperator": ">=",
+            "StackSize": 1,
+            "BaseType": [
+                "Gold"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {"ruleSortIndex": 0, "ruleSortCategory": "Exceptions"},
+            {"ruleSortIndex": 1, "ruleSortCategory": "Basic Filtering"}
+        ]
+    },
+    "rules": []
+}

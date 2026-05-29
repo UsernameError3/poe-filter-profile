@@ -1,0 +1,35 @@
+{
+    "ruleSorting": {
+        "ruleSortLegend": [
+            {
+                "ruleSortIndex": 0,
+                "ruleSortCategory": "Exceptions"
+            },
+            {
+                "ruleSortIndex": 1,
+                "ruleSortCategory": "T0 Fragments"
+            },
+            {
+                "ruleSortIndex": 2,
+                "ruleSortCategory": "T1 Fragments"
+            },
+            {
+                "ruleSortIndex": 3,
+                "ruleSortCategory": "T2 Fragments"
+            },
+            {
+                "ruleSortIndex": 4,
+                "ruleSortCategory": "T3 Fragments"
+            },
+            {
+                "ruleSortIndex": 5,
+                "ruleSortCategory": "T4 Fragments"
+            },
+            {
+                "ruleSortIndex": 6,
+                "ruleSortCategory": "Misc"
+            }
+        ]
+    },
+    "rules": []
+}
