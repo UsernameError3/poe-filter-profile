@@ -15,25 +15,25 @@
                     "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T3_1ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T4_2ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Show"
+                    "visibility": "Hide"
                 }
             },
             "styleName": "Magic",
