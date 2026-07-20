@@ -199,9 +199,31 @@
     },
     {
         "styleClass": "Gear",
+        "styleName": "Magic - Leveling",
+        "SetTextColor": "#0081fa",
+        "SetBorderColor": "#00C8FF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
         "styleName": "Normal",
         "SetTextColor": "#FFFFFF",
         "SetBorderColor": "#FFFFFF",
+        "SetBackgroundColor": "#000000",
+        "SetFontSize": "25",
+        "PlayAlertSound": "",
+        "MinimapIcon": "",
+        "PlayEffect": ""
+    },
+    {
+        "styleClass": "Gear",
+        "styleName": "Normal - Leveling",
+        "SetTextColor": "#FFFFFF",
+        "SetBorderColor": "#00C8FF",
         "SetBackgroundColor": "#000000",
         "SetFontSize": "25",
         "PlayAlertSound": "",

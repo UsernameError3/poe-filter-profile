@@ -5,5 +5,65 @@
             {"ruleSortIndex": 1, "ruleSortCategory": "Basic Filtering"}
         ]
     },
-    "rules": []
+    "rules": [
+        {
+            "ruleName": "Normal - Leveling: Wander (iLvl < 67)",
+            "ruleSortIndex": 1,
+            "ruleTier": 1,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Normal - Leveling",
+            "ItemLevelOperator": "<=",
+            "ItemLevel": 67,
+            "Rarity": "Normal",
+            "Class": [
+                "Amulets",
+                "Rings",
+                "Shields",
+                "Wands"
+            ],
+            "BaseType": [
+                "Somatic Wand",
+                "Sage Wand",
+                "Blasting Wand",
+                "Omen Wand",
+                "Kinetic Wand",
+                "Prophecy Wand",
+                "Twig Spirit Shield",
+                "Yew Spirit Shield",
+                "Tarnished Spirit Shield",
+                "Jingling Spirit Shield",
+                "Walnut Spirit Shield",
+                "Ancient Spirit Shield",
+                "Chiming Spirit Shield",
+                "Lacewood Spirit Shield",
+                "Vaal Spirit Shield",
+                "Harmonic Spirit Shield"
+            ]
+        }
+    ]
 }

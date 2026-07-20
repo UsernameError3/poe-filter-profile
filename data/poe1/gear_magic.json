@@ -7,12 +7,12 @@
     },
     "rules": [
         {
-            "ruleName": "Magics - Leveling: All Magics (iLvl < 67)",
+            "ruleName": "Magic - Leveling: Wander (iLvl < 67)",
             "ruleSortIndex": 1,
             "ruleTier": 1,
             "ruleStrictness": {
                 "T1_LEVELING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T2_0ST_MAPS": {
                     "visibility": "Hide"
@@ -36,40 +36,33 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "Magic",
+            "styleName": "Magic - Leveling",
             "ItemLevelOperator": "<=",
             "ItemLevel": 67,
             "Rarity": "Magic",
             "Class": [
                 "Amulets",
-                "Belts",
-                "Body Armours",
-                "Boots",
-                "Bows",
-                "Claws",
-                "Daggers",
-                "Gloves",
-                "Heist Brooches",
-                "Heist Cloaks",
-                "Heist Gear",
-                "Heist Tools",
-                "Helmets",
-                "One Hand Axes",
-                "One Hand Maces",
-                "One Hand Swords",
-                "Quivers",
                 "Rings",
-                "Rune Daggers",
-                "Sceptres",
                 "Shields",
-                "Staves",
-                "Thrusting One Hand Swords",
-                "Two Hand Axes",
-                "Two Hand Maces",
-                "Two Hand Swords",
-                "Utility Flasks",
-                "Wands",
-                "Warstaves"
+                "Wands"
+            ],
+            "BaseType": [
+                "Somatic Wand",
+                "Sage Wand",
+                "Blasting Wand",
+                "Omen Wand",
+                "Kinetic Wand",
+                "Prophecy Wand",
+                "Twig Spirit Shield",
+                "Yew Spirit Shield",
+                "Tarnished Spirit Shield",
+                "Jingling Spirit Shield",
+                "Walnut Spirit Shield",
+                "Ancient Spirit Shield",
+                "Chiming Spirit Shield",
+                "Lacewood Spirit Shield",
+                "Vaal Spirit Shield",
+                "Harmonic Spirit Shield"
             ]
         }
     ]
