@@ -540,8 +540,8 @@ const buildFilterFilePoE2 = async () => {
 };
 
 const main = async () => {
-    // buildFilterFilePoE1();
-    buildFilterFilePoE2();
+    buildFilterFilePoE1();
+    // buildFilterFilePoE2();
     return;
 };
 
