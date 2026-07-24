@@ -29,45 +29,7 @@
     },
     "rules": [
         {
-            "ruleName": "League - Mirage: Boss",
-            "ruleSortIndex": 1,
-            "ruleTier": 1,
-            "ruleStrictness": {
-                "T1_LEVELING": {
-                    "visibility": "Show"
-                },
-                "T2_0ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T3_1ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T4_2ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T5_3ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T6_4ST_MAPS": {
-                    "visibility": "Show"
-                },
-                "T7_UBER_MAPS": {
-                    "visibility": "Show"
-                },
-                "T8_UBER_BOSSING": {
-                    "visibility": "Show"
-                }
-            },
-            "styleName": "T1",
-            "Class": [
-                "Map Fragments"
-            ],
-            "BaseType": [
-                "The Black Barya"
-            ]
-        },
-        {
-            "ruleName": "League - Mirage: T1 Currency",
+            "ruleName": "League - Allflame: T1 Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
             "ruleStrictness": {
@@ -101,14 +63,18 @@
                 "Stackable Currency"
             ],
             "BaseType": [
-                "Coin of Desecration",
-                "Coin of Knowledge",
-                "Coin of Power",
-                "Coin of Skill"
+                "The Changeling's Ducat",
+                "Cyaxan's Ducat",
+                "Katakohi's Ducat",
+                "Kishara's Ducat",
+                "Merrick's Ducat",
+                "Rotmother's Ducat",
+                "Telesia's Ducat",
+                "Tzamoto's Ducat"
             ]
         },
         {
-            "ruleName": "League - Mirage: T2 Currency",
+            "ruleName": "League - Allflame: T2 Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
             "ruleStrictness": {
@@ -142,7 +108,229 @@
                 "Stackable Currency"
             ],
             "BaseType": [
-                "Coin of Restoration"
+                "The Genteel's Ducat"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Max Sulphur",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T1",
+            "StackSizeOperator": ">=",
+            "StackSize": 10000,
+            "BaseType": [
+                "Dead Man's Sulphur"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: High Sulphur",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T2",
+            "StackSizeOperator": ">=",
+            "StackSize": 5000,
+            "BaseType": [
+                "Dead Man's Sulphur"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Decent Sulphur",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T3",
+            "StackSizeOperator": ">=",
+            "StackSize": 1000,
+            "BaseType": [
+                "Dead Man's Sulphur"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Normal Sulphur",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Sulphur",
+            "StackSizeOperator": ">=",
+            "StackSize": 250,
+            "BaseType": [
+                "Dead Man's Sulphur"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Low Sulphur",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Sulphur",
+            "StackSizeOperator": ">=",
+            "StackSize": 100,
+            "BaseType": [
+                "Dead Man's Sulphur"
+            ]
+        },
+        {
+            "ruleName": "Basic Currency: Single Sulphur",
+            "ruleSortIndex": 1,
+            "ruleTier": 5,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Hide"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Hide"
+                }
+            },
+            "styleName": "Sulphur",
+            "StackSizeOperator": ">=",
+            "StackSize": 1,
+            "BaseType": [
+                "Dead Man's Sulphur"
             ]
         }
     ]
