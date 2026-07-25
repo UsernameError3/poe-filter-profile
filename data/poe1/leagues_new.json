@@ -141,7 +141,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T1",
+            "styleName": "T0",
             "StackSizeOperator": ">=",
             "StackSize": 10000,
             "BaseType": [
@@ -178,7 +178,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T2",
+            "styleName": "T1",
             "StackSizeOperator": ">=",
             "StackSize": 5000,
             "BaseType": [
@@ -215,7 +215,7 @@
                     "visibility": "Show"
                 }
             },
-            "styleName": "T3",
+            "styleName": "T2",
             "StackSizeOperator": ">=",
             "StackSize": 1000,
             "BaseType": [
@@ -252,7 +252,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "Sulphur",
+            "styleName": "T3",
             "StackSizeOperator": ">=",
             "StackSize": 250,
             "BaseType": [
@@ -289,7 +289,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "Sulphur",
+            "styleName": "T4",
             "StackSizeOperator": ">=",
             "StackSize": 100,
             "BaseType": [
@@ -326,7 +326,7 @@
                     "visibility": "Hide"
                 }
             },
-            "styleName": "Sulphur",
+            "styleName": "Normal",
             "StackSizeOperator": ">=",
             "StackSize": 1,
             "BaseType": [
