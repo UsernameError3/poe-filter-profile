@@ -29,6 +29,41 @@
     },
     "rules": [
         {
+            "ruleName": "Chart - T3",
+            "ruleSortIndex": 3,
+            "ruleTier": 4,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T3",
+            "BaseType": [
+                "Chart"
+            ]
+        },
+        {
             "ruleName": "League - Allflame: T1 Currency",
             "ruleSortIndex": 1,
             "ruleTier": 2,
