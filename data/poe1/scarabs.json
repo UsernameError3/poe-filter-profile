@@ -191,6 +191,9 @@
             },
             "styleName": "T3",
             "BaseType": [
+                "Abyss Scarab of Crystals",
+                "Abyss Scarab of Descending",
+                "Abyss Scarab of Multitudes",
                 "Domination Scarab of Evolution",
                 "Breach Scarab of the Hive",
                 "Beyond Scarab of the Invasion",
@@ -238,7 +241,10 @@
                 "Titanic Scarab of Treasures",
                 "Scarab of the Sinistral",
                 "Scarab of the Dextral",
-                "Kalguuran Scarab of Guarded Riches"
+                "Kalguuran Scarab of Guarded Riches",
+                "Trarthan Scarab of Infamy",
+                "Trarthan Scarab of Renown",
+                "Trarthan Scarab of Surprising Alliances"
             ]
         },
         {
@@ -306,7 +312,8 @@
                 "Betrayal Scarab",
                 "Incursion Scarab",
                 "Ultimatum Scarab",
-                "Influencing Scarab of the Shaper"
+                "Influencing Scarab of the Shaper",
+                "Trarthan Scarab"
             ]
         },
         {
