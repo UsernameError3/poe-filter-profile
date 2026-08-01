@@ -275,16 +275,16 @@
                     "visibility": "Show"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 }
             },
             "styleName": "T3",
@@ -309,19 +309,19 @@
                     "visibility": "Show"
                 },
                 "T4_2ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T5_3ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T6_4ST_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T7_UBER_MAPS": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 },
                 "T8_UBER_BOSSING": {
-                    "visibility": "Hide"
+                    "visibility": "Show"
                 }
             },
             "styleName": "T4",
