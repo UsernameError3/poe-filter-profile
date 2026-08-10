@@ -68,6 +68,42 @@
             ]
         },
         {
+            "ruleName": "League - Betrayal: T0 Allflames",
+            "ruleSortIndex": 1,
+            "ruleTier": 0,
+            "ruleStrictness": {
+                "T1_LEVELING": {
+                    "visibility": "Show"
+                },
+                "T2_0ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T3_1ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T4_2ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T5_3ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T6_4ST_MAPS": {
+                    "visibility": "Show"
+                },
+                "T7_UBER_MAPS": {
+                    "visibility": "Show"
+                },
+                "T8_UBER_BOSSING": {
+                    "visibility": "Show"
+                }
+            },
+            "styleName": "T0",
+            "BaseType": [
+                "Allflame Ember of the Ethereal",
+                "Allflame Ember of Kulemak"
+            ]
+        },
+        {
             "ruleName": "League - Betrayal: T1 Allflames",
             "ruleSortIndex": 2,
             "ruleTier": 1,
@@ -99,9 +135,8 @@
             },
             "styleName": "T1",
             "BaseType": [
-                "Allflame Ember of the Ethereal",
+                "Allflame Ember of K'Tash",
                 "Allflame Ember of the Gilded",
-                "Allflame Ember of Kulemak",
                 "Allflame Ember of Propagation"
             ]
         },
@@ -137,7 +172,6 @@
             },
             "styleName": "T2",
             "BaseType": [
-                "Allflame Ember of Resplendence",
                 "Allflame Ember of the Wildwood"
             ]
         },
@@ -174,6 +208,7 @@
             "styleName": "T3",
             "BaseType": [
                 "Allflame Ember of Flesh",
+                "Allflame Ember of Resplendence",
                 "Allflame Ember of Toads"
             ]
         },
